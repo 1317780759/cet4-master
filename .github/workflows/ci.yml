@@ -70,7 +70,8 @@ jobs:
       - name: 门禁 2b · public/data 仅含白名单产物
         run: |
           set -euo pipefail
-          allowed='^\.gitkeep$|^ATTRIBUTION\.md$|^VERIFY-REPORT\.md$|^manifest\.json$|^words\.index\.(core|full)\.json$|^words/chunk-[0-9]{3}\.json$'
+          # papers/ = 套卷管线产出（scripts/build-papers.ts）：index.json 目录 + 每套卷一个 <paperId>.json
+          allowed='^\.gitkeep$|^ATTRIBUTION\.md$|^VERIFY-REPORT\.md$|^manifest\.json$|^words\.index\.(core|full)\.json$|^words/chunk-[0-9]{3}\.json$|^papers/index\.json$|^papers/[a-z0-9][a-z0-9._-]*\.json$'
           bad="$(find public/data -type f | sed 's|^public/data/||' | grep -Ev "$allowed" || true)"
           if [ -n "$bad" ]; then
             echo "::error::public/data/ 出现非白名单文件（该目录随包分发，只允许管线产出）"
@@ -94,6 +95,21 @@ jobs:
 
       - name: 数据体检
         run: pnpm data:verify
+
+      # ——— 铁律 A6 / A7：套卷构建期门禁（docs/04 §5.7.3）———
+      - name: 套卷门禁 · 音频零入库 + 来源标注 + 题号结构
+        run: pnpm data:verify-papers
+
+      # ——— 与门禁 3b 同款：产物必须与管线一致，禁止手改 / 用陈旧产物 ———
+      - name: 门禁 2c · 套卷产物幂等（管线 == 产物）
+        run: |
+          set -euo pipefail
+          pnpm data:papers
+          if ! git diff --exit-code -- public/data/papers; then
+            echo "::error::public/data/papers 与 scripts/build-papers.ts 产出不一致（禁止手改或用陈旧产物）"
+            exit 1
+          fi
+          echo "✓ 套卷产物与管线一致"
 
       # ——— 合规附录 B-3：ATTRIBUTION 必须存在 ———
       - name: 门禁 3 · ATTRIBUTION.md 存在且含关键声明

@@ -1,0 +1,405 @@
+{
+  "paper": {
+    "id": "derived-2026-06-set1",
+    "year": 2026,
+    "month": 6,
+    "setNo": 1,
+    "level": "CET4",
+    "durationMin": 125,
+    "totalScore": 710,
+    "sectionMeta": [
+      {
+        "id": "derived-2026-06-set1:W",
+        "kind": "writing",
+        "order": 1,
+        "partLabel": "Part I Writing",
+        "questionFrom": 1,
+        "questionTo": 1,
+        "durationHintSec": 1800,
+        "rawScore": 106.5
+      },
+      {
+        "id": "derived-2026-06-set1:L",
+        "kind": "listening",
+        "order": 2,
+        "partLabel": "Part II Listening",
+        "questionFrom": 2,
+        "questionTo": 26,
+        "durationHintSec": 1500,
+        "rawScore": 248.5
+      },
+      {
+        "id": "derived-2026-06-set1:R",
+        "kind": "reading",
+        "order": 3,
+        "partLabel": "Part III Reading",
+        "questionFrom": 27,
+        "questionTo": 36,
+        "durationHintSec": 2400,
+        "rawScore": 248.5
+      },
+      {
+        "id": "derived-2026-06-set1:T",
+        "kind": "translation",
+        "order": 4,
+        "partLabel": "Part IV Translation",
+        "questionFrom": 37,
+        "questionTo": 37,
+        "durationHintSec": 1800,
+        "rawScore": 106.5
+      }
+    ],
+    "provenance": "derived",
+    "provenanceLabel": "同源模拟卷",
+    "derivedFrom": "CET4 公开考纲与真题语料统计（2024.06-2026.06 考点分布）",
+    "confidence": {
+      "level": "medium",
+      "hasTranscript": false,
+      "hasAudio": false,
+      "hasExplanation": true,
+      "answerCrossChecked": false,
+      "spotCheckRatio": 1,
+      "doubtCount": 0,
+      "note": "内容自撰，结构与考点取自公开考纲与真题语料统计，不复制任何原文；答案未经官方核对，仅供参考。"
+    }
+  },
+  "sections": [
+    {
+      "id": "derived-2026-06-set1:W-A",
+      "paperId": "derived-2026-06-set1",
+      "kind": "writing",
+      "subPart": "Writing",
+      "order": 1,
+      "questions": []
+    },
+    {
+      "id": "derived-2026-06-set1:L-A",
+      "paperId": "derived-2026-06-set1",
+      "kind": "listening",
+      "subPart": "Section A",
+      "order": 2,
+      "questions": []
+    },
+    {
+      "id": "derived-2026-06-set1:R-A",
+      "paperId": "derived-2026-06-set1",
+      "kind": "reading",
+      "subPart": "Passage One",
+      "order": 3,
+      "passage": {
+        "title": "Working from home",
+        "paragraphs": [
+          "Working from home used to be rare, but it is now common in many industries. Companies have found that employees can finish most tasks without travelling to an office every day. This change saves time and reduces the cost of renting large buildings.",
+          "However, managers also report problems. Some workers find it hard to stop working, while others feel cut off from their teams. A recent study suggests that the effect of remote work depends on the task: jobs that require deep attention benefit most, while jobs that depend on quick discussion suffer.",
+          "Experts therefore advise companies to consider the nature of the work before deciding how many days staff should spend at home."
+        ]
+      },
+      "questions": []
+    },
+    {
+      "id": "derived-2026-06-set1:R-B",
+      "paperId": "derived-2026-06-set1",
+      "kind": "reading",
+      "subPart": "Passage Two",
+      "order": 4,
+      "passage": {
+        "title": "Sleep and memory",
+        "paragraphs": [
+          "Scientists have long known that sleep plays an important role in memory. During deep sleep, the brain reviews what a person has learned during the day and decides what to keep. Experiments show that students who sleep well after studying remember more words than those who stay awake all night.",
+          "Lack of sleep, on the other hand, makes it difficult to pay attention in class and slows down learning. Researchers also warn that sleeping pills do not produce the same effect as natural sleep. Instead of looking for a quick solution, they suggest that learners should keep a regular schedule and avoid screens late at night."
+        ]
+      },
+      "questions": []
+    },
+    {
+      "id": "derived-2026-06-set1:T-A",
+      "paperId": "derived-2026-06-set1",
+      "kind": "translation",
+      "subPart": "Translation",
+      "order": 5,
+      "questions": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "derived-2026-06-set1:E1",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:W-A",
+      "kind": "essay",
+      "no": 1,
+      "score": 106.5,
+      "stem": "Directions: For this part, you are allowed 30 minutes to write an essay on whether short videos help or hinder learning. You should state your opinion and support it with reasons or examples. You should write at least 120 words but no more than 180 words.",
+      "rubric": "切题、结构完整、语言准确；建议三段式：观点 + 理由/例证 + 结论。"
+    },
+    {
+      "id": "derived-2026-06-set1:R0",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-A",
+      "kind": "choice",
+      "no": 27,
+      "score": 2,
+      "stem": "What is the main idea of the passage?",
+      "options": [
+        "A. Remote work should be banned in all industries.",
+        "B. Remote work has both benefits and problems.",
+        "C. Companies must rent larger offices.",
+        "D. Employees dislike working at home."
+      ],
+      "answer": "B",
+      "explanation": "文章先讲远程办公的好处（省时、降低租金成本），再讲问题（难以停止工作、与团队脱节），最后给出“视任务性质而定”的建议，属于利弊并存。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          2
+        ]
+      },
+      "keyWordHints": [
+        "w_reduce",
+        "w_effect"
+      ]
+    },
+    {
+      "id": "derived-2026-06-set1:R1",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-A",
+      "kind": "choice",
+      "no": 28,
+      "score": 2,
+      "stem": "According to the passage, which jobs benefit most from remote work?",
+      "options": [
+        "A. Jobs that need quick discussion",
+        "B. Jobs that require deep attention",
+        "C. Jobs that depend on customers",
+        "D. Jobs that need heavy machines"
+      ],
+      "answer": "B",
+      "explanation": "第二段明确指出 “jobs that require deep attention benefit most”。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_attention"
+      ]
+    },
+    {
+      "id": "derived-2026-06-set1:R2",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-A",
+      "kind": "choice",
+      "no": 29,
+      "score": 2,
+      "stem": "The word “reduces” is closest in meaning to ______.",
+      "options": [
+        "A. increases",
+        "B. lowers",
+        "C. hides",
+        "D. measures"
+      ],
+      "answer": "B",
+      "explanation": "“reduce the cost” 意为“降低成本”，与 lowers 同义。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          0
+        ]
+      },
+      "keyWordHints": [
+        "w_reduce"
+      ]
+    },
+    {
+      "id": "derived-2026-06-set1:R3",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-A",
+      "kind": "choice",
+      "no": 30,
+      "score": 2,
+      "stem": "What do experts advise companies to do?",
+      "options": [
+        "A. Let all staff work from home forever",
+        "B. Consider the nature of the work before deciding",
+        "C. Close all offices immediately",
+        "D. Hire more managers"
+      ],
+      "answer": "B",
+      "explanation": "末段 “advise companies to consider the nature of the work before deciding”。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          2,
+          2
+        ]
+      },
+      "keyWordHints": [
+        "w_consider"
+      ]
+    },
+    {
+      "id": "derived-2026-06-set1:R4",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-A",
+      "kind": "choice",
+      "no": 31,
+      "score": 2,
+      "stem": "What problem do some workers have when working from home?",
+      "options": [
+        "A. They cannot find a job",
+        "B. They find it hard to stop working",
+        "C. They refuse to use computers",
+        "D. They travel too much"
+      ],
+      "answer": "B",
+      "explanation": "第二段 “Some workers find it hard to stop working”。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "derived-2026-06-set1:R5",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-B",
+      "kind": "choice",
+      "no": 32,
+      "score": 2,
+      "stem": "What is the main idea of the second passage?",
+      "options": [
+        "A. Sleep has little to do with learning.",
+        "B. Sleep helps memory and lack of it harms learning.",
+        "C. Sleeping pills are better than natural sleep.",
+        "D. Students should sleep in class."
+      ],
+      "answer": "B",
+      "explanation": "全文围绕“睡眠有助于记忆、缺觉损害学习”展开，并否定安眠药等同自然睡眠的说法。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_memory"
+      ]
+    },
+    {
+      "id": "derived-2026-06-set1:R6",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-B",
+      "kind": "choice",
+      "no": 33,
+      "score": 2,
+      "stem": "During deep sleep, the brain ______.",
+      "options": [
+        "A. stops working completely",
+        "B. reviews what has been learned and decides what to keep",
+        "C. only produces dreams",
+        "D. forgets everything"
+      ],
+      "answer": "B",
+      "explanation": "第一段 “the brain reviews what a person has learned during the day and decides what to keep”。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "derived-2026-06-set1:R7",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-B",
+      "kind": "choice",
+      "no": 34,
+      "score": 2,
+      "stem": "Students who sleep well after studying ______.",
+      "options": [
+        "A. remember more words",
+        "B. forget more words",
+        "C. need more pills",
+        "D. dislike studying"
+      ],
+      "answer": "A",
+      "explanation": "第一段 “students who sleep well after studying remember more words”。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "derived-2026-06-set1:R8",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-B",
+      "kind": "choice",
+      "no": 35,
+      "score": 2,
+      "stem": "What do researchers say about sleeping pills?",
+      "options": [
+        "A. They are better than natural sleep.",
+        "B. They do not produce the same effect as natural sleep.",
+        "C. They cure all memory problems.",
+        "D. They are useless in every case."
+      ],
+      "answer": "B",
+      "explanation": "第二段 “sleeping pills do not produce the same effect as natural sleep”。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "derived-2026-06-set1:R9",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-B",
+      "kind": "choice",
+      "no": 36,
+      "score": 2,
+      "stem": "What suggestion is given to learners?",
+      "options": [
+        "A. Take more pills",
+        "B. Keep a regular schedule and avoid screens late at night",
+        "C. Study all night",
+        "D. Sleep only on weekends"
+      ],
+      "answer": "B",
+      "explanation": "末句 “keep a regular schedule and avoid screens late at night”。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_regular",
+        "w_avoid"
+      ]
+    },
+    {
+      "id": "derived-2026-06-set1:T1",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:T-A",
+      "kind": "translation",
+      "no": 37,
+      "score": 106.5,
+      "stem": "近年来，越来越多的年轻人选择在家工作。这种方式节省了通勤时间，也让他们有更多时间陪伴家人。然而，它也带来了新的问题：一些人发现自己很难把工作和生活分开。专家建议，在开始远程工作之前，人们应当先考虑自己的工作内容和生活习惯。",
+      "rubric": "忠实原文、句式通顺；注意“近年来”用现在完成时，“把……分开”可用 separate ... from ...。"
+    }
+  ]
+}

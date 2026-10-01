@@ -33,6 +33,8 @@ export interface PapersIndexFile {
   /** 音频是否默认缺失（铁律 A6：恒定 true） */
   defaultMissingAudio: boolean;
   papers: PaperSummary[];
+  /** 减损措施④（docs/02 §3.6.5）：权利人提出异议时可整站下线 original 卷 */
+  killSwitch?: { disabled: boolean; reason?: string };
 }
 
 export interface PaperSource {

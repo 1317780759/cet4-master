@@ -1,0 +1,19 @@
+{
+  "defaultMissingAudio": true,
+  "killSwitch": {
+    "disabled": false
+  },
+  "papers": [
+    {
+      "id": "derived-2026-06-set1",
+      "year": 2026,
+      "month": 6,
+      "setNo": 1,
+      "provenance": "derived",
+      "provenanceLabel": "同源模拟卷",
+      "questionCount": 12,
+      "hasAudio": false,
+      "confidenceLevel": "medium"
+    }
+  ]
+}

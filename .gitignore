@@ -12,6 +12,8 @@ scripts/data/generated/
 !scripts/data/raw/.gitkeep
 # 抓取过程的临时响应缓存（如 GitHub API 返回），非产物
 scripts/data/_*.json
+# ↑ raw/ 整目录不入库：外部提供的语料可能受著作权保护，绝不进仓库。
+#   **自撰**卷的源放 scripts/data/authored/papers/ —— 该目录入库，保证 `pnpm data:papers` 可重跑。
 
 # —— 构建期生成的数据产物（由 scripts/build-wordbank.ts 产出）——
 # 注意：public/data 是运行时 fetch 的静态资源，需要入库部署；
