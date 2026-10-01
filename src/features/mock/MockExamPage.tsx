@@ -9,21 +9,21 @@ export default function MockExamPage(): ReactNode {
   return (
     <div className="mx-auto flex max-w-3xl flex-col gap-4">
       <div className="flex items-center gap-2">
-        <h1 className="text-lg font-semibold text-slate-900 dark:text-slate-50">完整模考</h1>
-        <Badge tone="info">M2 计划中</Badge>
+        <h1 className="text-lg font-semibold text-slate-900 dark:text-slate-50">真题练习</h1>
+        <Badge tone="info">M2 进行中</Badge>
       </div>
 
       <Card>
         <CardHeader>
-          <CardTitle>这里将是 125 分钟完整模考</CardTitle>
+          <CardTitle>写作 / 阅读 / 翻译 分板块计时练习</CardTitle>
         </CardHeader>
         <CardBody className="space-y-2">
-          <p>规划中的能力（本轮均未实现）：</p>
+          <p>规划中的能力（本轮 domain 层已就绪，UI 组装待完成）：</p>
           <ul className="list-disc space-y-1 pl-5">
-            <li>写作 / 听力 / 阅读 / 翻译四板块分段倒计时</li>
+            <li>板块与时长由卷面 sectionMeta 推导，不写死时长</li>
             <li>答题卡：分组、标记待定、跳题、断点续考</li>
-            <li>客观题自动批改 + 分项得分（不做 710 分制换算）</li>
-            <li>听力四态与 TTS 降级（受铁律 A6「音频零入库」约束）</li>
+            <li>客观题自动批改 + 分项表现（不出总分、不做成绩换算）</li>
+            <li>听力本期停用，保留预留位（结果页显示占位卡）</li>
           </ul>
         </CardBody>
       </Card>
