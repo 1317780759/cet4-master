@@ -16,7 +16,7 @@ import { listDue, putCard } from '@/data/repos/cardRepo';
 import { appendLog, getDailyStat, listDailyStats, upsertDailyStat } from '@/data/repos/logRepo';
 import { getWords } from '@/data/repos/wordRepo';
 import { isWrongAnswer, resolveRating, type RatingOptions } from '@/domain/fsrs/rating-map';
-import { preview, requeueSameDay, schedule, type ScheduleResult } from '@/domain/fsrs/scheduler';
+import { next, preview, requeueSameDay, schedule, type ScheduleResult } from '@/domain/fsrs/scheduler';
 import { createCard, type FsrsRating, type RatingInput, type ReviewCard } from '@/domain/fsrs/types';
 import type { TierFilter } from '@/domain/settings/types';
 import { pickNewWords } from '@/domain/word/selector';
@@ -188,9 +188,9 @@ export async function setCardSuspended(
   return next;
 }
 
-/** 强制当日重现（供「再练一次」按钮复用同一套策略） */
+/** 强制当日重现（供「再练一次」按钮复用同一套策略，含 Again 不晚于 Hard 的顺序保护） */
 export function requeue(card: ReviewCard, now: number = Date.now()): ReviewCard {
-  return requeueSameDay(card, now);
+  return requeueSameDay(card, now, next(card, 2, now).due);
 }
 
 /** 四个评级的落点预览（RatingBar 提示用） */

@@ -48,7 +48,10 @@ export async function countDueCards(
 
 /** 最近一张到期卡的 due（无到期卡返回 null）—— 用于「距离下次复习」倒计时 */
 export async function nextDueAt(instance: Cet4Database = defaultDb): Promise<number | null> {
-  const rows = await instance.cards.orderBy('due').limit(4).toArray();
-  const active = rows.find((c) => !c.suspended);
-  return active ? active.due : null;
+  const active = await instance.cards
+    .orderBy('due')
+    .filter((c) => !c.suspended)
+    .limit(1)
+    .toArray();
+  return active[0]?.due ?? null;
 }

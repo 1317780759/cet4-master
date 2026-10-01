@@ -45,19 +45,34 @@ export async function countCards(instance: Cet4Database = defaultDb): Promise<nu
   return instance.cards.count();
 }
 
-/** 到期卡片数（ suspended 的不计入，见 R07） */
-export async function countDue(now: number = Date.now(), instance: Cet4Database = defaultDb) {
-  return instance.cards.where('due').belowOrEqual(now).count();
+/**
+ * 到期卡片数（suspended 的不计入，见 R07）。
+ * ★ 必须 `filter` 到非 suspended 后再 `count`，否则「已掌握」卡会被算进
+ *   「今日待复习」徽标 —— 这正是独立验收捕获的边界缺陷。
+ */
+export async function countDue(
+  now: number = Date.now(),
+  instance: Cet4Database = defaultDb,
+): Promise<number> {
+  return instance.cards.where('due').belowOrEqual(now).filter((c) => !c.suspended).count();
 }
 
-/** 取一批到期卡片（按 due 升序，超上限裁剪防雪崩） */
+/**
+ * 取一批到期卡片（按 due 升序，超上限裁剪防雪崩）。
+ * ★ 顺序关键：先 `filter`（排除 suspended）再 `limit`，避免 suspended 卡
+ *   挤占上限、把真正到期的 active 卡挡在裁剪之外（反之会漏卡）。
+ */
 export async function listDue(
   now: number = Date.now(),
   limit = 200,
   instance: Cet4Database = defaultDb,
 ): Promise<ReviewCard[]> {
-  const rows = await instance.cards.where('due').belowOrEqual(now).limit(limit).toArray();
-  return rows.filter((c) => !c.suspended).sort((a, b) => a.due - b.due);
+  return instance.cards
+    .where('due')
+    .belowOrEqual(now)
+    .filter((c) => !c.suspended)
+    .limit(limit)
+    .toArray();
 }
 
 /** 按学习状态统计（Dashboard 掌握度分布用） */

@@ -5,7 +5,7 @@ import { getCard, putCard } from '@/data/repos/cardRepo';
 import { bulkPutWords } from '@/data/repos/wordRepo';
 import { listSentencesForWord } from '@/data/repos/sentenceRepo';
 import { createCard, type ReviewCard } from '@/domain/fsrs/types';
-import { SAME_DAY_REQUEUE_MS } from '@/domain/fsrs/scheduler';
+import { SAME_DAY_REQUEUE_MS, schedule } from '@/domain/fsrs/scheduler';
 import { toDateKey } from '@/lib/date';
 import { buildReviewQueue } from '@/services/reviewQueue';
 import { finishSession, rateWord, setCardSuspended, startSession } from '@/services/studySession';
@@ -107,24 +107,29 @@ describe('services/studySession · rateWord（评级 + 落库 + 日志 + 错题�
     expect(await db.wrongBook.count()).toBe(0);
   });
 
-  it('不认识（unknown）→ Again：卡片 due = now + 10 分钟，且写入错题本', async () => {
+  it('不认识（unknown）→ Again：卡片 due = hardDue（顺序保护，新卡 6 分钟），且写入错题本', async () => {
     const queue = await startSession('learn', { dailyGoal: 1, tier: 'core2104', now: NOW }, db);
+    const item = queue.items[0];
+    // 顺序保护：Again 的 due 收敛到同一时刻 Hard 的 due（新卡 = 6 分钟），不再倒挂
+    const hardDue = schedule(item.card, 2, NOW).card.due;
     const result = await rateWord(
-      queue.items[0],
+      item,
       { self: 'unknown', peeked: false, elapsedMs: 4000 },
       { now: NOW },
       db,
     );
     expect(result.rating).toBe(1);
     expect(result.requeuedSameDay).toBe(true);
-    expect(result.card.due - NOW).toBe(SAME_DAY_REQUEUE_MS);
+    expect(result.card.due).toBe(hardDue);
+    expect(result.card.due - NOW).toBeLessThanOrEqual(SAME_DAY_REQUEUE_MS);
 
     const saved = await getCard('w_1', db);
-    expect(saved?.due).toBe(NOW + SAME_DAY_REQUEUE_MS);
+    expect(saved?.due).toBe(hardDue);
 
     const wrong = await db.wrongBook.toArray();
     expect(wrong).toHaveLength(1);
     expect(wrong[0]).toMatchObject({ wordId: 'w_1', source: 'card', enqueued: true, wrongCount: 1 });
+    // 错题本 nextDue 是独立的重现间隔（与卡片调度解耦），仍为 10 分钟
     expect(wrong[0].nextDue).toBe(NOW + SAME_DAY_REQUEUE_MS);
 
     const stat = await db.dailyStats.get(toDateKey(NOW));
@@ -173,6 +178,30 @@ describe('services/reviewQueue', () => {
     await putCard({ ...createCard('w_1', 1, NOW - 100_000), due: NOW - 1000, suspended: true }, db);
     const queue = await buildReviewQueue({ now: NOW, instance: db });
     expect(queue.items).toHaveLength(0);
+  });
+
+  it('suspended 卡不计入 totalDue（R07 边界回归）', async () => {
+    await putCard({ ...createCard('w_s', 1, NOW - 100_000), due: NOW - 1000, suspended: true }, db);
+    await putCard({ ...createCard('w_a', 2, NOW - 100_000), due: NOW - 1000 }, db);
+    const queue = await buildReviewQueue({ now: NOW, instance: db });
+    expect(queue.totalDue).toBe(1);
+    expect(queue.items).toHaveLength(1);
+    expect(queue.trimmed).toBe(false);
+  });
+
+  it('limit 裁剪不被 suspended 卡挤占，active 到期卡不丢（R07 边界回归）', async () => {
+    for (let i = 0; i < 3; i += 1) {
+      await putCard(
+        { ...createCard(`w_s${i}`, i + 1, NOW - 100_000), due: NOW - 9000 + i, suspended: true },
+        db,
+      );
+    }
+    for (let i = 0; i < 3; i += 1) {
+      await putCard({ ...createCard(`w_a${i}`, i + 1, NOW - 100_000), due: NOW - 100 + i }, db);
+    }
+    const queue = await buildReviewQueue({ now: NOW, limit: 3, instance: db });
+    expect(queue.items).toHaveLength(3);
+    expect(queue.items.every((c) => !c.suspended)).toBe(true);
   });
 });
 

@@ -9,7 +9,7 @@ import {
   SAME_DAY_REQUEUE_MS,
   schedule,
 } from '../scheduler';
-import { createCard, RATING_VALUES, type ReviewCard } from '../types';
+import { createCard, RATING_VALUES, type FsrsRating, type ReviewCard } from '../types';
 
 const T0 = new Date('2025-01-01T00:00:00.000Z').getTime();
 const MIN = 60_000;
@@ -34,18 +34,34 @@ describe('domain/fsrs/scheduler · 原始 FSRS 行为（默认参数，R7 不调
 
 describe('domain/fsrs/scheduler · 应用层策略：Again 当日重现', () => {
   /**
-   * ★ M1 验收核心断言一：Again → 约 10 分钟后重现。
-   * 无论新卡还是成熟卡，schedule(card, Again) 都强制 due = now + 10 分钟。
+   * ★ M1 验收核心断言一：Again → 当日重现，且**不晚于 Hard**（顺序保护）。
+   * 新卡场景 ts-fsrs 的 Hard = 6 分钟，故 Again 收敛到 6 分钟，不再「越不会越晚见」。
    */
-  it('新卡 Again → 约 10 分钟后重现（requeuedSameDay=true）', () => {
+  it('新卡 Again → due === hardDue（当日重现，不倒挂）', () => {
+    const hardDue = schedule(card(), 2, T0).card.due;
     const { card: updated, requeuedSameDay } = schedule(card(), 1, T0);
     expect(requeuedSameDay).toBe(true);
-    expect((updated.due - T0) / MIN).toBeCloseTo(10, 5);
-    expect(updated.due - T0).toBe(SAME_DAY_REQUEUE_MS);
+    expect(updated.due).toBe(hardDue); // ★ === hardDue（新卡=6min），而非固定的 10 分钟
+    expect(updated.due - T0).toBeLessThanOrEqual(SAME_DAY_REQUEUE_MS);
     expect(updated.scheduledDays).toBe(0);
   });
 
-  it('成熟卡（Review）Again → 同样约 10 分钟后重现，且进入 Relearning', () => {
+  /**
+   * ★ 顺序不变式回归：新卡 Again ≤ Hard ≤ Good，且三者同日内（< 24h）。
+   * 该缺陷正是从 preview 暴露出来的，故显式锁住三档先后顺序。
+   */
+  it('新卡顺序不变式：dueAgain ≤ dueHard ≤ dueGood，且三者同日', () => {
+    const dueAgain = schedule(card(), 1, T0).card.due;
+    const dueHard = schedule(card(), 2, T0).card.due;
+    const dueGood = schedule(card(), 3, T0).card.due;
+    expect(dueAgain).toBeLessThanOrEqual(dueHard);
+    expect(dueHard).toBeLessThanOrEqual(dueGood);
+    for (const due of [dueAgain, dueHard, dueGood]) {
+      expect(due - T0).toBeLessThan(24 * 3_600_000);
+    }
+  });
+
+  it('成熟卡（Review）Again → 精确 10 分钟后重现（保留原精确断言），且进入 Relearning', () => {
     let cur = card();
     let at = T0;
     for (let i = 0; i < 4; i += 1) {
@@ -56,12 +72,13 @@ describe('domain/fsrs/scheduler · 应用层策略：Again 当日重现', () => 
     expect(cur.state).toBe(2); // Review
     const { card: lapsed, requeuedSameDay } = schedule(cur, 1, at);
     expect(requeuedSameDay).toBe(true);
+    expect(lapsed.due - at).toBe(SAME_DAY_REQUEUE_MS); // ★ 成熟卡仍是精确 600000ms
     expect((lapsed.due - at) / MIN).toBeCloseTo(10, 5);
     expect(lapsed.state).toBe(3); // Relearning
     expect(lapsed.lapses).toBe(1);
   });
 
-  it('requeueSameDay 是纯函数：不修改入参', () => {
+  it('requeueSameDay 是纯函数：不修改入参（缺省 hardDue=+∞ 时退化为 now+10min）', () => {
     const original = card();
     const snapshot = JSON.stringify(original);
     const updated = requeueSameDay(original, T0);
@@ -128,10 +145,16 @@ describe('domain/fsrs/scheduler · 应用层策略：Good 间隔递增', () => {
 });
 
 describe('domain/fsrs/scheduler · 辅助函数', () => {
-  it('preview 覆盖 4 个评级，Again 落点与 schedule 一致（10 分钟）', () => {
+  it('preview 覆盖 4 个评级，四档落点顺序不变式 Again ≤ Hard ≤ Good ≤ Easy', () => {
     const p = preview(card(), T0);
     expect(Object.keys(p)).toHaveLength(RATING_VALUES.length);
-    expect((p[1].card.due - T0) / MIN).toBeCloseTo(10, 5);
+    const due = (r: FsrsRating): number => p[r].card.due;
+    expect(due(1)).toBeLessThanOrEqual(due(2));
+    expect(due(2)).toBeLessThanOrEqual(due(3));
+    expect(due(3)).toBeLessThanOrEqual(due(4));
+    // Again 落点与 schedule 一致（顺序保护后 = hardDue，不再是固定 10 分钟）
+    expect(p[1].card.due).toBe(schedule(card(), 1, T0).card.due);
+    expect(p[1].card.due).toBe(schedule(card(), 2, T0).card.due);
     for (const rating of RATING_VALUES) {
       expect(p[rating].card.due).toBeGreaterThan(T0);
     }

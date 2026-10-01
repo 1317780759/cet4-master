@@ -6,9 +6,16 @@
  *   因此间隔是**确定性**的，单测可以精确断言数值。
  *
  * 与 ts-fsrs 默认行为的差异只有一处，且是**产品策略**而非算法调参：
- *   `Again`（评分 1）后强制 `due = now + 10 分钟`（当日重现）。
- *   ts-fsrs 默认对新卡 Again 给 1 分钟、对成熟卡 Again 给 10 分钟（relearning step）；
- *   统一成 10 分钟，既符合方案 5.2 时序图，也让「Again → 约 10 分钟后重现」可断言。
+ *   `Again`（评分 1）后**当日重现**：基准 `now + 10 分钟`，并施加**顺序保护**取
+ *   `due = min(now + 10 分钟, hardDue)`，其中 `hardDue = next(card, Hard, now).due`。
+ *
+ *   为什么要顺序保护？ts-fsrs 默认新卡 `Hard = 6 分钟`（learning_steps ["1m","10m"] 的均值），
+ *   若 Again 一律取 10 分钟，就会出现「不认识(10min) 比 模糊(6min) 更晚回来」的**评分倒挂**，
+ *   违反「越不会越早见」的间隔重复本意。取 min 后：
+ *     - 新卡场景（Hard=6min）→ Again = 6min，不倒挂，且仍是当日重现；
+ *     - 成熟卡 / Relearning（FSRS relearning step = 10min）→ Again = 10min，
+ *       方案「Again ≈ 10 分钟」的语义在成熟卡上完整保留。
+ *   这是应用层的顺序保护，**不是**对 ts-fsrs 全局参数（R7）的调整。
  */
 
 import { fsrs, type Card } from 'ts-fsrs';
@@ -41,13 +48,19 @@ export function next(card: ReviewCard, rating: FsrsRating, now: number = Date.no
 }
 
 /**
- * 当日重现策略：把 due 强制设置为 `now + 10 分钟`，保留 FSRS 算出的记忆状态。
- * 返回新对象，不修改入参（保持纯函数）。
+ * 当日重现策略：把 due 设为 `now + 10 分钟`，但**不得晚于** `hardDue`
+ * （=`next(card, Hard, now).due`，顺序保护，详见文件头注释）。
+ * `hardDue` 缺省为 `+∞`，此时退化为 `now + 10 分钟`（原始当日重现语义）。
+ * 保留 FSRS 算出的记忆状态；返回新对象，不修改入参（保持纯函数）。
  */
-export function requeueSameDay(card: ReviewCard, now: number = Date.now()): ReviewCard {
+export function requeueSameDay(
+  card: ReviewCard,
+  now: number = Date.now(),
+  hardDue: number = Number.POSITIVE_INFINITY,
+): ReviewCard {
   return {
     ...card,
-    due: now + SAME_DAY_REQUEUE_MS,
+    due: Math.min(now + SAME_DAY_REQUEUE_MS, hardDue),
     elapsedDays: 0,
     scheduledDays: 0,
   };
@@ -62,7 +75,7 @@ export interface ScheduleResult {
 
 /**
  * 评分 → 新卡片的**唯一**调度入口（studySession 调用它）。
- * 内部 = FSRS 推进 + Again 当日重现策略。
+ * 内部 = FSRS 推进 + Again 当日重现策略（含「Again 不晚于 Hard」的顺序保护）。
  */
 export function schedule(
   card: ReviewCard,
@@ -71,7 +84,9 @@ export function schedule(
 ): ScheduleResult {
   const advanced = next(card, rating, now);
   if (rating === 1) {
-    return { card: requeueSameDay(advanced, now), requeuedSameDay: true };
+    // 顺序保护：Again 的 due 不得晚于同一时刻 Hard 的 due，避免「越不会越晚见」倒挂。
+    const hardDue = next(card, 2, now).due;
+    return { card: requeueSameDay(advanced, now, hardDue), requeuedSameDay: true };
   }
   return { card: advanced, requeuedSameDay: false };
 }
