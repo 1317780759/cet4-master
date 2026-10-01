@@ -44,6 +44,12 @@ export interface PaperSource {
   /** 读取目录（轻量，首屏可安全调用） */
   listPapers(): Promise<PaperSummary[]>;
 
+  /**
+   * 读取目录**原始文件**（含 `killSwitch` 等元信息）。
+   * 可选：用户导入源没有"整站下线开关"这回事，可不实现。
+   */
+  readIndex?(): Promise<PapersIndexFile>;
+
   /** 按 id 懒加载完整套卷 */
   loadPaper(paperId: string): Promise<PaperBundle>;
 }

@@ -1,6 +1,11 @@
 import type { ExamPaper } from '@/domain/exam/types';
 import { dataBaseUrl, fetchJson } from '@/data/loader/manifest';
-import type { PaperBundle, PaperSource, PaperSummary, PapersIndexFile } from './PaperSource';
+import type {
+  PaperBundle,
+  PaperSource,
+  PaperSummary,
+  PapersIndexFile,
+} from './PaperSource';
 
 const PAPERS_INDEX_FILE = 'papers/index.json';
 
@@ -23,15 +28,22 @@ export class BuiltinPaperSource implements PaperSource {
     this.baseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
   }
 
-  async listPapers(): Promise<PaperSummary[]> {
+  /**
+   * 读目录原始文件（含 killSwitch）。
+   * 失败时返回"空目录 + 开关未触发"，而不是抛错 —— 目录缺失不该拖垮首屏。
+   */
+  async readIndex(): Promise<PapersIndexFile> {
     const url = `${this.baseUrl}${PAPERS_INDEX_FILE}`;
     try {
       const index = await fetchJson<PapersIndexFile>(url, 10_000);
-      return index.papers ?? [];
+      return index;
     } catch {
-      // papers/index.json 尚未生成（T-M2-02 未完成）—— 优雅降级为空目录，不阻断首屏
-      return [];
+      return { defaultMissingAudio: true, papers: [], killSwitch: { disabled: false } };
     }
+  }
+
+  async listPapers(): Promise<PaperSummary[]> {
+    return (await this.readIndex()).papers ?? [];
   }
 
   async loadPaper(paperId: string): Promise<PaperBundle> {
