@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react';
 import { useDb } from '@/app/providers/DbProvider';
-import { useTheme, type ThemeMode } from '@/app/providers/ThemeProvider';
+import { useThemeOptional, type ThemeMode } from '@/app/providers/ThemeProvider';
 import { exportProgressJson, importProgressJson, type ImportReport } from '@/services/backup/exportImport';
 import { CORE_BOUNDARY, CET4_BOUNDARY } from '@/domain/word/tier';
 import type { TierFilter } from '@/domain/settings/types';
@@ -33,7 +33,8 @@ export default function SettingsPage(): ReactNode {
   const hydrate = useSettingsStore((s) => s.hydrate);
   const update = useSettingsStore((s) => s.update);
   const reset = useSettingsStore((s) => s.reset);
-  const { setMode } = useTheme();
+  // ★ 用可选版本：设置页"顺带"管主题，不该因为缺 Provider 就整页崩掉
+  const theme = useThemeOptional();
 
   useEffect(() => {
     void hydrate();
@@ -114,7 +115,7 @@ export default function SettingsPage(): ReactNode {
               onChange={(v): void => void update({ dailyGoal: Number(v) })}
             />
             <NumberField
-              label="自定义"
+              label="自定义新词量"
               value={settings.dailyGoal}
               min={5}
               max={200}
@@ -241,10 +242,15 @@ export default function SettingsPage(): ReactNode {
             ]}
             value={settings.theme}
             onChange={(v): void => {
-              setMode(v as ThemeMode);
+              theme?.setMode(v as ThemeMode);
               void update({ theme: v as ThemeMode });
             }}
           />
+          {theme === null ? (
+            <p className="mt-2 text-xs text-amber-600 dark:text-amber-400">
+              主题控制器未挂载，本次只能记录偏好、不能立即切换外观。
+            </p>
+          ) : null}
         </CardBody>
       </Card>
 

@@ -90,3 +90,12 @@ export function useTheme(): ThemeContextValue {
   if (!ctx) throw new Error('useTheme 必须在 <ThemeProvider> 内部使用');
   return ctx;
 }
+
+/**
+ * 可选版本：没有 Provider 时返回 null 而不抛错。
+ * ★ 用于"主题只是顺带管一下"的页面（如设置页）—— 让页面在缺少 Provider 时
+ *   退化成"不能改主题"而不是整页崩溃。真正强依赖主题的组件请用 useTheme。
+ */
+export function useThemeOptional(): ThemeContextValue | null {
+  return useContext(ThemeContext);
+}
