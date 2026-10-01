@@ -188,9 +188,9 @@ export async function setCardSuspended(
   return next;
 }
 
-/** 强制当日重现（供「再练一次」按钮复用同一套策略，含 Again 不晚于 Hard 的顺序保护） */
+/** 强制当日重现（供「再练一次」按钮复用同一套策略：保留原生 Again 落点，再以 Hard 的 due 钳制） */
 export function requeue(card: ReviewCard, now: number = Date.now()): ReviewCard {
-  return requeueSameDay(card, now, next(card, 2, now).due);
+  return requeueSameDay(next(card, 1, now), next(card, 2, now).due);
 }
 
 /** 四个评级的落点预览（RatingBar 提示用） */

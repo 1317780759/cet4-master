@@ -6,23 +6,29 @@
  *   因此间隔是**确定性**的，单测可以精确断言数值。
  *
  * 与 ts-fsrs 默认行为的差异只有一处，且是**产品策略**而非算法调参：
- *   `Again`（评分 1）后**当日重现**：基准 `now + 10 分钟`，并施加**顺序保护**取
- *   `due = min(now + 10 分钟, hardDue)`，其中 `hardDue = next(card, Hard, now).due`。
+ *   `Again`（评分 1）**保留 ts-fsrs 原生落点**（新卡 1 分钟、成熟卡 relearning step 10 分钟），
+ *   再以同一时刻 `Hard` 的 due 为**上界钳制**：
+ *     `due = min(next(card, Again, now).due, next(card, Hard, now).due)`
  *
- *   为什么要顺序保护？ts-fsrs 默认新卡 `Hard = 6 分钟`（learning_steps ["1m","10m"] 的均值），
- *   若 Again 一律取 10 分钟，就会出现「不认识(10min) 比 模糊(6min) 更晚回来」的**评分倒挂**，
- *   违反「越不会越早见」的间隔重复本意。取 min 后：
- *     - 新卡场景（Hard=6min）→ Again = 6min，不倒挂，且仍是当日重现；
+ *   为什么要钳制？不做保护时，某些卡片状态下 Again 的 due 会晚于 Hard，出现
+ *   「不认识比模糊更晚回来」的**评分倒挂**，违反「越不会越早见」的间隔重复本意。
+ *   取 min 后：
+ *     - 新卡场景 → Again = 1min < Hard = 6min，**严格区分**「完全不认识 / 有点模糊」；
  *     - 成熟卡 / Relearning（FSRS relearning step = 10min）→ Again = 10min，
  *       方案「Again ≈ 10 分钟」的语义在成熟卡上完整保留。
- *   这是应用层的顺序保护，**不是**对 ts-fsrs 全局参数（R7）的调整。
+ *   这是应用层的**顺序保护（钳制）**，不是对 ts-fsrs 全局参数（R7）的调整。
  */
 
 import { fsrs, type Card } from 'ts-fsrs';
 import { fromFsrsCard, toFsrsCard } from './adapter';
 import { RATING_VALUES, type FsrsRating, type ReviewCard } from './types';
 
-/** 当日重现间隔：Again 之后 10 分钟（ms）。产品策略常量，非 FSRS 参数 */
+/**
+ * 当日重现基准间隔：10 分钟（ms）。
+ * ★ 自「Again 保留原生值再钳制」改造后，本常量**不再**参与卡片 FSRS 调度
+ *   （卡片 Again 间隔由 ts-fsrs 原生值决定，再以 Hard 的 due 为上界钳制）。
+ *   它当前服务于**错题本**的重现间隔（`wrongBookService.nextDue`，独立于卡片调度）。
+ */
 export const SAME_DAY_REQUEUE_MS = 10 * 60 * 1000;
 
 /**
@@ -48,19 +54,18 @@ export function next(card: ReviewCard, rating: FsrsRating, now: number = Date.no
 }
 
 /**
- * 当日重现策略：把 due 设为 `now + 10 分钟`，但**不得晚于** `hardDue`
- * （=`next(card, Hard, now).due`，顺序保护，详见文件头注释）。
- * `hardDue` 缺省为 `+∞`，此时退化为 `now + 10 分钟`（原始当日重现语义）。
- * 保留 FSRS 算出的记忆状态；返回新对象，不修改入参（保持纯函数）。
+ * 当日重现策略：保留 `card.due`（= ts-fsrs 原生 Again 落点），仅以 `hardDue`
+ * 为**上界钳制**，并把 elapsedDays / scheduledDays 归零（当日重现语义）。
+ * `hardDue` 缺省为 `+∞`，此时 due 保持原生值不变。
+ * 返回新对象，不修改入参（保持纯函数）。
  */
 export function requeueSameDay(
   card: ReviewCard,
-  now: number = Date.now(),
   hardDue: number = Number.POSITIVE_INFINITY,
 ): ReviewCard {
   return {
     ...card,
-    due: Math.min(now + SAME_DAY_REQUEUE_MS, hardDue),
+    due: Math.min(card.due, hardDue),
     elapsedDays: 0,
     scheduledDays: 0,
   };
@@ -75,7 +80,7 @@ export interface ScheduleResult {
 
 /**
  * 评分 → 新卡片的**唯一**调度入口（studySession 调用它）。
- * 内部 = FSRS 推进 + Again 当日重现策略（含「Again 不晚于 Hard」的顺序保护）。
+ * 内部 = FSRS 推进 + Again 当日重现策略（保留原生落点，再以 Hard 的 due 为上界钳制）。
  */
 export function schedule(
   card: ReviewCard,
@@ -84,9 +89,9 @@ export function schedule(
 ): ScheduleResult {
   const advanced = next(card, rating, now);
   if (rating === 1) {
-    // 顺序保护：Again 的 due 不得晚于同一时刻 Hard 的 due，避免「越不会越晚见」倒挂。
+    // 钳制：Again 保留原生落点（新卡 1min / 成熟卡 relearning 10min），不晚于同一时刻 Hard 的 due。
     const hardDue = next(card, 2, now).due;
-    return { card: requeueSameDay(advanced, now, hardDue), requeuedSameDay: true };
+    return { card: requeueSameDay(advanced, hardDue), requeuedSameDay: true };
   }
   return { card: advanced, requeuedSameDay: false };
 }

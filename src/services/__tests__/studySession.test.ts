@@ -107,10 +107,9 @@ describe('services/studySession · rateWord（评级 + 落库 + 日志 + 错题�
     expect(await db.wrongBook.count()).toBe(0);
   });
 
-  it('不认识（unknown）→ Again：卡片 due = hardDue（顺序保护，新卡 6 分钟），且写入错题本', async () => {
+  it('不认识（unknown）→ Again：卡片 due 不晚于 hardDue（顺序钳制），且写入错题本', async () => {
     const queue = await startSession('learn', { dailyGoal: 1, tier: 'core2104', now: NOW }, db);
     const item = queue.items[0];
-    // 顺序保护：Again 的 due 收敛到同一时刻 Hard 的 due（新卡 = 6 分钟），不再倒挂
     const hardDue = schedule(item.card, 2, NOW).card.due;
     const result = await rateWord(
       item,
@@ -120,11 +119,14 @@ describe('services/studySession · rateWord（评级 + 落库 + 日志 + 错题�
     );
     expect(result.rating).toBe(1);
     expect(result.requeuedSameDay).toBe(true);
-    expect(result.card.due).toBe(hardDue);
+    // 不变量 + 区分度（新卡：Again 严格早于 Hard）；区间不硬编码魔法数字
+    expect(result.card.due).toBeLessThanOrEqual(hardDue);
+    expect(result.card.due).toBeLessThan(hardDue);
+    expect(result.card.due - NOW).toBeGreaterThan(0);
     expect(result.card.due - NOW).toBeLessThanOrEqual(SAME_DAY_REQUEUE_MS);
 
     const saved = await getCard('w_1', db);
-    expect(saved?.due).toBe(hardDue);
+    expect(saved?.due).toBe(result.card.due); // 落库值 === 返回卡片值
 
     const wrong = await db.wrongBook.toArray();
     expect(wrong).toHaveLength(1);

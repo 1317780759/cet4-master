@@ -32,31 +32,40 @@ describe('domain/fsrs/scheduler · 原始 FSRS 行为（默认参数，R7 不调
   });
 });
 
-describe('domain/fsrs/scheduler · 应用层策略：Again 当日重现', () => {
+describe('domain/fsrs/scheduler · 应用层策略：Again 当日重现 + 顺序钳制', () => {
   /**
-   * ★ M1 验收核心断言一：Again → 当日重现，且**不晚于 Hard**（顺序保护）。
-   * 新卡场景 ts-fsrs 的 Hard = 6 分钟，故 Again 收敛到 6 分钟，不再「越不会越晚见」。
+   * ★ M1 验收核心断言一：Again 保留 ts-fsrs 原生落点，并**不晚于 Hard**（顺序钳制）。
+   * 断言「不变量 + 区间」，不硬编码魔法数字 —— 便于今后再次优化 Again 落点而不误报。
    */
-  it('新卡 Again → due === hardDue（当日重现，不倒挂）', () => {
-    const hardDue = schedule(card(), 2, T0).card.due;
+  it('新卡 Again：不晚于 Hard（不变量）、严格早于 Hard（区分度）、且当日重现', () => {
+    const dueHard = schedule(card(), 2, T0).card.due;
     const { card: updated, requeuedSameDay } = schedule(card(), 1, T0);
     expect(requeuedSameDay).toBe(true);
-    expect(updated.due).toBe(hardDue); // ★ === hardDue（新卡=6min），而非固定的 10 分钟
-    expect(updated.due - T0).toBeLessThanOrEqual(SAME_DAY_REQUEUE_MS);
     expect(updated.scheduledDays).toBe(0);
+
+    // 不变量：Again 不晚于 Hard（放宽为 <=）
+    expect(updated.due).toBeLessThanOrEqual(dueHard);
+    // 区分度：新卡场景 Again 严格早于 Hard（"完全不认识"比"有点模糊"更早见）
+    expect(updated.due).toBeLessThan(dueHard);
+
+    // 区间断言：落在 (0, 10min]，且为当日重现（< 24h）
+    expect(updated.due - T0).toBeGreaterThan(0);
+    expect(updated.due - T0).toBeLessThanOrEqual(SAME_DAY_REQUEUE_MS);
+    expect(updated.due - T0).toBeLessThan(24 * 3_600_000);
   });
 
   /**
-   * ★ 顺序不变式回归：新卡 Again ≤ Hard ≤ Good，且三者同日内（< 24h）。
-   * 该缺陷正是从 preview 暴露出来的，故显式锁住三档先后顺序。
+   * ★ 顺序不变式回归：新卡 Again < Hard ≤ Good，且三者同日内（< 24h）。
+   * 该缺陷正是从 preview 暴露出来的，故显式锁住先后顺序。
    */
-  it('新卡顺序不变式：dueAgain ≤ dueHard ≤ dueGood，且三者同日', () => {
+  it('新卡顺序不变式：dueAgain < dueHard ≤ dueGood，且三者同日', () => {
     const dueAgain = schedule(card(), 1, T0).card.due;
     const dueHard = schedule(card(), 2, T0).card.due;
     const dueGood = schedule(card(), 3, T0).card.due;
-    expect(dueAgain).toBeLessThanOrEqual(dueHard);
+    expect(dueAgain).toBeLessThan(dueHard);
     expect(dueHard).toBeLessThanOrEqual(dueGood);
     for (const due of [dueAgain, dueHard, dueGood]) {
+      expect(due - T0).toBeGreaterThan(0);
       expect(due - T0).toBeLessThan(24 * 3_600_000);
     }
   });
@@ -73,18 +82,27 @@ describe('domain/fsrs/scheduler · 应用层策略：Again 当日重现', () => 
     const { card: lapsed, requeuedSameDay } = schedule(cur, 1, at);
     expect(requeuedSameDay).toBe(true);
     expect(lapsed.due - at).toBe(SAME_DAY_REQUEUE_MS); // ★ 成熟卡仍是精确 600000ms
-    expect((lapsed.due - at) / MIN).toBeCloseTo(10, 5);
     expect(lapsed.state).toBe(3); // Relearning
     expect(lapsed.lapses).toBe(1);
   });
 
-  it('requeueSameDay 是纯函数：不修改入参（缺省 hardDue=+∞ 时退化为 now+10min）', () => {
-    const original = card();
+  it('requeueSameDay 是纯函数：不修改入参，且仅以 hardDue 为上界钳制', () => {
+    const original = card(); // due = T0（模拟原生 Again 落点）
     const snapshot = JSON.stringify(original);
-    const updated = requeueSameDay(original, T0);
+    const hardDue = T0 + 10 * MIN;
+
+    // 原生落点早于 hardDue → 保持原生（不延后）
+    const kept = requeueSameDay(original, hardDue);
+    expect(kept.due).toBe(Math.min(original.due, hardDue));
+    expect(kept.scheduledDays).toBe(0);
+
+    // 原生落点晚于 hardDue → 被钳制到 hardDue
+    const late = requeueSameDay({ ...original, due: T0 + 999 * MIN }, hardDue);
+    expect(late.due).toBe(hardDue);
+
+    // 纯函数：入参未被修改，且返回新对象
     expect(JSON.stringify(original)).toBe(snapshot);
-    expect(updated).not.toBe(original);
-    expect(updated.due).toBe(T0 + SAME_DAY_REQUEUE_MS);
+    expect(kept).not.toBe(original);
   });
 });
 
@@ -149,12 +167,12 @@ describe('domain/fsrs/scheduler · 辅助函数', () => {
     const p = preview(card(), T0);
     expect(Object.keys(p)).toHaveLength(RATING_VALUES.length);
     const due = (r: FsrsRating): number => p[r].card.due;
-    expect(due(1)).toBeLessThanOrEqual(due(2));
+    // 顺序不变式（新卡：Again < Hard ≤ Good ≤ Easy）；Again 严格早于 Hard，二者不同值
+    expect(due(1)).toBeLessThan(due(2));
     expect(due(2)).toBeLessThanOrEqual(due(3));
     expect(due(3)).toBeLessThanOrEqual(due(4));
-    // Again 落点与 schedule 一致（顺序保护后 = hardDue，不再是固定 10 分钟）
+    // Again 落点与 schedule 一致（同一套策略，避免 UI 与实际调度漂移）
     expect(p[1].card.due).toBe(schedule(card(), 1, T0).card.due);
-    expect(p[1].card.due).toBe(schedule(card(), 2, T0).card.due);
     for (const rating of RATING_VALUES) {
       expect(p[rating].card.due).toBeGreaterThan(T0);
     }
