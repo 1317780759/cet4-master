@@ -46,6 +46,12 @@ jobs:
       - name: 确保 .nojekyll 生效
         run: touch dist/.nojekyll
 
+      # ★ GH Pages 是静态托管，直接刷新 /learn 会 404。
+      #   复制一份 index.html 当 404 页，深链/刷新即可由前端路由接管
+      #   （Service Worker 的导航兜底是第二层，这一层覆盖"还没装 SW"的首次访问）。
+      - name: 生成 SPA 404 兜底页
+        run: cp dist/index.html dist/404.html
+
       - name: 上传 Pages 产物
         uses: actions/upload-pages-artifact@v3
         with:

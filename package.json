@@ -24,6 +24,7 @@
     "data:papers": "tsx scripts/build-papers.ts",
     "data:verify-papers": "tsx scripts/verify-papers.ts",
     "kill-switch": "tsx scripts/kill-switch.ts",
+    "icons": "tsx scripts/gen-icons.ts",
     "data:all": "npm run data:build && npm run data:sentences && npm run data:papers && npm run data:verify && npm run data:verify-papers && npm run data:attribution"
   },
   "dependencies": {

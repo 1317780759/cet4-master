@@ -30,9 +30,25 @@ pnpm dev               # 本地开发
 | `pnpm typecheck` | `tsc --noEmit`（app + node 两份配置） |
 | `pnpm lint` | ESLint |
 | `pnpm test` | Vitest |
+| `pnpm icons` | 重新生成 PWA 图标（纯代码绘制，无图像依赖） |
 | `pnpm data:build` | 词库管线：清洗 → 词频排序 → tier 分档 → 分片 |
 | `pnpm data:verify` | 数据体检（CI 门禁，失败退出码 1） |
 | `pnpm data:attribution` | 生成 `public/data/ATTRIBUTION.md` |
+| `pnpm kill-switch` | 内置卷一键下线 / 恢复（`on --reason` / `off` / `status`） |
+
+## 手机上使用（PWA）
+
+站点可安装到手机桌面，**全屏运行、离线可背词**：
+
+1. 手机浏览器打开站点（iOS 用 Safari，Android 用 Chrome）
+2. iOS：分享 →「添加到主屏幕」；Android：菜单 →「添加到主屏幕 / 安装应用」
+3. 桌面图标启动后没有地址栏，体验接近原生 App
+
+离线能力说明：
+
+- 学习进度本来就在本机（IndexedDB），不依赖网络
+- Service Worker 会把**用过的**词库分片 / 套卷缓存下来 —— 看过的内容断网也能用
+- 构建产物带内容哈希，cache-first 永不失效；改缓存策略需递增 `public/sw.js` 的 `CACHE_VERSION`
 
 ## 架构
 
@@ -61,10 +77,11 @@ src/features/   页面组装
 
 | 期 | 内容 | 状态 |
 |---|---|---|
-| **M0** | 骨架 + 数据管线 + Dexie schema + CI/CD | ✅ 本轮 |
-| M1 | 背词闭环（FSRS + 词频选词 + 统计） | 计划中 |
-| M2 | 真题练习（写作/阅读/翻译，听力停用·保留预留位）+ 测验 + 错题/生词闭环 + 导入导出 | 计划中 |
-| M3 | PWA / Service Worker / E2E | 计划中 |
+| **M0** | 骨架 + 数据管线 + Dexie schema + CI/CD | ✅ |
+| **M1** | 背词闭环（FSRS + 词频选词 + 统计） | ✅ |
+| **M2** | 真题练习（写作/阅读/翻译，听力停用·保留预留位）+ 测验 + 错题/生词闭环 + 导入导出 | ✅ |
+| **M2.5** | PWA（可安装 / 离线）+ 查词 + 设置页 | ✅ |
+| M3 | 精听 / 听写（等音频语料策略）、E2E | 计划中 |
 
 ## 部署
 

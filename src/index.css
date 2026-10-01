@@ -42,8 +42,20 @@ body {
   margin: 0;
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
+  /* 手机上点按钮不要闪灰色高亮块（视觉噪音，且让按钮显得"没按到"） */
+  -webkit-tap-highlight-color: transparent;
   background-color: var(--color-surface-muted);
   color: oklch(0.21 0.01 265);
+}
+
+/* 触控目标统一去掉双击缩放延迟：点按响应更跟手，长按选中仍可用 */
+button,
+a,
+input,
+textarea,
+select,
+label {
+  touch-action: manipulation;
 }
 
 html.dark body {
@@ -54,4 +66,10 @@ html.dark body {
 /* 移动端底部 TabBar 安全区 */
 .pb-safe {
   padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* ★ 手机浏览器（尤其 iOS Safari）的 100vh 不含地址栏，会顶出一条空白；
+   dvh 才是"可见高度"。装进桌面（standalone）后两者一致，dvh 同样正确。 */
+.min-h-dvh {
+  min-height: 100dvh;
 }
