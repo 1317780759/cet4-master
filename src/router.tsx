@@ -12,6 +12,7 @@ const LearnPage = lazy(() => import('@/features/learn/LearnPage'));
 const ReviewPage = lazy(() => import('@/features/learn/ReviewPage'));
 const QuizPage = lazy(() => import('@/features/quiz/QuizPage'));
 const WordBooksPage = lazy(() => import('@/features/books/WordBooksPage'));
+const SearchPage = lazy(() => import('@/features/search/SearchPage'));
 const SettingsPage = lazy(() => import('@/features/settings/SettingsPage'));
 const WordDetailPage = lazy(() => import('@/features/word-detail/WordDetailPage'));
 const MockExamPage = lazy(() => import('@/features/mock/MockExamPage'));
@@ -39,6 +40,7 @@ export const routes: RouteObject[] = [
       { path: 'review', element: <ReviewPage /> },
       { path: 'quiz', element: <QuizPage /> },
       { path: 'books', element: <WordBooksPage /> },
+      { path: 'search', element: <SearchPage /> },
       { path: 'settings', element: <SettingsPage /> },
       { path: 'word/:id', element: <WordDetailPage /> },
       { path: 'mock', element: <MockExamPage /> },

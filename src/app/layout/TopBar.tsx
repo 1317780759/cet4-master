@@ -1,10 +1,12 @@
 import type { ReactNode } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useTheme } from '@/app/providers/ThemeProvider';
 import { cn } from '@/lib/cn';
 
-/** 顶部栏：品牌 + 主题切换（深浅色，PRD R09） */
+/** 顶部栏：品牌 + 查词 + 主题切换（深浅色，PRD R09） */
 export function TopBar(): ReactNode {
   const { resolved, toggle } = useTheme();
+  const navigate = useNavigate();
 
   return (
     <header
@@ -23,18 +25,34 @@ export function TopBar(): ReactNode {
         </span>
       </div>
 
-      <button
-        type="button"
-        onClick={toggle}
-        aria-label={resolved === 'dark' ? '切换到浅色模式' : '切换到深色模式'}
-        className={cn(
-          'inline-flex h-9 w-9 items-center justify-center rounded-lg text-sm',
-          'text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800',
-          'focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:outline-none',
-        )}
-      >
-        {resolved === 'dark' ? '☀' : '☾'}
-      </button>
+      <div className="flex items-center gap-1">
+        {/* 查词是高频动作，放在顶栏常驻 —— 不用先回首页再找入口 */}
+        <button
+          type="button"
+          onClick={(): void => { void navigate('/search'); }}
+          aria-label="查词"
+          className={cn(
+            'inline-flex h-9 w-9 items-center justify-center rounded-lg text-sm',
+            'text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800',
+            'focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:outline-none',
+          )}
+        >
+          🔍
+        </button>
+
+        <button
+          type="button"
+          onClick={toggle}
+          aria-label={resolved === 'dark' ? '切换到浅色模式' : '切换到深色模式'}
+          className={cn(
+            'inline-flex h-9 w-9 items-center justify-center rounded-lg text-sm',
+            'text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800',
+            'focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:outline-none',
+          )}
+        >
+          {resolved === 'dark' ? '☀' : '☾'}
+        </button>
+      </div>
     </header>
   );
 }

@@ -12,6 +12,7 @@ import type { Word } from '@/domain/word/types';
 import QuizPage from '@/features/quiz/QuizPage';
 import WordBooksPage from '@/features/books/WordBooksPage';
 import SettingsPage from '@/features/settings/SettingsPage';
+import SearchPage from '@/features/search/SearchPage';
 
 /**
  * 记忆闭环的三个新页面的冒烟测试。
@@ -121,6 +122,25 @@ describe('词本页 /books', () => {
     fireEvent.click(screen.getByText('生词本'));
     await waitFor(() => {
       expect(screen.getByText('smoke1')).toBeTruthy();
+    });
+  });
+});
+
+describe('查词页 /search', () => {
+  it('输入前缀能查到词，并可一键加入生词本', async () => {
+    render(wrap(<SearchPage />, db));
+
+    fireEvent.change(screen.getByLabelText('搜索单词'), { target: { value: 'smoke' } });
+
+    await waitFor(() => {
+      expect(screen.getByText('smoke0')).toBeTruthy();
+    });
+
+    fireEvent.click(screen.getByLabelText('把 smoke0 加入生词本'));
+
+    // 加入后星标变实心，且不再重复插入（addVocab 幂等）
+    await waitFor(() => {
+      expect(screen.getByLabelText('smoke0 已在生词本')).toBeTruthy();
     });
   });
 });
