@@ -1,0 +1,154 @@
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { db as defaultDb } from '@/data/db/db';
+import { closeDatabase, openDatabase } from '@/data/db/migrations';
+import { getCard, putCard } from '@/data/repos/cardRepo';
+import { bulkPutWords } from '@/data/repos/wordRepo';
+import { createCard } from '@/domain/fsrs/types';
+import { DEFAULT_SETTINGS } from '@/domain/settings/types';
+import type { Word } from '@/domain/word/types';
+import { useSettingsStore } from '@/store/useSettingsStore';
+import { useStudyStore } from '@/store/useStudyStore';
+
+/**
+ * useStudyStore 集成测试（R-A1 / R-A2）。
+ *
+ * ★ 用 `defaultDb`（store 内部固定走 defaultDb）+ 真实 Dexie 读写；
+ * ★ 时间用 `vi.spyOn(Date, 'now')` 控制（**不用** fake timers，避免干扰 Dexie 事务）。
+ */
+
+const NOW = new Date('2026-10-01T09:00:00+08:00').getTime();
+let nowValue = NOW;
+
+function makeWord(rank: number): Word {
+  return {
+    id: `w_${rank}`,
+    headword: `word${rank}`,
+    variants: [`word${rank}s`],
+    senses: [{ pos: 'n', zh: `释义${rank}` }],
+    freqRank: rank,
+    freqCount: 1000 - rank,
+    tier: rank <= 2104 ? 'core2104' : 'cet4',
+    chunk: 1,
+    sentenceCount: 0,
+    source: 'test',
+    license: 'CC BY-NC-SA 4.0',
+  };
+}
+
+beforeEach(async () => {
+  nowValue = NOW;
+  vi.spyOn(Date, 'now').mockImplementation((): number => nowValue);
+  await openDatabase(defaultDb);
+  await Promise.all([
+    defaultDb.cards.clear(),
+    defaultDb.words.clear(),
+    defaultDb.wrongBook.clear(),
+    defaultDb.studyLogs.clear(),
+    defaultDb.dailyStats.clear(),
+  ]);
+  await bulkPutWords(
+    Array.from({ length: 30 }, (_, i) => makeWord(i + 1)),
+    defaultDb,
+  );
+  // store 从 settings 镜像读取 dailyGoal / tier 等；置为可用默认值
+  useSettingsStore.setState({
+    settings: { ...DEFAULT_SETTINGS, dailyGoal: 1, tier: 'core2104' },
+    hydrated: true,
+  });
+  useStudyStore.getState().reset();
+});
+
+afterEach(async () => {
+  useStudyStore.getState().reset();
+  vi.restoreAllMocks();
+  await closeDatabase(defaultDb);
+});
+
+describe('useStudyStore · R-A1（队列暂空 ≠ 今日完成）', () => {
+  it('队内 Again 重现卡未到期 → phase=waiting，pendingDueAt = 该卡 due，队内项 notBefore=due', async () => {
+    await useStudyStore.getState().start('learn');
+    let s = useStudyStore.getState();
+    expect(s.phase).toBe('studying');
+    expect(s.queue).toHaveLength(1);
+
+    await useStudyStore.getState().rate('unknown'); // Again → 重现卡 notBefore = due
+    s = useStudyStore.getState();
+
+    const saved = await getCard('w_1', defaultDb);
+    expect(saved).toBeTruthy();
+    expect(saved?.due).toBeGreaterThan(NOW); // 当日重现落在未来
+
+    expect(s.phase).toBe('waiting');
+    expect(s.pendingCount).toBeGreaterThanOrEqual(1);
+    expect(s.pendingDueAt).toBe(saved?.due);
+
+    const requeued = s.queue[s.cursor];
+    expect(requeued?.word.id).toBe('w_1');
+    expect(requeued?.notBefore).toBe(saved?.due);
+  });
+
+  it('安全网：库中临期卡（30s 后到期）→ start(review) 进入 waiting 而非 empty', async () => {
+    await putCard(
+      { ...createCard('w_9', 9, NOW - 100_000), due: NOW + 30_000, state: 2, reps: 3 },
+      defaultDb,
+    );
+    await useStudyStore.getState().start('review');
+    const s = useStudyStore.getState();
+    expect(s.phase).toBe('waiting');
+    expect(s.pendingCount).toBe(1);
+    expect(s.pendingDueAt).toBe(NOW + 30_000);
+  });
+
+  it('真完成：无卡且无临期卡 → start(review) 进入 empty', async () => {
+    await useStudyStore.getState().start('review');
+    expect(useStudyStore.getState().phase).toBe('empty');
+  });
+});
+
+describe('useStudyStore · resume 门控', () => {
+  it('resume(false) 未到点 → 保持 waiting', async () => {
+    await useStudyStore.getState().start('learn');
+    await useStudyStore.getState().rate('unknown');
+    expect(useStudyStore.getState().phase).toBe('waiting');
+
+    nowValue = NOW + 1_000; // 远早于 60s 重现点
+    await useStudyStore.getState().resume(false);
+    expect(useStudyStore.getState().phase).toBe('waiting');
+  });
+
+  it('resume(false) 到点 → studying', async () => {
+    await useStudyStore.getState().start('learn');
+    await useStudyStore.getState().rate('unknown');
+    const dueAt = useStudyStore.getState().pendingDueAt ?? 0;
+
+    nowValue = dueAt + 1;
+    await useStudyStore.getState().resume(false);
+    expect(useStudyStore.getState().phase).toBe('studying');
+  });
+
+  it('resume(force=true) 提前强制续 → studying', async () => {
+    await useStudyStore.getState().start('learn');
+    await useStudyStore.getState().rate('unknown');
+    expect(useStudyStore.getState().phase).toBe('waiting');
+
+    await useStudyStore.getState().resume(true);
+    expect(useStudyStore.getState().phase).toBe('studying');
+  });
+});
+
+describe('useStudyStore · R-A2（同词连续 Again 不堆积）', () => {
+  it('连续 Again + 强制续 → 待答区同一词至多 1 份', async () => {
+    await useStudyStore.getState().start('learn');
+    const wid = 'w_1';
+
+    await useStudyStore.getState().rate('unknown');
+    await useStudyStore.getState().resume(true);
+    await useStudyStore.getState().rate('unknown');
+    await useStudyStore.getState().resume(true);
+    await useStudyStore.getState().rate('unknown');
+
+    const s = useStudyStore.getState();
+    const pending = s.queue.slice(s.cursor).filter((q) => q.word.id === wid);
+    expect(pending.length).toBeLessThanOrEqual(1);
+  });
+});

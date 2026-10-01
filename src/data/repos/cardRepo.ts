@@ -75,6 +75,25 @@ export async function listDue(
     .toArray();
 }
 
+/**
+ * 取「即将到期」的卡片：due ∈ (now, now+windowMs]，按 due 升序，排除 suspended。
+ * ★ 用于 R-A1：队列暂空时判断是否仍有临期卡，避免误判「今日完成」。
+ * 已到期（due <= now）不在本函数范围（归 listDue）。
+ */
+export async function listDueSoon(
+  now: number = Date.now(),
+  windowMs = 60_000,
+  limit = 200,
+  instance: Cet4Database = defaultDb,
+): Promise<ReviewCard[]> {
+  return instance.cards
+    .where('due')
+    .between(now, now + windowMs, false, true)
+    .filter((c) => !c.suspended)
+    .limit(limit)
+    .toArray();
+}
+
 /** 按学习状态统计（Dashboard 掌握度分布用） */
 export async function countByState(instance: Cet4Database = defaultDb): Promise<number[]> {
   const counts: number[] = [0, 0, 0, 0, 0];

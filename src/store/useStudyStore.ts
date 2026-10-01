@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 import type { ScheduleResult } from '@/domain/fsrs/scheduler';
 import type { FsrsRating, RatingInput } from '@/domain/fsrs/types';
+import { peekDueSoon, REQUEUE_WINDOW_MS } from '@/services/reviewQueue';
 import {
   finishSession,
   previewIntervals,
@@ -18,9 +19,21 @@ import { useSettingsStore } from './useSettingsStore';
  *
  * 业务动作全部委托给 `services/studySession`（选词 / 评级的唯一入口），
  * 本 store 只负责「游标 / 翻卡 / 队列」这些 UI 侧状态。
+ *
+ * ★ R-A1：新增 `waiting` 相位 —— Again 重现卡在其 `notBefore`（= 卡片 due）之前
+ *   不得展示；队列「暂空」但仍有临期卡时进入 waiting（倒计时/可强制继续），
+ *   **绝不**静默当作「本组完成」。
+ * ★ R-A2：同一词在一次会话内连续 Again 时，队内已有其待答副本则**原地更新**，不堆积。
  */
 
-export type StudyPhase = 'idle' | 'loading' | 'studying' | 'finished' | 'empty' | 'error';
+export type StudyPhase =
+  | 'idle'
+  | 'loading'
+  | 'studying'
+  | 'waiting'
+  | 'finished'
+  | 'empty'
+  | 'error';
 
 export interface StudyState {
   phase: StudyPhase;
@@ -36,11 +49,19 @@ export interface StudyState {
   error: string | null;
   /** 当前卡片展示时刻（用于 elapsedMs） */
   shownAt: number;
+  /** waiting 相位：还有多少张临期卡（R-A1） */
+  pendingCount: number;
+  /** waiting 相位：最早到期时刻（R-A1）；无则 null */
+  pendingDueAt: number | null;
 
   start: (mode: SessionMode) => Promise<void>;
   reveal: () => void;
   rate: (self: RatingInput['self']) => Promise<void>;
   skip: () => void;
+  /** 队列推进后统一收尾判定：能继续 → studying；有临期卡 → waiting；真结束 → finish */
+  settle: () => Promise<void>;
+  /** 从 waiting 继续：倒计时到点自动续（force=false）/ 用户「立即继续」强制续（force=true） */
+  resume: (force?: boolean) => Promise<void>;
   finish: () => Promise<void>;
   reset: () => void;
 }
@@ -57,6 +78,8 @@ const INITIAL = {
   summary: null as SessionSummary | null,
   error: null as string | null,
   shownAt: 0,
+  pendingCount: 0,
+  pendingDueAt: null as number | null,
 };
 
 export const useStudyStore = create<StudyState>((set, get) => ({
@@ -73,6 +96,19 @@ export const useStudyStore = create<StudyState>((set, get) => ({
         freqOrdering: settings.freqOrdering,
       });
       if (queue.items.length === 0) {
+        // R-A1：队列为空时先查临期卡——有 → waiting（并非今日完成），无 → empty
+        const now = Date.now();
+        const soon = await peekDueSoon(now, REQUEUE_WINDOW_MS);
+        if (soon.count > 0 && soon.earliestDueAt !== null) {
+          set({
+            ...INITIAL,
+            phase: 'waiting',
+            mode,
+            pendingCount: soon.count,
+            pendingDueAt: soon.earliestDueAt,
+          });
+          return;
+        }
         set({ phase: 'empty', queue: [], newCount: 0, reviewCount: 0 });
         return;
       }
@@ -85,6 +121,8 @@ export const useStudyStore = create<StudyState>((set, get) => ({
         reviewCount: queue.reviewCount,
         rated: 0,
         shownAt: Date.now(),
+        pendingCount: 0,
+        pendingDueAt: null,
       });
     } catch (error) {
       set({ phase: 'error', error: describeError(error) });
@@ -117,23 +155,28 @@ export const useStudyStore = create<StudyState>((set, get) => ({
         now,
       });
 
-      // Again → 当日重现：把该词（携带新卡片状态）追加到队尾，本次会话内会再遇到
+      // Again 重现：携带 notBefore（= 该卡 due）追加；同词已在待答区则原地更新（R-A2）
       const nextQueue = [...state.queue];
       if (result.requeuedSameDay) {
-        nextQueue.push({ ...item, card: result.card, isNew: false });
+        const wid = item.word.id;
+        const pendingIdx = nextQueue.findIndex((q, i) => i > state.cursor && q.word.id === wid);
+        const requeued: StudyItem = {
+          ...item,
+          card: result.card,
+          isNew: false,
+          notBefore: result.card.due,
+        };
+        if (pendingIdx >= 0) nextQueue[pendingIdx] = requeued;
+        else nextQueue.push(requeued);
       }
-      const nextCursor = state.cursor + 1;
-      const done = nextCursor >= nextQueue.length;
-
       set({
         queue: nextQueue,
-        cursor: nextCursor,
+        cursor: state.cursor + 1,
         revealed: false,
         rated: state.rated + 1,
         shownAt: now,
       });
-
-      if (done) await get().finish();
+      await get().settle();
     } catch (error) {
       set({ phase: 'error', error: describeError(error) });
     }
@@ -142,9 +185,51 @@ export const useStudyStore = create<StudyState>((set, get) => ({
   skip: (): void => {
     const state = get();
     if (state.phase !== 'studying') return;
-    const nextCursor = state.cursor + 1;
-    set({ cursor: nextCursor, revealed: false, shownAt: Date.now() });
-    if (nextCursor >= state.queue.length) void get().finish();
+    set({ cursor: state.cursor + 1, revealed: false, shownAt: Date.now() });
+    void get().settle();
+  },
+
+  settle: async (): Promise<void> => {
+    const state = get();
+    const now = Date.now();
+    if (state.cursor < state.queue.length) {
+      // 队内仍有未展示的项：若全部被 notBefore 门控 → waiting，否则继续
+      const held = state.queue.slice(state.cursor).filter((it) => (it.notBefore ?? 0) > now);
+      if (held.length > 0) {
+        set({
+          phase: 'waiting',
+          pendingCount: held.length,
+          pendingDueAt: held[0]?.notBefore ?? now,
+        });
+        return;
+      }
+      set({ phase: 'studying' });
+      return;
+    }
+    // 队列已耗尽：查临期卡，避免静默误判「今日完成」（R-A1 安全网）
+    try {
+      const soon = await peekDueSoon(now, REQUEUE_WINDOW_MS);
+      if (soon.count > 0 && soon.earliestDueAt !== null) {
+        set({ phase: 'waiting', pendingCount: soon.count, pendingDueAt: soon.earliestDueAt });
+        return;
+      }
+      await get().finish();
+    } catch (error) {
+      set({ phase: 'error', error: describeError(error) });
+    }
+  },
+
+  resume: async (force = false): Promise<void> => {
+    const state = get();
+    const now = Date.now();
+    if (!force && state.pendingDueAt !== null && now < state.pendingDueAt) return;
+    const cur = state.queue[state.cursor];
+    if (cur) {
+      set({ phase: 'studying', pendingCount: 0, pendingDueAt: null, revealed: false, shownAt: now });
+      return;
+    }
+    // 队内已无待答项（waiting 由「库中临期卡」触发）→ 重开一组
+    await get().start(state.mode);
   },
 
   finish: async (): Promise<void> => {

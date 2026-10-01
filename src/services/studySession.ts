@@ -33,6 +33,8 @@ export interface StudyItem {
   card: ReviewCard;
   /** true = 本次会话首次引入的新词 */
   isNew: boolean;
+  /** 该卡最早可作答时刻（epoch ms）；缺省=立即可答。Again 重现卡在其 due 前不得展示（R-A1） */
+  notBefore?: number;
 }
 
 export interface StudyQueue {
@@ -106,13 +108,19 @@ export async function startSession(
   const byId = new Map(words.map((w) => [w.id, w]));
 
   const items: StudyItem[] = [];
+  // R-A3：防御性去重，同一 wordId 只保留首次出现（dueCards 与 newRows 理论上互斥）
+  const seen = new Set<string>();
   for (const card of dueCards) {
     const word = byId.get(card.wordId);
-    if (word) items.push({ word, card, isNew: false });
+    if (word && !seen.has(word.id)) {
+      seen.add(word.id);
+      items.push({ word, card, isNew: false });
+    }
   }
   for (const row of newRows) {
     const word = byId.get(row.id);
-    if (!word) continue;
+    if (!word || seen.has(word.id)) continue;
+    seen.add(word.id);
     items.push({ word, card: createCard(word.id, word.freqRank, now), isNew: true });
   }
 

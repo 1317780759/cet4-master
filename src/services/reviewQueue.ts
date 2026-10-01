@@ -1,5 +1,5 @@
 import { db as defaultDb, type Cet4Database } from '@/data/db/db';
-import { countDue, listDue } from '@/data/repos/cardRepo';
+import { countDue, listDue, listDueSoon } from '@/data/repos/cardRepo';
 import type { ReviewCard } from '@/domain/fsrs/types';
 
 /**
@@ -8,6 +8,16 @@ import type { ReviewCard } from '@/domain/fsrs/types';
  * ★ 防雪崩：遵循 settings.reviewLimit（默认 200），超上限时裁剪并标记 trimmed，
  *   避免长期未登录后一次性弹出上千张卡。
  */
+
+/** Again 卡片「当日重现」等待窗口（ms）——队列暂空时据此判定是否存在临期卡（R-A1） */
+export const REQUEUE_WINDOW_MS = 60_000;
+
+/** 临期卡概览（R-A1） */
+export interface DueSoon {
+  count: number;
+  /** 最早到期时刻；无则 null */
+  earliestDueAt: number | null;
+}
 
 export interface ReviewQueue {
   /** 到期卡片，按 due 升序 */
@@ -54,4 +64,17 @@ export async function nextDueAt(instance: Cet4Database = defaultDb): Promise<num
     .limit(1)
     .toArray();
   return active[0]?.due ?? null;
+}
+
+/**
+ * 距 now 之后 windowMs 内即将到期的卡（**不含**已到期）——用于区分「队列暂空」与「今日完成」。
+ * ★ R-A1：队列耗尽时若仍有临期卡，应进入 waiting 而非直接显示「本组完成」。
+ */
+export async function peekDueSoon(
+  now: number = Date.now(),
+  windowMs: number = REQUEUE_WINDOW_MS,
+  instance: Cet4Database = defaultDb,
+): Promise<DueSoon> {
+  const cards = await listDueSoon(now, windowMs, 200, instance);
+  return { count: cards.length, earliestDueAt: cards[0]?.due ?? null };
 }

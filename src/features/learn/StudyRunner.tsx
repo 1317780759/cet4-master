@@ -42,9 +42,13 @@ export function StudyRunner({
   const reviewCount = useStudyStore((s) => s.reviewCount);
   const summary = useStudyStore((s) => s.summary);
   const error = useStudyStore((s) => s.error);
+  const pendingCount = useStudyStore((s) => s.pendingCount);
+  const pendingDueAt = useStudyStore((s) => s.pendingDueAt);
   const start = useStudyStore((s) => s.start);
   const reveal = useStudyStore((s) => s.reveal);
   const rate = useStudyStore((s) => s.rate);
+  const resume = useStudyStore((s) => s.resume);
+  const finish = useStudyStore((s) => s.finish);
   const reset = useStudyStore((s) => s.reset);
 
   const autoPlay = useSettingsStore((s) => s.settings.autoPlay);
@@ -146,6 +150,17 @@ export function StudyRunner({
     );
   }
 
+  if (phase === 'waiting') {
+    return (
+      <WaitingPanel
+        pendingCount={pendingCount}
+        pendingDueAt={pendingDueAt}
+        resume={resume}
+        finish={finish}
+      />
+    );
+  }
+
   if (phase === 'empty') {
     return (
       <div className="mx-auto max-w-2xl">
@@ -229,6 +244,66 @@ export function StudyRunner({
           显示释义（Space）
         </Button>
       )}
+    </div>
+  );
+}
+
+/**
+ * R-A1 等待面板：队列暂空但仍有临期卡时展示，倒计时到点自动续，也可「立即继续 / 结束本组」。
+ * 绝不显示「本组完成 🎉」——那是 finish 相位的事。
+ */
+function WaitingPanel({
+  pendingCount,
+  pendingDueAt,
+  resume,
+  finish,
+}: {
+  pendingCount: number;
+  pendingDueAt: number | null;
+  resume: (force?: boolean) => Promise<void>;
+  finish: () => Promise<void>;
+}): ReactNode {
+  const [now, setNow] = useState<number>(() => Date.now());
+  const autoOnce = useRef(false);
+
+  // 500ms 心跳驱动倒计时
+  useEffect((): (() => void) => {
+    const timer = setInterval((): void => setNow(Date.now()), 500);
+    return (): void => clearInterval(timer);
+  }, []);
+
+  const remainMs = Math.max(0, (pendingDueAt ?? now) - now);
+  const seconds = Math.ceil(remainMs / 1000);
+
+  // 归零时自动续一次（ref 守卫，避免重复触发）
+  useEffect((): void => {
+    if (remainMs <= 0 && !autoOnce.current) {
+      autoOnce.current = true;
+      void resume(false);
+    }
+  }, [remainMs, resume]);
+
+  return (
+    <div className="mx-auto max-w-2xl">
+      <Card>
+        <CardHeader>
+          <CardTitle>稍等片刻</CardTitle>
+          <Badge tone="info">{seconds} 秒</Badge>
+        </CardHeader>
+        <CardBody className="space-y-3">
+          <p>
+            还有 {pendingCount} 张将在约 {seconds} 秒后到期。
+          </p>
+          <div className="flex gap-2">
+            <Button block variant="secondary" onClick={(): void => void resume(true)}>
+              立即继续
+            </Button>
+            <Button block onClick={(): void => void finish()}>
+              结束本组
+            </Button>
+          </div>
+        </CardBody>
+      </Card>
     </div>
   );
 }

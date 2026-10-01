@@ -1,7 +1,7 @@
 import { afterEach, beforeEach, describe, expect, it } from 'vitest';
 import { createDb, type Cet4Database } from '@/data/db/db';
 import { closeDatabase, openDatabase } from '@/data/db/migrations';
-import { getCard, putCard } from '@/data/repos/cardRepo';
+import { getCard, listDueSoon, putCard } from '@/data/repos/cardRepo';
 import { bulkPutWords } from '@/data/repos/wordRepo';
 import { listSentencesForWord } from '@/data/repos/sentenceRepo';
 import { createCard, type ReviewCard } from '@/domain/fsrs/types';
@@ -78,6 +78,14 @@ describe('services/studySession · startSession（选词）', () => {
     const queue = await startSession('review', { dailyGoal: 20, now: NOW }, db);
     expect(queue.newCount).toBe(0);
     expect(queue.items.map((i) => i.word.id)).toEqual(['w_7']);
+  });
+
+  it('startSession 不变量：队列内 wordId 唯一（R-A3 去重）', async () => {
+    // 制造「既是新词、又被建了到期卡」的极端场景：去重后仍不得重复
+    await putCard({ ...createCard('w_1', 1, NOW - 100_000), due: NOW - 1000 }, db);
+    const queue = await startSession('learn', { dailyGoal: 5, tier: 'core2104', now: NOW }, db);
+    const ids = queue.items.map((i) => i.word.id);
+    expect(new Set(ids).size).toBe(ids.length);
   });
 });
 
@@ -229,5 +237,24 @@ describe('services/studySession · finishSession / setCardSuspended', () => {
 describe('services · 例句能力（M1 无语料时优雅降级）', () => {
   it('listSentencesForWord 返回空数组（不阻塞背词）', async () => {
     expect(await listSentencesForWord('w_1', db)).toEqual([]);
+  });
+});
+
+describe('data/repos/cardRepo · listDueSoon（R-A1 临期卡，开下界/闭上界）', () => {
+  const WINDOW = 60_000;
+
+  it('仅返回 (now, now+window] 内的卡，排除已到期与 suspended，按 due 升序', async () => {
+    await putCard({ ...createCard('w_due', 1, NOW - 100_000), due: NOW - 1000 }, db); // 已到期 → 排除
+    await putCard({ ...createCard('w_now', 2, NOW - 100_000), due: NOW }, db); // == now → 排除（开下界）
+    await putCard({ ...createCard('w_soon', 3, NOW - 100_000), due: NOW + 30_000 }, db); // 命中
+    await putCard({ ...createCard('w_edge', 4, NOW - 100_000), due: NOW + WINDOW }, db); // == 上界 → 命中
+    await putCard({ ...createCard('w_far', 5, NOW - 100_000), due: NOW + WINDOW + 1 }, db); // 超出 → 排除
+    await putCard(
+      { ...createCard('w_susp', 6, NOW - 100_000), due: NOW + 20_000, suspended: true },
+      db,
+    ); // suspended → 排除
+
+    const rows = await listDueSoon(NOW, WINDOW, 200, db);
+    expect(rows.map((c) => c.wordId)).toEqual(['w_soon', 'w_edge']);
   });
 });
