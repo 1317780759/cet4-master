@@ -113,12 +113,31 @@ async function main(): Promise<void> {
   lines.push('');
   lines.push('## 二、真题材料');
   lines.push('');
-  lines.push('- 本站**默认不分发任何受著作权保护的真题原文**（`provenance` 谱系见代码）；');
-  lines.push('- 内置套卷为「真题同源模拟卷」（`derived`）：结构/考点取自公开考纲与真题语料统计，**内容自撰**；');
-  lines.push('- 用户可自行导入 JSON 套卷，仅落本机 IndexedDB，**永不上传**；');
+  lines.push('本站真题内容分三类，均**不含音频**（架构铁律 A6）：');
+  lines.push('');
+  lines.push('| 类型 | `provenance` | 说明 |');
+  lines.push('|---|---|---|');
+  lines.push(
+    '| 第三方整理卷 | `original` | 由第三方公开渠道整理的历年试题文本，**并非官方渠道发布**，未经本站核对，可能存在缺漏或误差 |',
+  );
+  lines.push(
+    '| 同源模拟卷 | `derived` | 结构与考点取自公开考纲与真题语料统计，**内容自撰**，不复制任何原文 |',
+  );
+  lines.push(
+    '| 用户自备卷 | `user-imported` | 由使用者自行导入，仅落本机 IndexedDB，**永不上传** |',
+  );
+  lines.push('');
+  lines.push('- 试题文本的相关权利归原权利人所有，本站不主张任何权利；');
+  lines.push(
+    '- **本站不提供标准答案，也不保证答案正确性** —— 页面上的答案与解析均标注来源与置信度，仅供参考；',
+  );
+  lines.push('- 用户可自行导入 JSON 套卷，仅落本机 IndexedDB，永不上传；');
   lines.push(
     '- 🔴 **音频零入库**（架构铁律 A6）：仓库内不含任何 `.mp3/.m4a/.wav/.ogg/.flac/.aac` 文件，' +
-      '真题原声需由用户自备音频源地址。',
+      '真题原声需由用户自备音频源地址；',
+  );
+  lines.push(
+    '- 若权利人提出异议，本站将依 **killSwitch** 流程在 2 分钟内下架相关系列卷（见「四、反馈与下架」）。',
   );
   lines.push('');
   lines.push('## 三、代码依赖许可');
