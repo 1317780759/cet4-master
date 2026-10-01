@@ -27,7 +27,9 @@ export interface ExamPaper {
   /** ★ 来源性质谱系（合规强制） */
   provenance: 'original' | 'derived' | 'user-imported';
   /**
-   * - 'original'      : 真题原文复制 —— 🔴 CI 门禁禁止入库，仅用户导入时可能出现
+   * - 'original'      : 第三方公开渠道整理的历年试题文本 —— ✅ v1.3 起为**内置默认**路线（docs/02 §C11）；
+   *                     ⚠️ 约束是**铁律 A6「音频零入库」**（不得携带任何 audio* 字段），
+   *                        而非"禁止入库"（此为 v1.2 旧口径，已随用户拍板作废）
    * - 'derived'       : 真题同源模拟卷（结构/考点取自真题语料，内容自撰）—— ✅ 默认内置
    * - 'user-imported' : 用户自行导入 —— ✅ 仅落本机 IndexedDB，永不上传分发
    */
