@@ -293,7 +293,7 @@ function WaitingPanel({
         </CardHeader>
         <CardBody className="space-y-3">
           <p>
-            还有 {pendingCount} 张将在约 {countdown} 后到期。
+            还有 {pendingCount} 张将在约 {countdown}后到期
           </p>
           <div className="flex gap-2">
             <Button block variant="secondary" onClick={(): void => void resume(true)}>

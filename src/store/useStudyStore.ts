@@ -193,12 +193,20 @@ export const useStudyStore = create<StudyState>((set, get) => ({
     const cur = state.queue[state.cursor];
     if (cur) {
       // 队内仍有未展示的项：仅当「队首待答项」被 notBefore 门控时才等待。
-      // Again 重现卡恒追加在队尾，队列有序 ⟹ 队首被门控 ⟺ 其后全部被门控；
       // 只要队首可答就继续 studying（不得因队尾有门控卡而提前进 waiting —— B2）。
       const rest = state.queue.slice(state.cursor);
       const held = rest.filter((it) => (it.notBefore ?? 0) > now);
       if ((cur.notBefore ?? 0) > now) {
-        set({ phase: 'waiting', pendingCount: held.length, pendingDueAt: cur.notBefore ?? now });
+        // 硬化 R-A1（5a）：门控块按 notBefore 升序稳定排序，确保 queue[cursor] 即最早到期，
+        // 使 pendingDueAt / resume() 不再依赖「追加顺序恰好升序」这一隐性假设。
+        const head = state.queue.slice(0, state.cursor);
+        const ordered = [...rest].sort((a, b) => (a.notBefore ?? 0) - (b.notBefore ?? 0));
+        set({
+          queue: [...head, ...ordered],
+          phase: 'waiting',
+          pendingCount: held.length,
+          pendingDueAt: ordered[0]?.notBefore ?? now,
+        });
         return;
       }
       set({ phase: 'studying', pendingCount: 0, pendingDueAt: null });
