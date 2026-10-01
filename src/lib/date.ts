@@ -36,6 +36,13 @@ export function formatDuration(totalSec: number): string {
   return h > 0 ? `${h}:${mm}:${ss}` : `${mm}:${ss}`;
 }
 
+/** 剩余毫秒 → 「X 秒 / X 分钟」（< 1 分钟按秒向上取整，否则按分钟四舍五入） */
+export function formatCountdown(ms: number): string {
+  const clamped = Math.max(0, ms);
+  if (clamped < 60_000) return `${Math.ceil(clamped / 1000)} 秒`;
+  return `${Math.round(clamped / 60_000)} 分钟`;
+}
+
 /** 相对时间：'刚刚' / '3 分钟前' / '2 天前' */
 export function formatRelative(ts: number, now: number = Date.now()): string {
   const delta = now - ts;

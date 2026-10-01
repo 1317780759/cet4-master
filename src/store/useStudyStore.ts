@@ -23,7 +23,8 @@ import { useSettingsStore } from './useSettingsStore';
  * ★ R-A1：新增 `waiting` 相位 —— Again 重现卡在其 `notBefore`（= 卡片 due）之前
  *   不得展示；队列「暂空」但仍有临期卡时进入 waiting（倒计时/可强制继续），
  *   **绝不**静默当作「本组完成」。
- * ★ R-A2：同一词在一次会话内连续 Again 时，队内已有其待答副本则**原地更新**，不堆积。
+ * ★ R-A2：同一词在一次会话内连续 Again 时，待答区（`i > cursor`）内同词只保留**最新一份**
+ *   （结构性去重：先剔除旧副本再追加），不堆积。
  */
 
 export type StudyPhase =
@@ -155,19 +156,16 @@ export const useStudyStore = create<StudyState>((set, get) => ({
         now,
       });
 
-      // Again 重现：携带 notBefore（= 该卡 due）追加；同词已在待答区则原地更新（R-A2）
-      const nextQueue = [...state.queue];
+      // Again 重现：结构性去重（R-A2）——携带 notBefore（= 该卡 due）的副本追加到队尾；
+      // 待答区（i > cursor，即当前项之后仍未展示的项）内同词只保留最新一份：先剔除旧副本再追加。
+      // ★ 当前项（i === cursor）与历史项（i < cursor）一律保留——删掉当前项会使数组塌缩、
+      //   令随后的 cursor+1 跳过下一张卡（游标错位），故保留 i <= cursor。
+      // 注：队列长度随 Again 线性增长是「已知且可接受」的（单次会话有界），本次只保证待答区同词唯一。
+      let nextQueue = [...state.queue];
       if (result.requeuedSameDay) {
         const wid = item.word.id;
-        const pendingIdx = nextQueue.findIndex((q, i) => i > state.cursor && q.word.id === wid);
-        const requeued: StudyItem = {
-          ...item,
-          card: result.card,
-          isNew: false,
-          notBefore: result.card.due,
-        };
-        if (pendingIdx >= 0) nextQueue[pendingIdx] = requeued;
-        else nextQueue.push(requeued);
+        nextQueue = nextQueue.filter((q, i) => i <= state.cursor || q.word.id !== wid);
+        nextQueue.push({ ...item, card: result.card, isNew: false, notBefore: result.card.due });
       }
       set({
         queue: nextQueue,
@@ -192,18 +190,18 @@ export const useStudyStore = create<StudyState>((set, get) => ({
   settle: async (): Promise<void> => {
     const state = get();
     const now = Date.now();
-    if (state.cursor < state.queue.length) {
-      // 队内仍有未展示的项：若全部被 notBefore 门控 → waiting，否则继续
-      const held = state.queue.slice(state.cursor).filter((it) => (it.notBefore ?? 0) > now);
-      if (held.length > 0) {
-        set({
-          phase: 'waiting',
-          pendingCount: held.length,
-          pendingDueAt: held[0]?.notBefore ?? now,
-        });
+    const cur = state.queue[state.cursor];
+    if (cur) {
+      // 队内仍有未展示的项：仅当「队首待答项」被 notBefore 门控时才等待。
+      // Again 重现卡恒追加在队尾，队列有序 ⟹ 队首被门控 ⟺ 其后全部被门控；
+      // 只要队首可答就继续 studying（不得因队尾有门控卡而提前进 waiting —— B2）。
+      const rest = state.queue.slice(state.cursor);
+      const held = rest.filter((it) => (it.notBefore ?? 0) > now);
+      if ((cur.notBefore ?? 0) > now) {
+        set({ phase: 'waiting', pendingCount: held.length, pendingDueAt: cur.notBefore ?? now });
         return;
       }
-      set({ phase: 'studying' });
+      set({ phase: 'studying', pendingCount: 0, pendingDueAt: null });
       return;
     }
     // 队列已耗尽：查临期卡，避免静默误判「今日完成」（R-A1 安全网）

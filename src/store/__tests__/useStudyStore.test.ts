@@ -136,6 +136,40 @@ describe('useStudyStore · resume 门控', () => {
   });
 });
 
+describe('useStudyStore · B2（settle 不得提前进 waiting）', () => {
+  it('dailyGoal=3：对首张 Again 后队首仍可答 → studying（守门测试）', async () => {
+    useSettingsStore.setState({
+      settings: { ...DEFAULT_SETTINGS, dailyGoal: 3, tier: 'core2104' },
+      hydrated: true,
+    });
+    await useStudyStore.getState().start('learn');
+    let s = useStudyStore.getState();
+    expect(s.queue).toHaveLength(3);
+    expect(s.cursor).toBe(0);
+
+    await useStudyStore.getState().rate('unknown'); // 首张 w_1 Again → 重现卡落队尾
+    s = useStudyStore.getState();
+
+    // 队首 w_2 可答 → 必须留在 studying，绝不因队尾门控卡提前进 waiting
+    expect(s.phase).toBe('studying');
+    expect(s.pendingCount).toBe(0);
+    expect(s.pendingDueAt).toBeNull();
+    // 游标未跳卡：下一张未答项仍是 w_2（而非被误吞后指向 w_3）
+    expect(s.queue[s.cursor]?.word.id).toBe('w_2');
+  });
+
+  it('单卡 dailyGoal=1：全部待答项被门控 → waiting（B2 修复不得破坏原语义）', async () => {
+    await useStudyStore.getState().start('learn'); // beforeEach 已置 dailyGoal=1
+    expect(useStudyStore.getState().queue).toHaveLength(1);
+
+    await useStudyStore.getState().rate('unknown');
+    const s = useStudyStore.getState();
+    expect(s.phase).toBe('waiting');
+    expect(s.pendingCount).toBeGreaterThanOrEqual(1);
+    expect(s.pendingDueAt).not.toBeNull();
+  });
+});
+
 describe('useStudyStore · R-A2（同词连续 Again 不堆积）', () => {
   it('连续 Again + 强制续 → 待答区同一词至多 1 份', async () => {
     await useStudyStore.getState().start('learn');
@@ -150,5 +184,24 @@ describe('useStudyStore · R-A2（同词连续 Again 不堆积）', () => {
     const s = useStudyStore.getState();
     const pending = s.queue.slice(s.cursor).filter((q) => q.word.id === wid);
     expect(pending.length).toBeLessThanOrEqual(1);
+  });
+
+  it('结构性去重：连续 Again ×4 后待答区 wordId 唯一', async () => {
+    useSettingsStore.setState({
+      settings: { ...DEFAULT_SETTINGS, dailyGoal: 3, tier: 'core2104' },
+      hydrated: true,
+    });
+    await useStudyStore.getState().start('learn');
+
+    for (let i = 0; i < 4; i += 1) {
+      if (useStudyStore.getState().phase === 'waiting') {
+        await useStudyStore.getState().resume(true);
+      }
+      await useStudyStore.getState().rate('unknown');
+    }
+
+    const s = useStudyStore.getState();
+    const ids = s.queue.slice(s.cursor).map((q) => q.word.id);
+    expect(new Set(ids).size).toBe(ids.length);
   });
 });

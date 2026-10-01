@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { listSentencesForWord } from '@/data/repos/sentenceRepo';
 import type { ExamSentence } from '@/domain/exam/types';
 import { formatInterval, preview } from '@/domain/fsrs/scheduler';
+import { formatCountdown } from '@/lib/date';
 import { useKeyboard } from '@/hooks/useKeyboard';
 import { useTts } from '@/hooks/useTts';
 import { useSettingsStore } from '@/store/useSettingsStore';
@@ -273,7 +274,7 @@ function WaitingPanel({
   }, []);
 
   const remainMs = Math.max(0, (pendingDueAt ?? now) - now);
-  const seconds = Math.ceil(remainMs / 1000);
+  const countdown = formatCountdown(remainMs);
 
   // 归零时自动续一次（ref 守卫，避免重复触发）
   useEffect((): void => {
@@ -288,11 +289,11 @@ function WaitingPanel({
       <Card>
         <CardHeader>
           <CardTitle>稍等片刻</CardTitle>
-          <Badge tone="info">{seconds} 秒</Badge>
+          <Badge tone="info">{countdown}</Badge>
         </CardHeader>
         <CardBody className="space-y-3">
           <p>
-            还有 {pendingCount} 张将在约 {seconds} 秒后到期。
+            还有 {pendingCount} 张将在约 {countdown} 后到期。
           </p>
           <div className="flex gap-2">
             <Button block variant="secondary" onClick={(): void => void resume(true)}>
