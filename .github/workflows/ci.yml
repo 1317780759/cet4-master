@@ -1,0 +1,103 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+# 同一分支上并发的 CI 直接取消，省 runner 时间
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: lint · typecheck · test · verify-data
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 准备 pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 12
+
+      - name: 准备 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: 安装依赖
+        run: pnpm install --frozen-lockfile
+
+      # ——— 铁律 A6：音频零入库门禁 ———
+      - name: 门禁 1 · 仓库内无音频文件
+        run: |
+          set -euo pipefail
+          hits="$(git ls-files | grep -Ei '\.(mp3|m4a|wav|ogg|flac|aac|wma)$' || true)"
+          if [ -n "$hits" ]; then
+            echo "::error::铁律 A6 违反：仓库内存在音频文件"
+            echo "$hits"
+            exit 1
+          fi
+          echo "✓ 无音频文件"
+
+      # ——— 合规附录 B-5：无大二进制 ———
+      - name: 门禁 2 · 仓库内无 PDF / 大二进制
+        run: |
+          set -euo pipefail
+          hits="$(git ls-files | grep -Ei '\.(pdf|zip|rar|7z|mp4)$' || true)"
+          if [ -n "$hits" ]; then
+            echo "::error::仓库内存在被禁止的二进制文件"
+            echo "$hits"
+            exit 1
+          fi
+          big="$(git ls-files | while read -r f; do [ -f "$f" ] || continue; s=$(wc -c <"$f"); [ "$s" -gt 1048576 ] && echo "$f ($s bytes)"; done || true)"
+          if [ -n "$big" ]; then
+            echo "::error::单文件超过 1 MB"
+            echo "$big"
+            exit 1
+          fi
+          echo "✓ 无大二进制"
+
+      - name: 类型检查
+        run: pnpm typecheck
+
+      - name: 静态检查
+        run: pnpm lint
+
+      - name: 单元测试
+        run: pnpm test
+
+      # ——— M1 验收：domain/fsrs 覆盖率 ≥ 85%（vitest 阈值已写入 vitest.config.ts）———
+      - name: 领域层覆盖率门禁（≥85%）
+        run: pnpm test:coverage
+
+      - name: 数据体检
+        run: pnpm data:verify
+
+      # ——— 合规附录 B-3：ATTRIBUTION 必须存在 ———
+      - name: 门禁 3 · ATTRIBUTION.md 存在且含关键声明
+        run: |
+          set -euo pipefail
+          test -f public/data/ATTRIBUTION.md || { echo "::error::缺少 public/data/ATTRIBUTION.md"; exit 1; }
+          grep -q "CC BY-NC-SA 4.0" public/data/ATTRIBUTION.md || { echo "::error::ATTRIBUTION 未声明 CC BY-NC-SA 4.0"; exit 1; }
+          grep -q "exam-data/CETVocabulary" public/data/ATTRIBUTION.md || { echo "::error::ATTRIBUTION 未署名数据源"; exit 1; }
+          echo "✓ 溯源声明完整"
+
+      - name: 构建
+        run: pnpm build
+
+      # 说明：不能简单 grep 文件名（代码里本来就有 'words/chunk-001.json' 这类路径常量），
+      # 要 grep 的是**数据本身的 JSON 键**（带引号），它们只可能来自被打包进去的词库数据。
+      - name: 门禁 4 · 数据未进 JS bundle
+        run: |
+          set -euo pipefail
+          if grep -qE '"(freqCount|freqRank|headword|senses)":' dist/assets/*.js 2>/dev/null; then
+            echo "::error::词库数据被打包进了 JS bundle（应使用运行时 fetch）"
+            exit 1
+          fi
+          echo "✓ 数据未进 bundle（仅含数据路径常量，无实际词条）"

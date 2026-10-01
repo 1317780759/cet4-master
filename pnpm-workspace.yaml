@@ -1,0 +1,12 @@
+# pnpm 12+ 把工作区级设置集中到这里（package.json 的 pnpm.* 已不再生效）。
+packages:
+  - '.'
+
+# esbuild 必须允许执行 postinstall，否则 vite / vitest 拿不到原生二进制。
+allowBuilds:
+  esbuild: true
+
+# 本机（Windows + 沙箱）下 pnpm 默认的符号链接布局会把顶层 node_modules/<pkg>
+# 建成空目录（符号链接创建被拦截），导致 TS 找不到 @types / vite 找不到入口。
+# hoisted 使用真实目录的扁平布局（等同 npm），可稳定工作。
+nodeLinker: hoisted

@@ -1,0 +1,57 @@
+@import 'tailwindcss';
+
+/* Tailwind v4：class 策略的深色模式（默认 v4 只跟随系统 prefers-color-scheme）。
+   ThemeProvider 会在 <html> 上加/去 .dark 类。 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-brand-50: oklch(0.97 0.02 258);
+  --color-brand-100: oklch(0.93 0.04 258);
+  --color-brand-200: oklch(0.87 0.07 258);
+  --color-brand-300: oklch(0.79 0.11 258);
+  --color-brand-400: oklch(0.7 0.15 258);
+  --color-brand-500: oklch(0.62 0.19 258);
+  --color-brand-600: oklch(0.54 0.21 258);
+  --color-brand-700: oklch(0.46 0.19 258);
+  --color-brand-800: oklch(0.38 0.15 258);
+  --color-brand-900: oklch(0.31 0.11 258);
+
+  --color-surface: oklch(1 0 0);
+  --color-surface-muted: oklch(0.98 0 0);
+  --color-surface-inverted: oklch(0.21 0.01 265);
+
+  --font-sans:
+    ui-sans-serif, system-ui, -apple-system, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', sans-serif;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--color-surface-muted);
+  color: oklch(0.21 0.01 265);
+}
+
+html.dark body {
+  background-color: oklch(0.16 0.01 265);
+  color: oklch(0.93 0 0);
+}
+
+/* 移动端底部 TabBar 安全区 */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}

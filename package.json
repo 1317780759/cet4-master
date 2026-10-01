@@ -1,0 +1,56 @@
+{
+  "name": "cet4-master",
+  "private": true,
+  "version": "0.2.0-m1",
+  "type": "module",
+  "description": "大学英语四级（CET-4）学习网站 —— 纯前端 / 零后端 / 词频优先 / 真题语境",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.node.json && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.node.json",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:watch": "vitest",
+    "data:build": "tsx scripts/build-wordbank.ts",
+    "data:verify": "tsx scripts/verify-data.ts",
+    "data:attribution": "tsx scripts/LICENSE-NOTICE.ts",
+    "data:all": "npm run data:build && npm run data:verify && npm run data:attribution"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "dexie": "^4.0.11",
+    "dexie-react-hooks": "^1.1.7",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.0",
+    "ts-fsrs": "5.4.2",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.0",
+    "@tailwindcss/vite": "^4.1.0",
+    "@testing-library/react": "^16.3.0",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.6.0",
+    "@vitest/coverage-v8": "^3.2.7",
+    "eslint": "^9.30.0",
+    "fake-indexeddb": "^6.0.1",
+    "globals": "^16.3.0",
+    "jsdom": "^26.0.0",
+    "rollup-plugin-visualizer": "^5.14.0",
+    "tailwindcss": "^4.1.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "typescript-eslint": "^8.35.0",
+    "vite": "^7.0.0",
+    "vitest": "^3.2.0"
+  }
+}

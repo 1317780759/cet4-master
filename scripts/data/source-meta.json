@@ -1,0 +1,13 @@
+{
+  "sourceId": "exam-data/CETVocabulary",
+  "name": "四六级词汇词频排序数据（exam-data/CETVocabulary）",
+  "url": "https://github.com/exam-data/CETVocabulary",
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "commercialUse": false,
+  "upstreamRef": "7f21d0d9ad93c16a17849a24ccc4046e0f64c4af",
+  "upstreamDate": "2026-09-24",
+  "fetchedAt": "2026-10-01",
+  "rawFile": "cet_full_list.json",
+  "note": "基于约 200 套真卷统计的词频排序词库；前 2104 词出现 40 次以上。数据 CC BY-NC-SA 4.0，禁止商用。"
+}

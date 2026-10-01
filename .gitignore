@@ -1,0 +1,33 @@
+# —— 依赖与构建产物 ——
+node_modules/
+_nm_trash*/
+dist/
+coverage/
+.vite/
+*.local
+
+# —— 数据管线：原始数据源绝不入库 ——
+scripts/data/raw/
+scripts/data/generated/
+!scripts/data/raw/.gitkeep
+# 抓取过程的临时响应缓存（如 GitHub API 返回），非产物
+scripts/data/_*.json
+
+# —— 构建期生成的数据产物（由 scripts/build-wordbank.ts 产出）——
+# 注意：public/data 是运行时 fetch 的静态资源，需要入库部署；
+# 仅原始数据源与中间产物被忽略，见上。
+!public/data/.gitkeep
+
+# —— 日志 ——
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# —— 编辑器 / 系统 ——
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#2563eb" />
+    <meta
+      name="description"
+      content="CET-4 Master：按真题词频排序的大学英语四级背词与模考工具。纯前端、零后端、数据留在本机。"
+    />
+    <title>CET-4 Master · 四级词频背词</title>
+    <script>
+      // 主题预设脚本：在 React 挂载前应用深浅色，避免首屏白闪。
+      (function () {
+        try {
+          var saved = localStorage.getItem('cet4.theme');
+          var isDark = saved
+            ? saved === 'dark'
+            : window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (isDark) document.documentElement.classList.add('dark');
+        } catch (err) {
+          /* localStorage 不可用时忽略，回落到系统偏好 */
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
