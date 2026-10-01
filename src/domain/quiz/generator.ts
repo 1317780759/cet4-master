@@ -53,8 +53,11 @@ export interface GenerateQuizInput {
 
 const KEYS: OptionKey[] = ['A', 'B', 'C', 'D'];
 
-/** mulberry32 —— 32 位确定性 PRNG，返回值 ∈ [0,1) */
-function mulberry32(seed: number): () => number {
+/**
+ * mulberry32 —— 32 位确定性 PRNG，返回值 ∈ [0,1)。
+ * 对外导出：选词池也要"同 seed 同结果"，不能各处自己写一个随机源（会漂）。
+ */
+export function createSeededRandom(seed: number): () => number {
   let a = seed >>> 0;
   return () => {
     a = (a + 0x6d2b79f5) >>> 0;
@@ -136,7 +139,7 @@ export function generateQuiz(input: GenerateQuizInput): QuizQuestion[] {
     optionsPerQuestion = 4,
   } = input;
 
-  const rand = mulberry32(seed);
+  const rand = createSeededRandom(seed);
   const pool = distractorPool ?? words;
   const questions: QuizQuestion[] = [];
   const used = new Set<string>();

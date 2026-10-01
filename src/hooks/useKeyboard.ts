@@ -22,6 +22,11 @@ export interface KeyboardHandlers {
   onUnknown?: () => void;
   /** Esc：返回 */
   onBack?: () => void;
+  /**
+   * 兜底：接收**未被上面专属键位消费**的按键（小写化的 `event.key`）。
+   * 用于测验页的 A/B/C/D 或 1/2/3/4 选选项 —— 不占用既有键位语义。
+   */
+  onKey?: (key: string) => void;
   /** 是否启用（默认 true）。会话结束 / 输入框聚焦时可关闭 */
   enabled?: boolean;
   /** 是否拦截默认行为（防止 Space/方向键滚动页面），默认 true */
@@ -59,31 +64,34 @@ export function useKeyboard(handlers: KeyboardHandlers): void {
             if (preventDefault) event.preventDefault();
             current.onReveal();
           }
-          break;
+          return;
         case 'ArrowRight':
           if (current.onKnown) {
             if (preventDefault) event.preventDefault();
             current.onKnown();
           }
-          break;
+          return;
         case 'ArrowLeft':
           if (current.onFuzzy) {
             if (preventDefault) event.preventDefault();
             current.onFuzzy();
           }
-          break;
+          return;
         case 'ArrowDown':
           if (current.onUnknown) {
             if (preventDefault) event.preventDefault();
             current.onUnknown();
           }
-          break;
+          return;
         case 'Escape':
           current.onBack?.();
-          break;
+          return;
         default:
           break;
       }
+
+      // 未被专属键位消费 → 交给兜底回调（测验选选项等）
+      current.onKey?.(event.key.toLowerCase());
     };
     window.addEventListener('keydown', onKeyDown);
     return (): void => window.removeEventListener('keydown', onKeyDown);

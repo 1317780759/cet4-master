@@ -103,6 +103,33 @@ export default function DashboardPage(): ReactNode {
               复习{data.dueCount > 0 ? `（${data.dueCount}）` : ''}
             </Button>
           </div>
+          <div className="flex gap-2">
+            <Button block variant="secondary" onClick={(): void => { void navigate('/quiz'); }}>
+              四选一测验
+            </Button>
+            <Button block variant="secondary" onClick={(): void => { void navigate('/books'); }}>
+              词本
+            </Button>
+            <Button block variant="secondary" onClick={(): void => { void navigate('/settings'); }}>
+              设置
+            </Button>
+          </div>
+        </CardBody>
+      </Card>
+
+      {/* —— 真题（低频长时操作，不占一级 Tab）—— */}
+      <Card>
+        <CardHeader>
+          <CardTitle>真题</CardTitle>
+          <span className="text-xs text-slate-400 dark:text-slate-500">练习模式</span>
+        </CardHeader>
+        <CardBody className="flex gap-2">
+          <Button block variant="secondary" onClick={(): void => { void navigate('/papers'); }}>
+            套卷
+          </Button>
+          <Button block variant="secondary" onClick={(): void => { void navigate('/mock'); }}>
+            真题练习
+          </Button>
         </CardBody>
       </Card>
 
