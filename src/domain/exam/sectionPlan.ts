@@ -126,6 +126,21 @@ export function buildSectionPlan(
 }
 
 /**
+ * 筛出落在**启用板块**题号区间内的题（K3：区间只认 slot.questionFrom/To）。
+ *
+ * 停用板块（如听力）的题会被自然排除 —— 这是「停用」在题目层面的唯一实现处，
+ * 调用方不要自己按 sectionKind 过滤。
+ */
+export function questionsInPlan<T extends { no: number }>(
+  questions: readonly T[],
+  plan: SectionPlan,
+): T[] {
+  return questions.filter((q) =>
+    plan.slots.some((s) => q.no >= s.questionFrom && q.no <= s.questionTo),
+  );
+}
+
+/**
  * 取某个板块所在槽位（找不到返回 null，用于 UI 判断该板块是否本期启用）。
  * 消费方请用这个而不是 `plan.slots.find(s => s.meta.kind === 'reading')` 之外的 kind 硬编码。
  */
