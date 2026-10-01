@@ -20,7 +20,8 @@
     "data:build": "tsx scripts/build-wordbank.ts",
     "data:verify": "tsx scripts/verify-data.ts",
     "data:attribution": "tsx scripts/LICENSE-NOTICE.ts",
-    "data:all": "npm run data:build && npm run data:verify && npm run data:attribution"
+    "data:sentences": "tsx scripts/build-sentences.ts",
+    "data:all": "npm run data:build && npm run data:sentences && npm run data:verify && npm run data:attribution"
   },
   "dependencies": {
     "clsx": "^2.1.1",
