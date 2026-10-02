@@ -38,7 +38,7 @@ export function Segmented<T extends string>({
       role="group"
       aria-label={ariaLabel}
       className={cn(
-        'inline-flex items-center gap-1 rounded-lg bg-slate-100 p-1 dark:bg-slate-800',
+        'inline-flex items-center gap-1 rounded-md border border-slate-300 bg-slate-50 p-0.5 dark:border-slate-700 dark:bg-slate-900',
         block && 'flex w-full',
         className,
       )}
@@ -59,8 +59,8 @@ export function Segmented<T extends string>({
               block ? 'flex-1' : '',
               size === 'sm' ? 'px-2.5 py-1 text-xs' : 'px-3 py-1.5 text-sm',
               active
-                ? 'bg-white text-brand-700 shadow-sm dark:bg-slate-700 dark:text-brand-200'
-                : 'text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-slate-50',
+                ? 'border border-brand-300 bg-surface text-brand-700 dark:border-brand-700 dark:bg-slate-800 dark:text-brand-200'
+                : 'border border-transparent text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-slate-50',
             )}
           >
             {opt.label}

@@ -22,7 +22,7 @@ export function Progress({
   return (
     <div className={cn('w-full', className)}>
       <div
-        className="h-2 w-full overflow-hidden rounded-full bg-slate-200 dark:bg-slate-700"
+        className="h-1.5 w-full overflow-hidden rounded-sm bg-slate-200 dark:bg-slate-700"
         role="progressbar"
         aria-valuemin={0}
         aria-valuemax={100}
@@ -30,7 +30,7 @@ export function Progress({
         aria-label={label}
       >
         <div
-          className="h-full rounded-full bg-brand-600 transition-[width] duration-300 ease-out dark:bg-brand-500"
+          className="h-full rounded-sm bg-brand-600 transition-[width] duration-300 ease-out dark:bg-brand-400"
           style={{ width: `${pct}%` }}
         />
       </div>

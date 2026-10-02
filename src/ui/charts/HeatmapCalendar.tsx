@@ -2,13 +2,24 @@ import type { ReactNode } from 'react';
 import type { HeatLevel, HeatmapGrid } from '@/domain/stats/heatmap';
 import { cn } from '@/lib/cn';
 
-/** 五档强度配色（静态类名，避免 Tailwind 无法收集动态类） */
+/** 五档强度配色（静态类名，避免 Tailwind 无法收集动态类）。
+ *  暖色阶梯：纸白 → 赭黄 → 朱红，像盖章的浓淡，而不是默认的荧光绿。 */
 const LEVEL_FILL: Record<HeatLevel, string> = {
   0: 'fill-slate-100 dark:fill-slate-800',
-  1: 'fill-emerald-200 dark:fill-emerald-900',
-  2: 'fill-emerald-400 dark:fill-emerald-700',
-  3: 'fill-emerald-600 dark:fill-emerald-500',
-  4: 'fill-emerald-800 dark:fill-emerald-300',
+  1: 'fill-amber-200 dark:fill-amber-900',
+  2: 'fill-amber-400 dark:fill-amber-700',
+  3: 'fill-brand-500 dark:fill-brand-500',
+  4: 'fill-brand-700 dark:fill-brand-300',
+};
+
+/* ★ 图例是 HTML <span>，用 fill-* 不会生效（fill 只作用于 SVG），
+     必须单独给一套 bg-* —— 这里修掉了一个"图例色块全透明"的老 bug。 */
+const LEVEL_BG: Record<HeatLevel, string> = {
+  0: 'bg-slate-100 dark:bg-slate-800',
+  1: 'bg-amber-200 dark:bg-amber-900',
+  2: 'bg-amber-400 dark:bg-amber-700',
+  3: 'bg-brand-500 dark:bg-brand-500',
+  4: 'bg-brand-700 dark:bg-brand-300',
 };
 
 const CELL = 10;
@@ -90,7 +101,7 @@ export function HeatmapLegend({ className }: { className?: string }): ReactNode 
     <div className={cn('flex items-center justify-end gap-1 text-[10px] text-slate-400 dark:text-slate-500', className)}>
       <span>少</span>
       {([0, 1, 2, 3, 4] as HeatLevel[]).map((level) => (
-        <span key={level} className={cn('inline-block h-2.5 w-2.5 rounded-sm', LEVEL_FILL[level])} />
+        <span key={level} className={cn('inline-block h-2.5 w-2.5 rounded-[2px]', LEVEL_BG[level])} />
       ))}
       <span>多</span>
     </div>

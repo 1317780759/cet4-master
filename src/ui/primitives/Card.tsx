@@ -7,13 +7,18 @@ export interface CardProps extends HTMLAttributes<HTMLDivElement> {
   children?: ReactNode;
 }
 
+/**
+ * 卡片 —— 纸面质感：细墨线边框 + 小圆角，**不用柔和投影**。
+ * 满屏"圆角白卡 + shadow-sm + 冷灰描边"是模板脸的典型症状，
+ * 这里用 1px 实线和小圆角做出"纸压在桌面上"的层次。
+ */
 export function Card({ className, padded = true, children, ...rest }: CardProps): ReactNode {
   return (
     <div
       className={cn(
-        'rounded-xl border border-slate-200 bg-white shadow-sm',
-        'dark:border-slate-700 dark:bg-slate-900',
-        padded && 'p-4',
+        'rounded-md border border-slate-200 bg-surface',
+        'dark:border-slate-800 dark:bg-slate-900',
+        padded && 'p-4 sm:p-5',
         className,
       )}
       {...rest}
@@ -28,14 +33,17 @@ export function CardHeader({
   children,
 }: HTMLAttributes<HTMLDivElement>): ReactNode {
   return (
-    <div className={cn('mb-2 flex items-center justify-between gap-2', className)}>{children}</div>
+    <div className={cn('mb-3 flex items-center justify-between gap-3', className)}>{children}</div>
   );
 }
 
 export function CardTitle({ className, children }: HTMLAttributes<HTMLHeadingElement>): ReactNode {
   return (
     <h3
-      className={cn('text-sm font-semibold text-slate-700 dark:text-slate-200', className)}
+      className={cn(
+        'font-display text-[15px] leading-none text-slate-900 dark:text-slate-100',
+        className,
+      )}
     >
       {children}
     </h3>

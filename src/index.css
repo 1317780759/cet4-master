@@ -5,24 +5,79 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-brand-50: oklch(0.97 0.02 258);
-  --color-brand-100: oklch(0.93 0.04 258);
-  --color-brand-200: oklch(0.87 0.07 258);
-  --color-brand-300: oklch(0.79 0.11 258);
-  --color-brand-400: oklch(0.7 0.15 258);
-  --color-brand-500: oklch(0.62 0.19 258);
-  --color-brand-600: oklch(0.54 0.21 258);
-  --color-brand-700: oklch(0.46 0.19 258);
-  --color-brand-800: oklch(0.38 0.15 258);
-  --color-brand-900: oklch(0.31 0.11 258);
+  /* ─────────────────────────────────────────────────────────────
+     纸墨色系（Paper & Ink）
+     ─────────────────────────────────────────────────────────────
+     这里刻意**覆盖了 Tailwind 自带的 slate 冷灰蓝**：
+     slate 是"AI 默认脸"的最大来源 —— 冷、蓝、无性格，配上靛蓝主色
+     和全圆角阴影，一眼就是生成出来的后台模板。
+     改成带一点土黄的暖灰后，白纸、墨字、朱红印章的质感自然成立，
+     且**全站不用改一行类名**（所有页面本来就写 slate-*）。
+     后续若要换品牌色，只改这一块即可。
+     ───────────────────────────────────────────────────────────── */
+  --color-slate-50: #faf8f3; /* 纸张 */
+  --color-slate-100: #f2eee5;
+  --color-slate-200: #e4ded1; /* 分隔线 */
+  --color-slate-300: #d2c9b8;
+  --color-slate-400: #a89d89; /* 次要文字（最浅可用） */
+  --color-slate-500: #857a66;
+  --color-slate-600: #6a6053;
+  --color-slate-700: #4e463c;
+  --color-slate-800: #38322a;
+  --color-slate-900: #26221c; /* 墨色 / 深色模式底 */
+  --color-slate-950: #17140f;
 
-  --color-surface: oklch(1 0 0);
-  --color-surface-muted: oklch(0.98 0 0);
-  --color-surface-inverted: oklch(0.21 0.01 265);
+  /* 朱红：唯一强调色。取自印章/批改笔，克制使用（主按钮、激活态、进度） */
+  --color-brand-50: #fdf3ec;
+  --color-brand-100: #fae2d3;
+  --color-brand-200: #f3c3a6;
+  --color-brand-300: #e79873;
+  --color-brand-400: #d76f45;
+  --color-brand-500: #c3522c;
+  --color-brand-600: #ad4324; /* 主按钮 */
+  --color-brand-700: #8c351c;
+  --color-brand-800: #6d2a17;
+  --color-brand-900: #4c1e11;
+
+  /* 苔绿（成功 / 已掌握）：压低饱和度，不用荧光绿 */
+  --color-emerald-50: #f3f6ef;
+  --color-emerald-200: #cdddc0;
+  --color-emerald-300: #aec797;
+  --color-emerald-400: #8cae6e;
+  --color-emerald-500: #6f9350;
+  --color-emerald-600: #57753e;
+  --color-emerald-700: #455c31;
+  --color-emerald-900: #2b3a20;
+
+  /* 赭石（提醒 / 学习中） */
+  --color-amber-50: #fbf5e6;
+  --color-amber-200: #efdcb2;
+  --color-amber-300: #e6c68c;
+  --color-amber-400: #d4a94f;
+  --color-amber-500: #bd8f33;
+  --color-amber-600: #a07829;
+  --color-amber-700: #7d5c1f;
+  --color-amber-900: #473313;
+
+  /* 深朱（危险） */
+  --color-red-50: #fdf1ed;
+  --color-red-200: #f1c9bd;
+  --color-red-600: #ab332a;
+  --color-red-700: #862722;
+  --color-red-900: #481b16;
+
+  --color-surface: #fffdf7; /* 卡片：比页面略白，像纸压在桌面上 */
+  --color-surface-muted: #f4f0e6; /* 页面底 */
+  --color-surface-inverted: #26221c;
 
   --font-sans:
     ui-sans-serif, system-ui, -apple-system, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
     'Microsoft YaHei', sans-serif;
+
+  /* 衬线只用在「大数字 / 页面标题」：一点点编辑感，且不依赖网络字体 */
+  --font-display:
+    'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Songti SC', 'STSong',
+    'Noto Serif SC', serif;
 }
 
 :root {
@@ -45,7 +100,7 @@ body {
   /* 手机上点按钮不要闪灰色高亮块（视觉噪音，且让按钮显得"没按到"） */
   -webkit-tap-highlight-color: transparent;
   background-color: var(--color-surface-muted);
-  color: oklch(0.21 0.01 265);
+  color: var(--color-slate-800);
 }
 
 /* 触控目标统一去掉双击缩放延迟：点按响应更跟手，长按选中仍可用 */
@@ -59,8 +114,8 @@ label {
 }
 
 html.dark body {
-  background-color: oklch(0.16 0.01 265);
-  color: oklch(0.93 0 0);
+  background-color: var(--color-slate-950);
+  color: var(--color-slate-200);
 }
 
 /* 移动端底部 TabBar 安全区 */
@@ -72,4 +127,27 @@ html.dark body {
    dvh 才是"可见高度"。装进桌面（standalone）后两者一致，dvh 同样正确。 */
 .min-h-dvh {
   min-height: 100dvh;
+}
+
+/* ── 排版小工具 ────────────────────────────────────────────── */
+
+/* 标题 / 关键数字用衬线：让数字有"记账本"的重量感，而不是一律无衬线 */
+.font-display {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* 统计数字必须等宽，否则刷新时数字宽度跳动 */
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* 细分隔线：代替"每个卡片都一样"的区块感 */
+.hairline {
+  border-color: var(--color-slate-200);
+}
+
+html.dark .hairline {
+  border-color: var(--color-slate-800);
 }

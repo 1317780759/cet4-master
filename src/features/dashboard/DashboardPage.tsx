@@ -3,15 +3,21 @@ import { useNavigate } from 'react-router-dom';
 import { useDb } from '@/app/providers/DbProvider';
 import { useSettingsStore } from '@/store/useSettingsStore';
 import { useStatsStore } from '@/store/useStatsStore';
-import { Badge, Button, Card, CardBody, CardHeader, CardTitle, Progress } from '@/ui/primitives';
+import { Button, Card, CardBody, CardHeader, CardTitle, Progress } from '@/ui/primitives';
 import { DonutChart, DonutLegend, HeatmapCalendar, HeatmapLegend, LineChart, LineLegend } from '@/ui/charts';
 
-/** 掌握度分布配色（纯 SVG，无图表库） */
+/** 掌握度分布配色（纯 SVG，无图表库）—— 低饱和土系，避开默认的荧光绿/亮蓝 */
 const MASTERY_COLORS = {
-  new: '#94a3b8',
-  learning: '#f59e0b',
-  young: '#38bdf8',
-  mature: '#10b981',
+  new: '#a89d89',
+  learning: '#bd8f33',
+  young: '#4a6b8a',
+  mature: '#57753e',
+} as const;
+
+/** 趋势线配色：复习用青灰蓝，新学用朱红 */
+const TREND_COLORS = {
+  review: '#4a6b8a',
+  fresh: '#ad4324',
 } as const;
 
 /**
@@ -75,21 +81,30 @@ export default function DashboardPage(): ReactNode {
 
   return (
     <div className="mx-auto flex max-w-3xl flex-col gap-4">
-      <div className="flex items-center justify-between">
-        <h1 className="text-lg font-semibold text-slate-900 dark:text-slate-50">今日</h1>
-        <Badge tone={data.streak > 0 ? 'success' : 'neutral'}>🔥 连续 {data.streak} 天</Badge>
+      {/* 页头：标题走衬线，"连续天数"降级为小字，不再靠 emoji 撑视觉 */}
+      <div className="flex items-baseline justify-between gap-3">
+        <h1 className="font-display text-xl text-slate-900 dark:text-slate-50">今日</h1>
+        <span className="text-xs text-slate-500 dark:text-slate-400">
+          连续 <span className="tabular font-medium text-slate-800 dark:text-slate-100">{data.streak}</span> 天
+        </span>
       </div>
 
       {/* —— 今日进度 —— */}
       <Card>
         <CardHeader>
           <CardTitle>今日进度</CardTitle>
-          <span className="text-xs text-slate-400 dark:text-slate-500">
-            新学 {data.today.newLearned}/{dailyGoal} · 复习 {data.today.reviewed} · 正确率 {accuracy}%
-          </span>
+          <span className="text-xs text-slate-400 dark:text-slate-500">目标 {dailyGoal} 个新词</span>
         </CardHeader>
-        <CardBody className="space-y-3">
+        <CardBody className="space-y-4">
+          {/* 三个数字用细线分隔做成"记账本"的一行，比塞进一行小字清楚得多 */}
+          <div className="flex items-stretch divide-x divide-slate-200 dark:divide-slate-800">
+            <Stat label="新学" value={data.today.newLearned} unit={`/${dailyGoal}`} />
+            <Stat label="复习" value={data.today.reviewed} />
+            <Stat label="正确率" value={accuracy} unit="%" />
+          </div>
+
           <Progress value={goalPct} label="每日新词目标" />
+
           <div className="flex gap-2">
             <Button block onClick={(): void => { void navigate('/learn'); }}>
               继续背词
@@ -163,16 +178,16 @@ export default function DashboardPage(): ReactNode {
           <CardTitle>近 30 天</CardTitle>
           <LineLegend
             series={[
-              { label: '复习', color: '#4f6ef7' },
-              { label: '新学', color: '#10b981' },
+              { label: '复习', color: TREND_COLORS.review },
+              { label: '新学', color: TREND_COLORS.fresh },
             ]}
           />
         </CardHeader>
         <CardBody>
           <LineChart
             series={[
-              { label: '复习', color: '#4f6ef7', values: data.trend30.map((p) => p.reviewed) },
-              { label: '新学', color: '#10b981', values: data.trend30.map((p) => p.newLearned) },
+              { label: '复习', color: TREND_COLORS.review, values: data.trend30.map((p) => p.reviewed) },
+              { label: '新学', color: TREND_COLORS.fresh, values: data.trend30.map((p) => p.newLearned) },
             ]}
             labels={data.trend30.map((p) => p.date.slice(5))}
             height={180}
@@ -215,6 +230,19 @@ export default function DashboardPage(): ReactNode {
         词库来自 exam-data/CETVocabulary（CC BY-NC-SA 4.0，非商用）。本站点为个人学习用途，
         数据全部保存在本机浏览器，无账号、无后端、无上传。
       </p>
+    </div>
+  );
+}
+
+/** 单个统计格：数字用衬线 + 等宽，单位小一号 */
+function Stat({ label, value, unit }: { label: string; value: number; unit?: string }): ReactNode {
+  return (
+    <div className="flex-1 px-1 text-center first:pl-0 last:pr-0">
+      <div className="font-display text-2xl leading-none text-slate-900 tabular dark:text-slate-50">
+        {value}
+        {unit ? <span className="text-sm font-sans font-normal text-slate-500">{unit}</span> : null}
+      </div>
+      <div className="mt-1.5 text-[11px] text-slate-500 dark:text-slate-400">{label}</div>
     </div>
   );
 }

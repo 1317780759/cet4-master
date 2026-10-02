@@ -12,8 +12,8 @@ import path from 'node:path';
 import { deflateSync } from 'node:zlib';
 import { ROOT_DIR, ensureDir } from './lib/pipeline';
 
-/** 品牌色 #2563eb（与 index.html 的 theme-color 保持一致） */
-const BRAND: readonly [number, number, number] = [0x25, 0x63, 0xeb];
+/** 品牌色 #ad4324（朱红，与 index.html 的 theme-color 保持一致） */
+const BRAND: readonly [number, number, number] = [0xad, 0x43, 0x24];
 const WHITE: readonly [number, number, number] = [0xff, 0xff, 0xff];
 
 /** 5×7 位图字体 —— 只定义图标要用的两个字符，够用即可 */

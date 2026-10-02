@@ -53,7 +53,7 @@ export function WordCard({
           : undefined
       }
       className={cn(
-        'rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900',
+        'rounded-md border border-slate-200 bg-surface p-5 dark:border-slate-800 dark:bg-slate-900',
         interactive && 'cursor-pointer transition-colors hover:border-brand-300',
         className,
       )}
@@ -68,7 +68,7 @@ export function WordCard({
         </span>
       </div>
 
-      <h2 className="mt-4 text-center text-5xl leading-tight font-bold tracking-tight text-slate-900 sm:text-6xl dark:text-slate-50">
+      <h2 className="font-display mt-4 text-center text-5xl leading-tight text-slate-900 sm:text-6xl dark:text-slate-50">
         {word.headword}
       </h2>
 

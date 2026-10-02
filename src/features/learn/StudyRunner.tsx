@@ -183,7 +183,7 @@ export function StudyRunner({
       <div className="mx-auto max-w-2xl space-y-4">
         <Card>
           <CardHeader>
-            <CardTitle>本组完成 🎉</CardTitle>
+            <CardTitle>本组完成</CardTitle>
             <Badge tone="success">连续 {summary?.streak ?? 0} 天</Badge>
           </CardHeader>
           <CardBody className="space-y-2">
@@ -251,7 +251,7 @@ export function StudyRunner({
 
 /**
  * R-A1 等待面板：队列暂空但仍有临期卡时展示，倒计时到点自动续，也可「立即继续 / 结束本组」。
- * 绝不显示「本组完成 🎉」——那是 finish 相位的事。
+ * 绝不显示「本组完成」——那是 finish 相位的事。
  */
 function WaitingPanel({
   pendingCount,
