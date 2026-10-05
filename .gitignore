@@ -27,6 +27,22 @@ yarn-error.log*
 logs/
 *.log
 
+# —— 会话临时文件 ——
+# PowerShell 5.1 不会把stdout 回显到终端，读命令输出必须先
+# `| Out-File -Encoding utf8 <path>` 再读文件，于是产生了大量 .t*/.r*/.tmp-* 草稿。
+# 全部忽略，避免它们混进 git status 淹没真正的改动。
+# ★ 写成无点前缀（`gs*.txt` 而非 `.gs*.txt`）：gitignore 里前导 `.` 是字面字符，
+#   `.gs*.txt` 只能匹配 `.gsfoo.txt`，匹配不到实际产生的 `gs.txt` / `gs2.txt`。
+#   同理 `.t*.txt` / `.r*.txt` 只覆盖了点开头的草稿，无点的 `t3.txt` 会漏 —— 故一并放宽。
+.t*.txt
+.r*.txt
+gs*.txt
+.tmp-*.txt
+.git-status.txt
+_status.txt
+_chk.txt
+full-test.txt
+
 # —— 编辑器 / 系统 ——
 .DS_Store
 Thumbs.db

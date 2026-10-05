@@ -71,7 +71,9 @@ jobs:
         run: |
           set -euo pipefail
           # papers/ = 套卷管线产出（scripts/build-papers.ts）：index.json 目录 + 每套卷一个 <paperId>.json
-          allowed='^\.gitkeep$|^ATTRIBUTION\.md$|^VERIFY-REPORT\.md$|^manifest\.json$|^words\.index\.(core|full)\.json$|^words/chunk-[0-9]{3}\.json$|^papers/index\.json$|^papers/[a-z0-9][a-z0-9._-]*\.json$'
+          # phonetics/ = 音标管线产出（scripts/build-phonetics.ts）：index.json + core/full 两个 scope
+          # translations/ = 翻译语料管线产出（scripts/build-translations.ts）：index.json + 每话题一个 <topicKey>.json
+          allowed='^\.gitkeep$|^ATTRIBUTION\.md$|^VERIFY-REPORT\.md$|^manifest\.json$|^words\.index\.(core|full)\.json$|^words/chunk-[0-9]{3}\.json$|^papers/index\.json$|^papers/[a-z0-9][a-z0-9._-]*\.json$|^phonetics/(index|phonetics\.core|phonetics\.full)\.json$|^translations/index\.json$|^translations/[a-z0-9][a-z0-9._-]*\.json$'
           bad="$(find public/data -type f | sed 's|^public/data/||' | grep -Ev "$allowed" || true)"
           if [ -n "$bad" ]; then
             echo "::error::public/data/ 出现非白名单文件（该目录随包分发，只允许管线产出）"
