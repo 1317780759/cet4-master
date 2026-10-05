@@ -1,0 +1,896 @@
+{
+  "topic": "economy",
+  "label": "经济发展",
+  "items": [
+    {
+      "id": "t_000061",
+      "topic": "economy",
+      "difficulty": 2,
+      "zh": "近年来，中国经济保持平稳增长，居民收入不断提高。",
+      "reference": "China's economy has maintained steady growth in recent years, and the income of residents has been rising continuously.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "in recent years",
+          "zh": "近年来",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "steady growth",
+          "zh": "平稳增长",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "income of residents",
+          "zh": "居民收入",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "rising continuously",
+          "zh": "不断提高",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：近年来 / 平稳增长 / 居民收入 / 不断提高",
+        "「平稳增长」用 steady growth；「居民」可用 resident；两个分句都用现在完成时",
+        "句型：China's economy has maintained … in recent years, and the income of residents has been rising …"
+      ],
+      "topicWords": [
+        "economy",
+        "steady growth",
+        "income"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000062",
+      "topic": "economy",
+      "difficulty": 2,
+      "zh": "电子商务的快速发展改变了人们的购物方式，也带动物流业的繁荣。",
+      "reference": "Thanks to its rapid development, e-commerce has changed people's way of shopping and also promoted the prosperity of the logistics industry.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "rapid development",
+          "zh": "快速发展",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "e-commerce",
+          "zh": "电子商务",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "way of shopping",
+          "zh": "购物方式",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "the prosperity of",
+          "zh": "……的繁荣",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：快速发展 / 电子商务 / 购物方式 / ……的繁荣",
+        "「电子商务」可用 e-commerce；「繁荣」是 prosperity；「物流业」是 the logistics industry",
+        "句型：Thanks to its rapid development, e-commerce has changed … and also promoted …"
+      ],
+      "topicWords": [
+        "e-commerce",
+        "logistics",
+        "prosperity"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000063",
+      "topic": "economy",
+      "difficulty": 3,
+      "zh": "中国政府大力推进乡村振兴，农村基础设施明显改善。",
+      "reference": "The Chinese government has vigorously promoted rural revitalization, and rural infrastructure has been significantly improved.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "vigorously promoted",
+          "zh": "大力推进",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "rural revitalization",
+          "zh": "乡村振兴",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "rural infrastructure",
+          "zh": "农村基础设施",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "significantly improved",
+          "zh": "明显改善",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：大力推进 / 乡村振兴 / 农村基础设施 / 明显改善",
+        "「大力推进」可用 vigorously promote；「基础设施」是 infrastructure；后半句用被动语态",
+        "句型：The Chinese government has vigorously promoted …, and rural infrastructure has been significantly improved."
+      ],
+      "topicWords": [
+        "rural revitalization",
+        "infrastructure",
+        "promote"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000064",
+      "topic": "economy",
+      "difficulty": 2,
+      "zh": "随着城市化进程的加快，越来越多的农村人口迁入城市。",
+      "reference": "More and more rural residents have moved into cities with the acceleration of urbanization.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "with the acceleration of",
+          "zh": "随着……的加快",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "urbanization",
+          "zh": "城市化",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "rural residents",
+          "zh": "农村人口",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "moved into cities",
+          "zh": "迁入城市",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：随着……的加快 / 城市化 / 农村人口 / 迁入城市",
+        "「城市化」是 urbanization；「迁入」可用 move into；「越来越多」可用 more and more",
+        "句型：More and more rural residents have moved into cities with the acceleration of …"
+      ],
+      "topicWords": [
+        "urbanization",
+        "rural resident",
+        "acceleration"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000065",
+      "topic": "economy",
+      "difficulty": 3,
+      "zh": "中国的制造业正从低端加工向高端智能制造转型。",
+      "reference": "China's manufacturing industry is transforming from low-end processing to high-end intelligent manufacturing.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "manufacturing industry",
+          "zh": "制造业",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "transforming from",
+          "zh": "从……转型",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "low-end processing",
+          "zh": "低端加工",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "intelligent manufacturing",
+          "zh": "智能制造",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：制造业 / 从……转型 / 低端加工 / 智能制造",
+        "「转型」用 transform from … to …；「低端／高端」用 low-end／high-end",
+        "句型：China's manufacturing industry is transforming from … to …"
+      ],
+      "topicWords": [
+        "manufacturing",
+        "transform",
+        "intelligent"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000066",
+      "topic": "economy",
+      "difficulty": 2,
+      "zh": "移动支付的普及让中国人出门几乎不需要带现金。",
+      "reference": "Thanks to its popularity, mobile payment has made it almost unnecessary for Chinese people to carry cash when going out.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "popularity",
+          "zh": "普及",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "mobile payment",
+          "zh": "移动支付",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "unnecessary",
+          "zh": "不需要",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "carry cash",
+          "zh": "带现金",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：普及 / 移动支付 / 不需要 / 带现金",
+        "「普及」是 popularity；「让某人做某事不必」可用 make it unnecessary for sb. to do",
+        "句型：Thanks to its popularity, mobile payment has made it almost unnecessary for … to carry cash when …"
+      ],
+      "topicWords": [
+        "mobile payment",
+        "popularity",
+        "cash"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000067",
+      "topic": "economy",
+      "difficulty": 2,
+      "zh": "中国与许多国家加强合作，共同推进基础设施建设和贸易往来。",
+      "reference": "China has strengthened cooperation with many countries to jointly promote infrastructure construction and trade.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "strengthened cooperation with",
+          "zh": "加强与……的合作",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "jointly promote",
+          "zh": "共同推进",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "infrastructure construction",
+          "zh": "基础设施建设",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "trade",
+          "zh": "贸易往来",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：加强与……的合作 / 共同推进 / 基础设施建设 / 贸易往来",
+        "「加强合作」用 strengthen cooperation with；「共同」可用 jointly，用不定式表目的",
+        "句型：China has strengthened cooperation with … to jointly promote …"
+      ],
+      "topicWords": [
+        "cooperation",
+        "infrastructure",
+        "trade"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000068",
+      "topic": "economy",
+      "difficulty": 3,
+      "zh": "中国已成为全球最大的货物贸易国，与世界各国的经济联系日益紧密。",
+      "reference": "China has become the largest trader of goods in the world, and its economic ties with other countries are becoming increasingly close.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "the largest",
+          "zh": "最大的",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "trader of goods",
+          "zh": "货物贸易国",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "economic ties",
+          "zh": "经济联系",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "increasingly close",
+          "zh": "日益紧密",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：最大的 / 货物贸易国 / 经济联系 / 日益紧密",
+        "「货物贸易国」可译为 trader of goods；「联系」可用 tie／link",
+        "句型：China has become …, and its economic ties with … are becoming increasingly close."
+      ],
+      "topicWords": [
+        "trader",
+        "economic ties",
+        "close"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000069",
+      "topic": "economy",
+      "difficulty": 3,
+      "zh": "随着居民消费升级，服务业在国民经济中的比重逐年上升。",
+      "reference": "In the national economy, the proportion of the service industry has been rising year by year with the upgrading of household consumption.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "with the upgrading of",
+          "zh": "随着……的升级",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "household consumption",
+          "zh": "居民消费",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "the proportion of",
+          "zh": "……的比重",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "service industry",
+          "zh": "服务业",
+          "weight": 2
+        },
+        {
+          "id": "kp5",
+          "head": "year by year",
+          "zh": "逐年",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：随着……的升级 / 居民消费 / ……的比重 / 服务业 / 逐年",
+        "「升级」可用 upgrading；「比重」是 proportion；「逐年」是 year by year",
+        "句型：In the national economy, the proportion of … has been rising year by year with the upgrading of …"
+      ],
+      "topicWords": [
+        "consumption",
+        "service industry",
+        "proportion"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000070",
+      "topic": "economy",
+      "difficulty": 2,
+      "zh": "中国的互联网经济蓬勃发展，创造了大量的就业机会。",
+      "reference": "China's internet economy is booming and has created a large number of job opportunities.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "internet economy",
+          "zh": "互联网经济",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "booming",
+          "zh": "蓬勃发展",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "a large number of",
+          "zh": "大量的",
+          "synonyms": [
+            "a great number of",
+            "numerous"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "job opportunities",
+          "zh": "就业机会",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：互联网经济 / 蓬勃发展 / 大量的 / 就业机会",
+        "「蓬勃发展」可用 boom／flourish；「创造机会」用 create opportunities",
+        "句型：China's Internet economy is booming and has created …"
+      ],
+      "topicWords": [
+        "Internet economy",
+        "boom",
+        "job opportunity"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000071",
+      "topic": "economy",
+      "difficulty": 2,
+      "zh": "政府出台了一系列减税政策，帮助中小企业渡过难关。",
+      "reference": "The government has introduced a series of tax reduction policies to help small and medium-sized enterprises tide over their difficulties.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "a series of",
+          "zh": "一系列",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "tax reduction",
+          "zh": "减税",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "small and medium-sized enterprises",
+          "zh": "中小企业",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "tide over",
+          "zh": "渡过",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：一系列 / 减税 / 中小企业 / 渡过",
+        "「出台政策」可用 introduce policies；「中小企业」常说 small and medium-sized enterprises",
+        "句型：The government has introduced … to help … tide over …"
+      ],
+      "topicWords": [
+        "tax reduction",
+        "enterprise",
+        "policy"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000072",
+      "topic": "economy",
+      "difficulty": 3,
+      "zh": "中国的扶贫事业取得了举世瞩目的成就，数亿人摆脱了贫困。",
+      "reference": "China's poverty alleviation has achieved remarkable results that have attracted worldwide attention, with hundreds of millions of people lifted out of poverty.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "poverty alleviation",
+          "zh": "扶贫／脱贫",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "remarkable results",
+          "zh": "显著的成就",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "attracted worldwide attention",
+          "zh": "举世瞩目",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "lifted out of poverty",
+          "zh": "摆脱贫困",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：扶贫／脱贫 / 显著的成就 / 举世瞩目 / 摆脱贫困",
+        "「举世瞩目」可用 attract worldwide attention；「摆脱贫困」用 lift sb. out of poverty（被动）",
+        "句型：China's poverty alleviation has achieved … that have attracted …, with … lifted out of poverty."
+      ],
+      "topicWords": [
+        "poverty alleviation",
+        "remarkable",
+        "attention"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000073",
+      "topic": "economy",
+      "difficulty": 3,
+      "zh": "数字经济正在成为推动中国经济高质量发展的新引擎。",
+      "reference": "The digital economy is becoming a new engine driving the high-quality development of China's economy.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "digital economy",
+          "zh": "数字经济",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "a new engine",
+          "zh": "新引擎",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "driving",
+          "zh": "推动",
+          "weight": 1
+        },
+        {
+          "id": "kp4",
+          "head": "high-quality development",
+          "zh": "高质量发展",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：数字经济 / 新引擎 / 推动 / 高质量发展",
+        "「引擎」是 engine；「推动」用现在分词 driving 作后置定语",
+        "句型：The digital economy is becoming a new engine driving …"
+      ],
+      "topicWords": [
+        "digital economy",
+        "engine",
+        "high-quality development"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000074",
+      "topic": "economy",
+      "difficulty": 3,
+      "zh": "随着劳动力成本的上升，许多企业开始加大技术创新的投入。",
+      "reference": "As labor costs rise, many enterprises have begun to increase their investment in technological innovation.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "labor costs",
+          "zh": "劳动力成本",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "rise",
+          "zh": "上升",
+          "weight": 1
+        },
+        {
+          "id": "kp3",
+          "head": "increase their investment in",
+          "zh": "加大……的投入",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "technological innovation",
+          "zh": "技术创新",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：劳动力成本 / 上升 / 加大……的投入 / 技术创新",
+        "「随着」可用 as 引导时间状语从句；「加大投入」用 increase one's investment in",
+        "句型：As labor costs rise, many enterprises have begun to increase their investment in …"
+      ],
+      "topicWords": [
+        "labor cost",
+        "enterprise",
+        "technological innovation"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000075",
+      "topic": "economy",
+      "difficulty": 3,
+      "zh": "中国的高铁网络不仅方便了人们出行，也带动了沿线城市的经济发展。",
+      "reference": "China's high-speed rail network has not only made travel more convenient, but also boosted the economic development of the cities along the lines.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "high-speed rail network",
+          "zh": "高铁网络",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "not only",
+          "zh": "不仅",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "but also",
+          "zh": "也／而且",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "economic development",
+          "zh": "经济发展",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：高铁网络 / 不仅 / 也／而且 / 经济发展",
+        "「高铁」是 high-speed rail；「带动」可用 boost／drive；「不仅……而且……」用 not only … but also …",
+        "句型：China's high-speed rail network has not only made …, but also boosted …"
+      ],
+      "topicWords": [
+        "high-speed rail",
+        "convenient",
+        "economic development"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000076",
+      "topic": "economy",
+      "difficulty": 3,
+      "zh": "近年来，中国居民越来越重视理财，投资渠道日益丰富。",
+      "reference": "Chinese residents have attached increasing importance to financial management in recent years, and investment channels have become increasingly diversified.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "in recent years",
+          "zh": "近年来",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "attached increasing importance to",
+          "zh": "越来越重视",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "financial management",
+          "zh": "理财",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "investment channels",
+          "zh": "投资渠道",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：近年来 / 越来越重视 / 理财 / 投资渠道",
+        "「重视」可用 attach importance to；「理财」可译为 financial management；「渠道」是 channel",
+        "句型：Chinese residents have attached … to … in recent years, and investment channels have become …"
+      ],
+      "topicWords": [
+        "financial management",
+        "investment",
+        "channel"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000077",
+      "topic": "economy",
+      "difficulty": 3,
+      "zh": "中国的对外贸易结构不断优化，高附加值产品出口增长迅速。",
+      "reference": "The structure of China's foreign trade has been continuously optimized, and the export of high value-added products has grown rapidly.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "foreign trade",
+          "zh": "对外贸易",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "optimized",
+          "zh": "优化",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "high value-added products",
+          "zh": "高附加值产品",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "grown rapidly",
+          "zh": "增长迅速",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：对外贸易 / 优化 / 高附加值产品 / 增长迅速",
+        "「优化」是 optimize，用被动语态；「高附加值的」是 high value-added",
+        "句型：The structure of … has been continuously optimized, and the export of … has grown rapidly."
+      ],
+      "topicWords": [
+        "foreign trade",
+        "optimize",
+        "value-added"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000078",
+      "topic": "economy",
+      "difficulty": 2,
+      "zh": "共享经济在中国发展迅速，共享单车和共享充电宝随处可见。",
+      "reference": "The sharing economy has developed rapidly in China, and shared bikes and shared power banks can be seen everywhere.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "sharing economy",
+          "zh": "共享经济",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "developed rapidly",
+          "zh": "发展迅速",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "shared bikes",
+          "zh": "共享单车",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "seen everywhere",
+          "zh": "随处可见",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：共享经济 / 发展迅速 / 共享单车 / 随处可见",
+        "「共享经济」是 the sharing economy；「充电宝」可译 power bank；「随处可见」用被动 can be seen everywhere",
+        "句型：The sharing economy has developed rapidly in China, and shared bikes … can be seen everywhere."
+      ],
+      "topicWords": [
+        "sharing economy",
+        "shared bike",
+        "power bank"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000079",
+      "topic": "economy",
+      "difficulty": 3,
+      "zh": "旅游业已成为国民经济的重要支柱，带动了交通、餐饮等行业发展。",
+      "reference": "Tourism has become an important pillar of the national economy, driving the development of industries such as transportation and catering.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "an important pillar",
+          "zh": "重要的支柱",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "national economy",
+          "zh": "国民经济",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "driving",
+          "zh": "带动",
+          "weight": 1
+        },
+        {
+          "id": "kp4",
+          "head": "industries such as",
+          "zh": "……等行业",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：重要的支柱 / 国民经济 / 带动 / ……等行业",
+        "「支柱」是 pillar；「带动」用现在分词 driving 作结果状语；「……等」用 such as",
+        "句型：Tourism has become an important pillar of …, driving the development of industries such as …"
+      ],
+      "topicWords": [
+        "tourism",
+        "pillar",
+        "catering"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000080",
+      "topic": "economy",
+      "difficulty": 3,
+      "zh": "中国正加快推进市场化改革，以促进资源的高效配置。",
+      "reference": "China is accelerating market-oriented reforms to promote the efficient allocation of resources.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "accelerating",
+          "zh": "加快推进",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "market-oriented reforms",
+          "zh": "市场化改革",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "promote",
+          "zh": "促进",
+          "weight": 1
+        },
+        {
+          "id": "kp4",
+          "head": "efficient allocation of resources",
+          "zh": "资源的高效配置",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：加快推进 / 市场化改革 / 促进 / 资源的高效配置",
+        "「市场化」可用 market-oriented；「配置」是 allocation；「以……」用不定式表目的",
+        "句型：China is accelerating … to promote the efficient allocation of resources."
+      ],
+      "topicWords": [
+        "reform",
+        "allocation",
+        "resource"
+      ],
+      "source": "authored"
+    }
+  ]
+}

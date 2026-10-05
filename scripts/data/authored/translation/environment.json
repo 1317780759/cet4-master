@@ -1,0 +1,413 @@
+{
+  "meta": {
+    "topic": "environment",
+    "author": "self",
+    "license": "self-authored (derived-authored)",
+    "note": "全部自撰，不复制任何真题原文"
+  },
+  "items": [
+    {
+      "id": "t_000161",
+      "topic": "environment",
+      "difficulty": 2,
+      "zh": "保护环境已成为全世界共同关注的重要议题。",
+      "reference": "Protecting the environment has become an important issue of common concern to the whole world.",
+      "keyPoints": [
+        { "id": "kp1", "head": "protecting the environment", "zh": "保护环境", "weight": 2, "synonyms": ["environmental protection"] },
+        { "id": "kp2", "head": "has become", "zh": "已成为", "weight": 1, "synonyms": ["has turned into"] },
+        { "id": "kp3", "head": "an important issue", "zh": "重要议题", "weight": 1, "synonyms": ["a major issue"] },
+        { "id": "kp4", "head": "of common concern", "zh": "共同关注", "weight": 2, "synonyms": ["of shared concern"] }
+      ],
+      "hints": [
+        "得分点：保护环境 / 已成为 / 重要议题 / 共同关注",
+        "「共同关注的」可用 of common concern 后置修饰 issue；动名词短语可作主语",
+        "句型：Protecting the environment has become an important issue of common concern to …"
+      ],
+      "topicWords": ["environmental protection", "issue"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000162",
+      "topic": "environment",
+      "difficulty": 2,
+      "zh": "为了减少空气污染，许多城市鼓励市民乘坐公共交通工具。",
+      "reference": "In order to reduce air pollution, many cities encourage citizens to use public transport.",
+      "keyPoints": [
+        { "id": "kp1", "head": "in order to", "zh": "为了", "weight": 2, "synonyms": ["so as to", "to"] },
+        { "id": "kp2", "head": "reduce air pollution", "zh": "减少空气污染", "weight": 2, "synonyms": ["cut down air pollution"] },
+        { "id": "kp3", "head": "encourage citizens to", "zh": "鼓励市民", "weight": 2, "synonyms": ["encourage residents to"] },
+        { "id": "kp4", "head": "public transport", "zh": "公共交通工具", "weight": 2, "synonyms": ["public transportation"] }
+      ],
+      "hints": [
+        "得分点：为了 / 减少空气污染 / 鼓励市民 / 公共交通工具",
+        "「减少（污染）」用 reduce / cut down；encourage sb. to do sth. 为固定结构",
+        "句型：In order to reduce air pollution, many cities encourage citizens to use public transport."
+      ],
+      "topicWords": ["air pollution", "public transport"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000163",
+      "topic": "environment",
+      "difficulty": 2,
+      "zh": "垃圾分类有助于节约资源，并减少对环境的破坏。",
+      "reference": "Waste sorting helps to save resources and reduce damage to the environment.",
+      "keyPoints": [
+        { "id": "kp1", "head": "waste sorting", "zh": "垃圾分类", "weight": 2, "synonyms": ["garbage classification", "rubbish sorting"] },
+        { "id": "kp2", "head": "helps to", "zh": "有助于", "weight": 1, "synonyms": ["is helpful in"] },
+        { "id": "kp3", "head": "save resources", "zh": "节约资源", "weight": 2, "synonyms": ["conserve resources"] },
+        { "id": "kp4", "head": "reduce damage to", "zh": "减少对……的破坏", "weight": 2, "synonyms": ["reduce harm to"] }
+      ],
+      "hints": [
+        "得分点：垃圾分类 / 有助于 / 节约资源 / 减少对……的破坏",
+        "「垃圾分类」可用 waste sorting / garbage classification；「节约」用 save / conserve",
+        "句型：Waste sorting helps to save resources and reduce damage to the environment."
+      ],
+      "topicWords": ["waste sorting", "resources"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000164",
+      "topic": "environment",
+      "difficulty": 3,
+      "zh": "如果不立即采取措施，许多珍稀物种将在几十年内消失。",
+      "reference": "If measures are not taken immediately, many rare species will disappear within a few decades.",
+      "keyPoints": [
+        { "id": "kp1", "head": "measures are not taken", "zh": "不采取措施", "weight": 2, "synonyms": ["no measures are taken", "action is not taken"] },
+        { "id": "kp2", "head": "immediately", "zh": "立即", "weight": 1, "synonyms": ["right away", "at once"] },
+        { "id": "kp3", "head": "rare species", "zh": "珍稀物种", "weight": 2, "synonyms": ["rare animals and plants"] },
+        { "id": "kp4", "head": "within a few decades", "zh": "在几十年内", "weight": 2, "synonyms": ["in a few decades"] }
+      ],
+      "hints": [
+        "得分点：不采取措施 / 立即 / 珍稀物种 / 在几十年内",
+        "「采取措施」用 take measures，被动为 measures are taken；species 单复数同形",
+        "句型：If measures are not taken immediately, many rare species will disappear within a few decades."
+      ],
+      "topicWords": ["rare species", "measures"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000165",
+      "topic": "environment",
+      "difficulty": 2,
+      "zh": "植树造林是防止水土流失的有效方法之一。",
+      "reference": "Planting trees is one of the effective ways to prevent soil erosion.",
+      "keyPoints": [
+        { "id": "kp1", "head": "planting trees", "zh": "植树造林", "weight": 2, "synonyms": ["tree planting", "afforestation"] },
+        { "id": "kp2", "head": "one of the effective ways", "zh": "有效的方法之一", "weight": 2, "synonyms": ["one of the effective methods"] },
+        { "id": "kp3", "head": "to prevent", "zh": "防止", "weight": 1, "synonyms": ["of preventing"] },
+        { "id": "kp4", "head": "soil erosion", "zh": "水土流失", "weight": 2, "synonyms": ["water and soil loss"] }
+      ],
+      "hints": [
+        "得分点：植树造林 / 有效的方法之一 / 防止 / 水土流失",
+        "「水土流失」固定说法为 soil erosion；「……之一」后接复数名词 ways",
+        "句型：Planting trees is one of the effective ways to prevent soil erosion."
+      ],
+      "topicWords": ["planting trees", "soil erosion"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000166",
+      "topic": "environment",
+      "difficulty": 2,
+      "zh": "随着人们环保意识的增强，绿色生活方式逐渐流行起来。",
+      "reference": "As people's awareness of environmental protection increases, a green lifestyle is gradually becoming popular.",
+      "keyPoints": [
+        { "id": "kp1", "head": "awareness of environmental protection", "zh": "环保意识", "weight": 2, "synonyms": ["environmental awareness"] },
+        { "id": "kp2", "head": "increases", "zh": "增强", "weight": 1, "synonyms": ["grows", "rises"] },
+        { "id": "kp3", "head": "a green lifestyle", "zh": "绿色生活方式", "weight": 2, "synonyms": ["an eco-friendly lifestyle"] },
+        { "id": "kp4", "head": "is gradually becoming popular", "zh": "逐渐流行起来", "weight": 2, "synonyms": ["is gradually gaining popularity"] }
+      ],
+      "hints": [
+        "得分点：环保意识 / 增强 / 绿色生活方式 / 逐渐流行起来",
+        "「意识」用 awareness，后接 of；「逐渐」用 gradually，注意副词位置",
+        "句型：As people's awareness of … increases, a green lifestyle is gradually becoming popular."
+      ],
+      "topicWords": ["environmental protection", "green lifestyle"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000167",
+      "topic": "environment",
+      "difficulty": 2,
+      "zh": "这家工厂因排放未经处理的废水而受到严厉处罚。",
+      "reference": "This factory was severely punished for discharging untreated waste water.",
+      "keyPoints": [
+        { "id": "kp1", "head": "was severely punished", "zh": "受到严厉处罚", "weight": 2, "synonyms": ["was punished severely", "was heavily fined"] },
+        { "id": "kp2", "head": "for discharging", "zh": "因排放", "weight": 2, "synonyms": ["for releasing", "for emitting"] },
+        { "id": "kp3", "head": "untreated", "zh": "未经处理的", "weight": 2, "synonyms": ["unprocessed"] },
+        { "id": "kp4", "head": "waste water", "zh": "废水", "weight": 1, "synonyms": ["wastewater"] }
+      ],
+      "hints": [
+        "得分点：受到严厉处罚 / 因排放 / 未经处理的 / 废水",
+        "「因……受罚」用 be punished for doing；「未经处理的」用 untreated / unprocessed",
+        "句型：This factory was severely punished for discharging untreated waste water."
+      ],
+      "topicWords": ["waste water", "punish"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000168",
+      "topic": "environment",
+      "difficulty": 3,
+      "zh": "太阳能和风能作为清洁能源，正在得到越来越广泛的应用。",
+      "reference": "Solar energy and wind energy, as clean energy, are being used more and more widely.",
+      "keyPoints": [
+        { "id": "kp1", "head": "solar energy", "zh": "太阳能", "weight": 1 },
+        { "id": "kp2", "head": "wind energy", "zh": "风能", "weight": 1, "synonyms": ["wind power"] },
+        { "id": "kp3", "head": "clean energy", "zh": "清洁能源", "weight": 1, "synonyms": ["clean power"] },
+        { "id": "kp4", "head": "are being used", "zh": "正在被应用", "weight": 2, "synonyms": ["are being applied"] },
+        { "id": "kp5", "head": "more and more widely", "zh": "越来越广泛地", "weight": 2, "synonyms": ["increasingly widely"] }
+      ],
+      "hints": [
+        "得分点：太阳能 / 风能 / 清洁能源 / 正在被应用 / 越来越广泛地",
+        "「正在被……」用现在进行时被动 are being done；as 可译为「作为」",
+        "句型：Solar energy and wind energy, as clean energy, are being used more and more widely."
+      ],
+      "topicWords": ["solar energy", "clean energy"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000169",
+      "topic": "environment",
+      "difficulty": 2,
+      "zh": "塑料袋的大量使用给海洋生态系统带来了严重威胁。",
+      "reference": "The widespread use of plastic bags has posed a serious threat to the marine ecosystem.",
+      "keyPoints": [
+        { "id": "kp1", "head": "the widespread use of", "zh": "大量使用", "weight": 2, "synonyms": ["the extensive use of"] },
+        { "id": "kp2", "head": "plastic bags", "zh": "塑料袋", "weight": 1 },
+        { "id": "kp3", "head": "has posed a serious threat to", "zh": "给……带来严重威胁", "weight": 2, "synonyms": ["has posed a grave threat to"] },
+        { "id": "kp4", "head": "the marine ecosystem", "zh": "海洋生态系统", "weight": 2, "synonyms": ["the ocean ecosystem"] }
+      ],
+      "hints": [
+        "得分点：大量使用 / 塑料袋 / 给……带来严重威胁 / 海洋生态系统",
+        "「给……带来威胁」用 pose a threat to；「海洋的」用 marine 或 ocean",
+        "句型：The widespread use of … has posed a serious threat to the marine ecosystem."
+      ],
+      "topicWords": ["plastic bags", "marine ecosystem"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000170",
+      "topic": "environment",
+      "difficulty": 2,
+      "zh": "我们应尽量减少一次性产品的使用，以降低白色污染。",
+      "reference": "We should try our best to reduce the use of disposable products so as to reduce white pollution.",
+      "keyPoints": [
+        { "id": "kp1", "head": "try our best to", "zh": "尽量", "weight": 2, "synonyms": ["do our best to", "make every effort to"] },
+        { "id": "kp2", "head": "reduce the use of", "zh": "减少……的使用", "weight": 2, "synonyms": ["cut the use of"] },
+        { "id": "kp3", "head": "disposable products", "zh": "一次性产品", "weight": 2, "synonyms": ["single-use products"] },
+        { "id": "kp4", "head": "so as to", "zh": "以（以便）", "weight": 2, "synonyms": ["in order to"] },
+        { "id": "kp5", "head": "white pollution", "zh": "白色污染", "weight": 1 }
+      ],
+      "hints": [
+        "得分点：尽量 / 减少……的使用 / 一次性产品 / 以 / 白色污染",
+        "「一次性」用 disposable / single-use；「尽最大努力」用 try / do one's best to do",
+        "句型：We should try our best to reduce the use of … so as to reduce white pollution."
+      ],
+      "topicWords": ["disposable products", "white pollution"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000171",
+      "topic": "environment",
+      "difficulty": 3,
+      "zh": "全球气候变暖导致海平面上升，威胁着沿海城市的安全。",
+      "reference": "Global warming has caused sea levels to rise, threatening the safety of coastal cities.",
+      "keyPoints": [
+        { "id": "kp1", "head": "global warming", "zh": "全球气候变暖", "weight": 2, "synonyms": ["global climate warming"] },
+        { "id": "kp2", "head": "has caused", "zh": "导致", "weight": 2, "synonyms": ["has led to", "has resulted in"] },
+        { "id": "kp3", "head": "sea levels to rise", "zh": "海平面上升", "weight": 2, "synonyms": ["the rise of sea levels"] },
+        { "id": "kp4", "head": "threatening the safety of", "zh": "威胁着……的安全", "weight": 2, "synonyms": ["endangering the safety of"] },
+        { "id": "kp5", "head": "coastal cities", "zh": "沿海城市", "weight": 1, "synonyms": ["coastal towns"] }
+      ],
+      "hints": [
+        "得分点：全球气候变暖 / 导致 / 海平面上升 / 威胁着……的安全 / 沿海城市",
+        "cause sb./sth. to do 表示「致使……做」；后半句可用现在分词短语作结果状语",
+        "句型：Global warming has caused sea levels to rise, threatening the safety of coastal cities."
+      ],
+      "topicWords": ["global warming", "sea levels"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000172",
+      "topic": "environment",
+      "difficulty": 2,
+      "zh": "节约用水从身边的小事做起，比如及时关掉水龙头。",
+      "reference": "Saving water starts with small things around us, such as turning off the tap in time.",
+      "keyPoints": [
+        { "id": "kp1", "head": "saving water", "zh": "节约用水", "weight": 1, "synonyms": ["water conservation"] },
+        { "id": "kp2", "head": "starts with", "zh": "从……做起", "weight": 2, "synonyms": ["begins with"] },
+        { "id": "kp3", "head": "such as", "zh": "比如", "weight": 2, "synonyms": ["for example", "for instance"] },
+        { "id": "kp4", "head": "turning off the tap", "zh": "关掉水龙头", "weight": 2, "synonyms": ["switching off the tap"] }
+      ],
+      "hints": [
+        "得分点：节约用水 / 从……做起 / 比如 / 关掉水龙头",
+        "such as 后接名词或动名词，不与句子连用；「关掉」用 turn off / switch off",
+        "句型：Saving water starts with small things around us, such as turning off the tap in time."
+      ],
+      "topicWords": ["saving water", "tap"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000173",
+      "topic": "environment",
+      "difficulty": 2,
+      "zh": "许多环保组织呼吁公众共同参与保护野生动物的行动。",
+      "reference": "Many environmental organizations call on the public to take part in actions to protect wild animals.",
+      "keyPoints": [
+        { "id": "kp1", "head": "environmental organizations", "zh": "环保组织", "weight": 1, "synonyms": ["environmental groups"] },
+        { "id": "kp2", "head": "call on the public to", "zh": "呼吁公众", "weight": 2, "synonyms": ["appeal to the public to", "urge the public to"] },
+        { "id": "kp3", "head": "take part in", "zh": "参与", "weight": 2, "synonyms": ["participate in"] },
+        { "id": "kp4", "head": "wild animals", "zh": "野生动物", "weight": 1, "synonyms": ["wildlife"] }
+      ],
+      "hints": [
+        "得分点：环保组织 / 呼吁公众 / 参与 / 野生动物",
+        "「呼吁某人做」用 call on / appeal to sb. to do；「参与」用 take part in / participate in",
+        "句型：Many environmental organizations call on the public to take part in actions to protect wild animals."
+      ],
+      "topicWords": ["environmental organizations", "wild animals"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000174",
+      "topic": "environment",
+      "difficulty": 3,
+      "zh": "尽管经济发展十分重要，但我们不能以牺牲环境为代价。",
+      "reference": "Although economic development is very important, we cannot achieve it at the cost of the environment.",
+      "keyPoints": [
+        { "id": "kp1", "head": "although", "zh": "尽管", "weight": 2, "synonyms": ["though", "even though"] },
+        { "id": "kp2", "head": "economic development", "zh": "经济发展", "weight": 1 },
+        { "id": "kp3", "head": "cannot", "zh": "不能", "weight": 1 },
+        { "id": "kp4", "head": "at the cost of", "zh": "以牺牲……为代价", "weight": 2, "synonyms": ["at the expense of"] }
+      ],
+      "hints": [
+        "得分点：尽管 / 经济发展 / 不能 / 以牺牲……为代价",
+        "although 引导让步状语从句，主句不能再用 but；「以……为代价」用 at the cost / expense of",
+        "句型：Although economic development is very important, we cannot … at the cost of the environment."
+      ],
+      "topicWords": ["economic development", "environment"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000175",
+      "topic": "environment",
+      "difficulty": 2,
+      "zh": "骑自行车上班既能锻炼身体，又有助于减少碳排放。",
+      "reference": "Cycling to work not only keeps people fit but also helps to reduce carbon emissions.",
+      "keyPoints": [
+        { "id": "kp1", "head": "cycling to work", "zh": "骑自行车上班", "weight": 2, "synonyms": ["riding a bike to work", "going to work by bike"] },
+        { "id": "kp2", "head": "not only", "zh": "不仅（既）", "weight": 2 },
+        { "id": "kp3", "head": "keeps people fit", "zh": "锻炼身体", "weight": 2, "synonyms": ["keeps people healthy"] },
+        { "id": "kp4", "head": "reduce carbon emissions", "zh": "减少碳排放", "weight": 2, "synonyms": ["cut carbon emissions"] }
+      ],
+      "hints": [
+        "得分点：骑自行车上班 / 不仅 / 锻炼身体 / 减少碳排放",
+        "「保持健康」可用 keep sb. fit；「碳排放」为 carbon emissions，常用复数",
+        "句型：Cycling to work not only keeps people fit but also helps to reduce carbon emissions."
+      ],
+      "topicWords": ["cycling", "carbon emissions"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000176",
+      "topic": "environment",
+      "difficulty": 2,
+      "zh": "政府已经制定了更加严格的法规来控制工业废气排放。",
+      "reference": "The government has introduced stricter regulations to control the emission of industrial waste gas.",
+      "keyPoints": [
+        { "id": "kp1", "head": "has introduced", "zh": "已经制定", "weight": 2, "synonyms": ["has issued", "has enacted"] },
+        { "id": "kp2", "head": "stricter regulations", "zh": "更加严格的法规", "weight": 2, "synonyms": ["stricter rules", "more stringent regulations"] },
+        { "id": "kp3", "head": "to control", "zh": "来控制", "weight": 1, "synonyms": ["in order to control"] },
+        { "id": "kp4", "head": "the emission of industrial waste gas", "zh": "工业废气排放", "weight": 2, "synonyms": ["industrial waste gas emissions"] }
+      ],
+      "hints": [
+        "得分点：已经制定 / 更加严格的法规 / 来控制 / 工业废气排放",
+        "「制定（法规）」可用 introduce / issue / enact；目的状语用不定式 to do",
+        "句型：The government has introduced stricter regulations to control the emission of …"
+      ],
+      "topicWords": ["regulations", "waste gas"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000177",
+      "topic": "environment",
+      "difficulty": 3,
+      "zh": "这片森林被划为自然保护区，禁止任何形式的开发。",
+      "reference": "This forest has been designated a nature reserve, and any form of development is prohibited.",
+      "keyPoints": [
+        { "id": "kp1", "head": "has been designated", "zh": "被划为", "weight": 2, "synonyms": ["has been declared", "has been marked out as"] },
+        { "id": "kp2", "head": "a nature reserve", "zh": "自然保护区", "weight": 2, "synonyms": ["a natural reserve"] },
+        { "id": "kp3", "head": "any form of", "zh": "任何形式的", "weight": 1 },
+        { "id": "kp4", "head": "is prohibited", "zh": "被禁止", "weight": 2, "synonyms": ["is forbidden", "is banned"] }
+      ],
+      "hints": [
+        "得分点：被划为 / 自然保护区 / 任何形式的 / 被禁止",
+        "「划定/指定为」用 designate；「禁止」可用 prohibit / forbid / ban，注意被动语态",
+        "句型：This forest has been designated a nature reserve, and any form of development is prohibited."
+      ],
+      "topicWords": ["nature reserve", "prohibit"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000178",
+      "topic": "environment",
+      "difficulty": 2,
+      "zh": "过度砍伐森林不仅破坏了生态平衡，还加剧了气候变化。",
+      "reference": "Excessive deforestation has not only destroyed the ecological balance but also aggravated climate change.",
+      "keyPoints": [
+        { "id": "kp1", "head": "excessive deforestation", "zh": "过度砍伐森林", "weight": 2, "synonyms": ["excessive logging", "over-cutting of forests"] },
+        { "id": "kp2", "head": "not only", "zh": "不仅", "weight": 2 },
+        { "id": "kp3", "head": "the ecological balance", "zh": "生态平衡", "weight": 2, "synonyms": ["the balance of nature"] },
+        { "id": "kp4", "head": "aggravated climate change", "zh": "加剧气候变化", "weight": 2, "synonyms": ["worsened climate change"] }
+      ],
+      "hints": [
+        "得分点：过度砍伐森林 / 不仅 / 生态平衡 / 加剧气候变化",
+        "「砍伐森林」可用 deforestation / logging；「加剧」用 aggravate / worsen",
+        "句型：Excessive deforestation has not only destroyed … but also aggravated climate change."
+      ],
+      "topicWords": ["deforestation", "ecological balance"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000179",
+      "topic": "environment",
+      "difficulty": 2,
+      "zh": "只有人人参与，环境保护工作才能取得真正的成效。",
+      "reference": "Only when everyone takes part can environmental protection achieve real results.",
+      "keyPoints": [
+        { "id": "kp1", "head": "only when", "zh": "只有当……时", "weight": 2, "synonyms": ["only if"] },
+        { "id": "kp2", "head": "everyone takes part", "zh": "人人参与", "weight": 1, "synonyms": ["everyone participates"] },
+        { "id": "kp3", "head": "environmental protection", "zh": "环境保护", "weight": 1 },
+        { "id": "kp4", "head": "achieve real results", "zh": "取得真正的成效", "weight": 2, "synonyms": ["produce real results"] }
+      ],
+      "hints": [
+        "得分点：只有当……时 / 人人参与 / 环境保护 / 取得真正的成效",
+        "only + 状语从句置于句首时，主句用部分倒装；「参与」用 take part / participate",
+        "句型：Only when everyone takes part can environmental protection achieve real results."
+      ],
+      "topicWords": ["environmental protection", "take part"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000180",
+      "topic": "environment",
+      "difficulty": 2,
+      "zh": "推广电动汽车被认为是改善城市空气质量的重要举措。",
+      "reference": "Promoting electric vehicles is regarded as an important measure to improve urban air quality.",
+      "keyPoints": [
+        { "id": "kp1", "head": "promoting electric vehicles", "zh": "推广电动汽车", "weight": 2, "synonyms": ["the promotion of electric cars"] },
+        { "id": "kp2", "head": "is regarded as", "zh": "被认为是", "weight": 2, "synonyms": ["is seen as", "is considered as"] },
+        { "id": "kp3", "head": "an important measure", "zh": "重要举措", "weight": 2, "synonyms": ["an important step", "a key measure"] },
+        { "id": "kp4", "head": "improve urban air quality", "zh": "改善城市空气质量", "weight": 2, "synonyms": ["improve city air quality"] }
+      ],
+      "hints": [
+        "得分点：推广电动汽车 / 被认为是 / 重要举措 / 改善城市空气质量",
+        "「被认为是」用 be regarded as / be seen as；「城市的」可用 urban 或 city",
+        "句型：Promoting electric vehicles is regarded as an important measure to improve urban air quality."
+      ],
+      "topicWords": ["electric vehicles", "air quality"],
+      "source": "authored"
+    }
+  ]
+}

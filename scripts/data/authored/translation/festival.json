@@ -1,0 +1,411 @@
+{
+  "meta": {
+    "topic": "festival",
+    "author": "self",
+    "license": "self-authored (derived-authored)",
+    "note": "全部自撰，不复制任何真题原文"
+  },
+  "items": [
+    {
+      "id": "t_000021",
+      "topic": "festival",
+      "difficulty": 1,
+      "zh": "春节是中国最重要的传统节日，家人通常会团聚在一起吃年夜饭。",
+      "reference": "The Spring Festival is the most important traditional festival in China, when family members usually get together to have the reunion dinner.",
+      "keyPoints": [
+        { "id": "kp1", "head": "the most important", "zh": "最重要的", "weight": 2 },
+        { "id": "kp2", "head": "traditional festival", "zh": "传统节日", "weight": 1 },
+        { "id": "kp3", "head": "get together", "zh": "团聚", "weight": 2 },
+        { "id": "kp4", "head": "reunion dinner", "zh": "年夜饭", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：最重要的 / 传统节日 / 团聚 / 年夜饭",
+        "「团聚」可用 get together／reunite；「年夜饭」常说 the reunion dinner",
+        "句型：The Spring Festival is …, when family members usually …"
+      ],
+      "topicWords": ["Spring Festival", "reunion dinner", "get together"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000022",
+      "topic": "festival",
+      "difficulty": 2,
+      "zh": "中秋节当晚，人们一边赏月一边品尝月饼，寄托对亲人的思念。",
+      "reference": "On the night of the Mid-Autumn Festival, people admire the full moon while eating mooncakes, expressing their longing for their relatives.",
+      "keyPoints": [
+        { "id": "kp1", "head": "admire the full moon", "zh": "赏月", "weight": 2 },
+        { "id": "kp2", "head": "mooncakes", "zh": "月饼", "weight": 1 },
+        { "id": "kp3", "head": "expressing their longing for", "zh": "寄托对……的思念", "weight": 2 },
+        { "id": "kp4", "head": "relatives", "zh": "亲人", "synonyms": ["family members"], "weight": 1 }
+      ],
+      "hints": [
+        "得分点：赏月 / 月饼 / 寄托对……的思念 / 亲人",
+        "「赏月」用 admire／enjoy the full moon；后半句可用现在分词 expressing … 作伴随状语",
+        "句型：…, people admire … while eating …, expressing their longing for …"
+      ],
+      "topicWords": ["Mid-Autumn Festival", "mooncake", "reunion"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000023",
+      "topic": "festival",
+      "difficulty": 2,
+      "zh": "端午节人们吃粽子、赛龙舟，以此纪念一位古代的爱国诗人。",
+      "reference": "During the Dragon Boat Festival, people eat zongzi and hold dragon boat races in memory of an ancient patriotic poet.",
+      "keyPoints": [
+        { "id": "kp1", "head": "zongzi", "zh": "粽子", "weight": 1 },
+        { "id": "kp2", "head": "dragon boat races", "zh": "赛龙舟", "weight": 2 },
+        { "id": "kp3", "head": "in memory of", "zh": "纪念", "synonyms": ["to commemorate"], "weight": 2 },
+        { "id": "kp4", "head": "patriotic poet", "zh": "爱国诗人", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：粽子 / 赛龙舟 / 纪念 / 爱国诗人",
+        "「赛龙舟」用 hold dragon boat races；「纪念」可用 in memory of",
+        "句型：During …, people eat … and hold … in memory of …"
+      ],
+      "topicWords": ["Dragon Boat Festival", "zongzi", "dragon boat race"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000024",
+      "topic": "festival",
+      "difficulty": 2,
+      "zh": "春节期间，长辈会给晚辈发红包，寓意驱邪迎祥。",
+      "reference": "During the Spring Festival, elders give red envelopes to the younger generation, which symbolizes driving away evil and welcoming good luck.",
+      "keyPoints": [
+        { "id": "kp1", "head": "red envelopes", "zh": "红包", "weight": 2 },
+        { "id": "kp2", "head": "the younger generation", "zh": "晚辈", "weight": 2 },
+        { "id": "kp3", "head": "driving away evil", "zh": "驱邪", "weight": 2 },
+        { "id": "kp4", "head": "welcoming good luck", "zh": "迎祥", "synonyms": ["welcoming good fortune"], "weight": 2 }
+      ],
+      "hints": [
+        "得分点：红包 / 晚辈 / 驱邪 / 迎祥",
+        "「红包」可用 red envelopes／red packets；「晚辈」用 the younger generation",
+        "句型：…, elders give … to …, which symbolizes …"
+      ],
+      "topicWords": ["red envelope", "generation", "good luck"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000025",
+      "topic": "festival",
+      "difficulty": 2,
+      "zh": "元宵节人们赏花灯、猜灯谜，街头巷尾洋溢着喜庆的气氛。",
+      "reference": "During the Lantern Festival, people admire colorful lanterns and guess lantern riddles, and the streets are filled with a festive atmosphere.",
+      "keyPoints": [
+        { "id": "kp1", "head": "colorful lanterns", "zh": "花灯", "weight": 2 },
+        { "id": "kp2", "head": "lantern riddles", "zh": "灯谜", "weight": 2 },
+        { "id": "kp3", "head": "filled with", "zh": "洋溢着／充满", "weight": 2 },
+        { "id": "kp4", "head": "a festive atmosphere", "zh": "喜庆的气氛", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：花灯 / 灯谜 / 洋溢着／充满 / 喜庆的气氛",
+        "「猜灯谜」用 guess lantern riddles；「洋溢着」可用 be filled with",
+        "句型：…, people … and …, and the streets are filled with …"
+      ],
+      "topicWords": ["Lantern Festival", "lantern riddle", "festive"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000026",
+      "topic": "festival",
+      "difficulty": 2,
+      "zh": "清明时节，人们扫墓祭祖，也会外出踏青，享受春光。",
+      "reference": "During the Qingming Festival, people sweep tombs to honor their ancestors and also go out for a spring outing to enjoy the spring scenery.",
+      "keyPoints": [
+        { "id": "kp1", "head": "sweep tombs", "zh": "扫墓", "weight": 2 },
+        { "id": "kp2", "head": "ancestors", "zh": "祖先", "weight": 1 },
+        { "id": "kp3", "head": "a spring outing", "zh": "踏青", "weight": 2 },
+        { "id": "kp4", "head": "spring scenery", "zh": "春光", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：扫墓 / 祖先 / 踏青 / 春光",
+        "「扫墓」用 sweep tombs；「踏青」意译为 go out for a spring outing",
+        "句型：…, people sweep tombs to … and also go out for … to enjoy …"
+      ],
+      "topicWords": ["Qingming Festival", "tomb", "spring outing"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000027",
+      "topic": "festival",
+      "difficulty": 3,
+      "zh": "重阳节有登高和赏菊的习俗，如今也被定为敬老节。",
+      "reference": "The Double Ninth Festival has the custom of climbing mountains and appreciating chrysanthemums, and today it is also observed as a day to respect the elderly.",
+      "keyPoints": [
+        { "id": "kp1", "head": "climbing mountains", "zh": "登高", "weight": 2 },
+        { "id": "kp2", "head": "appreciating chrysanthemums", "zh": "赏菊", "weight": 2 },
+        { "id": "kp3", "head": "observed as", "zh": "被视为／定为", "weight": 2 },
+        { "id": "kp4", "head": "respect the elderly", "zh": "敬老", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：登高 / 赏菊 / 被视为／定为 / 敬老",
+        "「赏菊」可用 appreciate／admire chrysanthemums；「敬老」用 respect the elderly",
+        "句型：… has the custom of …, and today it is also observed as a day to …"
+      ],
+      "topicWords": ["Double Ninth Festival", "chrysanthemum", "the elderly"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000028",
+      "topic": "festival",
+      "difficulty": 2,
+      "zh": "除夕夜，全家人围坐在一起包饺子，迎接新年的到来。",
+      "reference": "On the eve of the lunar new year, the whole family sits around the table making dumplings to welcome the arrival of the new year.",
+      "keyPoints": [
+        { "id": "kp1", "head": "the eve of the lunar new year", "zh": "除夕夜", "weight": 2 },
+        { "id": "kp2", "head": "the whole family", "zh": "全家人", "weight": 1 },
+        { "id": "kp3", "head": "making dumplings", "zh": "包饺子", "weight": 2 },
+        { "id": "kp4", "head": "welcome the arrival of", "zh": "迎接……的到来", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：除夕夜 / 全家人 / 包饺子 / 迎接……的到来",
+        "「包饺子」用 make dumplings；「围坐」可用 sit around",
+        "句型：On New Year's Eve, the whole family … making dumplings to welcome …"
+      ],
+      "topicWords": ["New Year's Eve", "dumpling", "arrival"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000029",
+      "topic": "festival",
+      "difficulty": 3,
+      "zh": "春节期间燃放烟花爆竹曾是中国人辞旧迎新的重要方式。",
+      "reference": "It used to be an important way for Chinese people to set off fireworks and firecrackers during the Spring Festival, saying goodbye to the old year and welcoming the new one.",
+      "keyPoints": [
+        { "id": "kp1", "head": "set off", "zh": "燃放", "weight": 2 },
+        { "id": "kp2", "head": "fireworks and firecrackers", "zh": "烟花爆竹", "weight": 2 },
+        { "id": "kp3", "head": "used to be", "zh": "曾经是", "weight": 2 },
+        { "id": "kp4", "head": "an important way", "zh": "重要的方式", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：燃放 / 烟花爆竹 / 曾经是 / 重要的方式",
+        "「燃放」用 set off；动名词作主语可用 setting off；「曾经是」用 used to be",
+        "句型：It used to be an important way for … to set off …, saying … and welcoming …"
+      ],
+      "topicWords": ["fireworks", "firecracker", "set off"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000030",
+      "topic": "festival",
+      "difficulty": 2,
+      "zh": "如今，越来越多的人选择外出旅游过春节，传统的过年方式正在改变。",
+      "reference": "In China, a growing number of people choose to travel during the Spring Festival nowadays, and the traditional way of celebrating the new year is changing.",
+      "keyPoints": [
+        { "id": "kp1", "head": "nowadays", "zh": "如今", "weight": 1 },
+        { "id": "kp2", "head": "a growing number of", "zh": "越来越多的", "synonyms": ["an increasing number of"], "weight": 2 },
+        { "id": "kp3", "head": "choose to travel", "zh": "选择旅游", "weight": 2 },
+        { "id": "kp4", "head": "the traditional way of", "zh": "传统的……方式", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：如今 / 越来越多的 / 选择旅游 / 传统的……方式",
+        "「越来越多的」用 a growing number of + 复数名词；「正在改变」用现在进行时",
+        "句型：In China, a growing number of people choose to … nowadays, and the traditional way of … is changing."
+      ],
+      "topicWords": ["travel", "traditional", "celebrate"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000031",
+      "topic": "festival",
+      "difficulty": 2,
+      "zh": "七夕节被称为中国的情人节，源自一个古老的民间传说。",
+      "reference": "The Qixi Festival is known as the Chinese valentine's day and originates from an ancient folk legend.",
+      "keyPoints": [
+        { "id": "kp1", "head": "known as", "zh": "被称为", "weight": 2 },
+        { "id": "kp2", "head": "valentine's day", "zh": "情人节", "weight": 1 },
+        { "id": "kp3", "head": "originates from", "zh": "源自", "weight": 2 },
+        { "id": "kp4", "head": "folk legend", "zh": "民间传说", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：被称为 / 情人节 / 源自 / 民间传说",
+        "「被称为」用 be known as；「源自」可用 originate from／come from",
+        "句型：The Qixi Festival is known as … and originates from …"
+      ],
+      "topicWords": ["Qixi Festival", "legend", "originate"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000032",
+      "topic": "festival",
+      "difficulty": 3,
+      "zh": "腊八节喝腊八粥的习俗已经流传了上千年，寓意丰收与吉祥。",
+      "reference": "The custom of eating laba porridge on the laba festival has been passed down for over a thousand years, symbolizing a good harvest and good fortune.",
+      "keyPoints": [
+        { "id": "kp1", "head": "laba porridge", "zh": "腊八粥", "weight": 2 },
+        { "id": "kp2", "head": "passed down", "zh": "流传", "weight": 2 },
+        { "id": "kp3", "head": "over a thousand years", "zh": "上千年", "weight": 2 },
+        { "id": "kp4", "head": "symbolizing", "zh": "寓意", "weight": 1 },
+        { "id": "kp5", "head": "a good harvest", "zh": "丰收", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：腊八粥 / 流传 / 上千年 / 寓意 / 丰收",
+        "「流传」用 pass down（被动 has been passed down）；「寓意」可用现在分词 symbolizing",
+        "句型：The custom of … has been passed down for …, symbolizing …"
+      ],
+      "topicWords": ["Laba porridge", "custom", "harvest"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000033",
+      "topic": "festival",
+      "difficulty": 2,
+      "zh": "冬至这天，北方人习惯吃饺子，南方人则更偏爱汤圆。",
+      "reference": "On the day of the winter solstice, people in northern China are accustomed to eating dumplings, while those in southern China prefer sweet rice balls.",
+      "keyPoints": [
+        { "id": "kp1", "head": "winter solstice", "zh": "冬至", "weight": 2 },
+        { "id": "kp2", "head": "accustomed to", "zh": "习惯于", "weight": 2 },
+        { "id": "kp3", "head": "prefer", "zh": "更偏爱", "weight": 2 },
+        { "id": "kp4", "head": "sweet rice balls", "zh": "汤圆", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：冬至 / 习惯于 / 更偏爱 / 汤圆",
+        "「习惯于」用 be accustomed to／be used to；南北对比用 while 连接",
+        "句型：…, people in northern China are accustomed to …, while those in southern China prefer …"
+      ],
+      "topicWords": ["winter solstice", "dumpling", "sweet rice ball"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000034",
+      "topic": "festival",
+      "difficulty": 3,
+      "zh": "中国的传统节日不仅是家人团聚的时刻，也承载着丰富的文化内涵。",
+      "reference": "Traditional Chinese festivals are not only occasions for family reunions, but also carry rich cultural meanings.",
+      "keyPoints": [
+        { "id": "kp1", "head": "not only", "zh": "不仅", "weight": 2 },
+        { "id": "kp2", "head": "but also", "zh": "也／而且", "weight": 2 },
+        { "id": "kp3", "head": "family reunions", "zh": "家人团聚", "weight": 2 },
+        { "id": "kp4", "head": "cultural meanings", "zh": "文化内涵", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：不仅 / 也／而且 / 家人团聚 / 文化内涵",
+        "「承载」可用 carry；「不仅……而且……」用 not only … but also …",
+        "句型：Traditional Chinese festivals are not only …, but also carry …"
+      ],
+      "topicWords": ["traditional festival", "family reunion", "cultural meaning"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000035",
+      "topic": "festival",
+      "difficulty": 3,
+      "zh": "春节期间，各地会举办庙会，人们可以看表演、尝小吃、买年货。",
+      "reference": "During the Spring Festival, temple fairs are held in various places, where people can watch performances, taste local snacks and buy new year goods.",
+      "keyPoints": [
+        { "id": "kp1", "head": "temple fairs", "zh": "庙会", "weight": 2 },
+        { "id": "kp2", "head": "various places", "zh": "各地", "weight": 2 },
+        { "id": "kp3", "head": "watch performances", "zh": "看表演", "weight": 2 },
+        { "id": "kp4", "head": "taste local snacks", "zh": "尝小吃", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：庙会 / 各地 / 看表演 / 尝小吃",
+        "「举办庙会」用被动 temple fairs are held；「各地」用 in various places",
+        "句型：…, temple fairs are held in …, where people can watch …, taste … and buy …"
+      ],
+      "topicWords": ["temple fair", "performance", "local snack"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000036",
+      "topic": "festival",
+      "difficulty": 3,
+      "zh": "中秋节象征着团圆，远在他乡的人也会抬头望月寄托思念。",
+      "reference": "The Mid-Autumn Festival symbolizes reunion, and people far away from home will also look up at the moon to express their longing.",
+      "keyPoints": [
+        { "id": "kp1", "head": "reunion", "zh": "团圆", "weight": 2 },
+        { "id": "kp2", "head": "far away from home", "zh": "远在他乡", "weight": 2 },
+        { "id": "kp3", "head": "look up at the moon", "zh": "抬头望月", "weight": 2 },
+        { "id": "kp4", "head": "express their longing", "zh": "寄托思念", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：团圆 / 远在他乡 / 抬头望月 / 寄托思念",
+        "「远在他乡」用 far away from home；「望月」用 look up at the moon",
+        "句型：… symbolizes reunion, and people … will also look up at the moon to …"
+      ],
+      "topicWords": ["Mid-Autumn Festival", "reunion", "longing"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000037",
+      "topic": "festival",
+      "difficulty": 3,
+      "zh": "春节期间，无论多远，人们都会想方设法回到家乡与亲人团聚。",
+      "reference": "During the Spring Festival, no matter how far away they are, people will try every means to return to their hometowns and reunite with their families.",
+      "keyPoints": [
+        { "id": "kp1", "head": "no matter how far", "zh": "无论多远", "weight": 2 },
+        { "id": "kp2", "head": "try every means to", "zh": "想方设法", "weight": 2 },
+        { "id": "kp3", "head": "hometowns", "zh": "家乡", "weight": 1 },
+        { "id": "kp4", "head": "reunite with", "zh": "与……团聚", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：无论多远 / 想方设法 / 家乡 / 与……团聚",
+        "「无论……」用 no matter how + 形容词；「想方设法」可用 try every means to",
+        "句型：…, no matter how far away they are, people will try every means to … and reunite with …"
+      ],
+      "topicWords": ["hometown", "reunite", "means"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000038",
+      "topic": "festival",
+      "difficulty": 3,
+      "zh": "泼水节是傣族最盛大的节日，人们互相泼水以示祝福。",
+      "reference": "The Water-Sprinkling Festival is the grandest festival of the Dai people, during which people splash water on each other to express blessings.",
+      "keyPoints": [
+        { "id": "kp1", "head": "the grandest festival", "zh": "最盛大的节日", "weight": 2 },
+        { "id": "kp2", "head": "splash water", "zh": "泼水", "weight": 2 },
+        { "id": "kp3", "head": "on each other", "zh": "互相", "weight": 2 },
+        { "id": "kp4", "head": "to express blessings", "zh": "以示祝福", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：最盛大的节日 / 泼水 / 互相 / 以示祝福",
+        "「泼水」用 splash water；「互相」可用 on each other",
+        "句型：… is the grandest festival of …, during which people splash water on each other to …"
+      ],
+      "topicWords": ["Water-Sprinkling Festival", "splash", "blessing"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000039",
+      "topic": "festival",
+      "difficulty": 2,
+      "zh": "随着时代的发展，一些传统节日的庆祝方式变得更加多样和环保。",
+      "reference": "The ways of celebrating some traditional festivals have become more diverse and environmentally friendly with the development of the times.",
+      "keyPoints": [
+        { "id": "kp1", "head": "with the development of", "zh": "随着……的发展", "weight": 2 },
+        { "id": "kp2", "head": "celebrating", "zh": "庆祝", "weight": 1 },
+        { "id": "kp3", "head": "more diverse", "zh": "更加多样", "weight": 2 },
+        { "id": "kp4", "head": "environmentally friendly", "zh": "环保", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：随着……的发展 / 庆祝 / 更加多样 / 环保",
+        "「随着……的发展」用 with the development of；「环保」是 environmentally friendly",
+        "句型：The ways of celebrating … have become more … and … with the development of …"
+      ],
+      "topicWords": ["celebrate", "diverse", "environmentally friendly"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000040",
+      "topic": "festival",
+      "difficulty": 3,
+      "zh": "中国的节日文化越来越受到世界的关注，许多国家也会举办庆祝活动。",
+      "reference": "Chinese festival culture has attracted increasing attention from around the world, and many countries also hold celebration activities.",
+      "keyPoints": [
+        { "id": "kp1", "head": "attracted increasing attention", "zh": "越来越受到关注", "weight": 2 },
+        { "id": "kp2", "head": "from around the world", "zh": "来自世界各地", "weight": 2 },
+        { "id": "kp3", "head": "many countries", "zh": "许多国家", "weight": 1 },
+        { "id": "kp4", "head": "celebration activities", "zh": "庆祝活动", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：越来越受到关注 / 来自世界各地 / 许多国家 / 庆祝活动",
+        "「受到关注」可用 attract attention；「举办活动」用 hold activities",
+        "句型：… has attracted increasing attention from …, and many countries also hold …"
+      ],
+      "topicWords": ["festival culture", "attention", "celebration"],
+      "source": "authored"
+    }
+  ]
+}

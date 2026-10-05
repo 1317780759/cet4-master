@@ -1,0 +1,921 @@
+{
+  "meta": {
+    "topic": "internet",
+    "author": "self",
+    "license": "self-authored (derived-authored)",
+    "note": "全部自撰，不复制任何真题原文"
+  },
+  "items": [
+    {
+      "id": "t_000221",
+      "topic": "internet",
+      "difficulty": 2,
+      "zh": "互联网的普及改变了人们获取信息的方式。",
+      "reference": "The way people obtain information has been changed by the popularity of the internet.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "the popularity of",
+          "zh": "……的普及",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "the internet",
+          "zh": "互联网",
+          "weight": 1
+        },
+        {
+          "id": "kp3",
+          "head": "has been changed",
+          "zh": "改变了",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "obtain information",
+          "zh": "获取信息",
+          "synonyms": [
+            "get information",
+            "access information"
+          ],
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：……的普及 / 互联网 / 改变了 / 获取信息",
+        "「普及」名词用 popularity；「获取」可用 obtain / access，比 get 更书面",
+        "句型：The way people … has been changed by the popularity of …."
+      ],
+      "topicWords": [
+        "internet",
+        "information",
+        "popularity"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000222",
+      "topic": "internet",
+      "difficulty": 2,
+      "zh": "网络购物因其便利和低价受到年轻人的青睐。",
+      "reference": "For its convenience and low prices, online shopping is very popular among young people.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "online shopping",
+          "zh": "网络购物",
+          "synonyms": [
+            "shopping online"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "popular among",
+          "zh": "受到……的青睐",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "convenience",
+          "zh": "便利",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "low prices",
+          "zh": "低价",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：网络购物 / 受到……的青睐 / 便利 / 低价",
+        "「受到青睐」不必直译，可用 be popular among；「便利」名词是 convenience",
+        "句型：For its … and …, online shopping is very popular among young people."
+      ],
+      "topicWords": [
+        "online shopping",
+        "convenience",
+        "price"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000223",
+      "topic": "internet",
+      "difficulty": 2,
+      "zh": "随着智能手机的广泛使用，移动支付已成为日常生活的一部分。",
+      "reference": "For many people, mobile payment has become part of daily life with the widespread use of smartphones.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "mobile payment",
+          "zh": "移动支付",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "has become",
+          "zh": "已成为",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "daily life",
+          "zh": "日常生活",
+          "weight": 1
+        },
+        {
+          "id": "kp4",
+          "head": "the widespread use of",
+          "zh": "……的广泛使用",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：移动支付 / 已成为 / 日常生活 / ……的广泛使用",
+        "「广泛的」用 widespread；「……的一部分」用 part of，此处 part 前不加 a 亦可",
+        "句型：For many people, mobile payment has become part of daily life with …."
+      ],
+      "topicWords": [
+        "mobile payment",
+        "smartphone",
+        "daily life"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000224",
+      "topic": "internet",
+      "difficulty": 2,
+      "zh": "社交媒体让人们即使相隔千里也能保持联系。",
+      "reference": "In daily life, social media allows people to keep in touch even when they are far apart.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "social media",
+          "zh": "社交媒体",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "allows people to",
+          "zh": "让人们能够",
+          "synonyms": [
+            "enables people to"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "keep in touch",
+          "zh": "保持联系",
+          "synonyms": [
+            "stay in touch"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "far apart",
+          "zh": "相隔很远",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：社交媒体 / 让人们能够 / 保持联系 / 相隔很远",
+        "「保持联系」固定搭配 keep / stay in touch；「相隔」用 far apart 表达即可",
+        "句型：In daily life, social media allows people to … even when they are far apart."
+      ],
+      "topicWords": [
+        "social media",
+        "keep in touch",
+        "contact"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000225",
+      "topic": "internet",
+      "difficulty": 3,
+      "zh": "网络安全问题日益突出，个人信息面临泄露的风险。",
+      "reference": "The problem of network security is becoming increasingly serious, and personal information faces the risk of being leaked.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "network security",
+          "zh": "网络安全",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "increasingly serious",
+          "zh": "日益突出",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "personal information",
+          "zh": "个人信息",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "the risk of being leaked",
+          "zh": "被泄露的风险",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：网络安全 / 日益突出 / 个人信息 / 被泄露的风险",
+        "「日益」可用 increasingly；「面临……的风险」用 face the risk of，of 后接动名词被动式 being leaked",
+        "句型：The problem of … is becoming increasingly serious, and … faces the risk of …."
+      ],
+      "topicWords": [
+        "network security",
+        "personal information",
+        "risk"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000226",
+      "topic": "internet",
+      "difficulty": 2,
+      "zh": "越来越多的学生利用网络课程自学新知识。",
+      "reference": "Nowadays, more and more students use online courses to learn new knowledge by themselves.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "more and more",
+          "zh": "越来越多",
+          "weight": 1
+        },
+        {
+          "id": "kp2",
+          "head": "online courses",
+          "zh": "网络课程",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "new knowledge",
+          "zh": "新知识",
+          "weight": 1
+        },
+        {
+          "id": "kp4",
+          "head": "by themselves",
+          "zh": "自学",
+          "synonyms": [
+            "on their own"
+          ],
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：越来越多 / 网络课程 / 新知识 / 自学",
+        "「自学」可用 learn … by oneself / on one's own；「利用」此处用 use 即可",
+        "句型：Nowadays, more and more students use online courses to learn … by themselves."
+      ],
+      "topicWords": [
+        "online course",
+        "knowledge",
+        "student"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000227",
+      "topic": "internet",
+      "difficulty": 2,
+      "zh": "电子商务的快速发展给传统零售业带来了巨大挑战。",
+      "reference": "In recent years, the rapid development of e-commerce has brought great challenges to traditional retail.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "the rapid development of",
+          "zh": "……的快速发展",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "e-commerce",
+          "zh": "电子商务",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "has brought great challenges to",
+          "zh": "给……带来了巨大挑战",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "traditional retail",
+          "zh": "传统零售业",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：……的快速发展 / 电子商务 / 给……带来了巨大挑战 / 传统零售业",
+        "「给……带来挑战」用 bring challenges to；「零售」是 retail，作名词可指零售业",
+        "句型：In recent years, the rapid development of … has brought great challenges to …."
+      ],
+      "topicWords": [
+        "e-commerce",
+        "retail",
+        "challenge"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000228",
+      "topic": "internet",
+      "difficulty": 3,
+      "zh": "短视频平台不仅能娱乐大众，也成了重要的营销渠道。",
+      "reference": "Nowadays, short-video platforms can not only entertain the public, but also serve as important marketing channels.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "short-video platforms",
+          "zh": "短视频平台",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "entertain",
+          "zh": "娱乐",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "serve as",
+          "zh": "充当 / 成为",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "marketing channels",
+          "zh": "营销渠道",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：短视频平台 / 娱乐 / 充当 / 营销渠道",
+        "「娱乐大众」用 entertain the public；「充当 / 作为」用 serve as",
+        "句型：Nowadays, short-video platforms can not only …, but also serve as …."
+      ],
+      "topicWords": [
+        "platform",
+        "marketing",
+        "channel"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000229",
+      "topic": "internet",
+      "difficulty": 2,
+      "zh": "远程办公使员工能够在家高效完成工作任务。",
+      "reference": "For many companies, remote work enables employees to finish their tasks efficiently at home.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "remote work",
+          "zh": "远程办公",
+          "synonyms": [
+            "telecommuting"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "enables employees to",
+          "zh": "使员工能够",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "finish their tasks",
+          "zh": "完成工作任务",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "efficiently",
+          "zh": "高效地",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：远程办公 / 使员工能够 / 完成工作任务 / 高效地",
+        "「使某人能够」用 enable sb. to do；「高效」副词用 efficiently",
+        "句型：For many companies, remote work enables employees to … at home."
+      ],
+      "topicWords": [
+        "remote work",
+        "employee",
+        "efficiently"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000230",
+      "topic": "internet",
+      "difficulty": 3,
+      "zh": "尽管互联网带来了便利，我们也不应忽视它的负面影响。",
+      "reference": "We should not ignore the negative effects of the internet although it brings convenience.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "although",
+          "zh": "尽管",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "brings convenience",
+          "zh": "带来便利",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "should not ignore",
+          "zh": "不应忽视",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "negative effects",
+          "zh": "负面影响",
+          "synonyms": [
+            "negative impacts"
+          ],
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：尽管 / 带来便利 / 不应忽视 / 负面影响",
+        "「忽视」用 ignore / overlook；「负面影响」用 negative effects / impacts",
+        "句型：We should not ignore … although it brings convenience."
+      ],
+      "topicWords": [
+        "internet",
+        "convenience",
+        "negative effects"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000231",
+      "topic": "internet",
+      "difficulty": 2,
+      "zh": "在线教育打破了时间和空间的限制，让学习更加灵活。",
+      "reference": "For many learners, online education breaks the limits of time and space, making learning more flexible.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "online education",
+          "zh": "在线教育",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "breaks the limits of",
+          "zh": "打破……的限制",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "time and space",
+          "zh": "时间和空间",
+          "weight": 1
+        },
+        {
+          "id": "kp4",
+          "head": "more flexible",
+          "zh": "更加灵活",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：在线教育 / 打破……的限制 / 时间和空间 / 更加灵活",
+        "「打破限制」用 break the limits of；后半句用现在分词 making … 作结果状语",
+        "句型：For many learners, online education breaks the limits of …, making learning more flexible."
+      ],
+      "topicWords": [
+        "online education",
+        "flexible",
+        "limit"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000232",
+      "topic": "internet",
+      "difficulty": 2,
+      "zh": "网民数量的持续增长推动了数字经济的繁荣。",
+      "reference": "In recent years, the continuous growth of internet users has promoted the prosperity of the digital economy.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "the continuous growth of",
+          "zh": "……的持续增长",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "internet users",
+          "zh": "网民",
+          "synonyms": [
+            "netizens"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "has promoted",
+          "zh": "推动了",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "the digital economy",
+          "zh": "数字经济",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：……的持续增长 / 网民 / 推动了 / 数字经济",
+        "「网民」最稳妥的译法是 internet users；「繁荣」名词用 prosperity",
+        "句型：In recent years, the continuous growth of … has promoted the prosperity of …."
+      ],
+      "topicWords": [
+        "internet users",
+        "digital economy",
+        "prosperity"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000233",
+      "topic": "internet",
+      "difficulty": 3,
+      "zh": "应加强监管，保护未成年人免受不良信息的侵害。",
+      "reference": "Through stronger government supervision, minors should be protected from harmful information.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "minors",
+          "zh": "未成年人",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "be protected from",
+          "zh": "免受……的侵害",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "harmful information",
+          "zh": "不良信息",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "government supervision",
+          "zh": "监管",
+          "synonyms": [
+            "regulation"
+          ],
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：未成年人 / 免受……的侵害 / 不良信息 / 监管",
+        "「保护某人免受……」用 protect sb. from sth.，此处用被动；「监管」可用 supervision / regulation",
+        "句型：Through stronger government supervision, minors should be protected from …."
+      ],
+      "topicWords": [
+        "minors",
+        "harmful information",
+        "supervision"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000234",
+      "topic": "internet",
+      "difficulty": 1,
+      "zh": "人们可以通过搜索引擎快速找到所需的信息。",
+      "reference": "People can quickly find the information they need with the help of search engines.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "with the help of",
+          "zh": "借助",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "search engines",
+          "zh": "搜索引擎",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "quickly",
+          "zh": "快速地",
+          "weight": 1
+        },
+        {
+          "id": "kp4",
+          "head": "the information they need",
+          "zh": "所需的信息",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：借助 / 搜索引擎 / 快速地 / 所需的信息",
+        "「所需的」可用定语从句 they need 修饰 information，不必写 required",
+        "句型：People can quickly find … with the help of search engines."
+      ],
+      "topicWords": [
+        "search engine",
+        "information",
+        "internet"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000235",
+      "topic": "internet",
+      "difficulty": 3,
+      "zh": "大数据技术被广泛应用于医疗、教育和交通等领域。",
+      "reference": "Nowadays, big data technology is widely used in such fields as medicine, education and transport.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "big data technology",
+          "zh": "大数据技术",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "is widely used in",
+          "zh": "被广泛应用于",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "such fields as",
+          "zh": "诸如……等领域",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "medicine",
+          "zh": "医疗",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：大数据技术 / 被广泛应用于 / 诸如……等领域 / 医疗",
+        "「广泛应用」用被动 is widely used in；举例用 such … as 结构",
+        "句型：Nowadays, big data technology is widely used in such fields as …."
+      ],
+      "topicWords": [
+        "big data",
+        "field",
+        "technology"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000236",
+      "topic": "internet",
+      "difficulty": 2,
+      "zh": "云计算帮助企业降低了存储和处理数据的成本。",
+      "reference": "For many companies, cloud computing helps reduce the cost of storing and processing data.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "cloud computing",
+          "zh": "云计算",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "reduce the cost of",
+          "zh": "降低……的成本",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "storing and processing",
+          "zh": "存储和处理",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "companies",
+          "zh": "企业",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：云计算 / 降低……的成本 / 存储和处理 / 企业",
+        "「降低成本」用 reduce / lower the cost of，of 后用动名词",
+        "句型：For many companies, cloud computing helps reduce the cost of …."
+      ],
+      "topicWords": [
+        "cloud computing",
+        "data",
+        "cost"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000237",
+      "topic": "internet",
+      "difficulty": 2,
+      "zh": "人工智能正在悄然改变我们的工作和生活方式。",
+      "reference": "Our way of working and living is quietly changing with the development of artificial intelligence.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "way of working and living",
+          "zh": "工作和生活方式",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "is quietly changing",
+          "zh": "正在悄然改变",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "with the development of",
+          "zh": "随着……的发展",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "artificial intelligence",
+          "zh": "人工智能",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：工作和生活方式 / 正在悄然改变 / 随着……的发展 / 人工智能",
+        "「悄然」用 quietly；「……方式」用 way of doing，注意 of 后接动名词",
+        "句型：Our way of … is quietly changing with the development of …."
+      ],
+      "topicWords": [
+        "artificial intelligence",
+        "way of life",
+        "technology"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000238",
+      "topic": "internet",
+      "difficulty": 2,
+      "zh": "网上订餐服务因其快捷方便而深受上班族欢迎。",
+      "reference": "Because they are fast and convenient, online food ordering services are very popular among office workers.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "online food ordering",
+          "zh": "网上订餐",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "popular among",
+          "zh": "深受……欢迎",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "office workers",
+          "zh": "上班族",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "fast and convenient",
+          "zh": "快捷方便",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：网上订餐 / 深受……欢迎 / 上班族 / 快捷方便",
+        "「上班族」可译 office workers；「订餐」用 food ordering，order 有「订购」义",
+        "句型：Because they are fast and convenient, online food ordering services are very popular among …."
+      ],
+      "topicWords": [
+        "online service",
+        "office workers",
+        "convenient"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000239",
+      "topic": "internet",
+      "difficulty": 3,
+      "zh": "数字鸿沟使得部分老年人难以享受互联网带来的便利。",
+      "reference": "For some elderly people, the digital divide makes it difficult to enjoy the convenience brought by the internet.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "the digital divide",
+          "zh": "数字鸿沟",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "makes it difficult to",
+          "zh": "使得……难以",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "elderly people",
+          "zh": "老年人",
+          "weight": 1
+        },
+        {
+          "id": "kp4",
+          "head": "enjoy the convenience",
+          "zh": "享受便利",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：数字鸿沟 / 使得……难以 / 老年人 / 享受便利",
+        "「使得某人难以做某事」用 make it difficult for sb. to do，it 是形式宾语；「带来的」用过去分词 brought by 作后置定语",
+        "句型：For some elderly people, the digital divide makes it difficult to enjoy …."
+      ],
+      "topicWords": [
+        "digital divide",
+        "elderly people",
+        "convenience"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000240",
+      "topic": "internet",
+      "difficulty": 2,
+      "zh": "虚假信息在网络上迅速传播，容易误导公众。",
+      "reference": "Because it spreads quickly online, false information can easily mislead the public.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "false information",
+          "zh": "虚假信息",
+          "synonyms": [
+            "misleading information"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "spreads quickly",
+          "zh": "迅速传播",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "online",
+          "zh": "在网络上",
+          "weight": 1
+        },
+        {
+          "id": "kp4",
+          "head": "mislead the public",
+          "zh": "误导公众",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：虚假信息 / 迅速传播 / 在网络上 / 误导公众",
+        "「传播」用 spread，过去式不变；「误导」是 mislead，注意前缀 mis-",
+        "句型：Because it spreads quickly online, false information can easily mislead the public."
+      ],
+      "topicWords": [
+        "false information",
+        "mislead",
+        "online"
+      ],
+      "source": "authored"
+    }
+  ]
+}

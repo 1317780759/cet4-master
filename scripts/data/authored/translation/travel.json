@@ -1,0 +1,417 @@
+{
+  "meta": {
+    "topic": "travel",
+    "author": "self",
+    "license": "self-authored (derived-authored)",
+    "note": "全部自撰，不复制任何真题原文"
+  },
+  "items": [
+    {
+      "id": "t_000121",
+      "topic": "travel",
+      "difficulty": 2,
+      "zh": "这座古城以其悠久的历史和独特的建筑吸引了众多游客。",
+      "reference": "This ancient city attracts numerous tourists with its long history and unique architecture.",
+      "keyPoints": [
+        { "id": "kp1", "head": "ancient city", "zh": "古城", "weight": 1 },
+        { "id": "kp2", "head": "attracts", "zh": "吸引", "weight": 1, "synonyms": ["draws"] },
+        { "id": "kp3", "head": "numerous tourists", "zh": "众多游客", "weight": 2, "synonyms": ["a large number of tourists", "many visitors"] },
+        { "id": "kp4", "head": "with its long history", "zh": "以其悠久的历史", "weight": 2, "synonyms": ["for its long history"] },
+        { "id": "kp5", "head": "unique architecture", "zh": "独特的建筑", "weight": 2, "synonyms": ["distinctive architecture"] }
+      ],
+      "hints": [
+        "得分点：古城 / 吸引 / 众多游客 / 以其悠久的历史 / 独特的建筑",
+        "「以……吸引」可用 attract sb. with sth.；architecture 表「建筑风格」时为不可数名词",
+        "句型：This ancient city attracts numerous tourists with its long history and unique architecture."
+      ],
+      "topicWords": ["ancient city", "tourists", "architecture"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000122",
+      "topic": "travel",
+      "difficulty": 2,
+      "zh": "旅游不仅能开阔眼界，还能让人深入了解不同的文化。",
+      "reference": "Travelling can not only broaden one's horizons but also help people gain a deeper understanding of different cultures.",
+      "keyPoints": [
+        { "id": "kp1", "head": "not only", "zh": "不仅", "weight": 2 },
+        { "id": "kp2", "head": "broaden one's horizons", "zh": "开阔眼界", "weight": 2, "synonyms": ["widen one's horizons", "expand one's horizons"] },
+        { "id": "kp3", "head": "but also", "zh": "而且（还）", "weight": 1 },
+        { "id": "kp4", "head": "gain a deeper understanding of", "zh": "深入了解", "weight": 2, "synonyms": ["develop a deeper understanding of"] },
+        { "id": "kp5", "head": "different cultures", "zh": "不同的文化", "weight": 1 }
+      ],
+      "hints": [
+        "得分点：不仅 / 开阔眼界 / 而且 / 深入了解 / 不同的文化",
+        "「开阔眼界」固定搭配为 broaden / widen one's horizons，horizon 常用复数",
+        "句型：Travelling can not only … but also help people gain a deeper understanding of …"
+      ],
+      "topicWords": ["horizons", "cultures"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000123",
+      "topic": "travel",
+      "difficulty": 1,
+      "zh": "出发前，游客最好提前预订机票和酒店。",
+      "reference": "Before departure, tourists had better book their flights and hotels in advance.",
+      "keyPoints": [
+        { "id": "kp1", "head": "before departure", "zh": "出发前", "weight": 1, "synonyms": ["before setting off", "before leaving"] },
+        { "id": "kp2", "head": "had better", "zh": "最好", "weight": 2, "synonyms": ["should"] },
+        { "id": "kp3", "head": "book", "zh": "预订", "weight": 1, "synonyms": ["reserve"] },
+        { "id": "kp4", "head": "in advance", "zh": "提前", "weight": 2, "synonyms": ["ahead of time", "beforehand"] }
+      ],
+      "hints": [
+        "得分点：出发前 / 最好 / 预订 / 提前",
+        "「最好做」用 had better do，后接动词原形；「预订」用 book 或 reserve",
+        "句型：Before departure, tourists had better book … in advance."
+      ],
+      "topicWords": ["book", "in advance"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000124",
+      "topic": "travel",
+      "difficulty": 2,
+      "zh": "这座小城位于山区，夏季气候凉爽，是避暑的好去处。",
+      "reference": "Located in a mountainous area, this small town has a cool climate in summer and is a good place to escape the heat.",
+      "keyPoints": [
+        { "id": "kp1", "head": "located in", "zh": "位于", "weight": 2, "synonyms": ["situated in"] },
+        { "id": "kp2", "head": "a mountainous area", "zh": "山区", "weight": 2, "synonyms": ["a mountain area", "a mountainous region"] },
+        { "id": "kp3", "head": "a cool climate", "zh": "气候凉爽", "weight": 1 },
+        { "id": "kp4", "head": "a good place to", "zh": "好去处", "weight": 2, "synonyms": ["an ideal place to", "a great place to"] },
+        { "id": "kp5", "head": "escape the heat", "zh": "避暑", "weight": 2, "synonyms": ["avoid the heat"] }
+      ],
+      "hints": [
+        "得分点：位于 / 山区 / 气候凉爽 / 好去处 / 避暑",
+        "「位于」可用过去分词短语 located in / situated in 作状语；「避暑」可用 escape the heat",
+        "句型：Located in …, this small town has … and is a good place to escape the heat."
+      ],
+      "topicWords": ["mountainous area", "climate"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000125",
+      "topic": "travel",
+      "difficulty": 3,
+      "zh": "为了让游客有更好的体验，当地政府修复了许多历史建筑。",
+      "reference": "In order to provide tourists with a better experience, the local government has restored many historical buildings.",
+      "keyPoints": [
+        { "id": "kp1", "head": "in order to", "zh": "为了", "weight": 2, "synonyms": ["so as to", "to"] },
+        { "id": "kp2", "head": "provide tourists with", "zh": "为游客提供", "weight": 2, "synonyms": ["offer tourists"] },
+        { "id": "kp3", "head": "a better experience", "zh": "更好的体验", "weight": 1 },
+        { "id": "kp4", "head": "the local government", "zh": "当地政府", "weight": 1 },
+        { "id": "kp5", "head": "has restored", "zh": "修复了", "weight": 2, "synonyms": ["has renovated", "has repaired"] }
+      ],
+      "hints": [
+        "得分点：为了 / 为游客提供 / 更好的体验 / 当地政府 / 修复了",
+        "「为某人提供某物」用 provide sb. with sth.；「修复（古建）」用 restore / renovate",
+        "句型：In order to provide tourists with …, the local government has restored …"
+      ],
+      "topicWords": ["local government", "historical buildings"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000126",
+      "topic": "travel",
+      "difficulty": 2,
+      "zh": "许多人喜欢自助游，因为这样可以自由安排行程。",
+      "reference": "Many people prefer independent travel because it allows them to arrange their itinerary freely.",
+      "keyPoints": [
+        { "id": "kp1", "head": "prefer", "zh": "更喜欢", "weight": 2, "synonyms": ["favour"] },
+        { "id": "kp2", "head": "independent travel", "zh": "自助游", "weight": 2, "synonyms": ["self-guided travel", "travelling independently"] },
+        { "id": "kp3", "head": "allows them to", "zh": "让他们能够", "weight": 2, "synonyms": ["enables them to"] },
+        { "id": "kp4", "head": "arrange their itinerary", "zh": "安排行程", "weight": 2, "synonyms": ["plan their itinerary"] },
+        { "id": "kp5", "head": "freely", "zh": "自由地", "weight": 1 }
+      ],
+      "hints": [
+        "得分点：更喜欢 / 自助游 / 让他们能够 / 安排行程 / 自由地",
+        "「自助游」可用 independent travel / self-guided travel；allow sb. to do 表示「使某人得以做」",
+        "句型：Many people prefer … because it allows them to arrange their itinerary freely."
+      ],
+      "topicWords": ["independent travel", "itinerary"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000127",
+      "topic": "travel",
+      "difficulty": 2,
+      "zh": "近年来，乡村旅游因其宁静的环境而变得越来越流行。",
+      "reference": "In recent years, rural tourism has become increasingly popular because of its peaceful environment.",
+      "keyPoints": [
+        { "id": "kp1", "head": "in recent years", "zh": "近年来", "weight": 2 },
+        { "id": "kp2", "head": "rural tourism", "zh": "乡村旅游", "weight": 2, "synonyms": ["countryside tourism"] },
+        { "id": "kp3", "head": "increasingly popular", "zh": "越来越流行", "weight": 2, "synonyms": ["more and more popular"] },
+        { "id": "kp4", "head": "because of its peaceful environment", "zh": "因其宁静的环境", "weight": 2, "synonyms": ["due to its peaceful environment"] }
+      ],
+      "hints": [
+        "得分点：近年来 / 乡村旅游 / 越来越流行 / 因其宁静的环境",
+        "「越来越……」可用 increasingly + 形容词，或 more and more + 形容词；because of 后接名词短语",
+        "句型：In recent years, … has become increasingly popular because of …"
+      ],
+      "topicWords": ["rural tourism", "peaceful environment"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000128",
+      "topic": "travel",
+      "difficulty": 2,
+      "zh": "导游建议我们带上雨具，因为山里的天气变化无常。",
+      "reference": "The guide advised us to bring rain gear, as the weather in the mountains is unpredictable.",
+      "keyPoints": [
+        { "id": "kp1", "head": "advised us to", "zh": "建议我们", "weight": 2, "synonyms": ["suggested that we"] },
+        { "id": "kp2", "head": "bring rain gear", "zh": "带上雨具", "weight": 2, "synonyms": ["take rain gear"] },
+        { "id": "kp3", "head": "is unpredictable", "zh": "变化无常", "weight": 2, "synonyms": ["is changeable", "changes a lot"] },
+        { "id": "kp4", "head": "in the mountains", "zh": "山里", "weight": 1, "synonyms": ["in mountainous areas"] }
+      ],
+      "hints": [
+        "得分点：建议我们 / 带上雨具 / 变化无常 / 山里",
+        "「建议某人做」用 advise sb. to do；「变化无常」可用 unpredictable / changeable",
+        "句型：The guide advised us to bring …, as the weather … is unpredictable."
+      ],
+      "topicWords": ["guide", "rain gear"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000129",
+      "topic": "travel",
+      "difficulty": 2,
+      "zh": "旅行中遇到困难时，向当地人求助往往是最有效的办法。",
+      "reference": "When you run into difficulties during a trip, turning to local people for help is often the most effective way.",
+      "keyPoints": [
+        { "id": "kp1", "head": "run into difficulties", "zh": "遇到困难", "weight": 2, "synonyms": ["encounter difficulties", "meet with difficulties"] },
+        { "id": "kp2", "head": "during a trip", "zh": "旅行中", "weight": 1, "synonyms": ["while travelling"] },
+        { "id": "kp3", "head": "turning to local people for help", "zh": "向当地人求助", "weight": 2, "synonyms": ["asking local people for help"] },
+        { "id": "kp4", "head": "the most effective way", "zh": "最有效的办法", "weight": 2, "synonyms": ["the best solution"] }
+      ],
+      "hints": [
+        "得分点：遇到困难 / 旅行中 / 向当地人求助 / 最有效的办法",
+        "「遇到困难」用 run into / encounter difficulties；动名词短语可作主语",
+        "句型：When you run into difficulties …, turning to … for help is often the most effective way."
+      ],
+      "topicWords": ["difficulties", "local people"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000130",
+      "topic": "travel",
+      "difficulty": 3,
+      "zh": "优美的自然风光和便捷的交通使这个小镇成为热门旅游目的地。",
+      "reference": "The beautiful natural scenery and convenient transportation have made this small town a popular tourist destination.",
+      "keyPoints": [
+        { "id": "kp1", "head": "natural scenery", "zh": "自然风光", "weight": 2, "synonyms": ["natural landscape"] },
+        { "id": "kp2", "head": "convenient transportation", "zh": "便捷的交通", "weight": 2, "synonyms": ["convenient transport"] },
+        { "id": "kp3", "head": "have made", "zh": "使……成为", "weight": 1, "synonyms": ["have turned"] },
+        { "id": "kp4", "head": "a popular tourist destination", "zh": "热门旅游目的地", "weight": 2, "synonyms": ["a popular travel destination"] }
+      ],
+      "hints": [
+        "得分点：自然风光 / 便捷的交通 / 使……成为 / 热门旅游目的地",
+        "「使……成为……」用 make + 宾语 + 名词（宾补）；「目的地」用 destination",
+        "句型：The beautiful natural scenery and convenient transportation have made … a popular tourist destination."
+      ],
+      "topicWords": ["natural scenery", "tourist destination"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000131",
+      "topic": "travel",
+      "difficulty": 2,
+      "zh": "越来越多的年轻人喜欢在假期里背包徒步旅行。",
+      "reference": "An increasing number of young people enjoy backpacking and hiking during their holidays.",
+      "keyPoints": [
+        { "id": "kp1", "head": "an increasing number of", "zh": "越来越多的", "weight": 2, "synonyms": ["more and more"] },
+        { "id": "kp2", "head": "enjoy backpacking", "zh": "喜欢背包旅行", "weight": 2, "synonyms": ["like backpacking"] },
+        { "id": "kp3", "head": "hiking", "zh": "徒步旅行", "weight": 1, "synonyms": ["trekking"] },
+        { "id": "kp4", "head": "during their holidays", "zh": "在假期里", "weight": 1, "synonyms": ["during their vacations"] }
+      ],
+      "hints": [
+        "得分点：越来越多的 / 喜欢背包旅行 / 徒步旅行 / 在假期里",
+        "「越来越多的 + 复数名词」用 an increasing number of；enjoy 后接动名词",
+        "句型：An increasing number of young people enjoy … during their holidays."
+      ],
+      "topicWords": ["backpacking", "hiking"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000132",
+      "topic": "travel",
+      "difficulty": 3,
+      "zh": "由于游客数量急剧增加，一些景区不得不限制每日接待人数。",
+      "reference": "As the number of tourists has increased sharply, some scenic areas have had to limit the number of visitors they receive each day.",
+      "keyPoints": [
+        { "id": "kp1", "head": "the number of tourists", "zh": "游客数量", "weight": 1 },
+        { "id": "kp2", "head": "has increased sharply", "zh": "急剧增加", "weight": 2, "synonyms": ["has risen sharply", "has grown rapidly"] },
+        { "id": "kp3", "head": "scenic areas", "zh": "景区", "weight": 2, "synonyms": ["scenic spots", "tourist attractions"] },
+        { "id": "kp4", "head": "have had to", "zh": "不得不", "weight": 2, "synonyms": ["have been forced to"] },
+        { "id": "kp5", "head": "limit the number of visitors", "zh": "限制游客人数", "weight": 2, "synonyms": ["restrict the number of visitors"] }
+      ],
+      "hints": [
+        "得分点：游客数量 / 急剧增加 / 景区 / 不得不 / 限制游客人数",
+        "「急剧」用 sharply / rapidly；「不得不」用 have to，其完成式为 have had to",
+        "句型：As the number of tourists has increased sharply, some scenic areas have had to limit …"
+      ],
+      "topicWords": ["scenic areas", "tourists"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000133",
+      "topic": "travel",
+      "difficulty": 2,
+      "zh": "品尝当地美食是旅行中最令人愉快的部分之一，因为它有助于游客了解当地文化。",
+      "reference": "Tasting local cuisine is one of the most enjoyable parts of travelling, as it helps visitors understand the local culture.",
+      "keyPoints": [
+        { "id": "kp1", "head": "tasting local cuisine", "zh": "品尝当地美食", "weight": 2, "synonyms": ["trying local food", "enjoying local dishes"] },
+        { "id": "kp2", "head": "one of the most enjoyable", "zh": "最令人愉快的……之一", "weight": 2, "synonyms": ["one of the most pleasant"] },
+        { "id": "kp3", "head": "parts of travelling", "zh": "旅行的部分", "weight": 1 },
+        { "id": "kp4", "head": "helps visitors understand", "zh": "有助于游客了解", "weight": 2, "synonyms": ["helps tourists learn about"] },
+        { "id": "kp5", "head": "the local culture", "zh": "当地文化", "weight": 1 }
+      ],
+      "hints": [
+        "得分点：品尝当地美食 / 最令人愉快的……之一 / 旅行的部分 / 有助于游客了解 / 当地文化",
+        "「……之一」后接复数名词 parts；as 可引导原因状语从句，语气弱于 because",
+        "句型：Tasting local cuisine is one of the most enjoyable parts of travelling, as it helps visitors understand …"
+      ],
+      "topicWords": ["local cuisine", "local culture"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000134",
+      "topic": "travel",
+      "difficulty": 2,
+      "zh": "乘坐高铁出行既省时又舒适，受到广大旅客的欢迎。",
+      "reference": "Travelling by high-speed rail is both time-saving and comfortable, and is welcomed by a large number of passengers.",
+      "keyPoints": [
+        { "id": "kp1", "head": "travelling by high-speed rail", "zh": "乘坐高铁出行", "weight": 2, "synonyms": ["taking the high-speed train"] },
+        { "id": "kp2", "head": "both time-saving and comfortable", "zh": "既省时又舒适", "weight": 2, "synonyms": ["both time-saving and convenient"] },
+        { "id": "kp3", "head": "is welcomed by", "zh": "受到……的欢迎", "weight": 2, "synonyms": ["is popular with", "is well received by"] },
+        { "id": "kp4", "head": "a large number of passengers", "zh": "广大旅客", "weight": 1, "synonyms": ["many travellers"] }
+      ],
+      "hints": [
+        "得分点：乘坐高铁出行 / 既省时又舒适 / 受到……的欢迎 / 广大旅客",
+        "「既……又……」用 both … and …；「省时的」为 time-saving；「受到欢迎」可用 be welcomed by / be popular with",
+        "句型：Travelling by … is both … and …, and is welcomed by …"
+      ],
+      "topicWords": ["high-speed rail", "passengers"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000135",
+      "topic": "travel",
+      "difficulty": 2,
+      "zh": "拍照留念之前，请务必尊重当地的风俗习惯。",
+      "reference": "Before taking photos to remember your visit, please be sure to respect local customs and traditions.",
+      "keyPoints": [
+        { "id": "kp1", "head": "taking photos", "zh": "拍照", "weight": 1, "synonyms": ["taking pictures"] },
+        { "id": "kp2", "head": "be sure to", "zh": "务必", "weight": 2, "synonyms": ["make sure to"] },
+        { "id": "kp3", "head": "respect", "zh": "尊重", "weight": 1 },
+        { "id": "kp4", "head": "local customs and traditions", "zh": "当地的风俗习惯", "weight": 2, "synonyms": ["local customs"] }
+      ],
+      "hints": [
+        "得分点：拍照 / 务必 / 尊重 / 当地的风俗习惯",
+        "「务必做」可用 be sure to do / make sure to do；「风俗习惯」可用 customs and traditions",
+        "句型：Before taking photos …, please be sure to respect local customs and traditions."
+      ],
+      "topicWords": ["customs", "traditions"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000136",
+      "topic": "travel",
+      "difficulty": 3,
+      "zh": "这家旅行社因提供优质服务而在业界享有良好的声誉。",
+      "reference": "This travel agency enjoys a good reputation in the industry for providing high-quality service.",
+      "keyPoints": [
+        { "id": "kp1", "head": "travel agency", "zh": "旅行社", "weight": 1 },
+        { "id": "kp2", "head": "enjoys a good reputation", "zh": "享有良好的声誉", "weight": 2, "synonyms": ["has a good reputation"] },
+        { "id": "kp3", "head": "in the industry", "zh": "在业界", "weight": 1 },
+        { "id": "kp4", "head": "high-quality service", "zh": "优质服务", "weight": 2, "synonyms": ["quality service"] }
+      ],
+      "hints": [
+        "得分点：旅行社 / 享有良好的声誉 / 在业界 / 优质服务",
+        "「享有……声誉」动词用 enjoy 或 have；for 引出原因，后接动名词 providing",
+        "句型：This travel agency enjoys a good reputation in the industry for doing sth."
+      ],
+      "topicWords": ["travel agency", "reputation"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000137",
+      "topic": "travel",
+      "difficulty": 2,
+      "zh": "如果时间充裕，游客可以沿着湖边散步，欣赏日落。",
+      "reference": "If time permits, visitors can take a walk along the lake and enjoy the sunset.",
+      "keyPoints": [
+        { "id": "kp1", "head": "if time permits", "zh": "如果时间充裕", "weight": 2, "synonyms": ["if there is enough time", "time permitting"] },
+        { "id": "kp2", "head": "take a walk", "zh": "散步", "weight": 2, "synonyms": ["go for a walk", "have a walk"] },
+        { "id": "kp3", "head": "along the lake", "zh": "沿着湖边", "weight": 1 },
+        { "id": "kp4", "head": "enjoy the sunset", "zh": "欣赏日落", "weight": 1, "synonyms": ["watch the sunset"] }
+      ],
+      "hints": [
+        "得分点：如果时间充裕 / 散步 / 沿着湖边 / 欣赏日落",
+        "「如果时间允许」可用 if time permits 或独立主格 time permitting；「散步」用 take a walk / go for a walk",
+        "句型：If time permits, visitors can take a walk along the lake and enjoy the sunset."
+      ],
+      "topicWords": ["take a walk", "sunset"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000138",
+      "topic": "travel",
+      "difficulty": 2,
+      "zh": "旅游业的发展为当地居民创造了大量就业机会。",
+      "reference": "The development of tourism has created a large number of job opportunities for local residents.",
+      "keyPoints": [
+        { "id": "kp1", "head": "the development of tourism", "zh": "旅游业的发展", "weight": 2, "synonyms": ["the growth of tourism"] },
+        { "id": "kp2", "head": "has created", "zh": "创造了", "weight": 1, "synonyms": ["has generated"] },
+        { "id": "kp3", "head": "a large number of job opportunities", "zh": "大量就业机会", "weight": 2, "synonyms": ["many employment opportunities"] },
+        { "id": "kp4", "head": "local residents", "zh": "当地居民", "weight": 1, "synonyms": ["local people"] }
+      ],
+      "hints": [
+        "得分点：旅游业的发展 / 创造了 / 大量就业机会 / 当地居民",
+        "「创造（机会／岗位）」用 create / generate；「为某人」可用 for sb. 置于句末",
+        "句型：The development of tourism has created … for local residents."
+      ],
+      "topicWords": ["tourism", "job opportunities"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000139",
+      "topic": "travel",
+      "difficulty": 2,
+      "zh": "无论你选择哪个季节出行，都应提前了解目的地的天气。",
+      "reference": "No matter which season you choose to travel in, you should learn about the weather of your destination in advance.",
+      "keyPoints": [
+        { "id": "kp1", "head": "no matter which", "zh": "无论哪个", "weight": 2, "synonyms": ["whichever", "regardless of which"] },
+        { "id": "kp2", "head": "choose to travel", "zh": "选择出行", "weight": 1 },
+        { "id": "kp3", "head": "learn about", "zh": "了解", "weight": 2, "synonyms": ["find out about"] },
+        { "id": "kp4", "head": "in advance", "zh": "提前", "weight": 2, "synonyms": ["ahead of time"] }
+      ],
+      "hints": [
+        "得分点：无论哪个 / 选择出行 / 了解 / 提前",
+        "「无论……」用 no matter + 疑问词 或 whichever；「了解」可用 learn about / find out about",
+        "句型：No matter which season you choose to travel in, you should learn about … in advance."
+      ],
+      "topicWords": ["destination", "weather"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000140",
+      "topic": "travel",
+      "difficulty": 2,
+      "zh": "离开酒店时，请记得带走所有个人物品并检查账单。",
+      "reference": "When leaving the hotel, please remember to take all your personal belongings and check the bill.",
+      "keyPoints": [
+        { "id": "kp1", "head": "when leaving the hotel", "zh": "离开酒店时", "weight": 1, "synonyms": ["when you leave the hotel"] },
+        { "id": "kp2", "head": "remember to", "zh": "记得", "weight": 2, "synonyms": ["do not forget to"] },
+        { "id": "kp3", "head": "personal belongings", "zh": "个人物品", "weight": 2, "synonyms": ["personal items"] },
+        { "id": "kp4", "head": "check the bill", "zh": "检查账单", "weight": 1, "synonyms": ["go over the bill"] }
+      ],
+      "hints": [
+        "得分点：离开酒店时 / 记得 / 个人物品 / 检查账单",
+        "「记得去做」用 remember to do（未做）；「物品」常用复数 belongings",
+        "句型：When leaving the hotel, please remember to take … and check the bill."
+      ],
+      "topicWords": ["personal belongings", "bill"],
+      "source": "authored"
+    }
+  ]
+}

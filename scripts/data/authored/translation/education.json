@@ -1,0 +1,413 @@
+{
+  "meta": {
+    "topic": "education",
+    "author": "self",
+    "license": "self-authored (derived-authored)",
+    "note": "全部自撰，不复制任何真题原文"
+  },
+  "items": [
+    {
+      "id": "t_000141",
+      "topic": "education",
+      "difficulty": 2,
+      "zh": "教育被认为是改变个人命运最有效的途径之一。",
+      "reference": "Education is considered to be one of the most effective ways to change a person's fate.",
+      "keyPoints": [
+        { "id": "kp1", "head": "is considered to be", "zh": "被认为是", "weight": 2, "synonyms": ["is regarded as", "is thought to be"] },
+        { "id": "kp2", "head": "one of the most effective ways", "zh": "最有效的途径之一", "weight": 2, "synonyms": ["one of the most effective means"] },
+        { "id": "kp3", "head": "to change", "zh": "改变", "weight": 1, "synonyms": ["of changing"] },
+        { "id": "kp4", "head": "a person's fate", "zh": "个人命运", "weight": 1, "synonyms": ["one's destiny"] }
+      ],
+      "hints": [
+        "得分点：被认为是 / 最有效的途径之一 / 改变 / 个人命运",
+        "「被认为」用 be considered / regarded / thought to be；「……之一」后接复数名词 ways",
+        "句型：Education is considered to be one of the most effective ways to do sth."
+      ],
+      "topicWords": ["education", "effective ways"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000142",
+      "topic": "education",
+      "difficulty": 2,
+      "zh": "随着互联网的发展，在线课程正受到越来越多学生的欢迎。",
+      "reference": "With the development of the Internet, online courses are becoming increasingly popular among students.",
+      "keyPoints": [
+        { "id": "kp1", "head": "with the development of", "zh": "随着……的发展", "weight": 2, "synonyms": ["as the internet develops"] },
+        { "id": "kp2", "head": "online courses", "zh": "在线课程", "weight": 2, "synonyms": ["online classes"] },
+        { "id": "kp3", "head": "increasingly popular", "zh": "越来越受欢迎", "weight": 2, "synonyms": ["more and more popular"] },
+        { "id": "kp4", "head": "among students", "zh": "在学生中", "weight": 1, "synonyms": ["with students"] }
+      ],
+      "hints": [
+        "得分点：随着……的发展 / 在线课程 / 越来越受欢迎 / 在学生中",
+        "「随着……」可用 with the development of + 名词；among 用于三者以上的群体",
+        "句型：With the development of …, online courses are becoming increasingly popular among students."
+      ],
+      "topicWords": ["online courses", "the internet"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000143",
+      "topic": "education",
+      "difficulty": 2,
+      "zh": "老师鼓励学生独立思考，而不是盲目接受现成的答案。",
+      "reference": "Teachers encourage students to think independently rather than blindly accept ready-made answers.",
+      "keyPoints": [
+        { "id": "kp1", "head": "encourage students to", "zh": "鼓励学生", "weight": 2, "synonyms": ["encourage their students to"] },
+        { "id": "kp2", "head": "think independently", "zh": "独立思考", "weight": 2, "synonyms": ["think on their own"] },
+        { "id": "kp3", "head": "rather than", "zh": "而不是", "weight": 2, "synonyms": ["instead of"] },
+        { "id": "kp4", "head": "ready-made answers", "zh": "现成的答案", "weight": 2, "synonyms": ["ready-made solutions"] }
+      ],
+      "hints": [
+        "得分点：鼓励学生 / 独立思考 / 而不是 / 现成的答案",
+        "「鼓励某人做」用 encourage sb. to do；rather than 后接动词原形，instead of 后接动名词",
+        "句型：Teachers encourage students to … rather than blindly accept …"
+      ],
+      "topicWords": ["encourage", "independent thinking"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000144",
+      "topic": "education",
+      "difficulty": 3,
+      "zh": "尽管备考压力很大，他仍然坚持每天背诵三十个新单词。",
+      "reference": "Although he is under great pressure preparing for the exam, he still insists on reciting thirty new words every day.",
+      "keyPoints": [
+        { "id": "kp1", "head": "although he is under great pressure", "zh": "尽管压力很大", "weight": 2, "synonyms": ["though he is under great pressure"] },
+        { "id": "kp2", "head": "preparing for the exam", "zh": "备考", "weight": 2, "synonyms": ["studying for the exam"] },
+        { "id": "kp3", "head": "insists on", "zh": "坚持", "weight": 2, "synonyms": ["persists in", "keeps"] },
+        { "id": "kp4", "head": "reciting", "zh": "背诵", "weight": 1, "synonyms": ["memorizing"] }
+      ],
+      "hints": [
+        "得分点：尽管压力很大 / 备考 / 坚持 / 背诵",
+        "「处于压力下」用 be under pressure；insist on / persist in 后接动名词",
+        "句型：Although he is under great pressure …, he still insists on reciting … every day."
+      ],
+      "topicWords": ["pressure", "exam"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000145",
+      "topic": "education",
+      "difficulty": 2,
+      "zh": "家长应当关注孩子的全面发展，而不只是考试成绩。",
+      "reference": "Parents should pay attention to their children's all-round development rather than merely their exam scores.",
+      "keyPoints": [
+        { "id": "kp1", "head": "pay attention to", "zh": "关注", "weight": 2, "synonyms": ["attach importance to", "focus on"] },
+        { "id": "kp2", "head": "all-round development", "zh": "全面发展", "weight": 2, "synonyms": ["overall development", "well-rounded development"] },
+        { "id": "kp3", "head": "rather than", "zh": "而不是", "weight": 2, "synonyms": ["instead of"] },
+        { "id": "kp4", "head": "exam scores", "zh": "考试成绩", "weight": 1, "synonyms": ["test scores", "exam results"] }
+      ],
+      "hints": [
+        "得分点：关注 / 全面发展 / 而不是 / 考试成绩",
+        "「全面发展」可用 all-round / overall / well-rounded development；pay attention to 中 to 是介词",
+        "句型：Parents should pay attention to … rather than merely …"
+      ],
+      "topicWords": ["all-round development", "exam scores"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000146",
+      "topic": "education",
+      "difficulty": 2,
+      "zh": "这所大学以其严格的学术要求和优秀的师资闻名于国内外。",
+      "reference": "This university is famous for its strict academic requirements and excellent faculty both at home and abroad.",
+      "keyPoints": [
+        { "id": "kp1", "head": "is famous for", "zh": "以……而闻名", "weight": 2, "synonyms": ["is known for", "is well known for"] },
+        { "id": "kp2", "head": "both at home and abroad", "zh": "闻名于国内外", "weight": 2, "synonyms": ["at home and abroad"] },
+        { "id": "kp3", "head": "strict academic requirements", "zh": "严格的学术要求", "weight": 2, "synonyms": ["high academic standards"] },
+        { "id": "kp4", "head": "excellent faculty", "zh": "优秀的师资", "weight": 2, "synonyms": ["excellent teaching staff", "outstanding teachers"] }
+      ],
+      "hints": [
+        "得分点：以……而闻名 / 闻名于国内外 / 严格的学术要求 / 优秀的师资",
+        "「国内外」固定为 at home and abroad；「师资」可用 faculty 或 teaching staff（集合名词）",
+        "句型：This university is famous both at home and abroad for its … and …"
+      ],
+      "topicWords": ["academic requirements", "faculty"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000147",
+      "topic": "education",
+      "difficulty": 2,
+      "zh": "良好的学习习惯和明确的目标是提高学习效率的关键。",
+      "reference": "Good study habits and clear goals are the key to improving learning efficiency.",
+      "keyPoints": [
+        { "id": "kp1", "head": "good study habits", "zh": "良好的学习习惯", "weight": 2, "synonyms": ["good learning habits"] },
+        { "id": "kp2", "head": "clear goals", "zh": "明确的目标", "weight": 1, "synonyms": ["specific goals"] },
+        { "id": "kp3", "head": "the key to", "zh": "……的关键", "weight": 2, "synonyms": ["the crucial factor in"] },
+        { "id": "kp4", "head": "improving learning efficiency", "zh": "提高学习效率", "weight": 2, "synonyms": ["improving study efficiency"] }
+      ],
+      "hints": [
+        "得分点：良好的学习习惯 / 明确的目标 / ……的关键 / 提高学习效率",
+        "「……的关键」用 the key to，其中 to 是介词，后接动名词",
+        "句型：Good study habits and clear goals are the key to improving …"
+      ],
+      "topicWords": ["study habits", "learning efficiency"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000148",
+      "topic": "education",
+      "difficulty": 3,
+      "zh": "越来越多的高中生选择出国留学，以开阔国际视野。",
+      "reference": "An increasing number of high school students choose to study abroad in order to broaden their international horizons.",
+      "keyPoints": [
+        { "id": "kp1", "head": "an increasing number of", "zh": "越来越多的", "weight": 2, "synonyms": ["more and more"] },
+        { "id": "kp2", "head": "high school students", "zh": "高中生", "weight": 1 },
+        { "id": "kp3", "head": "study abroad", "zh": "出国留学", "weight": 2, "synonyms": ["go abroad to study"] },
+        { "id": "kp4", "head": "in order to", "zh": "以（以便）", "weight": 2, "synonyms": ["so as to"] },
+        { "id": "kp5", "head": "broaden their international horizons", "zh": "开阔国际视野", "weight": 2, "synonyms": ["expand their international horizons"] }
+      ],
+      "hints": [
+        "得分点：越来越多的 / 高中生 / 出国留学 / 以 / 开阔国际视野",
+        "「出国留学」用 study abroad，abroad 是副词，不加 to；「开阔眼界」用 broaden one's horizons",
+        "句型：An increasing number of … choose to study abroad in order to broaden …"
+      ],
+      "topicWords": ["study abroad", "high school students"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000149",
+      "topic": "education",
+      "difficulty": 2,
+      "zh": "阅读不仅能扩大词汇量，还能提高写作水平。",
+      "reference": "Reading can not only enlarge one's vocabulary but also improve one's writing.",
+      "keyPoints": [
+        { "id": "kp1", "head": "enlarge one's vocabulary", "zh": "扩大词汇量", "weight": 2, "synonyms": ["expand one's vocabulary", "build up one's vocabulary"] },
+        { "id": "kp2", "head": "not only", "zh": "不仅", "weight": 2 },
+        { "id": "kp3", "head": "but also", "zh": "还（而且）", "weight": 1 },
+        { "id": "kp4", "head": "improve one's writing", "zh": "提高写作水平", "weight": 2, "synonyms": ["improve one's writing skills"] }
+      ],
+      "hints": [
+        "得分点：扩大词汇量 / 不仅 / 还 / 提高写作水平",
+        "「扩大词汇量」用 enlarge / expand / build up one's vocabulary；vocabulary 表示「词汇量」时可用单数",
+        "句型：Reading can not only … but also …"
+      ],
+      "topicWords": ["vocabulary", "writing"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000150",
+      "topic": "education",
+      "difficulty": 2,
+      "zh": "为了减轻学生的负担，学校减少了家庭作业的数量。",
+      "reference": "In order to reduce students' burden, the school has reduced the amount of homework.",
+      "keyPoints": [
+        { "id": "kp1", "head": "in order to", "zh": "为了", "weight": 2, "synonyms": ["so as to", "to"] },
+        { "id": "kp2", "head": "reduce students' burden", "zh": "减轻学生的负担", "weight": 2, "synonyms": ["lighten students' burden", "reduce the burden on students"] },
+        { "id": "kp3", "head": "has reduced the amount of", "zh": "减少了……的数量", "weight": 2, "synonyms": ["has cut the amount of"] },
+        { "id": "kp4", "head": "homework", "zh": "家庭作业", "weight": 1 }
+      ],
+      "hints": [
+        "得分点：为了 / 减轻学生的负担 / 减少了……的数量 / 家庭作业",
+        "「减轻负担」用 reduce / lighten the burden；homework 不可数，用 the amount of 修饰",
+        "句型：In order to reduce students' burden, the school has reduced the amount of homework."
+      ],
+      "topicWords": ["burden", "homework"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000151",
+      "topic": "education",
+      "difficulty": 2,
+      "zh": "参加社团活动有助于培养学生的团队合作精神。",
+      "reference": "Taking part in club activities helps to cultivate students' team spirit.",
+      "keyPoints": [
+        { "id": "kp1", "head": "taking part in", "zh": "参加", "weight": 2, "synonyms": ["participating in", "joining in"] },
+        { "id": "kp2", "head": "club activities", "zh": "社团活动", "weight": 1, "synonyms": ["club events"] },
+        { "id": "kp3", "head": "helps to cultivate", "zh": "有助于培养", "weight": 2, "synonyms": ["helps cultivate", "is helpful in cultivating"] },
+        { "id": "kp4", "head": "team spirit", "zh": "团队合作精神", "weight": 2, "synonyms": ["spirit of teamwork", "teamwork spirit"] }
+      ],
+      "hints": [
+        "得分点：参加 / 社团活动 / 有助于培养 / 团队合作精神",
+        "「参加（活动）」用 take part in / participate in；「培养」用 cultivate / develop",
+        "句型：Taking part in … helps to cultivate students' team spirit."
+      ],
+      "topicWords": ["club activities", "team spirit"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000152",
+      "topic": "education",
+      "difficulty": 3,
+      "zh": "有人认为考试是检验学习成果最公平的方式，也有人持相反意见。",
+      "reference": "Some people believe that exams are the fairest way to test learning outcomes, while others hold the opposite view.",
+      "keyPoints": [
+        { "id": "kp1", "head": "some people believe that", "zh": "有人认为", "weight": 1, "synonyms": ["some people argue that"] },
+        { "id": "kp2", "head": "the fairest way to", "zh": "最公平的方式", "weight": 2, "synonyms": ["the most fair way to"] },
+        { "id": "kp3", "head": "test learning outcomes", "zh": "检验学习成果", "weight": 2, "synonyms": ["evaluate learning outcomes"] },
+        { "id": "kp4", "head": "while others", "zh": "而其他人", "weight": 2, "synonyms": ["whereas others"] },
+        { "id": "kp5", "head": "hold the opposite view", "zh": "持相反意见", "weight": 2, "synonyms": ["hold the opposite opinion"] }
+      ],
+      "hints": [
+        "得分点：有人认为 / 最公平的方式 / 检验学习成果 / 而其他人 / 持相反意见",
+        "表示对比可用 while / whereas；「持……观点」用 hold a view / an opinion",
+        "句型：Some people believe that … , while others hold the opposite view."
+      ],
+      "topicWords": ["exams", "learning outcomes"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000153",
+      "topic": "education",
+      "difficulty": 2,
+      "zh": "教师不仅传授知识，还在学生的成长过程中起着不可替代的作用。",
+      "reference": "Teachers not only impart knowledge but also play an irreplaceable role in the growth of students.",
+      "keyPoints": [
+        { "id": "kp1", "head": "impart knowledge", "zh": "传授知识", "weight": 2, "synonyms": ["pass on knowledge", "transmit knowledge"] },
+        { "id": "kp2", "head": "not only", "zh": "不仅", "weight": 2 },
+        { "id": "kp3", "head": "play an irreplaceable role in", "zh": "起着不可替代的作用", "weight": 2, "synonyms": ["play an irreplaceable part in"] },
+        { "id": "kp4", "head": "the growth of students", "zh": "学生的成长", "weight": 1, "synonyms": ["students' growth"] }
+      ],
+      "hints": [
+        "得分点：传授知识 / 不仅 / 起着不可替代的作用 / 学生的成长",
+        "「传授」用 impart / pass on；「起……作用」用 play a(n) … role in，in 后接名词或动名词",
+        "句型：Teachers not only impart knowledge but also play an irreplaceable role in …"
+      ],
+      "topicWords": ["impart knowledge", "teachers"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000154",
+      "topic": "education",
+      "difficulty": 2,
+      "zh": "近年来，职业教育和技能培训受到了前所未有的重视。",
+      "reference": "In recent years, vocational education and skills training have received unprecedented attention.",
+      "keyPoints": [
+        { "id": "kp1", "head": "in recent years", "zh": "近年来", "weight": 2 },
+        { "id": "kp2", "head": "vocational education", "zh": "职业教育", "weight": 2 },
+        { "id": "kp3", "head": "skills training", "zh": "技能培训", "weight": 1, "synonyms": ["skill training"] },
+        { "id": "kp4", "head": "have received unprecedented attention", "zh": "受到了前所未有的重视", "weight": 2, "synonyms": ["have been given unprecedented attention"] }
+      ],
+      "hints": [
+        "得分点：近年来 / 职业教育 / 技能培训 / 受到了前所未有的重视",
+        "「前所未有的」用 unprecedented；「受到重视」可用 receive attention 或 be attached importance to",
+        "句型：In recent years, … have received unprecedented attention."
+      ],
+      "topicWords": ["vocational education", "skills training"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000155",
+      "topic": "education",
+      "difficulty": 3,
+      "zh": "只有把所学知识运用到实践中，我们才能真正掌握它。",
+      "reference": "Only by applying what we have learned to practice can we truly master it.",
+      "keyPoints": [
+        { "id": "kp1", "head": "only by", "zh": "只有通过", "weight": 2, "synonyms": ["only through"] },
+        { "id": "kp2", "head": "applying what we have learned", "zh": "把所学知识运用", "weight": 2, "synonyms": ["applying what we have learnt"] },
+        { "id": "kp3", "head": "to practice", "zh": "到实践中", "weight": 1 },
+        { "id": "kp4", "head": "truly master", "zh": "真正掌握", "weight": 2, "synonyms": ["really master"] }
+      ],
+      "hints": [
+        "得分点：只有通过 / 把所学知识运用 / 到实践中 / 真正掌握",
+        "only + 状语置于句首时主句要部分倒装；apply … to … 中 to 是介词",
+        "句型：Only by applying what we have learned to practice can we truly master it."
+      ],
+      "topicWords": ["practice", "master"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000156",
+      "topic": "education",
+      "difficulty": 2,
+      "zh": "许多大学生利用课余时间做兼职，以积累社会经验。",
+      "reference": "Many college students take part-time jobs in their spare time so as to accumulate social experience.",
+      "keyPoints": [
+        { "id": "kp1", "head": "college students", "zh": "大学生", "weight": 1, "synonyms": ["university students"] },
+        { "id": "kp2", "head": "take part-time jobs", "zh": "做兼职", "weight": 2, "synonyms": ["do part-time jobs", "work part-time"] },
+        { "id": "kp3", "head": "in their spare time", "zh": "利用课余时间", "weight": 2, "synonyms": ["in their free time", "after class"] },
+        { "id": "kp4", "head": "so as to", "zh": "以（以便）", "weight": 2, "synonyms": ["in order to"] },
+        { "id": "kp5", "head": "accumulate social experience", "zh": "积累社会经验", "weight": 2, "synonyms": ["gain social experience"] }
+      ],
+      "hints": [
+        "得分点：大学生 / 做兼职 / 利用课余时间 / 以 / 积累社会经验",
+        "「兼职工作」为 part-time job；「积累（经验）」用 accumulate / gain",
+        "句型：Many college students take part-time jobs in their spare time so as to accumulate …"
+      ],
+      "topicWords": ["part-time jobs", "social experience"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000157",
+      "topic": "education",
+      "difficulty": 2,
+      "zh": "图书馆为学生提供了丰富的参考书和安静的学习环境。",
+      "reference": "The library provides students with a wealth of reference books and a quiet study environment.",
+      "keyPoints": [
+        { "id": "kp1", "head": "provides students with", "zh": "为学生提供", "weight": 2, "synonyms": ["provides reference books for students", "offers students"] },
+        { "id": "kp2", "head": "a wealth of", "zh": "丰富的", "weight": 2, "synonyms": ["an abundance of", "plenty of"] },
+        { "id": "kp3", "head": "reference books", "zh": "参考书", "weight": 1 },
+        { "id": "kp4", "head": "a quiet study environment", "zh": "安静的学习环境", "weight": 1, "synonyms": ["a quiet learning environment"] }
+      ],
+      "hints": [
+        "得分点：为学生提供 / 丰富的 / 参考书 / 安静的学习环境",
+        "「为某人提供某物」用 provide sb. with sth.；「丰富的」可用 a wealth of / an abundance of",
+        "句型：The library provides students with a wealth of … and a quiet study environment."
+      ],
+      "topicWords": ["library", "reference books"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000158",
+      "topic": "education",
+      "difficulty": 3,
+      "zh": "与死记硬背相比，理解性记忆能让学生记得更牢。",
+      "reference": "Compared with learning by rote, understanding-based memorization allows students to remember things better.",
+      "keyPoints": [
+        { "id": "kp1", "head": "compared with", "zh": "与……相比", "weight": 2, "synonyms": ["in comparison with"] },
+        { "id": "kp2", "head": "learning by rote", "zh": "死记硬背", "weight": 2, "synonyms": ["rote learning", "rote memorization"] },
+        { "id": "kp3", "head": "allows students to", "zh": "让学生能够", "weight": 2, "synonyms": ["enables students to"] },
+        { "id": "kp4", "head": "remember things better", "zh": "记得更牢", "weight": 2, "synonyms": ["memorize things better"] }
+      ],
+      "hints": [
+        "得分点：与……相比 / 死记硬背 / 让学生能够 / 记得更牢",
+        "「死记硬背」可用 learn by rote / rote learning；compared with 为固定过去分词短语",
+        "句型：Compared with …, … allows students to remember things better."
+      ],
+      "topicWords": ["rote learning", "memorization"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000159",
+      "topic": "education",
+      "difficulty": 2,
+      "zh": "政府已投入大量资金用于改善偏远地区的办学条件。",
+      "reference": "The government has invested a large amount of money in improving school conditions in remote areas.",
+      "keyPoints": [
+        { "id": "kp1", "head": "has invested", "zh": "已投入", "weight": 2, "synonyms": ["has put"] },
+        { "id": "kp2", "head": "a large amount of money", "zh": "大量资金", "weight": 2, "synonyms": ["a great deal of money"] },
+        { "id": "kp3", "head": "improving school conditions", "zh": "改善办学条件", "weight": 2, "synonyms": ["improving school facilities"] },
+        { "id": "kp4", "head": "in remote areas", "zh": "在偏远地区", "weight": 1, "synonyms": ["in remote regions"] }
+      ],
+      "hints": [
+        "得分点：已投入 / 大量资金 / 改善办学条件 / 在偏远地区",
+        "「投入（资金）」用 invest … in；in 是介词，后接动名词 improving",
+        "句型：The government has invested a large amount of money in improving … in remote areas."
+      ],
+      "topicWords": ["invest", "remote areas"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000160",
+      "topic": "education",
+      "difficulty": 2,
+      "zh": "无论学习什么科目，持之以恒都是取得成功的关键。",
+      "reference": "No matter what subject you study, perseverance is the key to success.",
+      "keyPoints": [
+        { "id": "kp1", "head": "no matter what", "zh": "无论什么", "weight": 2, "synonyms": ["whatever", "regardless of what"] },
+        { "id": "kp2", "head": "perseverance", "zh": "持之以恒", "weight": 2, "synonyms": ["persistence"] },
+        { "id": "kp3", "head": "the key to", "zh": "……的关键", "weight": 2, "synonyms": ["the secret to"] },
+        { "id": "kp4", "head": "success", "zh": "成功", "weight": 1 }
+      ],
+      "hints": [
+        "得分点：无论什么 / 持之以恒 / ……的关键 / 成功",
+        "「无论什么」可用 no matter what 或 whatever；success 表「成功」这一抽象概念时不可数",
+        "句型：No matter what subject you study, perseverance is the key to success."
+      ],
+      "topicWords": ["perseverance", "success"],
+      "source": "authored"
+    }
+  ]
+}

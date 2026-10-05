@@ -1,0 +1,410 @@
+{
+  "meta": {
+    "topic": "tech",
+    "author": "self",
+    "license": "self-authored (derived-authored)",
+    "note": "全部自撰，不复制任何真题原文"
+  },
+  "items": [
+    {
+      "id": "t_000081",
+      "topic": "tech",
+      "difficulty": 2,
+      "zh": "中国的高铁技术已达到世界领先水平，并出口到多个国家。",
+      "reference": "China's high-speed rail technology has reached the world's leading level and has been exported to many countries.",
+      "keyPoints": [
+        { "id": "kp1", "head": "high-speed rail technology", "zh": "高铁技术", "weight": 2 },
+        { "id": "kp2", "head": "reached", "zh": "达到", "weight": 1 },
+        { "id": "kp3", "head": "leading level", "zh": "领先水平", "weight": 2 },
+        { "id": "kp4", "head": "exported to", "zh": "出口到", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：高铁技术 / 达到 / 领先水平 / 出口到",
+        "「高铁」是 high-speed rail；「领先水平」可用 the leading level；「出口」用被动 be exported to",
+        "句型：China's high-speed rail technology has reached … and has been exported to …"
+      ],
+      "topicWords": ["high-speed rail", "technology", "export"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000082",
+      "topic": "tech",
+      "difficulty": 2,
+      "zh": "中国在5G通信领域取得了重大突破，走在了世界前列。",
+      "reference": "China has made major breakthroughs in the field of 5G communications and is at the forefront of the world.",
+      "keyPoints": [
+        { "id": "kp1", "head": "major breakthroughs", "zh": "重大突破", "weight": 2 },
+        { "id": "kp2", "head": "in the field of", "zh": "在……领域", "weight": 2 },
+        { "id": "kp3", "head": "communications", "zh": "通信", "weight": 2 },
+        { "id": "kp4", "head": "at the forefront of", "zh": "走在……前列", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：重大突破 / 在……领域 / 通信 / 走在……前列",
+        "「取得突破」用 make breakthroughs；「前列」可用 the forefront；「5G通信」可写 5G communications",
+        "句型：China has made major breakthroughs in the field of … and is at the forefront of …"
+      ],
+      "topicWords": ["5G", "breakthrough", "communication"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000083",
+      "topic": "tech",
+      "difficulty": 3,
+      "zh": "中国的航天事业稳步推进，载人航天和探月工程成果丰硕。",
+      "reference": "China's space program has been advancing steadily, with fruitful results in manned spaceflight and lunar exploration.",
+      "keyPoints": [
+        { "id": "kp1", "head": "space program", "zh": "航天事业", "weight": 2 },
+        { "id": "kp2", "head": "advancing steadily", "zh": "稳步推进", "weight": 2 },
+        { "id": "kp3", "head": "manned spaceflight", "zh": "载人航天", "weight": 2 },
+        { "id": "kp4", "head": "lunar exploration", "zh": "探月工程", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：航天事业 / 稳步推进 / 载人航天 / 探月工程",
+        "「载人的」用 manned；「探月」可译为 lunar exploration；「成果丰硕」用 fruitful results",
+        "句型：China's space program has been advancing steadily, with fruitful results in … and …"
+      ],
+      "topicWords": ["space program", "manned spaceflight", "lunar exploration"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000084",
+      "topic": "tech",
+      "difficulty": 2,
+      "zh": "人工智能正被广泛应用于医疗、教育和交通等领域。",
+      "reference": "These days, artificial intelligence is being widely applied in fields such as medical care, education and transportation.",
+      "keyPoints": [
+        { "id": "kp1", "head": "artificial intelligence", "zh": "人工智能", "weight": 2 },
+        { "id": "kp2", "head": "widely applied", "zh": "广泛应用", "weight": 2 },
+        { "id": "kp3", "head": "in fields such as", "zh": "在……等领域", "weight": 2 },
+        { "id": "kp4", "head": "medical care", "zh": "医疗", "weight": 1 }
+      ],
+      "hints": [
+        "得分点：人工智能 / 广泛应用 / 在……等领域 / 医疗",
+        "「人工智能」是 artificial intelligence；「应用」用 apply，此处用现在进行时的被动语态",
+        "句型：These days, artificial intelligence is being widely applied in fields such as …, … and …"
+      ],
+      "topicWords": ["artificial intelligence", "apply", "field"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000085",
+      "topic": "tech",
+      "difficulty": 3,
+      "zh": "中国自主研发的卫星导航系统已为全球用户提供高精度定位服务。",
+      "reference": "The satellite navigation system independently developed by China has provided high-precision positioning services for users around the world.",
+      "keyPoints": [
+        { "id": "kp1", "head": "independently developed by", "zh": "自主研发", "weight": 2 },
+        { "id": "kp2", "head": "satellite navigation system", "zh": "卫星导航系统", "weight": 2 },
+        { "id": "kp3", "head": "positioning services", "zh": "定位服务", "weight": 2 },
+        { "id": "kp4", "head": "users around the world", "zh": "全球用户", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：自主研发 / 卫星导航系统 / 定位服务 / 全球用户",
+        "「自主研发」可用 independently developed by，作后置定语；「为……提供……」用 provide sth. for sb.",
+        "句型：The satellite navigation system independently developed by China has provided … for …"
+      ],
+      "topicWords": ["satellite navigation", "positioning", "independently"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000086",
+      "topic": "tech",
+      "difficulty": 3,
+      "zh": "量子计算被认为是下一代信息技术的关键，中国科学家正加紧研究。",
+      "reference": "Chinese scientists are stepping up their research on quantum computing, which is considered the key to the next generation of information technology.",
+      "keyPoints": [
+        { "id": "kp1", "head": "quantum computing", "zh": "量子计算", "weight": 2 },
+        { "id": "kp2", "head": "considered", "zh": "被认为", "weight": 1 },
+        { "id": "kp3", "head": "the next generation of", "zh": "下一代……", "weight": 2 },
+        { "id": "kp4", "head": "stepping up", "zh": "加紧", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：量子计算 / 被认为 / 下一代…… / 加紧",
+        "「被认为是」用 be considered (as)；「加紧」可用 step up；「……的关键」用 the key to",
+        "句型：Chinese scientists are stepping up their research on …, which is considered the key to …"
+      ],
+      "topicWords": ["quantum computing", "key", "step up"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000087",
+      "topic": "tech",
+      "difficulty": 3,
+      "zh": "中国的超级计算机多次位居世界前列，运算速度不断提升。",
+      "reference": "Chinese supercomputers have repeatedly ranked among the top in the world, and their computing speed keeps increasing.",
+      "keyPoints": [
+        { "id": "kp1", "head": "supercomputers", "zh": "超级计算机", "weight": 2 },
+        { "id": "kp2", "head": "ranked among the top", "zh": "位居前列", "weight": 2 },
+        { "id": "kp3", "head": "in the world", "zh": "世界", "weight": 1 },
+        { "id": "kp4", "head": "computing speed", "zh": "运算速度", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：超级计算机 / 位居前列 / 世界 / 运算速度",
+        "「位居前列」可用 rank among the top；「运算速度」是 computing speed；「不断」用 keep doing",
+        "句型：Chinese supercomputers have repeatedly ranked among the top …, and their computing speed keeps increasing."
+      ],
+      "topicWords": ["supercomputer", "rank", "computing speed"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000088",
+      "topic": "tech",
+      "difficulty": 2,
+      "zh": "新能源汽车在中国的销量持续增长，充电桩等配套设施日益完善。",
+      "reference": "The sales of new energy vehicles in China keep growing, and supporting facilities such as charging piles are becoming more and more complete.",
+      "keyPoints": [
+        { "id": "kp1", "head": "new energy vehicles", "zh": "新能源汽车", "weight": 2 },
+        { "id": "kp2", "head": "keep growing", "zh": "持续增长", "weight": 2 },
+        { "id": "kp3", "head": "supporting facilities", "zh": "配套设施", "weight": 2 },
+        { "id": "kp4", "head": "charging piles", "zh": "充电桩", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：新能源汽车 / 持续增长 / 配套设施 / 充电桩",
+        "「新能源汽车」是 new energy vehicles；「持续」用 keep doing；「充电桩」可译 charging pile",
+        "句型：The sales of … keep growing, and supporting facilities such as … are becoming more and more complete."
+      ],
+      "topicWords": ["new energy vehicle", "charging pile", "facility"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000089",
+      "topic": "tech",
+      "difficulty": 2,
+      "zh": "中国的桥梁建设技术世界闻名，许多大桥创造了世界纪录。",
+      "reference": "China's bridge construction technology is world-famous, and many bridges have set world records.",
+      "keyPoints": [
+        { "id": "kp1", "head": "bridge construction technology", "zh": "桥梁建设技术", "weight": 2 },
+        { "id": "kp2", "head": "world-famous", "zh": "世界闻名", "weight": 2 },
+        { "id": "kp3", "head": "world records", "zh": "世界纪录", "weight": 2 },
+        { "id": "kp4", "head": "many bridges", "zh": "许多大桥", "weight": 1 }
+      ],
+      "hints": [
+        "得分点：桥梁建设技术 / 世界闻名 / 世界纪录 / 许多大桥",
+        "「世界闻名」可用 world-famous；「创造纪录」用 set a record",
+        "句型：China's bridge construction technology is world-famous, and many bridges have set world records."
+      ],
+      "topicWords": ["bridge", "construction", "world record"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000090",
+      "topic": "tech",
+      "difficulty": 2,
+      "zh": "随着大数据技术的发展，城市管理变得更加高效和智能。",
+      "reference": "Thanks to the development of big data technology, urban management has become more efficient and smarter.",
+      "keyPoints": [
+        { "id": "kp1", "head": "the development of", "zh": "……的发展", "weight": 2 },
+        { "id": "kp2", "head": "big data technology", "zh": "大数据技术", "weight": 2 },
+        { "id": "kp3", "head": "urban management", "zh": "城市管理", "weight": 2 },
+        { "id": "kp4", "head": "more efficient", "zh": "更加高效", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：……的发展 / 大数据技术 / 城市管理 / 更加高效",
+        "「大数据」是 big data；「城市的」用 urban；「高效」是 efficient，用比较级；「随着」可用 thanks to",
+        "句型：Thanks to the development of …, urban management has become more efficient and smarter."
+      ],
+      "topicWords": ["big data", "urban management", "efficient"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000091",
+      "topic": "tech",
+      "difficulty": 3,
+      "zh": "中国科学家在干细胞研究领域取得了令世界瞩目的成果。",
+      "reference": "Chinese scientists have achieved results that have attracted worldwide attention in the field of stem cell research.",
+      "keyPoints": [
+        { "id": "kp1", "head": "achieved results", "zh": "取得成果", "weight": 2 },
+        { "id": "kp2", "head": "attracted worldwide attention", "zh": "令世界瞩目", "weight": 2 },
+        { "id": "kp3", "head": "in the field of", "zh": "在……领域", "weight": 2 },
+        { "id": "kp4", "head": "stem cell research", "zh": "干细胞研究", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：取得成果 / 令世界瞩目 / 在……领域 / 干细胞研究",
+        "「令世界瞩目」用 attract worldwide attention，可用 that 引导定语从句修饰 results",
+        "句型：Chinese scientists have achieved results that have attracted worldwide attention in the field of …"
+      ],
+      "topicWords": ["stem cell", "research", "achieve"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000092",
+      "topic": "tech",
+      "difficulty": 2,
+      "zh": "无人机被广泛用于农业喷洒、航拍和快递配送等领域。",
+      "reference": "Drones are widely used in areas such as agricultural spraying, aerial photography and express delivery.",
+      "keyPoints": [
+        { "id": "kp1", "head": "widely used in", "zh": "广泛用于", "weight": 2 },
+        { "id": "kp2", "head": "agricultural spraying", "zh": "农业喷洒", "weight": 2 },
+        { "id": "kp3", "head": "aerial photography", "zh": "航拍", "weight": 2 },
+        { "id": "kp4", "head": "express delivery", "zh": "快递配送", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：广泛用于 / 农业喷洒 / 航拍 / 快递配送",
+        "「无人机」是 drone；「航拍」可用 aerial photography；「快递」可译 express delivery",
+        "句型：Drones are widely used in areas such as …, … and …"
+      ],
+      "topicWords": ["drone", "aerial photography", "express delivery"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000093",
+      "topic": "tech",
+      "difficulty": 3,
+      "zh": "中国的深海探测器多次下潜至万米海底，刷新了下潜纪录。",
+      "reference": "China's deep-sea submersibles have dived to a depth of ten thousand meters several times, setting new diving records.",
+      "keyPoints": [
+        { "id": "kp1", "head": "deep-sea submersibles", "zh": "深海探测器", "weight": 2 },
+        { "id": "kp2", "head": "dived to a depth of", "zh": "下潜至……的深度", "weight": 2 },
+        { "id": "kp3", "head": "ten thousand meters", "zh": "万米", "weight": 2 },
+        { "id": "kp4", "head": "setting new diving records", "zh": "刷新下潜纪录", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：深海探测器 / 下潜至……的深度 / 万米 / 刷新下潜纪录",
+        "「探测器」可用 submersible；「深度」用 depth；「刷新纪录」用 set a new record，此处用现在分词作结果状语",
+        "句型：China's deep-sea submersibles have dived to a depth of … several times, setting new diving records."
+      ],
+      "topicWords": ["submersible", "depth", "diving record"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000094",
+      "topic": "tech",
+      "difficulty": 2,
+      "zh": "中国的移动支付技术领先世界，大大方便了人们的日常生活。",
+      "reference": "China's mobile payment technology leads the world and has greatly facilitated people's daily lives.",
+      "keyPoints": [
+        { "id": "kp1", "head": "mobile payment technology", "zh": "移动支付技术", "weight": 2 },
+        { "id": "kp2", "head": "leads the world", "zh": "领先世界", "weight": 2 },
+        { "id": "kp3", "head": "facilitated", "zh": "方便", "weight": 2 },
+        { "id": "kp4", "head": "daily lives", "zh": "日常生活", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：移动支付技术 / 领先世界 / 方便 / 日常生活",
+        "「领先世界」可用 lead the world；「方便」作动词时可用 facilitate",
+        "句型：China's mobile payment technology leads the world and has greatly facilitated …"
+      ],
+      "topicWords": ["mobile payment", "lead", "facilitate"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000095",
+      "topic": "tech",
+      "difficulty": 3,
+      "zh": "中国的大型客机成功完成首飞，标志着航空工业的重大进步。",
+      "reference": "The successful maiden flight of China's large passenger aircraft marked major progress in its aviation industry.",
+      "keyPoints": [
+        { "id": "kp1", "head": "maiden flight", "zh": "首飞", "weight": 2 },
+        { "id": "kp2", "head": "large passenger aircraft", "zh": "大型客机", "weight": 2 },
+        { "id": "kp3", "head": "marked major progress", "zh": "标志着重大进步", "weight": 2 },
+        { "id": "kp4", "head": "aviation industry", "zh": "航空工业", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：首飞 / 大型客机 / 标志着重大进步 / 航空工业",
+        "「首飞」是 maiden flight；「客机」可用 passenger aircraft；「标志着」用 mark",
+        "句型：The successful maiden flight of … marked major progress in its aviation industry."
+      ],
+      "topicWords": ["maiden flight", "passenger aircraft", "aviation industry"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000096",
+      "topic": "tech",
+      "difficulty": 3,
+      "zh": "中国的可再生能源装机容量持续增长，清洁能源占比不断提高。",
+      "reference": "China's installed capacity of renewable energy keeps growing, and the share of clean energy continues to rise.",
+      "keyPoints": [
+        { "id": "kp1", "head": "installed capacity", "zh": "装机容量", "weight": 2 },
+        { "id": "kp2", "head": "renewable energy", "zh": "可再生能源", "weight": 2 },
+        { "id": "kp3", "head": "keeps growing", "zh": "持续增长", "weight": 2 },
+        { "id": "kp4", "head": "clean energy", "zh": "清洁能源", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：装机容量 / 可再生能源 / 持续增长 / 清洁能源",
+        "「可再生的」是 renewable；「装机容量」可译 installed capacity；「占比」用 the share of",
+        "句型：China's installed capacity of … keeps growing, and the share of clean energy continues to rise."
+      ],
+      "topicWords": ["renewable energy", "installed capacity", "clean energy"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000097",
+      "topic": "tech",
+      "difficulty": 3,
+      "zh": "中国的科技企业加大研发投入，专利申请量逐年攀升。",
+      "reference": "Chinese technology companies have increased their investment in research and development, and the number of patent applications has been rising year by year.",
+      "keyPoints": [
+        { "id": "kp1", "head": "increased their investment in", "zh": "加大……的投入", "weight": 2 },
+        { "id": "kp2", "head": "research and development", "zh": "研发", "weight": 2 },
+        { "id": "kp3", "head": "patent applications", "zh": "专利申请", "weight": 2 },
+        { "id": "kp4", "head": "year by year", "zh": "逐年", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：加大……的投入 / 研发 / 专利申请 / 逐年",
+        "「研发」固定说法是 research and development（R&D）；「专利」是 patent；「申请」是 application",
+        "句型：Chinese technology companies have increased their investment in …, and the number of … has been rising year by year."
+      ],
+      "topicWords": ["research and development", "patent", "application"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000098",
+      "topic": "tech",
+      "difficulty": 3,
+      "zh": "远程医疗让偏远地区的患者也能享受到优质的医疗资源。",
+      "reference": "With telemedicine, patients in remote areas can also enjoy high-quality medical resources.",
+      "keyPoints": [
+        { "id": "kp1", "head": "telemedicine", "zh": "远程医疗", "weight": 2 },
+        { "id": "kp2", "head": "remote areas", "zh": "偏远地区", "weight": 2 },
+        { "id": "kp3", "head": "enjoy", "zh": "享受", "weight": 1 },
+        { "id": "kp4", "head": "high-quality medical resources", "zh": "优质的医疗资源", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：远程医疗 / 偏远地区 / 享受 / 优质的医疗资源",
+        "「远程医疗」是 telemedicine；「偏远地区」可用 remote areas；「让……能够……」可用 enable sb. to do，也可用 with … 引出",
+        "句型：With telemedicine, patients in remote areas can also enjoy …"
+      ],
+      "topicWords": ["telemedicine", "remote area", "medical resource"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000099",
+      "topic": "tech",
+      "difficulty": 2,
+      "zh": "中国的空间站建设进展顺利，为科学实验提供了重要平台。",
+      "reference": "The construction of China's space station is progressing smoothly, providing an important platform for scientific experiments.",
+      "keyPoints": [
+        { "id": "kp1", "head": "space station", "zh": "空间站", "weight": 2 },
+        { "id": "kp2", "head": "progressing smoothly", "zh": "进展顺利", "weight": 2 },
+        { "id": "kp3", "head": "an important platform", "zh": "重要的平台", "weight": 2 },
+        { "id": "kp4", "head": "scientific experiments", "zh": "科学实验", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：空间站 / 进展顺利 / 重要的平台 / 科学实验",
+        "「进展顺利」可用 progress smoothly；「为……提供……」用 provide sth. for sth.，此处用现在分词作伴随状语",
+        "句型：The construction of … is progressing smoothly, providing an important platform for …"
+      ],
+      "topicWords": ["space station", "platform", "scientific experiment"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000100",
+      "topic": "tech",
+      "difficulty": 2,
+      "zh": "随着科技的进步，中国人的生活方式发生了翻天覆地的变化。",
+      "reference": "Thanks to the progress of science and technology, the lifestyle of Chinese people has undergone earth-shaking changes.",
+      "keyPoints": [
+        { "id": "kp1", "head": "the progress of", "zh": "……的进步", "weight": 2 },
+        { "id": "kp2", "head": "science and technology", "zh": "科技", "weight": 2 },
+        { "id": "kp3", "head": "lifestyle", "zh": "生活方式", "weight": 2 },
+        { "id": "kp4", "head": "earth-shaking changes", "zh": "翻天覆地的变化", "synonyms": ["tremendous changes"], "weight": 2 }
+      ],
+      "hints": [
+        "得分点：……的进步 / 科技 / 生活方式 / 翻天覆地的变化",
+        "「发生（变化）」可用 undergo；「翻天覆地的」可用 earth-shaking／tremendous；「随着」可用 thanks to",
+        "句型：Thanks to the progress of …, the lifestyle of Chinese people has undergone earth-shaking changes."
+      ],
+      "topicWords": ["science and technology", "lifestyle", "change"],
+      "source": "authored"
+    }
+  ]
+}

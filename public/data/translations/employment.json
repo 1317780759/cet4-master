@@ -1,0 +1,905 @@
+{
+  "topic": "employment",
+  "label": "就业创业",
+  "items": [
+    {
+      "id": "t_000241",
+      "topic": "employment",
+      "difficulty": 2,
+      "zh": "面对激烈的竞争，大学生应提前做好职业规划。",
+      "reference": "When faced with fierce competition, college students should make career plans in advance.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "college students",
+          "zh": "大学生",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "career plans",
+          "zh": "职业规划",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "in advance",
+          "zh": "提前",
+          "synonyms": [
+            "ahead of time"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "fierce competition",
+          "zh": "激烈的竞争",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：大学生 / 职业规划 / 提前 / 激烈的竞争",
+        "「激烈的」用 fierce / intense；「面对」可用 (be) faced with",
+        "句型：When faced with fierce competition, college students should … in advance."
+      ],
+      "topicWords": [
+        "career plan",
+        "competition",
+        "college students"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000242",
+      "topic": "employment",
+      "difficulty": 2,
+      "zh": "越来越多的年轻人选择自主创业而非找工作。",
+      "reference": "Nowadays, more and more young people choose to start their own businesses rather than look for jobs.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "more and more",
+          "zh": "越来越多",
+          "weight": 1
+        },
+        {
+          "id": "kp2",
+          "head": "start their own businesses",
+          "zh": "自主创业",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "rather than",
+          "zh": "而不是",
+          "synonyms": [
+            "instead of"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "look for jobs",
+          "zh": "找工作",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：越来越多 / 自主创业 / 而不是 / 找工作",
+        "「创业」常用 start one's own business；「而非」用 rather than，后接动词原形",
+        "句型：Nowadays, more and more young people choose to … rather than …."
+      ],
+      "topicWords": [
+        "start a business",
+        "job hunting",
+        "young people"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000243",
+      "topic": "employment",
+      "difficulty": 3,
+      "zh": "政府出台了一系列政策，鼓励毕业生到基层就业。",
+      "reference": "The government has introduced a series of policies to encourage graduates to work at the grassroots level.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "has introduced",
+          "zh": "出台了",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "a series of",
+          "zh": "一系列",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "encourage graduates to",
+          "zh": "鼓励毕业生",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "at the grassroots level",
+          "zh": "到基层",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：出台了 / 一系列 / 鼓励毕业生 / 到基层",
+        "「出台政策」可用 introduce / introduce policies；「基层」固定说法 at the grassroots level",
+        "句型：The government has introduced a series of policies to encourage graduates to …."
+      ],
+      "topicWords": [
+        "policy",
+        "graduate",
+        "grassroots"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000244",
+      "topic": "employment",
+      "difficulty": 2,
+      "zh": "实践经验在求职时往往比学历更重要。",
+      "reference": "When looking for a job, people often find practical experience more important than academic qualifications.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "practical experience",
+          "zh": "实践经验",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "more important than",
+          "zh": "比……更重要",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "academic qualifications",
+          "zh": "学历",
+          "synonyms": [
+            "educational background"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "looking for a job",
+          "zh": "求职",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：实践经验 / 比……更重要 / 学历 / 求职",
+        "「学历」说 academic qualifications 最准确；比较级用 more important than",
+        "句型：When looking for a job, people often find … more important than …."
+      ],
+      "topicWords": [
+        "practical experience",
+        "qualification",
+        "job hunting"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000245",
+      "topic": "employment",
+      "difficulty": 2,
+      "zh": "许多企业更看重应聘者的沟通能力和团队合作精神。",
+      "reference": "Many companies attach greater importance to applicants' communication skills and team spirit.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "attach greater importance to",
+          "zh": "更看重",
+          "synonyms": [
+            "attach more importance to",
+            "pay more attention to"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "applicants",
+          "zh": "应聘者",
+          "weight": 1
+        },
+        {
+          "id": "kp3",
+          "head": "communication skills",
+          "zh": "沟通能力",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "team spirit",
+          "zh": "团队合作精神",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：更看重 / 应聘者 / 沟通能力 / 团队合作精神",
+        "「看重」常用 attach importance to；「团队精神」是 team spirit；「能力」用 skills（复数）",
+        "句型：Many companies attach greater importance to applicants' …."
+      ],
+      "topicWords": [
+        "applicant",
+        "communication skills",
+        "team spirit"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000246",
+      "topic": "employment",
+      "difficulty": 3,
+      "zh": "灵活就业为劳动者提供了更多的工作选择和收入来源。",
+      "reference": "In recent years, flexible employment has provided workers with more job choices and sources of income.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "flexible employment",
+          "zh": "灵活就业",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "provided workers with",
+          "zh": "为劳动者提供",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "job choices",
+          "zh": "工作选择",
+          "weight": 1
+        },
+        {
+          "id": "kp4",
+          "head": "sources of income",
+          "zh": "收入来源",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：灵活就业 / 为劳动者提供 / 工作选择 / 收入来源",
+        "「为某人提供某物」用 provide sb. with sth.；「收入来源」用 sources of income",
+        "句型：In recent years, flexible employment has provided workers with …."
+      ],
+      "topicWords": [
+        "flexible employment",
+        "income",
+        "worker"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000247",
+      "topic": "employment",
+      "difficulty": 2,
+      "zh": "实习经历能帮助学生在毕业后更快地适应职场。",
+      "reference": "For students, internship experience can help them adapt to the workplace more quickly after graduation.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "internship experience",
+          "zh": "实习经历",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "adapt to",
+          "zh": "适应",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "the workplace",
+          "zh": "职场",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "after graduation",
+          "zh": "毕业后",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：实习经历 / 适应 / 职场 / 毕业后",
+        "「适应」用 adapt to，to 是介词；「职场」可用 the workplace",
+        "句型：For students, internship experience can help them adapt to … after graduation."
+      ],
+      "topicWords": [
+        "internship",
+        "workplace",
+        "graduation"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000248",
+      "topic": "employment",
+      "difficulty": 3,
+      "zh": "随着产业结构的调整，一些传统岗位正在逐渐消失。",
+      "reference": "Some traditional jobs are gradually disappearing with the adjustment of the industrial structure.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "traditional jobs",
+          "zh": "传统岗位",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "are gradually disappearing",
+          "zh": "正在逐渐消失",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "with the adjustment of",
+          "zh": "随着……的调整",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "the industrial structure",
+          "zh": "产业结构",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：传统岗位 / 正在逐渐消失 / 随着……的调整 / 产业结构",
+        "「产业结构」是 industrial structure；「调整」名词用 adjustment；「逐渐」用 gradually",
+        "句型：Some traditional jobs are gradually disappearing with the adjustment of …."
+      ],
+      "topicWords": [
+        "industrial structure",
+        "jobs",
+        "adjustment"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000249",
+      "topic": "employment",
+      "difficulty": 2,
+      "zh": "掌握一门外语可以显著提高毕业生的就业机会。",
+      "reference": "For graduates, a good command of a foreign language can greatly increase job opportunities.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "a good command of",
+          "zh": "掌握",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "a foreign language",
+          "zh": "一门外语",
+          "weight": 1
+        },
+        {
+          "id": "kp3",
+          "head": "greatly increase",
+          "zh": "显著提高",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "job opportunities",
+          "zh": "就业机会",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：掌握 / 一门外语 / 显著提高 / 就业机会",
+        "「掌握（语言）」地道说法是 have a good command of；「机会」用 opportunities",
+        "句型：For graduates, a good command of … can greatly increase job opportunities."
+      ],
+      "topicWords": [
+        "foreign language",
+        "job opportunity",
+        "graduate"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000250",
+      "topic": "employment",
+      "difficulty": 2,
+      "zh": "创业不仅需要资金，还需要创新的想法和坚韧的意志。",
+      "reference": "For young people, starting a business requires not only money but also creative ideas and a strong will.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "starting a business",
+          "zh": "创业",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "requires",
+          "zh": "需要",
+          "weight": 1
+        },
+        {
+          "id": "kp3",
+          "head": "creative ideas",
+          "zh": "创新的想法",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "a strong will",
+          "zh": "坚韧的意志",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：创业 / 需要 / 创新的想法 / 坚韧的意志",
+        "「创业」可用 start a business；「意志」用 will，此处为可数名词，需加 a",
+        "句型：For young people, starting a business requires not only … but also …."
+      ],
+      "topicWords": [
+        "start a business",
+        "creative",
+        "will"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000251",
+      "topic": "employment",
+      "difficulty": 3,
+      "zh": "职业技能培训被认为是缓解就业压力的有效途径。",
+      "reference": "Training in vocational skills is regarded as an effective way to relieve employment pressure.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "vocational skills",
+          "zh": "职业技能",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "is regarded as",
+          "zh": "被认为是",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "an effective way to",
+          "zh": "……的有效途径",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "employment pressure",
+          "zh": "就业压力",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：职业技能 / 被认为是 / ……的有效途径 / 就业压力",
+        "「被认为是」用 be regarded as；「职业的」用 vocational；「缓解」用 relieve",
+        "句型：Training in … is regarded as an effective way to relieve …."
+      ],
+      "topicWords": [
+        "vocational skills",
+        "training",
+        "employment pressure"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000252",
+      "topic": "employment",
+      "difficulty": 2,
+      "zh": "频繁跳槽不利于个人职业的长期发展。",
+      "reference": "Frequent job-hopping does no good to one's long-term career development.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "job-hopping",
+          "zh": "跳槽",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "does no good to",
+          "zh": "对……不利",
+          "synonyms": [
+            "is not good for"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "long-term",
+          "zh": "长期的",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "career development",
+          "zh": "职业发展",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：跳槽 / 对……不利 / 长期的 / 职业发展",
+        "「跳槽」可写作 job-hopping；「对……不利」用 do no good to / be harmful to",
+        "句型：Frequent job-hopping does no good to one's long-term career development."
+      ],
+      "topicWords": [
+        "job-hopping",
+        "career development",
+        "long-term"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000253",
+      "topic": "employment",
+      "difficulty": 2,
+      "zh": "企业在招聘时越来越重视应聘者的综合素质。",
+      "reference": "Companies are paying more and more attention to applicants' overall quality when recruiting.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "more and more",
+          "zh": "越来越",
+          "weight": 1
+        },
+        {
+          "id": "kp2",
+          "head": "attention to",
+          "zh": "重视",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "overall quality",
+          "zh": "综合素质",
+          "synonyms": [
+            "comprehensive quality"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "when recruiting",
+          "zh": "招聘时",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：越来越 / 重视 / 综合素质 / 招聘时",
+        "「重视」可用 pay attention to；「招聘」动词是 recruit，此处用 when + 现在分词作时间状语",
+        "句型：Companies are paying more and more attention to … when recruiting."
+      ],
+      "topicWords": [
+        "recruit",
+        "overall quality",
+        "applicant"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000254",
+      "topic": "employment",
+      "difficulty": 3,
+      "zh": "互联网的发展催生了许多新兴职业，如网络主播。",
+      "reference": "The development of the internet has given rise to many new occupations, such as livestreaming hosts.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "has given rise to",
+          "zh": "催生了",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "new occupations",
+          "zh": "新兴职业",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "such as",
+          "zh": "例如",
+          "weight": 1
+        },
+        {
+          "id": "kp4",
+          "head": "livestreaming hosts",
+          "zh": "网络主播",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：催生了 / 新兴职业 / 例如 / 网络主播",
+        "「催生 / 引起」用 give rise to；「新兴职业」用 new occupations / emerging professions",
+        "句型：The development of … has given rise to many new occupations, such as …."
+      ],
+      "topicWords": [
+        "occupation",
+        "livestreaming",
+        "internet"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000255",
+      "topic": "employment",
+      "difficulty": 2,
+      "zh": "工作与生活的平衡正受到越来越多职场人士的关注。",
+      "reference": "In modern society, the balance between work and life is receiving more and more attention from working people.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "the balance between",
+          "zh": "……之间的平衡",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "work and life",
+          "zh": "工作与生活",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "more and more attention",
+          "zh": "越来越多的关注",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "working people",
+          "zh": "职场人士",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：……之间的平衡 / 工作与生活 / 越来越多的关注 / 职场人士",
+        "「……与……之间的平衡」用 the balance between A and B；「受到关注」用 receive attention",
+        "句型：In modern society, the balance between … is receiving more and more attention from …."
+      ],
+      "topicWords": [
+        "work-life balance",
+        "attention",
+        "career"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000256",
+      "topic": "employment",
+      "difficulty": 3,
+      "zh": "只有不断提升自己，才能在职场中保持竞争力。",
+      "reference": "In the workplace, only by constantly improving oneself can one stay competitive.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "only by",
+          "zh": "只有通过",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "improving oneself",
+          "zh": "提升自己",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "stay competitive",
+          "zh": "保持竞争力",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "workplace",
+          "zh": "在职场中",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：只有通过 / 提升自己 / 保持竞争力 / 在职场中",
+        "「Only + 状语」置于句首时主句部分倒装（can one …）；by 后接动名词 improving",
+        "句型：In the workplace, only by … can one stay competitive."
+      ],
+      "topicWords": [
+        "competitive",
+        "workplace",
+        "self-improvement"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000257",
+      "topic": "employment",
+      "difficulty": 1,
+      "zh": "简历是求职时给用人单位的第一印象。",
+      "reference": "A resume is the first impression one makes on an employer when applying for a job.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "resume",
+          "zh": "简历",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "the first impression",
+          "zh": "第一印象",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "employer",
+          "zh": "用人单位",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "applying for a job",
+          "zh": "求职",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：简历 / 第一印象 / 用人单位 / 求职",
+        "「简历」是 resume；「给某人留下印象」用 make an impression on sb.；「申请」用 apply for",
+        "句型：A resume is the first impression one makes on … when applying for a job."
+      ],
+      "topicWords": [
+        "resume",
+        "employer",
+        "apply"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000258",
+      "topic": "employment",
+      "difficulty": 2,
+      "zh": "许多高校设立了创业园，为学生创业提供支持。",
+      "reference": "Many universities have set up business parks to provide support for student entrepreneurs.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "have set up",
+          "zh": "设立了",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "business parks",
+          "zh": "创业园",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "to provide support for",
+          "zh": "为……提供支持",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "entrepreneurs",
+          "zh": "创业者",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：设立了 / 创业园 / 为……提供支持 / 创业者",
+        "「设立」用 set up；「为……提供……」用 provide sth. for sb.",
+        "句型：Many universities have set up … to provide support for …."
+      ],
+      "topicWords": [
+        "entrepreneur",
+        "business park",
+        "support"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000259",
+      "topic": "employment",
+      "difficulty": 3,
+      "zh": "在经济下行压力下，稳就业成为政府工作的重点之一。",
+      "reference": "Under the pressure of an economic downturn, ensuring stable employment has become one of the government's top priorities.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "economic downturn",
+          "zh": "经济下行",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "stable employment",
+          "zh": "稳就业",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "has become one of",
+          "zh": "成为……之一",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "top priorities",
+          "zh": "重点工作",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：经济下行 / 稳就业 / 成为……之一 / 重点工作",
+        "「下行」可用 downturn；动名词短语 ensuring stable employment 作主语；「优先事项」用 priority",
+        "句型：Under the pressure of …, ensuring … has become one of the government's top priorities."
+      ],
+      "topicWords": [
+        "employment",
+        "priority",
+        "economic downturn"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000260",
+      "topic": "employment",
+      "difficulty": 2,
+      "zh": "良好的工作态度往往比专业知识更受雇主青睐。",
+      "reference": "A good working attitude is often valued more by employers than professional knowledge.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "good working attitude",
+          "zh": "良好的工作态度",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "is often valued",
+          "zh": "往往受到重视",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "employers",
+          "zh": "雇主",
+          "weight": 1
+        },
+        {
+          "id": "kp4",
+          "head": "professional knowledge",
+          "zh": "专业知识",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：良好的工作态度 / 往往受到重视 / 雇主 / 专业知识",
+        "「受青睐 / 被看重」可意译为 is valued by；比较级用 more … than",
+        "句型：A good working attitude is often valued more by … than …."
+      ],
+      "topicWords": [
+        "working attitude",
+        "employer",
+        "professional knowledge"
+      ],
+      "source": "authored"
+    }
+  ]
+}

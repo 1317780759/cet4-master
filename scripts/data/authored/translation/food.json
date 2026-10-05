@@ -1,0 +1,410 @@
+{
+  "meta": {
+    "topic": "food",
+    "author": "self",
+    "license": "self-authored (derived-authored)",
+    "note": "全部自撰，不复制任何真题原文"
+  },
+  "items": [
+    {
+      "id": "t_000041",
+      "topic": "food",
+      "difficulty": 2,
+      "zh": "中国菜以其色香味俱全而闻名，在世界各地广受欢迎。",
+      "reference": "Chinese cuisine is famous for its perfect combination of color, aroma and taste, and is widely popular all over the world.",
+      "keyPoints": [
+        { "id": "kp1", "head": "famous for", "zh": "以……而闻名", "weight": 2 },
+        { "id": "kp2", "head": "color, aroma and taste", "zh": "色香味", "weight": 2 },
+        { "id": "kp3", "head": "widely popular", "zh": "广受欢迎", "weight": 2 },
+        { "id": "kp4", "head": "all over the world", "zh": "世界各地", "synonyms": ["around the world"], "weight": 1 }
+      ],
+      "hints": [
+        "得分点：以……而闻名 / 色香味 / 广受欢迎 / 世界各地",
+        "「色香味」对应 color, aroma and taste；「以……闻名」用 be famous for",
+        "句型：Chinese cuisine is famous for …, and is widely popular …"
+      ],
+      "topicWords": ["cuisine", "aroma", "popular"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000042",
+      "topic": "food",
+      "difficulty": 1,
+      "zh": "北方人主食以面食为主，而南方人则更偏爱米饭。",
+      "reference": "People in northern China mainly live on wheaten food, while those in southern China prefer rice.",
+      "keyPoints": [
+        { "id": "kp1", "head": "mainly live on", "zh": "以……为主食", "weight": 2 },
+        { "id": "kp2", "head": "wheaten food", "zh": "面食", "weight": 2 },
+        { "id": "kp3", "head": "prefer", "zh": "更偏爱", "weight": 2 },
+        { "id": "kp4", "head": "rice", "zh": "米饭", "weight": 1 }
+      ],
+      "hints": [
+        "得分点：以……为主食 / 面食 / 更偏爱 / 米饭",
+        "「以……为主食」用 live on；南北对比用 while 连接两个分句",
+        "句型：People in northern China mainly live on …, while those in southern China prefer …"
+      ],
+      "topicWords": ["wheaten food", "rice", "prefer"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000043",
+      "topic": "food",
+      "difficulty": 2,
+      "zh": "川菜以麻辣著称，深受喜欢重口味的食客喜爱。",
+      "reference": "Sichuan cuisine is known for its spicy and numbing flavor and is deeply loved by diners who prefer strong tastes.",
+      "keyPoints": [
+        { "id": "kp1", "head": "known for", "zh": "以……著称", "weight": 2 },
+        { "id": "kp2", "head": "spicy and numbing", "zh": "麻辣", "weight": 2 },
+        { "id": "kp3", "head": "deeply loved by", "zh": "深受……喜爱", "weight": 2 },
+        { "id": "kp4", "head": "strong tastes", "zh": "重口味", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：以……著称 / 麻辣 / 深受……喜爱 / 重口味",
+        "「麻辣」常说 spicy and numbing；「食客」可用 diner",
+        "句型：Sichuan cuisine is known for … and is deeply loved by diners who …"
+      ],
+      "topicWords": ["Sichuan cuisine", "spicy", "diner"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000044",
+      "topic": "food",
+      "difficulty": 2,
+      "zh": "中国人讲究食疗，认为合理的饮食有助于保持健康。",
+      "reference": "Chinese people pay attention to dietary therapy, believing that a reasonable diet helps to keep healthy.",
+      "keyPoints": [
+        { "id": "kp1", "head": "pay attention to", "zh": "讲究／重视", "weight": 2 },
+        { "id": "kp2", "head": "dietary therapy", "zh": "食疗", "weight": 2 },
+        { "id": "kp3", "head": "a reasonable diet", "zh": "合理的饮食", "weight": 2 },
+        { "id": "kp4", "head": "keep healthy", "zh": "保持健康", "synonyms": ["stay healthy"], "weight": 2 }
+      ],
+      "hints": [
+        "得分点：讲究／重视 / 食疗 / 合理的饮食 / 保持健康",
+        "「食疗」用 dietary therapy；后半句可用现在分词 believing that … 作伴随状语",
+        "句型：Chinese people pay attention to …, believing that … helps to …"
+      ],
+      "topicWords": ["dietary therapy", "diet", "healthy"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000045",
+      "topic": "food",
+      "difficulty": 2,
+      "zh": "饺子是中国北方春节必不可少的食物，象征着团圆和好运。",
+      "reference": "Dumplings are an indispensable food for the Spring Festival in northern China, symbolizing reunion and good luck.",
+      "keyPoints": [
+        { "id": "kp1", "head": "indispensable", "zh": "必不可少的", "weight": 2 },
+        { "id": "kp2", "head": "symbolizing", "zh": "象征着", "weight": 1 },
+        { "id": "kp3", "head": "reunion", "zh": "团圆", "weight": 2 },
+        { "id": "kp4", "head": "good luck", "zh": "好运", "synonyms": ["good fortune"], "weight": 1 }
+      ],
+      "hints": [
+        "得分点：必不可少的 / 象征着 / 团圆 / 好运",
+        "「必不可少的」可用 indispensable／essential；后半句用现在分词 symbolizing …",
+        "句型：Dumplings are an indispensable food for …, symbolizing …"
+      ],
+      "topicWords": ["dumpling", "indispensable", "reunion"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000046",
+      "topic": "food",
+      "difficulty": 2,
+      "zh": "中国茶文化历史悠久，饮茶不仅解渴，也是一种社交方式。",
+      "reference": "Chinese tea culture has a long history, and drinking tea is not only a way to quench thirst but also a form of social interaction.",
+      "keyPoints": [
+        { "id": "kp1", "head": "has a long history", "zh": "历史悠久", "weight": 2 },
+        { "id": "kp2", "head": "not only", "zh": "不仅", "weight": 2 },
+        { "id": "kp3", "head": "but also", "zh": "也／而且", "weight": 2 },
+        { "id": "kp4", "head": "to quench thirst", "zh": "解渴", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：历史悠久 / 不仅 / 也／而且 / 解渴",
+        "「解渴」固定搭配为 quench thirst；「社交」可用 social interaction",
+        "句型：… has a long history, and drinking tea is not only … but also …"
+      ],
+      "topicWords": ["tea culture", "quench thirst", "social interaction"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000047",
+      "topic": "food",
+      "difficulty": 3,
+      "zh": "随着生活节奏的加快，外卖行业在中国迅速发展起来。",
+      "reference": "In China, the takeaway industry has developed rapidly as the pace of life accelerates.",
+      "keyPoints": [
+        { "id": "kp1", "head": "the pace of life", "zh": "生活节奏", "weight": 2 },
+        { "id": "kp2", "head": "accelerates", "zh": "加快", "weight": 1 },
+        { "id": "kp3", "head": "takeaway industry", "zh": "外卖行业", "weight": 2 },
+        { "id": "kp4", "head": "developed rapidly", "zh": "迅速发展", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：生活节奏 / 加快 / 外卖行业 / 迅速发展",
+        "「生活节奏」是 the pace of life；「外卖」可用 takeaway／takeout；「随着」可用 as 引导从句",
+        "句型：In China, the takeaway industry has developed rapidly as the pace of life accelerates."
+      ],
+      "topicWords": ["takeaway", "pace of life", "industry"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000048",
+      "topic": "food",
+      "difficulty": 3,
+      "zh": "中国人用餐时喜欢共享菜肴，体现了热情好客的传统。",
+      "reference": "Chinese people like to share dishes when dining together, which reflects the tradition of hospitality.",
+      "keyPoints": [
+        { "id": "kp1", "head": "share dishes", "zh": "共享菜肴", "weight": 2 },
+        { "id": "kp2", "head": "dining together", "zh": "一起用餐", "weight": 2 },
+        { "id": "kp3", "head": "reflects", "zh": "体现", "weight": 1 },
+        { "id": "kp4", "head": "hospitality", "zh": "热情好客", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：共享菜肴 / 一起用餐 / 体现 / 热情好客",
+        "「共享」用 share；「热情好客」是 hospitality，可用 which 引导非限制性定语从句",
+        "句型：Chinese people like to share dishes when …, which reflects the tradition of …"
+      ],
+      "topicWords": ["share", "dining", "hospitality"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000049",
+      "topic": "food",
+      "difficulty": 3,
+      "zh": "中国的八大菜系各有特色，烹饪方法也各不相同。",
+      "reference": "The eight major regional cuisines of China each have their own characteristics, and their cooking methods also differ from one another.",
+      "keyPoints": [
+        { "id": "kp1", "head": "regional cuisines", "zh": "地方菜系", "weight": 2 },
+        { "id": "kp2", "head": "their own characteristics", "zh": "各自的特色", "weight": 2 },
+        { "id": "kp3", "head": "cooking methods", "zh": "烹饪方法", "weight": 2 },
+        { "id": "kp4", "head": "differ from one another", "zh": "各不相同", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：地方菜系 / 各自的特色 / 烹饪方法 / 各不相同",
+        "「菜系」可用 cuisine；「各不相同」可用 differ from one another",
+        "句型：The eight major regional cuisines … each have …, and their cooking methods also differ …"
+      ],
+      "topicWords": ["regional cuisine", "cooking method", "characteristic"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000050",
+      "topic": "food",
+      "difficulty": 2,
+      "zh": "火锅以其丰富的口味和热闹的氛围，成为年轻人聚餐的首选。",
+      "reference": "Hot pot has become the first choice for young people to dine together because of its rich flavors and lively atmosphere.",
+      "keyPoints": [
+        { "id": "kp1", "head": "the first choice", "zh": "首选", "weight": 2 },
+        { "id": "kp2", "head": "because of", "zh": "因为／由于", "weight": 2 },
+        { "id": "kp3", "head": "rich flavors", "zh": "丰富的口味", "weight": 2 },
+        { "id": "kp4", "head": "lively atmosphere", "zh": "热闹的氛围", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：首选 / 因为／由于 / 丰富的口味 / 热闹的氛围",
+        "「首选」是 the first choice；「热闹的氛围」可用 a lively atmosphere",
+        "句型：Hot pot has become the first choice for … because of its … and …"
+      ],
+      "topicWords": ["hot pot", "flavor", "atmosphere"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000051",
+      "topic": "food",
+      "difficulty": 2,
+      "zh": "米饭是中国人餐桌上的主角，几乎所有的正餐都离不开它。",
+      "reference": "Rice plays a leading role on Chinese dining tables, and it is indispensable in almost every formal meal.",
+      "keyPoints": [
+        { "id": "kp1", "head": "plays a leading role", "zh": "是主角／起主要作用", "weight": 2 },
+        { "id": "kp2", "head": "dining tables", "zh": "餐桌", "weight": 1 },
+        { "id": "kp3", "head": "indispensable", "zh": "不可或缺的", "weight": 2 },
+        { "id": "kp4", "head": "formal meal", "zh": "正餐", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：是主角／起主要作用 / 餐桌 / 不可或缺的 / 正餐",
+        "「主角」意译为 play a leading role；「离不开」可用 indispensable（不可或缺的）",
+        "句型：Rice plays a leading role on …, and it is indispensable in …"
+      ],
+      "topicWords": ["rice", "staple", "meal"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000052",
+      "topic": "food",
+      "difficulty": 2,
+      "zh": "南方人喜欢煲汤，认为汤品既能补充营养又能调理身体。",
+      "reference": "People in southern China are fond of making slow-cooked soup, believing that soup can both provide nutrition and regulate the body.",
+      "keyPoints": [
+        { "id": "kp1", "head": "fond of", "zh": "喜欢", "weight": 2 },
+        { "id": "kp2", "head": "slow-cooked soup", "zh": "煲汤", "weight": 2 },
+        { "id": "kp3", "head": "provide nutrition", "zh": "补充营养", "weight": 2 },
+        { "id": "kp4", "head": "regulate the body", "zh": "调理身体", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：喜欢 / 煲汤 / 补充营养 / 调理身体",
+        "「喜欢」可用 be fond of；「既……又……」用 both … and …",
+        "句型：People in southern China are fond of …, believing that soup can both … and …"
+      ],
+      "topicWords": ["soup", "nutrition", "regulate"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000053",
+      "topic": "food",
+      "difficulty": 3,
+      "zh": "随着健康意识的提高，越来越多的人开始减少油盐的摄入。",
+      "reference": "Thanks to the improvement of health awareness, a growing number of people have begun to reduce their intake of oil and salt.",
+      "keyPoints": [
+        { "id": "kp1", "head": "the improvement of", "zh": "……的提高", "weight": 2 },
+        { "id": "kp2", "head": "health awareness", "zh": "健康意识", "weight": 2 },
+        { "id": "kp3", "head": "a growing number of", "zh": "越来越多的", "weight": 2 },
+        { "id": "kp4", "head": "intake of oil and salt", "zh": "油盐的摄入", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：……的提高 / 健康意识 / 越来越多的 / 油盐的摄入",
+        "「健康意识」是 health awareness；「摄入」用 intake；「随着」可用 thanks to 引出原因",
+        "句型：Thanks to the improvement of …, a growing number of people have begun to reduce …"
+      ],
+      "topicWords": ["health awareness", "intake", "reduce"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000054",
+      "topic": "food",
+      "difficulty": 2,
+      "zh": "筷子是中国人最常用的餐具，使用时有不少讲究和禁忌。",
+      "reference": "Chopsticks are the most commonly used tableware for Chinese people, and there are many rules and taboos concerning their use.",
+      "keyPoints": [
+        { "id": "kp1", "head": "the most commonly used", "zh": "最常用的", "weight": 2 },
+        { "id": "kp2", "head": "tableware", "zh": "餐具", "weight": 2 },
+        { "id": "kp3", "head": "rules and taboos", "zh": "讲究和禁忌", "weight": 2 },
+        { "id": "kp4", "head": "concerning", "zh": "关于", "weight": 1 }
+      ],
+      "hints": [
+        "得分点：最常用的 / 餐具 / 讲究和禁忌 / 关于",
+        "「餐具」是 tableware；「禁忌」可用 taboo；后半句可用 there be 句型",
+        "句型：Chopsticks are the most commonly used tableware for …, and there are many … concerning …"
+      ],
+      "topicWords": ["chopsticks", "tableware", "taboo"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000055",
+      "topic": "food",
+      "difficulty": 3,
+      "zh": "烤鸭以其酥脆的外皮和鲜嫩的肉质而闻名，深受中外食客喜爱。",
+      "reference": "Roast duck is famous for its crispy skin and tender meat, and is deeply loved by diners at home and abroad.",
+      "keyPoints": [
+        { "id": "kp1", "head": "famous for", "zh": "以……而闻名", "weight": 2 },
+        { "id": "kp2", "head": "crispy skin", "zh": "酥脆的外皮", "weight": 2 },
+        { "id": "kp3", "head": "tender meat", "zh": "鲜嫩的肉质", "weight": 2 },
+        { "id": "kp4", "head": "at home and abroad", "zh": "中外", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：以……而闻名 / 酥脆的外皮 / 鲜嫩的肉质 / 中外",
+        "「酥脆」用 crispy，「鲜嫩」用 tender；「中外」可用 at home and abroad",
+        "句型：Roast duck is famous for … and …, and is deeply loved by diners …"
+      ],
+      "topicWords": ["roast duck", "crispy", "tender"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000056",
+      "topic": "food",
+      "difficulty": 3,
+      "zh": "中国的饮食文化强调五味调和，追求食材的本真之味。",
+      "reference": "Chinese food culture emphasizes the harmony of the five flavors and pursues the original taste of the ingredients.",
+      "keyPoints": [
+        { "id": "kp1", "head": "emphasizes", "zh": "强调", "weight": 1 },
+        { "id": "kp2", "head": "the five flavors", "zh": "五味", "weight": 2 },
+        { "id": "kp3", "head": "pursues", "zh": "追求", "weight": 1 },
+        { "id": "kp4", "head": "the original taste of", "zh": "……的本真之味", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：强调 / 五味 / 追求 / ……的本真之味",
+        "「调和」可用 the harmony of；「食材」是 ingredient",
+        "句型：Chinese food culture emphasizes … and pursues …"
+      ],
+      "topicWords": ["food culture", "flavor", "ingredient"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000057",
+      "topic": "food",
+      "difficulty": 3,
+      "zh": "近年来，越来越多的中国美食走出国门，受到外国消费者的欢迎。",
+      "reference": "More and more Chinese delicacies have gone abroad in recent years and are welcomed by foreign consumers.",
+      "keyPoints": [
+        { "id": "kp1", "head": "in recent years", "zh": "近年来", "weight": 2 },
+        { "id": "kp2", "head": "delicacies", "zh": "美食", "weight": 2 },
+        { "id": "kp3", "head": "gone abroad", "zh": "走出国门", "weight": 2 },
+        { "id": "kp4", "head": "foreign consumers", "zh": "外国消费者", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：近年来 / 美食 / 走出国门 / 外国消费者",
+        "「走出国门」可用 go abroad；「受到……欢迎」用被动 be welcomed by；「越来越多」可用 more and more",
+        "句型：More and more Chinese delicacies have gone abroad in recent years and are welcomed by …"
+      ],
+      "topicWords": ["delicacy", "go abroad", "consumer"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000058",
+      "topic": "food",
+      "difficulty": 2,
+      "zh": "中国人习惯趁热吃饭，认为冷食对胃不好。",
+      "reference": "Chinese people have the habit of eating food while it is hot, believing that cold food is bad for the stomach.",
+      "keyPoints": [
+        { "id": "kp1", "head": "have the habit of", "zh": "有……的习惯", "weight": 2 },
+        { "id": "kp2", "head": "while it is hot", "zh": "趁热", "weight": 2 },
+        { "id": "kp3", "head": "cold food", "zh": "冷食", "weight": 1 },
+        { "id": "kp4", "head": "bad for the stomach", "zh": "对胃不好", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：有……的习惯 / 趁热 / 冷食 / 对胃不好",
+        "「趁热」可用 while it is hot；「对……不好」用 be bad for",
+        "句型：Chinese people have the habit of eating food while …, believing that … is bad for …"
+      ],
+      "topicWords": ["habit", "cold food", "stomach"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000059",
+      "topic": "food",
+      "difficulty": 3,
+      "zh": "小吃街汇集了各地的风味美食，是游客体验当地文化的好去处。",
+      "reference": "Snack streets bring together local flavors from various places and are good places for tourists to experience local culture.",
+      "keyPoints": [
+        { "id": "kp1", "head": "bring together", "zh": "汇集", "weight": 2 },
+        { "id": "kp2", "head": "local flavors", "zh": "风味美食", "weight": 2 },
+        { "id": "kp3", "head": "various places", "zh": "各地", "weight": 2 },
+        { "id": "kp4", "head": "experience local culture", "zh": "体验当地文化", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：汇集 / 风味美食 / 各地 / 体验当地文化",
+        "「汇集」可用 bring together；「好去处」可译为 good places for … to …",
+        "句型：Snack streets bring together … from … and are good places for tourists to …"
+      ],
+      "topicWords": ["snack", "local flavor", "tourist"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000060",
+      "topic": "food",
+      "difficulty": 3,
+      "zh": "一粥一饭当思来之不易，珍惜粮食是中华民族的传统美德。",
+      "reference": "Every bowl of rice should remind us of the hard work behind it, and cherishing food is a traditional virtue of the Chinese nation.",
+      "keyPoints": [
+        { "id": "kp1", "head": "remind us of", "zh": "使……想起", "weight": 2 },
+        { "id": "kp2", "head": "hard work", "zh": "来之不易／辛劳", "weight": 2 },
+        { "id": "kp3", "head": "cherishing food", "zh": "珍惜粮食", "weight": 2 },
+        { "id": "kp4", "head": "a traditional virtue", "zh": "传统美德", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：使……想起 / 来之不易／辛劳 / 珍惜粮食 / 传统美德",
+        "「使……想起」用 remind sb. of；「美德」是 virtue；动名词可作主语",
+        "句型：Every bowl of rice should remind us of …, and cherishing food is a traditional virtue …"
+      ],
+      "topicWords": ["cherish", "virtue", "grain"],
+      "source": "authored"
+    }
+  ]
+}

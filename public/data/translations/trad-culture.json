@@ -1,0 +1,915 @@
+{
+  "topic": "trad-culture",
+  "label": "传统文化",
+  "items": [
+    {
+      "id": "t_000001",
+      "topic": "trad-culture",
+      "difficulty": 2,
+      "zh": "剪纸是中国最受欢迎的民间艺术之一，已有超过一千五百年的历史。",
+      "reference": "Paper-cutting is one of the most popular folk arts in China, with a history of more than 1,500 years.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "one of the most popular",
+          "zh": "最受欢迎的……之一",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "folk arts",
+          "zh": "民间艺术",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "a history of",
+          "zh": "……的历史",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "more than",
+          "zh": "超过",
+          "synonyms": [
+            "over"
+          ],
+          "weight": 1,
+          "optional": true
+        }
+      ],
+      "hints": [
+        "得分点：最受欢迎的……之一 / 民间艺术 / ……的历史 / 超过",
+        "「民间」常用 folk；「……之一」用 one of the + 最高级 + 复数名词",
+        "句型：Paper-cutting is …, with a history of …"
+      ],
+      "topicWords": [
+        "paper-cutting",
+        "folk art"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000002",
+      "topic": "trad-culture",
+      "difficulty": 2,
+      "zh": "书法被视为中国传统文化的瑰宝，越来越受到年轻人的喜爱。",
+      "reference": "Calligraphy is regarded as a treasure of the traditional culture of China and is becoming increasingly popular among young people.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "regarded as",
+          "zh": "被视为",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "a treasure of",
+          "zh": "……的瑰宝",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "traditional culture",
+          "zh": "传统文化",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "increasingly popular",
+          "zh": "越来越受欢迎",
+          "synonyms": [
+            "more and more popular"
+          ],
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：被视为 / ……的瑰宝 / 传统文化 / 越来越受欢迎",
+        "「瑰宝」用 treasure；「越来越……」可用 increasingly + 形容词",
+        "句型：Calligraphy is regarded as …, and is becoming …"
+      ],
+      "topicWords": [
+        "calligraphy",
+        "treasure",
+        "traditional culture"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000003",
+      "topic": "trad-culture",
+      "difficulty": 3,
+      "zh": "京剧集歌唱、舞蹈和武术于一体，是中国最具代表性的戏曲形式。",
+      "reference": "Peking opera combines singing, dancing and martial arts, making it the most representative form of Chinese opera.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "combines",
+          "zh": "集……于一体",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "martial arts",
+          "zh": "武术",
+          "weight": 1
+        },
+        {
+          "id": "kp3",
+          "head": "the most representative",
+          "zh": "最具代表性的",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "making it",
+          "zh": "使其成为",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：集……于一体 / 武术 / 最具代表性的 / 使其成为",
+        "「武术」固定说法是 martial arts；后半句可用现在分词作结果状语",
+        "句型：Peking opera combines …, making it the most representative …"
+      ],
+      "topicWords": [
+        "Peking opera",
+        "martial arts"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000004",
+      "topic": "trad-culture",
+      "difficulty": 2,
+      "zh": "中医强调人与自然的和谐，已有数千年的实践历史。",
+      "reference": "Traditional Chinese medicine emphasizes the harmony between human beings and nature and has been practiced for thousands of years.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "emphasizes",
+          "zh": "强调",
+          "weight": 1
+        },
+        {
+          "id": "kp2",
+          "head": "the harmony between",
+          "zh": "……之间的和谐",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "human beings and nature",
+          "zh": "人与自然",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "for thousands of years",
+          "zh": "数千年",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：强调 / ……之间的和谐 / 人与自然 / 数千年",
+        "「和谐」是 harmony；「……之间」用 between … and …",
+        "句型：Traditional Chinese medicine emphasizes … and has been practiced for …"
+      ],
+      "topicWords": [
+        "traditional Chinese medicine",
+        "harmony",
+        "nature"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000005",
+      "topic": "trad-culture",
+      "difficulty": 2,
+      "zh": "太极拳不仅是一种武术，也是一种深受欢迎的健身方式。",
+      "reference": "Tai chi is not only a form of martial art but also a popular way of keeping fit.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "not only",
+          "zh": "不仅",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "but also",
+          "zh": "也／而且",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "martial art",
+          "zh": "武术",
+          "weight": 1
+        },
+        {
+          "id": "kp4",
+          "head": "keeping fit",
+          "zh": "健身",
+          "synonyms": [
+            "staying healthy",
+            "keeping healthy"
+          ],
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：不仅 / 也／而且 / 武术 / 健身",
+        "「不仅……而且……」用 not only … but also …；「健身」可用 keep fit",
+        "句型：Tai chi is not only … but also …"
+      ],
+      "topicWords": [
+        "tai chi",
+        "martial art",
+        "keep fit"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000006",
+      "topic": "trad-culture",
+      "difficulty": 3,
+      "zh": "瓷器发明于中国，早在唐代就已远销海外。",
+      "reference": "Porcelain was invented in China and was exported to overseas markets as early as the Tang Dynasty.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "invented in",
+          "zh": "发明于",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "exported to",
+          "zh": "远销到",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "as early as",
+          "zh": "早在",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "overseas markets",
+          "zh": "海外（市场）",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：发明于 / 远销到 / 早在 / 海外（市场）",
+        "两个动作都用被动语态；「远销海外」意译为 be exported to overseas markets；「唐代」可用 the Tang Dynasty",
+        "句型：Porcelain was invented in … and was exported to … as early as …"
+      ],
+      "topicWords": [
+        "porcelain",
+        "export",
+        "Tang Dynasty"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000007",
+      "topic": "trad-culture",
+      "difficulty": 3,
+      "zh": "中国园林讲究自然之美，力求达到人工与自然的完美统一。",
+      "reference": "Chinese gardens emphasize the beauty of nature and strive to achieve a perfect harmony between human design and the natural world.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "the beauty of nature",
+          "zh": "自然之美",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "strive to",
+          "zh": "力求",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "harmony between",
+          "zh": "……之间的和谐／统一",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "the natural world",
+          "zh": "自然（界）",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：自然之美 / 力求 / ……之间的和谐 / 自然（界）",
+        "「力求」可用 strive to / try hard to；「自然之美」用 the beauty of nature",
+        "句型：Chinese gardens emphasize … and strive to achieve …"
+      ],
+      "topicWords": [
+        "garden",
+        "beauty of nature",
+        "harmony"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000008",
+      "topic": "trad-culture",
+      "difficulty": 3,
+      "zh": "茶道体现了中国人待客的礼节，也反映出对宁静生活的向往。",
+      "reference": "The tea ceremony reflects Chinese people's etiquette in treating guests and their longing for a peaceful life.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "reflects",
+          "zh": "体现／反映出",
+          "weight": 1
+        },
+        {
+          "id": "kp2",
+          "head": "treating guests",
+          "zh": "待客",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "longing for",
+          "zh": "对……的向往",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "a peaceful life",
+          "zh": "宁静的生活",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：体现／反映出 / 待客 / 对……的向往 / 宁静的生活",
+        "「礼节」可用 etiquette；「对……的向往」常用 longing for",
+        "句型：The tea ceremony reflects … in … and their longing for …"
+      ],
+      "topicWords": [
+        "tea ceremony",
+        "etiquette",
+        "guest"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000009",
+      "topic": "trad-culture",
+      "difficulty": 2,
+      "zh": "四大发明对世界文明的发展产生了深远的影响。",
+      "reference": "The four great inventions had a profound impact on the development of world civilization.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "four great inventions",
+          "zh": "四大发明",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "a profound impact on",
+          "zh": "对……产生了深远的影响",
+          "synonyms": [
+            "a profound influence on",
+            "a far-reaching impact on"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "the development of",
+          "zh": "……的发展",
+          "weight": 1
+        },
+        {
+          "id": "kp4",
+          "head": "world civilization",
+          "zh": "世界文明",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：四大发明 / 对……产生了深远的影响 / ……的发展 / 世界文明",
+        "「深远的影响」可用 a profound impact／influence on；「文明」是 civilization",
+        "句型：The four great inventions had a profound impact on …"
+      ],
+      "topicWords": [
+        "four great inventions",
+        "civilization",
+        "impact"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000010",
+      "topic": "trad-culture",
+      "difficulty": 3,
+      "zh": "儒家思想强调仁、义、礼，对中国社会影响深远。",
+      "reference": "Confucian thought emphasizes benevolence, righteousness and propriety, and has exerted a far-reaching influence on society in China.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "emphasizes",
+          "zh": "强调",
+          "weight": 1
+        },
+        {
+          "id": "kp2",
+          "head": "benevolence",
+          "zh": "仁",
+          "weight": 1
+        },
+        {
+          "id": "kp3",
+          "head": "a far-reaching influence on",
+          "zh": "对……影响深远",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "society",
+          "zh": "社会",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：强调 / 仁 / 对……影响深远 / 社会",
+        "「仁、义、礼」可译 benevolence, righteousness and propriety；「影响深远」用 a far-reaching influence",
+        "句型：… emphasizes …, and has exerted a far-reaching influence on …"
+      ],
+      "topicWords": [
+        "Confucian thought",
+        "benevolence",
+        "influence"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000011",
+      "topic": "trad-culture",
+      "difficulty": 2,
+      "zh": "汉服近年来重新流行起来，成为年轻人表达文化自信的一种方式。",
+      "reference": "In recent years, hanfu has regained popularity and become a way for young people to express their cultural confidence.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "recent years",
+          "zh": "近年来",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "regained popularity",
+          "zh": "重新流行起来",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "a way for",
+          "zh": "一种……的方式",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "express their cultural confidence",
+          "zh": "表达文化自信",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：近年来 / 重新流行起来 / 一种……的方式 / 表达文化自信",
+        "「重新流行」可用 regain popularity；「文化自信」是 cultural confidence",
+        "句型：In recent years, … has regained popularity and become a way for … to …"
+      ],
+      "topicWords": [
+        "hanfu",
+        "popularity",
+        "cultural confidence"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000012",
+      "topic": "trad-culture",
+      "difficulty": 3,
+      "zh": "中国传统建筑以木结构为主，注重对称与整体的和谐。",
+      "reference": "Traditional Chinese architecture is mainly characterized by wooden structures and attaches great importance to symmetry and overall harmony.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "characterized by",
+          "zh": "以……为主要特征",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "wooden structures",
+          "zh": "木结构",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "attaches great importance to",
+          "zh": "重视／注重",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "symmetry and overall harmony",
+          "zh": "对称与整体的和谐",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：以……为主要特征 / 木结构 / 重视／注重 / 对称与整体的和谐",
+        "「以……为特征」用 be characterized by；「注重」可用 attach great importance to",
+        "句型：… is mainly characterized by … and attaches great importance to …"
+      ],
+      "topicWords": [
+        "architecture",
+        "wooden structure",
+        "symmetry"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000013",
+      "topic": "trad-culture",
+      "difficulty": 2,
+      "zh": "中国的丝绸自古以来就享有盛誉，是中外贸易的重要商品。",
+      "reference": "Chinese silk has enjoyed a high reputation since ancient times and has been an important commodity in trade between China and foreign countries.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "enjoyed a high reputation",
+          "zh": "享有盛誉",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "since ancient times",
+          "zh": "自古以来",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "an important commodity",
+          "zh": "重要的商品",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "trade between",
+          "zh": "……之间的贸易",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：享有盛誉 / 自古以来 / 重要的商品 / ……之间的贸易",
+        "「享有盛誉」用 enjoy a high reputation；「商品」是 commodity",
+        "句型：Chinese silk has enjoyed … since … and has been … in trade between …"
+      ],
+      "topicWords": [
+        "silk",
+        "reputation",
+        "commodity"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000014",
+      "topic": "trad-culture",
+      "difficulty": 1,
+      "zh": "中国结象征着团圆与吉祥，常被用作装饰和礼物。",
+      "reference": "The Chinese knot symbolizes reunion and good fortune and is often used as a decoration and a gift.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "symbolizes",
+          "zh": "象征着",
+          "weight": 1
+        },
+        {
+          "id": "kp2",
+          "head": "reunion",
+          "zh": "团圆",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "good fortune",
+          "zh": "吉祥",
+          "synonyms": [
+            "good luck"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "used as",
+          "zh": "被用作",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：象征着 / 团圆 / 吉祥 / 被用作",
+        "「象征」用 symbolize；「吉祥」可用 good fortune／good luck",
+        "句型：The Chinese knot symbolizes … and is often used as …"
+      ],
+      "topicWords": [
+        "Chinese knot",
+        "symbolize",
+        "reunion"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000015",
+      "topic": "trad-culture",
+      "difficulty": 3,
+      "zh": "中国传统绘画注重意境，往往留白以引发观者的想象。",
+      "reference": "Traditional Chinese painting attaches importance to artistic conception and often leaves blank space to arouse the imagination of viewers.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "attaches importance to",
+          "zh": "注重",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "artistic conception",
+          "zh": "意境",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "leaves blank space",
+          "zh": "留白",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "arouse the imagination",
+          "zh": "引发想象",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：注重 / 意境 / 留白 / 引发想象",
+        "「意境」可用 artistic conception；「留白」意译为 leave blank space",
+        "句型：… attaches importance to … and often leaves blank space to …"
+      ],
+      "topicWords": [
+        "painting",
+        "artistic conception",
+        "imagination"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000016",
+      "topic": "trad-culture",
+      "difficulty": 3,
+      "zh": "中国功夫讲究内外兼修，如今在世界各地都有习练者。",
+      "reference": "Chinese kung fu lays emphasis on developing both the body and the mind, and now it is practiced by people all over the world.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "lays emphasis on",
+          "zh": "讲究／注重",
+          "synonyms": [
+            "attaches importance to"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "both the body and the mind",
+          "zh": "内外兼修",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "practiced by",
+          "zh": "被……习练",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "all over the world",
+          "zh": "世界各地",
+          "synonyms": [
+            "around the world",
+            "throughout the world"
+          ],
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：讲究／注重 / 内外兼修 / 被……习练 / 世界各地",
+        "「内外兼修」意译为 both the body and the mind；「世界各地」用 all over the world",
+        "句型：… lays emphasis on …, and now it is practiced by people …"
+      ],
+      "topicWords": [
+        "kung fu",
+        "body and mind",
+        "practice"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000017",
+      "topic": "trad-culture",
+      "difficulty": 2,
+      "zh": "中国人自古以来重视家庭教育，认为父母的言行会影响孩子一生。",
+      "reference": "Chinese people have attached great importance to family education since ancient times, believing that parents' words and deeds will influence their children throughout their lives.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "attached great importance to",
+          "zh": "重视",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "family education",
+          "zh": "家庭教育",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "words and deeds",
+          "zh": "言行",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "influence their children",
+          "zh": "影响孩子",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：重视 / 家庭教育 / 言行 / 影响孩子",
+        "「重视」用 attach great importance to；「言行」固定搭配为 words and deeds",
+        "句型：… have attached great importance to …, believing that … will influence …"
+      ],
+      "topicWords": [
+        "family education",
+        "words and deeds",
+        "influence"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000018",
+      "topic": "trad-culture",
+      "difficulty": 3,
+      "zh": "水墨画以简练的笔触传达丰富的意蕴，历来深受人们喜爱。",
+      "reference": "Ink wash painting conveys rich meanings with simple brushstrokes and has long enjoyed great popularity.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "conveys",
+          "zh": "传达／表现",
+          "weight": 1
+        },
+        {
+          "id": "kp2",
+          "head": "rich meanings",
+          "zh": "丰富的意蕴",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "simple brushstrokes",
+          "zh": "简练的笔触",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "enjoyed great popularity",
+          "zh": "深受喜爱",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：传达／表现 / 丰富的意蕴 / 简练的笔触 / 深受喜爱",
+        "「笔触」是 brushstroke；「深受喜爱」可用 enjoy great popularity",
+        "句型：Ink wash painting conveys … with … and has long enjoyed …"
+      ],
+      "topicWords": [
+        "ink wash painting",
+        "brushstroke",
+        "popularity"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000019",
+      "topic": "trad-culture",
+      "difficulty": 3,
+      "zh": "中国的传统手工艺正面临失传的风险，需要更多的保护和传承。",
+      "reference": "Traditional Chinese handicrafts are at risk of being lost and need more protection and efforts to pass them on.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "at risk of",
+          "zh": "面临……的风险",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "being lost",
+          "zh": "失传",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "protection",
+          "zh": "保护",
+          "weight": 1
+        },
+        {
+          "id": "kp4",
+          "head": "pass them on",
+          "zh": "传承",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：面临……的风险 / 失传 / 保护 / 传承",
+        "「面临……风险」用 be at risk of；「传承」可用 pass … on",
+        "句型：… are at risk of being lost and need more protection and efforts to …"
+      ],
+      "topicWords": [
+        "handicraft",
+        "protection",
+        "pass on"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000020",
+      "topic": "trad-culture",
+      "difficulty": 3,
+      "zh": "随着国家对文化遗产的重视，越来越多年轻人开始学习传统技艺。",
+      "reference": "As the country attaches greater importance to cultural heritage, a growing number of young people have begun to learn traditional skills.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "attaches greater importance to",
+          "zh": "越来越重视／更加重视",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "cultural heritage",
+          "zh": "文化遗产",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "a growing number of",
+          "zh": "越来越多的",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "begun to learn",
+          "zh": "开始学习",
+          "weight": 2
+        },
+        {
+          "id": "kp5",
+          "head": "traditional skills",
+          "zh": "传统技艺",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：越来越重视 / 文化遗产 / 越来越多的 / 开始学习 / 传统技艺",
+        "「随着」可用 as 引导从句；「越来越多的」用 a growing number of + 复数名词",
+        "句型：As … attaches greater importance to …, a growing number of … have begun to …"
+      ],
+      "topicWords": [
+        "cultural heritage",
+        "traditional skills",
+        "young people"
+      ],
+      "source": "authored"
+    }
+  ]
+}

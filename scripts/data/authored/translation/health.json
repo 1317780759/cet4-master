@@ -1,0 +1,415 @@
+{
+  "meta": {
+    "topic": "health",
+    "author": "self",
+    "license": "self-authored (derived-authored)",
+    "note": "全部自撰，不复制任何真题原文"
+  },
+  "items": [
+    {
+      "id": "t_000101",
+      "topic": "health",
+      "difficulty": 2,
+      "zh": "均衡的饮食和规律的锻炼对保持身体健康至关重要。",
+      "reference": "A balanced diet and regular exercise are essential to maintaining good health.",
+      "keyPoints": [
+        { "id": "kp1", "head": "a balanced diet", "zh": "均衡的饮食", "weight": 2, "synonyms": ["balanced diet"] },
+        { "id": "kp2", "head": "regular exercise", "zh": "规律的锻炼", "weight": 2, "synonyms": ["regular physical exercise", "regular workouts"] },
+        { "id": "kp3", "head": "are essential to", "zh": "对……至关重要", "weight": 2, "synonyms": ["are essential for", "are crucial to"] },
+        { "id": "kp4", "head": "maintaining good health", "zh": "保持身体健康", "weight": 1, "synonyms": ["keeping healthy", "staying healthy"] }
+      ],
+      "hints": [
+        "得分点：均衡的饮食 / 规律的锻炼 / 对……至关重要 / 保持身体健康",
+        "「均衡的」用 balanced；「规律的」用 regular；「锻炼」作不可数名词用 exercise",
+        "句型：A balanced diet and regular exercise are essential to doing sth."
+      ],
+      "topicWords": ["balanced diet", "regular exercise", "health"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000102",
+      "topic": "health",
+      "difficulty": 2,
+      "zh": "随着生活水平的提高，人们越来越关注心理健康。",
+      "reference": "With the improvement of living standards, people are paying more and more attention to mental health.",
+      "keyPoints": [
+        { "id": "kp1", "head": "with the improvement of", "zh": "随着……的提高", "weight": 2, "synonyms": ["as living standards improve"] },
+        { "id": "kp2", "head": "living standards", "zh": "生活水平", "weight": 2, "synonyms": ["the standard of living"] },
+        { "id": "kp3", "head": "paying more and more attention to", "zh": "越来越关注", "weight": 2, "synonyms": ["attaching more and more importance to"] },
+        { "id": "kp4", "head": "mental health", "zh": "心理健康", "weight": 1 }
+      ],
+      "hints": [
+        "得分点：随着……的提高 / 生活水平 / 越来越关注 / 心理健康",
+        "「生活水平」固定为 living standards；「关注」用 pay attention to，注意 to 是介词",
+        "句型：With the improvement of …, people are paying more and more attention to …"
+      ],
+      "topicWords": ["living standards", "mental health"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000103",
+      "topic": "health",
+      "difficulty": 2,
+      "zh": "医生建议他每天至少睡七个小时，以避免过度疲劳。",
+      "reference": "The doctor advised him to sleep at least seven hours a day so as to avoid excessive fatigue.",
+      "keyPoints": [
+        { "id": "kp1", "head": "advised him to", "zh": "建议他……", "weight": 2, "synonyms": ["suggested that he", "recommended that he"] },
+        { "id": "kp2", "head": "at least", "zh": "至少", "weight": 2, "synonyms": ["no less than"] },
+        { "id": "kp3", "head": "so as to", "zh": "以（以便）", "weight": 2, "synonyms": ["in order to", "so that he could"] },
+        { "id": "kp4", "head": "excessive fatigue", "zh": "过度疲劳", "weight": 1, "synonyms": ["extreme tiredness"] }
+      ],
+      "hints": [
+        "得分点：建议他…… / 至少 / 以（以便） / 过度疲劳",
+        "「建议某人做」用 advise sb. to do，不可用 suggest sb. to do；「疲劳」用 fatigue 较书面",
+        "句型：The doctor advised him to … at least … so as to avoid …"
+      ],
+      "topicWords": ["fatigue", "sleep"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000104",
+      "topic": "health",
+      "difficulty": 3,
+      "zh": "研究表明，长期熬夜会显著增加患心脏病的风险。",
+      "reference": "Studies have shown that staying up late over a long period of time can significantly increase the risk of heart disease.",
+      "keyPoints": [
+        { "id": "kp1", "head": "studies have shown that", "zh": "研究表明", "weight": 2, "synonyms": ["research shows that", "research has shown that"] },
+        { "id": "kp2", "head": "staying up late", "zh": "熬夜", "weight": 2, "synonyms": ["staying up"] },
+        { "id": "kp3", "head": "increase the risk of", "zh": "增加……的风险", "weight": 2, "synonyms": ["raise the risk of"] },
+        { "id": "kp4", "head": "heart disease", "zh": "心脏病", "weight": 1 }
+      ],
+      "hints": [
+        "得分点：研究表明 / 熬夜 / 增加……的风险 / 心脏病",
+        "「熬夜」用动名词短语 staying up late 作主语；「长期」可用 over a long period of time",
+        "句型：Studies have shown that … can increase the risk of …"
+      ],
+      "topicWords": ["heart disease", "risk"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000105",
+      "topic": "health",
+      "difficulty": 2,
+      "zh": "定期体检有助于在早期发现疾病并及时治疗。",
+      "reference": "Regular physical examinations help to detect diseases at an early stage and treat them in time.",
+      "keyPoints": [
+        { "id": "kp1", "head": "regular physical examinations", "zh": "定期体检", "weight": 2, "synonyms": ["regular check-ups", "regular health check-ups"] },
+        { "id": "kp2", "head": "help to", "zh": "有助于", "weight": 1, "synonyms": ["are helpful in", "contribute to"] },
+        { "id": "kp3", "head": "at an early stage", "zh": "在早期", "weight": 2, "synonyms": ["in the early stage", "early on"] },
+        { "id": "kp4", "head": "in time", "zh": "及时", "weight": 1, "synonyms": ["timely"] }
+      ],
+      "hints": [
+        "得分点：定期体检 / 有助于 / 在早期 / 及时",
+        "「体检」可用 physical examination / check-up；「发现（疾病）」用 detect 比 find 更准确",
+        "句型：Regular physical examinations help to detect … at an early stage and treat them in time."
+      ],
+      "topicWords": ["physical examination", "detect"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000106",
+      "topic": "health",
+      "difficulty": 2,
+      "zh": "中国政府一直在努力改善农村地区的医疗条件。",
+      "reference": "The Chinese government has been making great efforts to improve medical conditions in rural areas.",
+      "keyPoints": [
+        { "id": "kp1", "head": "has been making great efforts to", "zh": "一直在努力", "weight": 2, "synonyms": ["has been striving to", "has been trying hard to"] },
+        { "id": "kp2", "head": "medical conditions", "zh": "医疗条件", "weight": 2, "synonyms": ["medical services", "healthcare conditions"] },
+        { "id": "kp3", "head": "improve", "zh": "改善", "weight": 1, "synonyms": ["better"] },
+        { "id": "kp4", "head": "in rural areas", "zh": "在农村地区", "weight": 1, "synonyms": ["in the countryside"] }
+      ],
+      "hints": [
+        "得分点：一直在努力 / 医疗条件 / 改善 / 在农村地区",
+        "「一直（持续）做」用现在完成进行时 has been doing；「作出努力」用 make efforts",
+        "句型：The Chinese government has been making great efforts to improve … in rural areas."
+      ],
+      "topicWords": ["medical conditions", "rural areas"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000107",
+      "topic": "health",
+      "difficulty": 2,
+      "zh": "充足的睡眠不仅能恢复体力，还能提高学习效率。",
+      "reference": "Adequate sleep can not only restore physical strength but also improve learning efficiency.",
+      "keyPoints": [
+        { "id": "kp1", "head": "adequate sleep", "zh": "充足的睡眠", "weight": 2, "synonyms": ["enough sleep", "sufficient sleep"] },
+        { "id": "kp2", "head": "not only", "zh": "不仅", "weight": 2 },
+        { "id": "kp3", "head": "but also", "zh": "而且（还）", "weight": 1 },
+        { "id": "kp4", "head": "restore physical strength", "zh": "恢复体力", "weight": 1, "synonyms": ["recover physical strength"] },
+        { "id": "kp5", "head": "learning efficiency", "zh": "学习效率", "weight": 1, "synonyms": ["study efficiency"] }
+      ],
+      "hints": [
+        "得分点：充足的睡眠 / 不仅 / 而且 / 恢复体力 / 学习效率",
+        "「充足的」用 adequate / enough / sufficient；not only … but also 连接两个并列动词短语",
+        "句型：Adequate sleep can not only … but also …"
+      ],
+      "topicWords": ["adequate sleep", "physical strength"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000108",
+      "topic": "health",
+      "difficulty": 3,
+      "zh": "由于缺乏锻炼，越来越多的年轻人患上了颈椎病。",
+      "reference": "Due to a lack of exercise, an increasing number of young people are suffering from neck problems.",
+      "keyPoints": [
+        { "id": "kp1", "head": "due to", "zh": "由于", "weight": 2, "synonyms": ["because of", "owing to"] },
+        { "id": "kp2", "head": "a lack of", "zh": "缺乏", "weight": 2, "synonyms": ["lack of", "the lack of"] },
+        { "id": "kp3", "head": "an increasing number of", "zh": "越来越多的", "weight": 2, "synonyms": ["more and more"] },
+        { "id": "kp4", "head": "suffering from", "zh": "患上（遭受）", "weight": 1, "synonyms": ["developing"] }
+      ],
+      "hints": [
+        "得分点：由于 / 缺乏 / 越来越多的 / 患上",
+        "「缺乏」用 a lack of，后接名词；「越来越多」可用 an increasing number of + 复数名词",
+        "句型：Due to a lack of …, an increasing number of young people are suffering from …"
+      ],
+      "topicWords": ["lack of exercise", "neck problems"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000109",
+      "topic": "health",
+      "difficulty": 2,
+      "zh": "中医强调通过调节饮食和生活方式来预防疾病。",
+      "reference": "Traditional Chinese medicine emphasizes preventing diseases by adjusting diet and lifestyle.",
+      "keyPoints": [
+        { "id": "kp1", "head": "traditional chinese medicine", "zh": "中医", "weight": 2, "synonyms": ["traditional chinese medical science"] },
+        { "id": "kp2", "head": "emphasizes preventing", "zh": "强调预防", "weight": 2, "synonyms": ["stresses preventing"] },
+        { "id": "kp3", "head": "by adjusting", "zh": "通过调节", "weight": 2, "synonyms": ["by regulating"] },
+        { "id": "kp4", "head": "diet and lifestyle", "zh": "饮食和生活方式", "weight": 1 }
+      ],
+      "hints": [
+        "得分点：中医 / 强调预防 / 通过调节 / 饮食和生活方式",
+        "「强调」用 emphasize / stress，后接名词或动名词；「通过做」用 by doing",
+        "句型：Traditional Chinese medicine emphasizes … by adjusting diet and lifestyle."
+      ],
+      "topicWords": ["traditional chinese medicine", "prevent diseases"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000110",
+      "topic": "health",
+      "difficulty": 2,
+      "zh": "吸烟被公认为是导致肺癌的主要原因之一。",
+      "reference": "Smoking is widely recognized as one of the main causes of lung cancer.",
+      "keyPoints": [
+        { "id": "kp1", "head": "smoking", "zh": "吸烟", "weight": 1 },
+        { "id": "kp2", "head": "is widely recognized as", "zh": "被公认为是", "weight": 2, "synonyms": ["is generally regarded as", "is widely regarded as"] },
+        { "id": "kp3", "head": "one of the main causes of", "zh": "主要原因之一", "weight": 2, "synonyms": ["one of the leading causes of"] },
+        { "id": "kp4", "head": "lung cancer", "zh": "肺癌", "weight": 1 }
+      ],
+      "hints": [
+        "得分点：吸烟 / 被公认为是 / 主要原因之一 / 肺癌",
+        "「被认为/公认为」用 be recognized / regarded as；「……之一」后接复数名词",
+        "句型：Smoking is widely recognized as one of the main causes of …"
+      ],
+      "topicWords": ["smoking", "lung cancer"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000111",
+      "topic": "health",
+      "difficulty": 2,
+      "zh": "据统计，经常锻炼的人往往比久坐的人更长寿。",
+      "reference": "Statistics show that people who exercise regularly tend to live longer than those who lead a sedentary life.",
+      "keyPoints": [
+        { "id": "kp1", "head": "statistics show that", "zh": "据统计", "weight": 2, "synonyms": ["statistics suggest that"] },
+        { "id": "kp2", "head": "tend to", "zh": "往往", "weight": 2, "synonyms": ["are likely to"] },
+        { "id": "kp3", "head": "live longer", "zh": "更长寿", "weight": 1 },
+        { "id": "kp4", "head": "a sedentary life", "zh": "久坐的生活", "weight": 2, "synonyms": ["a sedentary lifestyle"] }
+      ],
+      "hints": [
+        "得分点：据统计 / 往往 / 更长寿 / 久坐的生活",
+        "「往往」用 tend to do；比较对象用 those who … 避免重复 people",
+        "句型：Statistics show that people who … tend to live longer than those who …"
+      ],
+      "topicWords": ["statistics", "sedentary life"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000112",
+      "topic": "health",
+      "difficulty": 3,
+      "zh": "为了减轻压力，许多人开始练习瑜伽或冥想。",
+      "reference": "In order to relieve stress, many people have begun to practise yoga or meditation.",
+      "keyPoints": [
+        { "id": "kp1", "head": "in order to", "zh": "为了", "weight": 2, "synonyms": ["so as to", "to"] },
+        { "id": "kp2", "head": "relieve stress", "zh": "减轻压力", "weight": 2, "synonyms": ["reduce stress", "ease stress"] },
+        { "id": "kp3", "head": "have begun to", "zh": "开始", "weight": 1, "synonyms": ["have started to"] },
+        { "id": "kp4", "head": "yoga or meditation", "zh": "瑜伽或冥想", "weight": 1 }
+      ],
+      "hints": [
+        "得分点：为了 / 减轻压力 / 开始 / 瑜伽或冥想",
+        "「减轻（压力／痛苦）」用 relieve / reduce / ease；「练习」此处用 practise 而非 exercise",
+        "句型：In order to relieve stress, many people have begun to practise …"
+      ],
+      "topicWords": ["relieve stress", "yoga", "meditation"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000113",
+      "topic": "health",
+      "difficulty": 2,
+      "zh": "良好的饮食习惯应当从小培养，这有助于终身健康。",
+      "reference": "Good eating habits should be cultivated from an early age, which contributes to lifelong health.",
+      "keyPoints": [
+        { "id": "kp1", "head": "good eating habits", "zh": "良好的饮食习惯", "weight": 2, "synonyms": ["healthy eating habits"] },
+        { "id": "kp2", "head": "should be cultivated", "zh": "应当培养", "weight": 2, "synonyms": ["should be developed", "should be formed"] },
+        { "id": "kp3", "head": "from an early age", "zh": "从小", "weight": 2, "synonyms": ["from childhood"] },
+        { "id": "kp4", "head": "contributes to", "zh": "有助于", "weight": 2, "synonyms": ["is conducive to"] },
+        { "id": "kp5", "head": "lifelong health", "zh": "终身健康", "weight": 1, "synonyms": ["lifelong well-being"] }
+      ],
+      "hints": [
+        "得分点：良好的饮食习惯 / 应当培养 / 从小 / 有助于 / 终身健康",
+        "「培养（习惯）」用 cultivate / develop / form；后半句可用 which 引导非限定性定语从句",
+        "句型：Good eating habits should be cultivated …, which contributes to …"
+      ],
+      "topicWords": ["eating habits", "lifelong health"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000114",
+      "topic": "health",
+      "difficulty": 2,
+      "zh": "这家医院最近引进了先进的设备，大大提高了诊断的准确性。",
+      "reference": "This hospital has recently introduced advanced equipment, which has greatly improved the accuracy of diagnosis.",
+      "keyPoints": [
+        { "id": "kp1", "head": "has recently introduced", "zh": "最近引进了", "weight": 2, "synonyms": ["has recently brought in"] },
+        { "id": "kp2", "head": "advanced equipment", "zh": "先进的设备", "weight": 2 },
+        { "id": "kp3", "head": "has greatly improved", "zh": "大大提高了", "weight": 2, "synonyms": ["has greatly increased"] },
+        { "id": "kp4", "head": "the accuracy of", "zh": "……的准确性", "weight": 2 },
+        { "id": "kp5", "head": "diagnosis", "zh": "诊断", "weight": 1 }
+      ],
+      "hints": [
+        "得分点：最近引进了 / 先进的设备 / 大大提高了 / ……的准确性 / 诊断",
+        "「引进（设备／技术）」用 introduce / bring in；equipment 为不可数名词",
+        "句型：This hospital has recently introduced …, which has greatly improved the accuracy of …"
+      ],
+      "topicWords": ["advanced equipment", "diagnosis"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000115",
+      "topic": "health",
+      "difficulty": 3,
+      "zh": "专家提醒公众，不要盲目相信网络上未经证实的健康建议。",
+      "reference": "Experts remind the public not to blindly trust unverified health advice found on the Internet.",
+      "keyPoints": [
+        { "id": "kp1", "head": "remind the public", "zh": "提醒公众", "weight": 2, "synonyms": ["warn the public"] },
+        { "id": "kp2", "head": "not to blindly trust", "zh": "不要盲目相信", "weight": 2, "synonyms": ["not to believe blindly"] },
+        { "id": "kp3", "head": "unverified", "zh": "未经证实的", "weight": 2, "synonyms": ["unconfirmed"] },
+        { "id": "kp4", "head": "health advice", "zh": "健康建议", "weight": 1 },
+        { "id": "kp5", "head": "on the internet", "zh": "网络上", "weight": 1, "synonyms": ["online"], "optional": true }
+      ],
+      "hints": [
+        "得分点：提醒公众 / 不要盲目相信 / 未经证实的 / 健康建议 / 网络上",
+        "「提醒某人（不）做」用 remind sb. (not) to do；advice 为不可数名词",
+        "句型：Experts remind the public not to blindly trust …"
+      ],
+      "topicWords": ["unverified", "health advice"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000116",
+      "topic": "health",
+      "difficulty": 2,
+      "zh": "适量饮用绿茶被认为对心血管系统有益。",
+      "reference": "Drinking green tea in moderation is believed to be beneficial to the cardiovascular system.",
+      "keyPoints": [
+        { "id": "kp1", "head": "drinking green tea", "zh": "饮用绿茶", "weight": 1, "synonyms": ["having green tea"] },
+        { "id": "kp2", "head": "in moderation", "zh": "适量", "weight": 2, "synonyms": ["in moderate amounts"] },
+        { "id": "kp3", "head": "is believed to", "zh": "被认为", "weight": 2, "synonyms": ["is thought to", "is considered to"] },
+        { "id": "kp4", "head": "be beneficial to", "zh": "对……有益", "weight": 2, "synonyms": ["be good for", "be beneficial for"] }
+      ],
+      "hints": [
+        "得分点：饮用绿茶 / 适量 / 被认为 / 对……有益",
+        "「适量」用 in moderation；「被认为」可用 be believed / thought / considered to do",
+        "句型：Drinking green tea in moderation is believed to be beneficial to …"
+      ],
+      "topicWords": ["in moderation", "beneficial"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000117",
+      "topic": "health",
+      "difficulty": 3,
+      "zh": "一旦出现发烧、咳嗽等症状，应及时就医并佩戴口罩。",
+      "reference": "Once symptoms such as fever and cough appear, one should seek medical attention promptly and wear a mask.",
+      "keyPoints": [
+        { "id": "kp1", "head": "symptoms such as", "zh": "诸如……的症状", "weight": 2, "synonyms": ["symptoms like"] },
+        { "id": "kp2", "head": "seek medical attention", "zh": "就医", "weight": 2, "synonyms": ["see a doctor", "go to hospital"] },
+        { "id": "kp3", "head": "promptly", "zh": "及时", "weight": 1, "synonyms": ["without delay", "in time"] },
+        { "id": "kp4", "head": "wear a mask", "zh": "佩戴口罩", "weight": 1 }
+      ],
+      "hints": [
+        "得分点：诸如……的症状 / 就医 / 及时 / 佩戴口罩",
+        "「症状」用 symptom；「就医」可用 seek medical attention / see a doctor；泛指「人们」可用 one",
+        "句型：Once symptoms such as … appear, one should seek medical attention promptly and wear a mask."
+      ],
+      "topicWords": ["symptoms", "medical attention"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000118",
+      "topic": "health",
+      "difficulty": 2,
+      "zh": "近年来，健康体检已被越来越多的城市居民所接受。",
+      "reference": "In recent years, health check-ups have been accepted by an increasing number of urban residents.",
+      "keyPoints": [
+        { "id": "kp1", "head": "in recent years", "zh": "近年来", "weight": 2 },
+        { "id": "kp2", "head": "health check-ups", "zh": "健康体检", "weight": 2, "synonyms": ["health examinations", "physical examinations"] },
+        { "id": "kp3", "head": "have been accepted by", "zh": "被……所接受", "weight": 2, "synonyms": ["have been welcomed by"] },
+        { "id": "kp4", "head": "an increasing number of", "zh": "越来越多的", "weight": 2, "synonyms": ["more and more"] },
+        { "id": "kp5", "head": "urban residents", "zh": "城市居民", "weight": 1, "synonyms": ["city dwellers"] }
+      ],
+      "hints": [
+        "得分点：近年来 / 健康体检 / 被……所接受 / 越来越多的 / 城市居民",
+        "「被……接受」用现在完成时被动 have been accepted by；「城市居民」可用 urban residents / city dwellers",
+        "句型：In recent years, … have been accepted by an increasing number of urban residents."
+      ],
+      "topicWords": ["health check-ups", "urban residents"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000119",
+      "topic": "health",
+      "difficulty": 3,
+      "zh": "尽管医疗技术不断进步，预防仍然比治疗更为重要。",
+      "reference": "Although medical technology continues to advance, prevention remains more important than treatment.",
+      "keyPoints": [
+        { "id": "kp1", "head": "although", "zh": "尽管", "weight": 2, "synonyms": ["though", "even though"] },
+        { "id": "kp2", "head": "continues to advance", "zh": "不断进步", "weight": 2, "synonyms": ["keeps advancing", "keeps progressing"] },
+        { "id": "kp3", "head": "medical technology", "zh": "医疗技术", "weight": 1 },
+        { "id": "kp4", "head": "more important than", "zh": "比……更为重要", "weight": 2 }
+      ],
+      "hints": [
+        "得分点：尽管 / 不断进步 / 医疗技术 / 比……更为重要",
+        "although 与 but 不能同用；「继续做」用 continue to do / keep doing；比较级后接 than",
+        "句型：Although medical technology continues to advance, … remains more important than …"
+      ],
+      "topicWords": ["medical technology", "prevention"],
+      "source": "authored"
+    },
+    {
+      "id": "t_000120",
+      "topic": "health",
+      "difficulty": 2,
+      "zh": "保持乐观的心态有助于病人更快地康复。",
+      "reference": "Maintaining an optimistic attitude helps patients recover more quickly.",
+      "keyPoints": [
+        { "id": "kp1", "head": "maintaining", "zh": "保持", "weight": 1, "synonyms": ["keeping"] },
+        { "id": "kp2", "head": "an optimistic attitude", "zh": "乐观的心态", "weight": 2, "synonyms": ["a positive attitude"] },
+        { "id": "kp3", "head": "helps patients recover", "zh": "有助于病人康复", "weight": 2, "synonyms": ["helps patients to recover"] },
+        { "id": "kp4", "head": "more quickly", "zh": "更快地", "weight": 1, "synonyms": ["faster"] }
+      ],
+      "hints": [
+        "得分点：保持 / 乐观的心态 / 有助于病人康复 / 更快地",
+        "「乐观的」用 optimistic / positive；help sb. (to) do 中 to 可省略；动名词短语作主语",
+        "句型：Maintaining an optimistic attitude helps patients recover more quickly."
+      ],
+      "topicWords": ["optimistic", "recover"],
+      "source": "authored"
+    }
+  ]
+}

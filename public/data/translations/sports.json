@@ -1,0 +1,886 @@
+{
+  "topic": "sports",
+  "label": "体育运动",
+  "items": [
+    {
+      "id": "t_000281",
+      "topic": "sports",
+      "difficulty": 2,
+      "zh": "体育锻炼有助于增强体质，预防多种疾病。",
+      "reference": "People can build up their bodies and prevent various diseases by doing physical exercise.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "build up",
+          "zh": "增强",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "their bodies",
+          "zh": "体质",
+          "weight": 1
+        },
+        {
+          "id": "kp3",
+          "head": "prevent various diseases",
+          "zh": "预防多种疾病",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "by doing physical exercise",
+          "zh": "通过体育锻炼",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：增强 / 体质 / 预防多种疾病 / 通过体育锻炼",
+        "「增强体质」用 build up one's body；「预防」是 prevent；「通过做某事」用 by + 动名词",
+        "句型：People can build up … and prevent … by doing physical exercise."
+      ],
+      "topicWords": [
+        "physical exercise",
+        "build up",
+        "prevent"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000282",
+      "topic": "sports",
+      "difficulty": 2,
+      "zh": "我国政府高度重视全民健身事业的发展。",
+      "reference": "Our government attaches great importance to the development of national fitness.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "attaches great importance to",
+          "zh": "高度重视",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "the development of",
+          "zh": "……的发展",
+          "weight": 1
+        },
+        {
+          "id": "kp3",
+          "head": "national fitness",
+          "zh": "全民健身",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "government",
+          "zh": "政府",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：高度重视 / ……的发展 / 全民健身 / 政府",
+        "「高度重视」固定表达 attach great importance to，to 是介词；「全民健身」用 national fitness",
+        "句型：Our government attaches great importance to the development of …."
+      ],
+      "topicWords": [
+        "national fitness",
+        "government",
+        "development"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000283",
+      "topic": "sports",
+      "difficulty": 3,
+      "zh": "举办大型体育赛事不仅能提升城市形象，还能带动旅游业。",
+      "reference": "Large sports events can not only improve a city's image but also boost tourism.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "sports events",
+          "zh": "体育赛事",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "not only",
+          "zh": "不仅",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "but also",
+          "zh": "还",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "boost tourism",
+          "zh": "带动旅游业",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：体育赛事 / 不仅 / 还 / 带动旅游业",
+        "「举办」不必另起动词，用 Large sports events 作主语即可；「带动」用 boost / promote",
+        "句型：Large sports events can not only …, but also boost tourism."
+      ],
+      "topicWords": [
+        "sports events",
+        "tourism",
+        "image"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000284",
+      "topic": "sports",
+      "difficulty": 2,
+      "zh": "慢跑是最简便也最受欢迎的运动方式之一。",
+      "reference": "As a way of exercising, jogging is one of the simplest and most popular.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "a way of exercising",
+          "zh": "一种运动方式",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "jogging",
+          "zh": "慢跑",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "one of the simplest",
+          "zh": "最简便的之一",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "most popular",
+          "zh": "最受欢迎的",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：一种运动方式 / 慢跑 / 最简便的之一 / 最受欢迎的",
+        "「慢跑」是 jogging；「……之一」用 one of the + 最高级 + 复数，此处后半省略",
+        "句型：As a way of exercising, jogging is one of the … and most popular."
+      ],
+      "topicWords": [
+        "jogging",
+        "exercise",
+        "popular"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000285",
+      "topic": "sports",
+      "difficulty": 2,
+      "zh": "团队运动能够培养合作精神和集体荣誉感。",
+      "reference": "For young people, team sports can develop a sense of cooperation and collective honor.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "team sports",
+          "zh": "团队运动",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "a sense of",
+          "zh": "……感",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "cooperation",
+          "zh": "合作",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "collective honor",
+          "zh": "集体荣誉",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：团队运动 / ……感 / 合作 / 集体荣誉",
+        "「……感」用 a sense of + 名词；「集体的」用 collective；「荣誉」是 honor",
+        "句型：For young people, team sports can develop a sense of … and collective honor."
+      ],
+      "topicWords": [
+        "team sports",
+        "cooperation",
+        "honor"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000286",
+      "topic": "sports",
+      "difficulty": 3,
+      "zh": "尽管训练十分艰苦，运动员们从未放弃自己的梦想。",
+      "reference": "The training is hard, but athletes have never given up their dreams.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "hard",
+          "zh": "艰苦的",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "athletes",
+          "zh": "运动员",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "have never given up",
+          "zh": "从未放弃",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "their dreams",
+          "zh": "他们的梦想",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：尽管……艰苦 / 运动员 / 从未放弃 / 他们的梦想",
+        "「尽管」可用倒装让步结构 adj. + as + 主语 + 谓语；「放弃」用 give up，注意现在完成时",
+        "句型：The training is hard, but athletes have never given up their dreams."
+      ],
+      "topicWords": [
+        "athlete",
+        "training",
+        "dream"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000287",
+      "topic": "sports",
+      "difficulty": 2,
+      "zh": "太极拳作为中国传统武术，深受中老年人喜爱。",
+      "reference": "As a traditional martial art in China, tai chi is very popular among middle-aged and elderly people.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "martial art",
+          "zh": "武术",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "tai chi",
+          "zh": "太极拳",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "popular among",
+          "zh": "深受……喜爱",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "middle-aged and elderly people",
+          "zh": "中老年人",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：中国传统武术 / 太极拳 / 深受……喜爱 / 中老年人",
+        "「武术」是 martial art；「中老年人」用 middle-aged and elderly people；「作为」用 as",
+        "句型：As a traditional martial art in China, tai chi is very popular among …."
+      ],
+      "topicWords": [
+        "tai chi",
+        "martial art",
+        "elderly people"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000288",
+      "topic": "sports",
+      "difficulty": 2,
+      "zh": "体育精神强调公平竞争和相互尊重。",
+      "reference": "In sports, the spirit of sportsmanship emphasizes fair competition and mutual respect.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "the spirit of sportsmanship",
+          "zh": "体育精神",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "emphasizes",
+          "zh": "强调",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "fair competition",
+          "zh": "公平竞争",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "mutual respect",
+          "zh": "相互尊重",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：体育精神 / 强调 / 公平竞争 / 相互尊重",
+        "「体育精神」可用 sportsmanship / the spirit of sportsmanship；「相互的」用 mutual",
+        "句型：In sports, the spirit of sportsmanship emphasizes … and mutual respect."
+      ],
+      "topicWords": [
+        "sportsmanship",
+        "fair competition",
+        "respect"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000289",
+      "topic": "sports",
+      "difficulty": 3,
+      "zh": "长期久坐不动的生活方式已成为健康的隐形杀手。",
+      "reference": "A lifestyle of sitting for long hours has become a hidden threat to health.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "sitting for long hours",
+          "zh": "久坐不动",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "has become",
+          "zh": "已成为",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "a hidden threat to",
+          "zh": "……的隐形威胁",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "health",
+          "zh": "健康",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：久坐不动 / 已成为 / ……的隐形威胁 / 健康",
+        "「久坐」可意译为 sitting for long hours；「隐形的」用 hidden；「威胁」是 threat",
+        "句型：A lifestyle of … has become a hidden threat to health."
+      ],
+      "topicWords": [
+        "lifestyle",
+        "hidden threat",
+        "health"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000290",
+      "topic": "sports",
+      "difficulty": 2,
+      "zh": "学校应当保证学生每天至少一小时的体育活动时间。",
+      "reference": "Schools should ensure that students have at least one hour of physical activity every day.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "ensure that",
+          "zh": "保证",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "at least",
+          "zh": "至少",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "physical activity",
+          "zh": "体育活动",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "every day",
+          "zh": "每天",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：保证 / 至少 / 体育活动 / 每天",
+        "「保证」用 ensure，后接 that 从句；「至少」是 at least；「体育活动」用 physical activity",
+        "句型：Schools should ensure that students have at least … every day."
+      ],
+      "topicWords": [
+        "physical activity",
+        "ensure",
+        "school"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000291",
+      "topic": "sports",
+      "difficulty": 2,
+      "zh": "观看体育比赛可以缓解压力，也能增进朋友间的感情。",
+      "reference": "People can relieve stress and strengthen friendships by watching sports games.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "relieve stress",
+          "zh": "缓解压力",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "strengthen friendships",
+          "zh": "增进友谊",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "by watching",
+          "zh": "通过观看",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "sports games",
+          "zh": "体育比赛",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：缓解压力 / 增进友谊 / 通过观看 / 体育比赛",
+        "「缓解压力」用 relieve / reduce stress；「增进」用 strengthen；by + 动名词表方式",
+        "句型：People can relieve stress and strengthen friendships by watching …."
+      ],
+      "topicWords": [
+        "stress",
+        "friendship",
+        "sports games"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000292",
+      "topic": "sports",
+      "difficulty": 3,
+      "zh": "随着生活水平的提高，健身已经成为一种时尚。",
+      "reference": "For many people, keeping fit has become a fashion with the improvement of living standards.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "keeping fit",
+          "zh": "健身",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "has become",
+          "zh": "已经成为",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "with the improvement of",
+          "zh": "随着……的提高",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "living standards",
+          "zh": "生活水平",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：健身 / 已经成为 / 随着……的提高 / 生活水平",
+        "「健身」可用 keep fit，作主语时用动名词 keeping fit；「生活水平」是 living standards",
+        "句型：For many people, keeping fit has become a fashion with the improvement of …."
+      ],
+      "topicWords": [
+        "keep fit",
+        "living standards",
+        "fashion"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000293",
+      "topic": "sports",
+      "difficulty": 2,
+      "zh": "篮球运动在年轻人中拥有广泛的影响力。",
+      "reference": "For young people, basketball has a wide influence as a sport.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "as a sport",
+          "zh": "作为一项运动",
+          "weight": 1
+        },
+        {
+          "id": "kp2",
+          "head": "basketball",
+          "zh": "篮球",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "a wide influence",
+          "zh": "广泛的影响力",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "young people",
+          "zh": "在年轻人中",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：作为一项运动 / 篮球 / 广泛的影响力 / 在年轻人中",
+        "「广泛的」用 wide；「对……有影响」用 have an influence on / among",
+        "句型：For young people, basketball has a wide influence as a sport."
+      ],
+      "topicWords": [
+        "basketball",
+        "influence",
+        "young people"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000294",
+      "topic": "sports",
+      "difficulty": 3,
+      "zh": "冬季运动的普及得益于场地设施的不断完善。",
+      "reference": "The popularity of winter sports benefits from the continuous improvement of facilities.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "winter sports",
+          "zh": "冬季运动",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "benefits from",
+          "zh": "得益于",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "the continuous improvement of",
+          "zh": "……的不断完善",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "facilities",
+          "zh": "设施",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：冬季运动 / 得益于 / ……的不断完善 / 设施",
+        "「得益于」用 benefit from；「设施」常用复数 facilities；「不断的」用 continuous",
+        "句型：The popularity of … benefits from the continuous improvement of facilities."
+      ],
+      "topicWords": [
+        "winter sports",
+        "facilities",
+        "popularity"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000295",
+      "topic": "sports",
+      "difficulty": 2,
+      "zh": "适量运动有助于改善睡眠质量，提高工作效率。",
+      "reference": "Through moderate exercise, sleep quality and work efficiency can be improved.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "sleep quality",
+          "zh": "睡眠质量",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "work efficiency",
+          "zh": "工作效率",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "can be improved",
+          "zh": "可以得到改善",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "moderate exercise",
+          "zh": "适量运动",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：睡眠质量 / 工作效率 / 可以得到改善 / 适量运动",
+        "「适量的」用 moderate；「改善」用 improve，无主语时用被动 can be improved",
+        "句型：Through moderate exercise, sleep quality and work efficiency can be improved."
+      ],
+      "topicWords": [
+        "moderate exercise",
+        "sleep quality",
+        "efficiency"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000296",
+      "topic": "sports",
+      "difficulty": 2,
+      "zh": "志愿者在大型赛事中发挥着不可或缺的作用。",
+      "reference": "In large sports events, the role played by volunteers is indispensable.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "the role played by",
+          "zh": "……所发挥的作用",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "volunteers",
+          "zh": "志愿者",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "large sports events",
+          "zh": "大型赛事",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "is indispensable",
+          "zh": "不可或缺的",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：……所发挥的作用 / 志愿者 / 大型赛事 / 不可或缺的",
+        "「发挥作用」用 play a role，此处改为过去分词 played by 作后置定语；「不可或缺的」是 indispensable",
+        "句型：In large sports events, the role played by volunteers is indispensable."
+      ],
+      "topicWords": [
+        "volunteer",
+        "sports events",
+        "indispensable"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000297",
+      "topic": "sports",
+      "difficulty": 3,
+      "zh": "体育产业已成为国民经济中增长最快的领域之一。",
+      "reference": "The sports industry has become one of the fastest growing sectors of the national economy.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "sports industry",
+          "zh": "体育产业",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "has become one of",
+          "zh": "已成为……之一",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "fastest growing sectors",
+          "zh": "增长最快的领域",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "the national economy",
+          "zh": "国民经济",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：体育产业 / 已成为……之一 / 增长最快的领域 / 国民经济",
+        "「增长最快的」用 fastest growing；「领域」可用 sector / field；「……之一」后接复数名词",
+        "句型：The sports industry has become one of the fastest growing sectors of …."
+      ],
+      "topicWords": [
+        "sports industry",
+        "national economy",
+        "sector"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000298",
+      "topic": "sports",
+      "difficulty": 2,
+      "zh": "坚持锻炼需要毅力，更需要科学的方法。",
+      "reference": "As a habit, regular exercise requires both perseverance and scientific methods.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "regular exercise",
+          "zh": "坚持锻炼",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "requires",
+          "zh": "需要",
+          "weight": 1
+        },
+        {
+          "id": "kp3",
+          "head": "perseverance",
+          "zh": "毅力",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "scientific methods",
+          "zh": "科学的方法",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：坚持锻炼 / 需要 / 毅力 / 科学的方法",
+        "「毅力」是 perseverance；「更需要」可用 both … and 并列，或译作 and more importantly",
+        "句型：As a habit, regular exercise requires both perseverance and scientific methods."
+      ],
+      "topicWords": [
+        "perseverance",
+        "scientific methods",
+        "exercise"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000299",
+      "topic": "sports",
+      "difficulty": 1,
+      "zh": "运动前做好热身可以有效避免受伤。",
+      "reference": "Proper warming up before exercise can effectively prevent injuries.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "warming up",
+          "zh": "热身",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "before exercise",
+          "zh": "运动前",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "effectively prevent",
+          "zh": "有效避免",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "injuries",
+          "zh": "受伤",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：热身 / 运动前 / 有效避免 / 受伤",
+        "「热身」是 warm up，作主语用动名词 warming up；「受伤」名词常用复数 injuries",
+        "句型：Proper warming up before exercise can effectively prevent injuries."
+      ],
+      "topicWords": [
+        "warm up",
+        "injury",
+        "prevent"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000300",
+      "topic": "sports",
+      "difficulty": 3,
+      "zh": "体育不仅关乎个人健康，也体现了一个国家的精神面貌。",
+      "reference": "Sports are not only related to personal health, but also reflect the spiritual outlook of a country.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "not only",
+          "zh": "不仅",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "related to",
+          "zh": "与……有关",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "but also",
+          "zh": "也",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "the spiritual outlook of",
+          "zh": "……的精神面貌",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：不仅 / 与……有关 / 也 / ……的精神面貌",
+        "「关乎」用 be related to；「体现」用 reflect；「精神面貌」可译 spiritual outlook",
+        "句型：Sports are not only related to …, but also reflect the spiritual outlook of …."
+      ],
+      "topicWords": [
+        "personal health",
+        "spiritual outlook",
+        "sports"
+      ],
+      "source": "authored"
+    }
+  ]
+}
