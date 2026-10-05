@@ -1,4 +1,5 @@
-import { db as defaultDb, PROGRESS_STORES, type Cet4Database, type ProgressStoreName } from '@/data/db/db';
+import { db as defaultDb, PROGRESS_STORES, SECRET_STORES, type Cet4Database, type ProgressStoreName } from '@/data/db/db';
+import { stripSecrets } from '@/domain/settings/secrets';
 import { makeEnvelope, parseBackup } from './schemaVersion';
 
 /**
@@ -16,8 +17,13 @@ import { makeEnvelope, parseBackup } from './schemaVersion';
 
 /** 带业务主键的表：可直接 put（同键覆盖） */
 const KEYED_STORES = ['cards', 'dailyStats', 'answerSheets', 'attempts'] as const;
-/** 自增主键表：导入时剥掉 id，按业务键去重 */
-const AUTO_STORES = ['wrongBook', 'vocabBook', 'studyLogs', 'quizSessions'] as const;
+/**
+ * 自增主键表：导入时剥掉 id，按业务键去重。
+ *
+ * ⚠️ 新增自增表**必须**同时在这里登记 + 在 `dedupeKey` 里补一个 case，
+ *    否则会出现「能导出、导入时却被静默丢弃」的单向备份（数据只出不进）。
+ */
+const AUTO_STORES = ['wrongBook', 'vocabBook', 'studyLogs', 'quizSessions', 'translationBook'] as const;
 
 type AutoStore = (typeof AUTO_STORES)[number];
 
@@ -35,6 +41,21 @@ function dedupeKey(store: AutoStore, row: Record<string, unknown>): string {
       return `${row.ts}|${row.wordId}|${row.action}`;
     case 'quizSessions':
       return `${row.startedAt}|${row.type}`;
+    case 'translationBook':
+      return String(row.itemId);
+  }
+}
+
+/**
+ * 不变量：`SECRET_STORES`（明文凭据）**绝不**在导出范围内。
+ *
+ * 今天 `PROGRESS_STORES` 天然不含 `secrets`，所以"导出不含 Key"本来就已成立——
+ * 但那是**靠"没人改过"维持的巧合**。这一步把它变成会抛错的断言。
+ */
+export function assertSecretsExcluded(stores: readonly string[]): void {
+  const leaked = (SECRET_STORES as readonly string[]).filter((s) => stores.includes(s));
+  if (leaked.length > 0) {
+    throw new Error(`导出/导入范围不得包含密钥表：${leaked.join(', ')}`);
   }
 }
 
@@ -43,12 +64,16 @@ export async function exportProgressJson(
   instance: Cet4Database = defaultDb,
   now: number = Date.now(),
 ): Promise<string> {
+  assertSecretsExcluded(PROGRESS_STORES as readonly string[]);
+
   const dump: ProgressDump = {};
   for (const store of PROGRESS_STORES) {
     const table = instance.table(store);
     dump[store] = await table.toArray();
   }
-  return JSON.stringify(makeEnvelope(dump, now), null, 2);
+  // ★ 防御性剔除：即便将来有人把 `secrets` 或明文 apiKey 混进进度区，
+  //   导出文件里也绝不会带出密钥（docs/04b §5.14.8）
+  return JSON.stringify(makeEnvelope(stripSecrets(dump), now), null, 2);
 }
 
 export interface ImportReport {
@@ -76,6 +101,8 @@ export async function importProgressJson(
   const instance = options.instance ?? defaultDb;
   const mode: ImportMode = options.mode ?? 'merge';
   const env = parseBackup<ProgressDump>(text);
+  // ★ 别人给我的备份里若含密钥，一律丢弃后再写库（不信任外部输入）
+  const data = stripSecrets(env.data);
 
   const imported: Record<string, number> = {};
   let skipped = 0;
@@ -83,7 +110,7 @@ export async function importProgressJson(
   await instance.transaction('rw', PROGRESS_STORES.map((s) => instance.table(s)), async () => {
     // 1) 带业务主键的表
     for (const store of KEYED_STORES) {
-      const rows = (env.data[store] ?? []) as Array<Record<string, unknown>>;
+      const rows = (data[store] ?? []) as Array<Record<string, unknown>>;
       const table = instance.table(store);
       let written = 0;
       for (const row of rows) {
@@ -101,7 +128,7 @@ export async function importProgressJson(
 
     // 2) 自增主键表：剥 id + 按业务键去重
     for (const store of AUTO_STORES) {
-      const rows = (env.data[store] ?? []) as Array<Record<string, unknown>>;
+      const rows = (data[store] ?? []) as Array<Record<string, unknown>>;
       const table = instance.table(store);
       const existing = new Set<string>();
       if (mode === 'merge') {

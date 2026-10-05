@@ -3,9 +3,15 @@ import { useDb } from '@/app/providers/DbProvider';
 import { useThemeOptional, type ThemeMode } from '@/app/providers/ThemeProvider';
 import { exportProgressJson, importProgressJson, type ImportReport } from '@/services/backup/exportImport';
 import { CORE_BOUNDARY, CET4_BOUNDARY } from '@/domain/word/tier';
-import type { TierFilter } from '@/domain/settings/types';
+import {
+  STUDY_ORDER_HINT,
+  STUDY_ORDER_LABEL,
+  STUDY_ORDER_VALUES,
+  type TierFilter,
+} from '@/domain/settings/types';
 import { useSettingsStore } from '@/store/useSettingsStore';
 import { Badge, Button, Card, CardBody, CardHeader, CardTitle, Segmented, Switch } from '@/ui/primitives';
+import { AiConfigCard } from './AiConfigCard';
 
 /**
  * 设置页 —— 让「学习计划」真正可调。
@@ -209,12 +215,37 @@ export default function SettingsPage(): ReactNode {
             checked={settings.peekPenalty}
             onChange={(v): void => void update({ peekPenalty: v })}
           />
-          <Switch
-            label="按词频顺序出词"
-            description="关闭则随机出词；开启时始终先学更高频的词"
-            checked={settings.freqOrdering}
-            onChange={(v): void => void update({ freqOrdering: v })}
-          />
+          <div className="py-3">
+            <div className="mb-2 text-sm font-medium text-slate-800 dark:text-slate-100">
+              出词顺序
+            </div>
+            {/* 两个 4 字 + 两个 5 字，一行挤不下 —— 换成两行网格，手机上更好按 */}
+            <div className="grid grid-cols-2 gap-2">
+              {STUDY_ORDER_VALUES.map((order) => {
+                const active = settings.studyOrder === order;
+                return (
+                  <button
+                    key={order}
+                    type="button"
+                    aria-pressed={active}
+                    onClick={(): void => void update({ studyOrder: order })}
+                    className={[
+                      'min-h-11 rounded-md border px-3 py-2 text-left transition-colors touch-manipulation',
+                      'focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:outline-none',
+                      active
+                        ? 'border-brand-300 bg-brand-50 text-brand-700 dark:border-brand-700 dark:bg-slate-800 dark:text-brand-200'
+                        : 'border-slate-300 bg-surface text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800',
+                    ].join(' ')}
+                  >
+                    <div className="text-sm font-medium">{STUDY_ORDER_LABEL[order]}</div>
+                    <div className="mt-0.5 text-xs leading-snug text-slate-500 dark:text-slate-400">
+                      {STUDY_ORDER_HINT[order]}
+                    </div>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
           <Switch
             label="后台预取词库分片"
             description="提前下载后续分片，之后断网也能继续背"
@@ -253,6 +284,9 @@ export default function SettingsPage(): ReactNode {
           ) : null}
         </CardBody>
       </Card>
+
+      {/* —— AI 批改（含 §5.14.9 的四段安全文案，常驻不可折叠）—— */}
+      <AiConfigCard />
 
       {/* —— 数据 —— */}
       <Card>

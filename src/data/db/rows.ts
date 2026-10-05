@@ -15,6 +15,7 @@ import type {
   ExamSentence,
 } from '@/domain/exam/types';
 import type { FsrsRating, ReviewCard } from '@/domain/fsrs/types';
+import type { Score, TranslationTopicKey } from '@/domain/translation/types';
 import type { Word } from '@/domain/word/types';
 
 export type { Word, ExamSentence, ExamPaper, ExamSection, ExamQuestion, AnswerSheet, ExamAttempt };
@@ -119,4 +120,46 @@ export interface AudioCacheRow {
   url: string;
   cachedAt: number;
   blob: Blob;
+}
+
+/**
+ * 秘钥行（SECRET_STORES / `secrets` 表）。
+ *
+ * ★ 存放的是明文凭据（如 LLM 批改的 API Key），只落本机 IndexedDB：
+ *   - 导出备份**必须**剔除该表（因此它绝不能进 PROGRESS_STORES）；
+ *   - 数据管线清镜像时也绝不能碰它（因此它绝不能进 MIRROR_STORES）。
+ */
+export interface SecretRow {
+  /** 主键，如 `'llm.apiKey'` */
+  id: string;
+  /** 明文值 —— 任何日志 / Error message 都不得包含它 */
+  value: string;
+  updatedAt: number;
+}
+
+/**
+ * 错句本（PROGRESS_STORES / `translationBook` 表）。
+ *
+ * ★ 只存「需要重做」的句，**不是**全量作答流水：
+ *   答得好 → 不入本；答得差 → 入本（lastText / lastScore 只保留最近一次）。
+ *   连续答对后由上层把 `resolved` 置 true 归档。
+ */
+export interface TranslationBookRow {
+  /** auto-increment */
+  id?: number;
+  /** 关联 `translations.id` */
+  itemId: string;
+  /** 冗余话题，便于「按话题重做」免 join */
+  topic: TranslationTopicKey;
+  /** 最近一次作答的英文译文 */
+  lastText?: string;
+  /** 最近一次评分快照（不含逐条明细，体积可控） */
+  lastScore?: Score;
+  addedAt: number;
+  /** 最近一次重做时间 */
+  lastTriedAt?: number;
+  /** true = 已掌握，归档不再出现在重做队列 */
+  resolved: boolean;
+  /** 用户自填笔记 */
+  note?: string;
 }

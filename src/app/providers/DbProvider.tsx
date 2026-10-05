@@ -1,5 +1,13 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
-import { db as defaultDb, type Cet4Database } from '@/data/db/db';
+import {
+  db as defaultDb,
+  DB_VERSION,
+  MIRROR_STORES,
+  PROGRESS_STORES,
+  SECRET_STORES,
+  SYSTEM_STORES,
+  type Cet4Database,
+} from '@/data/db/db';
 import { openDatabase, recordMigration, verifySchema } from '@/data/db/migrations';
 import { describeError } from '@/lib/result';
 
@@ -39,7 +47,12 @@ export function DbProvider({ children, instance }: DbProviderProps): ReactNode {
     void (async (): Promise<void> => {
       try {
         await openDatabase(target);
-        await recordMigration('v1 基线 schema：16 个 store', target);
+        //★ 记录迁移时用**运行时的** DB_VERSION 与 store 数，不要写死字符串：
+        //   写死 "v1 基线 schema：16 个 store" 会让 v2 升级后的记录永远停留在旧版本描述上，
+        //   排查"表为什么没建起来"时会被这条假记录直接带偏。
+        const storeCount =
+          MIRROR_STORES.length + PROGRESS_STORES.length + SYSTEM_STORES.length + SECRET_STORES.length;
+        await recordMigration(`v${DB_VERSION} schema：${storeCount} 个 store`, target);
         const check = await verifySchema(target);
         if (cancelled) return;
         setSchema(check);

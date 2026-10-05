@@ -1,4 +1,11 @@
-import { db, DB_VERSION, MIRROR_STORES, PROGRESS_STORES, SYSTEM_STORES } from './db';
+import {
+  db,
+  DB_VERSION,
+  MIRROR_STORES,
+  PROGRESS_STORES,
+  SECRET_STORES,
+  SYSTEM_STORES,
+} from './db';
 import type { Cet4Database } from './db';
 
 /**
@@ -6,7 +13,11 @@ import type { Cet4Database } from './db';
  *
  * v1 是基线版本（建表即完成），因此没有 upgrade 回调；
  * 后续每次改 schema 都必须在这里补一条 `onVersion(n)`，
- * 并**保证只操作 MIRROR_STORES，绝不触碰 PROGRESS_STORES**。
+ * 并**保证只操作 MIRROR_STORES，绝不触碰 PROGRESS_STORES / SECRET_STORES**。
+ *
+ * v2 = 翻译训练（translations 镜像 + translationBook 进度）+ 秘钥区（secrets）。
+ * 建表由 `Cet4Database` 构造函数的 `version(2).stores(DB_SCHEMA_V2)` 完成，
+ * 无需 upgrade 回调（v1 已有数据全部保留，只是多了三张空表）。
  */
 
 export interface MigrationRecord {
@@ -62,7 +73,13 @@ export async function verifySchema(instance: Cet4Database = db): Promise<{
   stores: string[];
   missing: string[];
 }> {
-  const expected = [...MIRROR_STORES, ...PROGRESS_STORES, ...SYSTEM_STORES];
+  // ★ 四区全量：新增分区时必须同步这里，否则新表不会被启动自检覆盖到
+  const expected = [
+    ...MIRROR_STORES,
+    ...PROGRESS_STORES,
+    ...SYSTEM_STORES,
+    ...SECRET_STORES,
+  ];
   const missing: string[] = [];
   for (const name of expected) {
     const table = instance.table(name);

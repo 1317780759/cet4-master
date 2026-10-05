@@ -2,8 +2,10 @@ import { afterEach, beforeEach, describe, expect, it } from 'vitest';
 import {
   createDb,
   DB_SCHEMA,
+  DB_SCHEMA_V2,
   MIRROR_STORES,
   PROGRESS_STORES,
+  SECRET_STORES,
   SYSTEM_STORES,
   type Cet4Database,
 } from '../db';
@@ -46,13 +48,22 @@ afterEach(async () => {
 });
 
 describe('Dexie schema v1', () => {
-  it('建表成功：16 个 store 全部可访问', async () => {
+  it('建表成功：四个分区的 store 全部可访问', async () => {
+    // ★ 断言基于分区常量推导，将来再加表会自动对齐，不会再脆
+    const allStores = [
+      ...MIRROR_STORES,
+      ...PROGRESS_STORES,
+      ...SYSTEM_STORES,
+      ...SECRET_STORES,
+    ];
     const check = await verifySchema(db);
     expect(check.missing).toEqual([]);
     expect(check.ok).toBe(true);
-    expect(check.stores).toHaveLength(16);
-    expect(check.stores).toEqual([...MIRROR_STORES, ...PROGRESS_STORES, ...SYSTEM_STORES]);
+    expect(check.stores).toHaveLength(allStores.length);
+    expect(check.stores).toEqual(allStores);
+    // v1 基线 16 张表原样保留；v2 只声明变化的表，两者并集 = 四区全量
     expect(Object.keys(DB_SCHEMA)).toHaveLength(16);
+    expect(Object.keys({ ...DB_SCHEMA, ...DB_SCHEMA_V2 })).toHaveLength(allStores.length);
   });
 
   it('只读镜像区可读写', async () => {
