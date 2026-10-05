@@ -1,0 +1,895 @@
+{
+  "topic": "aging",
+  "label": "人口老龄化",
+  "items": [
+    {
+      "id": "t_000261",
+      "topic": "aging",
+      "difficulty": 2,
+      "zh": "人口老龄化已成为许多国家面临的共同挑战。",
+      "reference": "Nowadays, population aging has become a common challenge facing many countries.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "population aging",
+          "zh": "人口老龄化",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "has become",
+          "zh": "已成为",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "a common challenge",
+          "zh": "共同的挑战",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "facing many countries",
+          "zh": "许多国家面临的",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：人口老龄化 / 已成为 / 共同的挑战 / 许多国家面临的",
+        "「老龄化」名词是 aging；「面临的」用现在分词 facing 作后置定语",
+        "句型：Nowadays, population aging has become a common challenge facing …."
+      ],
+      "topicWords": [
+        "population aging",
+        "challenge",
+        "society"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000262",
+      "topic": "aging",
+      "difficulty": 3,
+      "zh": "随着医疗条件的改善，人们的平均寿命显著延长。",
+      "reference": "People's average life expectancy has been greatly extended with the improvement of medical conditions.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "average life expectancy",
+          "zh": "平均寿命",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "has been greatly extended",
+          "zh": "显著延长",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "with the improvement of",
+          "zh": "随着……的改善",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "medical conditions",
+          "zh": "医疗条件",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：平均寿命 / 显著延长 / 随着……的改善 / 医疗条件",
+        "「预期寿命」固定说法是 life expectancy；「延长」用 extend，此处用被动完成时",
+        "句型：People's average life expectancy has been greatly extended with the improvement of …."
+      ],
+      "topicWords": [
+        "life expectancy",
+        "medical conditions",
+        "aging"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000263",
+      "topic": "aging",
+      "difficulty": 2,
+      "zh": "老龄化加剧了社会保障体系的财政压力。",
+      "reference": "The financial pressure on the social security system has been increased by the aging population.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "financial pressure",
+          "zh": "财政压力",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "the social security system",
+          "zh": "社会保障体系",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "has been increased by",
+          "zh": "被……加剧",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "the aging population",
+          "zh": "老龄化人口",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：财政压力 / 社会保障体系 / 被……加剧 / 老龄化人口",
+        "「加剧」可用 increase / intensify；「社会保障」是 social security；被动结构 by + 施动者",
+        "句型：The financial pressure on … has been increased by the aging population."
+      ],
+      "topicWords": [
+        "social security",
+        "financial pressure",
+        "aging population"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000264",
+      "topic": "aging",
+      "difficulty": 2,
+      "zh": "许多老年人退休后选择继续参与社会活动。",
+      "reference": "Many elderly people choose to continue taking part in social activities after retirement.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "elderly people",
+          "zh": "老年人",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "taking part in",
+          "zh": "参与",
+          "synonyms": [
+            "participating in"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "social activities",
+          "zh": "社会活动",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "after retirement",
+          "zh": "退休后",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：老年人 / 参与 / 社会活动 / 退休后",
+        "「参与」用 take part in / participate in；「退休」名词是 retirement",
+        "句型：Many elderly people choose to continue … after retirement."
+      ],
+      "topicWords": [
+        "elderly people",
+        "retirement",
+        "social activities"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000265",
+      "topic": "aging",
+      "difficulty": 3,
+      "zh": "社区养老服务中心为独居老人提供了日常照料。",
+      "reference": "Community elderly care centers provide daily care for seniors living alone.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "elderly care centers",
+          "zh": "养老服务中心",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "provide daily care for",
+          "zh": "为……提供日常照料",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "seniors",
+          "zh": "老人",
+          "weight": 1
+        },
+        {
+          "id": "kp4",
+          "head": "living alone",
+          "zh": "独居的",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：养老服务中心 / 为……提供日常照料 / 老人 / 独居的",
+        "「养老」可译 elderly care；「独居」用现在分词短语 living alone 作后置定语",
+        "句型：Community elderly care centers provide daily care for seniors living alone."
+      ],
+      "topicWords": [
+        "elderly care",
+        "community",
+        "senior"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000266",
+      "topic": "aging",
+      "difficulty": 2,
+      "zh": "政府正在完善养老保险制度，以保障老年人的基本生活。",
+      "reference": "The government is improving the old-age insurance system to ensure a basic standard of living for the elderly.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "is improving",
+          "zh": "正在完善",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "the old-age insurance system",
+          "zh": "养老保险制度",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "to ensure",
+          "zh": "以保障",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "a basic standard of living",
+          "zh": "基本生活",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：正在完善 / 养老保险制度 / 以保障 / 基本生活",
+        "「养老保险」是 old-age insurance；「基本生活水平」用 a basic standard of living",
+        "句型：The government is improving … to ensure … for the elderly."
+      ],
+      "topicWords": [
+        "old-age insurance",
+        "the elderly",
+        "living standard"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000267",
+      "topic": "aging",
+      "difficulty": 3,
+      "zh": "生育率的下降和寿命的延长共同加速了老龄化进程。",
+      "reference": "The falling birth rate, together with longer life expectancy, has accelerated the aging process.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "birth rate",
+          "zh": "生育率",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "life expectancy",
+          "zh": "寿命",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "has accelerated",
+          "zh": "加速了",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "the aging process",
+          "zh": "老龄化进程",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：生育率 / 寿命 / 加速了 / 老龄化进程",
+        "「下降的」用 falling 作定语；「进程」用 process；「加速」动词是 accelerate",
+        "句型：The falling birth rate, together with longer life expectancy, has accelerated …."
+      ],
+      "topicWords": [
+        "birth rate",
+        "life expectancy",
+        "aging process"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000268",
+      "topic": "aging",
+      "difficulty": 2,
+      "zh": "越来越多的老年人开始学习使用智能手机。",
+      "reference": "Nowadays, more and more elderly people are beginning to learn to use smartphones.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "more and more",
+          "zh": "越来越多",
+          "weight": 1
+        },
+        {
+          "id": "kp2",
+          "head": "elderly people",
+          "zh": "老年人",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "are beginning to",
+          "zh": "开始",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "learn to use",
+          "zh": "学习使用",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：越来越多 / 老年人 / 开始 / 学习使用",
+        "「开始做」用 begin to do；「学会使用」用 learn to use；「智能手机」是 smartphone",
+        "句型：Nowadays, more and more elderly people are beginning to learn to use …."
+      ],
+      "topicWords": [
+        "elderly people",
+        "smartphone",
+        "learn"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000269",
+      "topic": "aging",
+      "difficulty": 2,
+      "zh": "子女应常回家看看，给予父母更多的精神关怀。",
+      "reference": "It is important for children to visit their parents more often and give them more emotional care.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "visit their parents",
+          "zh": "看望父母",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "more often",
+          "zh": "更经常地",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "give them",
+          "zh": "给予他们",
+          "weight": 1
+        },
+        {
+          "id": "kp4",
+          "head": "emotional care",
+          "zh": "精神关怀",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：看望父母 / 更经常地 / 给予他们 / 精神关怀",
+        "「常回家看看」意译为 visit their parents more often；「精神上的」用 emotional",
+        "句型：It is important for children to visit their parents … and give them …."
+      ],
+      "topicWords": [
+        "emotional care",
+        "parents",
+        "children"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000270",
+      "topic": "aging",
+      "difficulty": 3,
+      "zh": "发展银发经济既能满足老年人需求，也能创造就业机会。",
+      "reference": "In practice, the silver economy can both meet the needs of the elderly and create job opportunities.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "the silver economy",
+          "zh": "银发经济",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "meet the needs of",
+          "zh": "满足……的需求",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "the elderly",
+          "zh": "老年人",
+          "weight": 1
+        },
+        {
+          "id": "kp4",
+          "head": "create job opportunities",
+          "zh": "创造就业机会",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：银发经济 / 满足……的需求 / 老年人 / 创造就业机会",
+        "「银发经济」可直译 the silver economy；「满足需求」用 meet the needs of；both … and 连接两个谓语",
+        "句型：In practice, the silver economy can both meet the needs of … and create job opportunities."
+      ],
+      "topicWords": [
+        "silver economy",
+        "the elderly",
+        "job opportunities"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000271",
+      "topic": "aging",
+      "difficulty": 2,
+      "zh": "老年人的健康问题给家庭和社会带来了沉重负担。",
+      "reference": "The health problems of the elderly have brought a heavy burden to families and society.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "health problems",
+          "zh": "健康问题",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "have brought",
+          "zh": "带来了",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "a heavy burden",
+          "zh": "沉重的负担",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "families and society",
+          "zh": "家庭和社会",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：健康问题 / 带来了 / 沉重的负担 / 家庭和社会",
+        "「给……带来负担」用 bring a burden to；「沉重的」用 heavy",
+        "句型：The health problems of the elderly have brought a heavy burden to …."
+      ],
+      "topicWords": [
+        "health problems",
+        "burden",
+        "society"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000272",
+      "topic": "aging",
+      "difficulty": 3,
+      "zh": "一些国家通过延迟退休年龄来应对劳动力短缺。",
+      "reference": "Some countries deal with the labor shortage by raising the retirement age.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "deal with",
+          "zh": "应对",
+          "synonyms": [
+            "cope with"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "labor shortage",
+          "zh": "劳动力短缺",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "by raising",
+          "zh": "通过提高",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "the retirement age",
+          "zh": "退休年龄",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：应对 / 劳动力短缺 / 通过提高 / 退休年龄",
+        "「应对」用 deal with / cope with；「通过做某事」用 by + 动名词；「延迟退休」意译为 raise the retirement age",
+        "句型：Some countries deal with … by raising the retirement age."
+      ],
+      "topicWords": [
+        "labor shortage",
+        "retirement age",
+        "cope with"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000273",
+      "topic": "aging",
+      "difficulty": 2,
+      "zh": "社会对老年人的态度正在从同情转向尊重。",
+      "reference": "Society's attitude towards the elderly is changing from sympathy to respect.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "attitude towards",
+          "zh": "对……的态度",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "is changing from",
+          "zh": "正在从……转变",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "sympathy",
+          "zh": "同情",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "respect",
+          "zh": "尊重",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：对……的态度 / 正在从……转变 / 同情 / 尊重",
+        "「对……的态度」用 attitude towards / toward；「从……到……」用 from … to …",
+        "句型：Society's attitude towards … is changing from sympathy to respect."
+      ],
+      "topicWords": [
+        "attitude",
+        "respect",
+        "the elderly"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000274",
+      "topic": "aging",
+      "difficulty": 2,
+      "zh": "许多城市为老年人提供免费乘坐公交的优惠。",
+      "reference": "In many cities, elderly people are offered free rides on public buses.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "many cities",
+          "zh": "许多城市",
+          "weight": 1
+        },
+        {
+          "id": "kp2",
+          "head": "elderly people",
+          "zh": "老年人",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "free rides",
+          "zh": "免费乘坐",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "public buses",
+          "zh": "公交车",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：许多城市 / 老年人 / 免费乘坐 / 公交车",
+        "「为某人提供某物」可用 offer sb. sth.；「免费乘坐」用 free rides；「公交」用 public buses",
+        "句型：In many cities, elderly people are offered free rides on public buses."
+      ],
+      "topicWords": [
+        "free rides",
+        "public buses",
+        "elderly people"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000275",
+      "topic": "aging",
+      "difficulty": 3,
+      "zh": "智能养老设备可以帮助家人远程关注老人的健康状况。",
+      "reference": "With smart care devices, family members can monitor the health of elderly people remotely.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "smart care devices",
+          "zh": "智能养老设备",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "family members",
+          "zh": "家人",
+          "weight": 1
+        },
+        {
+          "id": "kp3",
+          "head": "monitor the health of",
+          "zh": "关注……的健康状况",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "remotely",
+          "zh": "远程地",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：智能养老设备 / 家人 / 关注……的健康状况 / 远程地",
+        "「关注（健康）」此处用 monitor 比 pay attention to 更贴切；「远程」副词用 remotely",
+        "句型：With smart care devices, family members can monitor the health of … remotely."
+      ],
+      "topicWords": [
+        "smart devices",
+        "monitor",
+        "health"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000276",
+      "topic": "aging",
+      "difficulty": 2,
+      "zh": "尊老爱幼是中华民族的传统美德之一。",
+      "reference": "In our culture, one of the traditional virtues of our nation is to respect the elderly and care for the young.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "one of the traditional virtues",
+          "zh": "传统美德之一",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "to respect the elderly",
+          "zh": "尊敬老人",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "care for the young",
+          "zh": "爱护幼小",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "our nation",
+          "zh": "民族",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：传统美德之一 / 尊敬老人 / 爱护幼小 / 民族",
+        "「美德」是 virtue；「尊老爱幼」不必逐字对应，用 respect the elderly and care for the young 表达",
+        "句型：In our culture, one of the traditional virtues of our nation is to respect … and care for …."
+      ],
+      "topicWords": [
+        "traditional virtue",
+        "the elderly",
+        "the young"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000277",
+      "topic": "aging",
+      "difficulty": 3,
+      "zh": "人口老龄化将深刻影响未来的消费结构和产业布局。",
+      "reference": "Future consumption patterns and industrial layout will be profoundly affected by population aging.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "consumption patterns",
+          "zh": "消费结构",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "industrial layout",
+          "zh": "产业布局",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "be profoundly affected by",
+          "zh": "受到……的深刻影响",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "population aging",
+          "zh": "人口老龄化",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：消费结构 / 产业布局 / 受到……的深刻影响 / 人口老龄化",
+        "「深刻地」用 profoundly；「影响」被动 be affected by，注意 by 引出施动者",
+        "句型：Future consumption patterns and industrial layout will be profoundly affected by …."
+      ],
+      "topicWords": [
+        "consumption",
+        "industrial layout",
+        "population aging"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000278",
+      "topic": "aging",
+      "difficulty": 2,
+      "zh": "老年人丰富的经验和智慧是社会的宝贵财富。",
+      "reference": "The rich experience and wisdom of elderly people are valuable assets of society.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "rich experience",
+          "zh": "丰富的经验",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "wisdom",
+          "zh": "智慧",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "valuable assets",
+          "zh": "宝贵的财富",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "of society",
+          "zh": "社会的",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：丰富的经验 / 智慧 / 宝贵的财富 / 社会的",
+        "「丰富的」用 rich；「财富」此处引申为 asset（资产 / 财富），用复数",
+        "句型：The rich experience and wisdom of … are valuable assets of society."
+      ],
+      "topicWords": [
+        "wisdom",
+        "experience",
+        "valuable"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000279",
+      "topic": "aging",
+      "difficulty": 3,
+      "zh": "为应对老龄化，必须建立多层次的养老服务体系。",
+      "reference": "A multi-level elderly care service system must be established to cope with aging.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "elderly care service system",
+          "zh": "养老服务体系",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "must be established",
+          "zh": "必须建立",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "to cope with",
+          "zh": "为应对",
+          "synonyms": [
+            "to deal with"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "aging",
+          "zh": "老龄化",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：养老服务体系 / 必须建立 / 为应对 / 老龄化",
+        "「多层次的」用 multi-level；「建立」用 establish；无主语时用被动 must be established",
+        "句型：A multi-level … must be established to cope with aging."
+      ],
+      "topicWords": [
+        "elderly care",
+        "service system",
+        "cope with"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000280",
+      "topic": "aging",
+      "difficulty": 2,
+      "zh": "年轻人的生育意愿下降将进一步加剧老龄化问题。",
+      "reference": "According to experts, the decline in young people’s willingness to have children will further worsen the aging problem.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "the decline in",
+          "zh": "……的下降",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "willingness",
+          "zh": "意愿",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "will further worsen",
+          "zh": "将进一步加剧",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "the aging problem",
+          "zh": "老龄化问题",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：……的下降 / 意愿 / 将进一步加剧 / 老龄化问题",
+        "「意愿」用 willingness，后接 to do；「加剧 / 恶化」用 worsen；「进一步」用 further",
+        "句型：According to experts, the decline in … will further worsen the aging problem."
+      ],
+      "topicWords": [
+        "willingness",
+        "aging problem",
+        "worsen"
+      ],
+      "source": "authored"
+    }
+  ]
+}

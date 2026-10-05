@@ -1,0 +1,111 @@
+{
+  "version": "2026.10.01.f2477692",
+  "generatedAt": "2026-10-01T08:27:24.305Z",
+  "generator": "scripts/build-wordbank.ts",
+  "wordCount": 5278,
+  "coreCount": 2104,
+  "coreBoundary": 2104,
+  "chunkSize": 550,
+  "chunkCount": 10,
+  "chunkFilePattern": "words/chunk-{n}.json",
+  "indexes": {
+    "core": {
+      "file": "words.index.core.json",
+      "sha256": "a056338834bd434156bf7075756145bf7a38c96d9e65542e9888d733a3b7294c",
+      "count": 2104
+    },
+    "full": {
+      "file": "words.index.full.json",
+      "sha256": "9d5a45cf1d5ed7470e654cfdd774300fc4689a5fe7c3ce3f7bb8e80377ca6480",
+      "count": 5278
+    }
+  },
+  "chunks": [
+    {
+      "index": 1,
+      "file": "words/chunk-001.json",
+      "sha256": "4a36795cc423e1ce3b9c8ae8f310a9579f44c7683f23ce9d62e653a15dcf02ef",
+      "count": 550,
+      "bytes": 269184
+    },
+    {
+      "index": 2,
+      "file": "words/chunk-002.json",
+      "sha256": "2618279cf920ca15466c32f692edbe0f8c72556c0d3d02ad5db96162d3fe11a7",
+      "count": 550,
+      "bytes": 270392
+    },
+    {
+      "index": 3,
+      "file": "words/chunk-003.json",
+      "sha256": "a17d1ef80fd669f11af97347567e3631efbb0f4ede80cfd907c602436f5f3ebc",
+      "count": 550,
+      "bytes": 273530
+    },
+    {
+      "index": 4,
+      "file": "words/chunk-004.json",
+      "sha256": "d1d8fc87552c3745adf672edc65775e7739f132ea0742d1258e9cc4b7fe1ccb3",
+      "count": 550,
+      "bytes": 268485
+    },
+    {
+      "index": 5,
+      "file": "words/chunk-005.json",
+      "sha256": "762c8504becc7bf72ce2bfaf8f41d34b38b3f8c43180fd1edd342812094030bf",
+      "count": 550,
+      "bytes": 260472
+    },
+    {
+      "index": 6,
+      "file": "words/chunk-006.json",
+      "sha256": "ab95e2fb0a6cfabfbc497ba671be9805ea60a6dc2ec1132ac0f89b9890ce68c0",
+      "count": 550,
+      "bytes": 258958
+    },
+    {
+      "index": 7,
+      "file": "words/chunk-007.json",
+      "sha256": "87cbaf2ef795887eeb96b2f0d80af50420c35e5aa90dd662513ad29603f98bdb",
+      "count": 550,
+      "bytes": 258748
+    },
+    {
+      "index": 8,
+      "file": "words/chunk-008.json",
+      "sha256": "77bfb575e94e1371b929df3b946c58b5e04249c28954fcb814d2a999602217bc",
+      "count": 550,
+      "bytes": 253870
+    },
+    {
+      "index": 9,
+      "file": "words/chunk-009.json",
+      "sha256": "959043dae823b037f2ebd3f72e569aac1b71f7a71fa523f4168e1717760bcb01",
+      "count": 550,
+      "bytes": 249272
+    },
+    {
+      "index": 10,
+      "file": "words/chunk-010.json",
+      "sha256": "76b58fe3337d5f50a84fc048e88ae55985abfb4fb0e175d8dc9de6fdd0bb95f2",
+      "count": 328,
+      "bytes": 146381
+    }
+  ],
+  "sentences": {
+    "available": false,
+    "count": 0,
+    "coverage": 0,
+    "note": "例句管线属于 M1，本版本尚未接入；sentenceCount 全部为 0"
+  },
+  "attribution": {
+    "sourceId": "exam-data/CETVocabulary",
+    "name": "四六级词汇词频排序数据（exam-data/CETVocabulary）",
+    "url": "https://github.com/exam-data/CETVocabulary",
+    "license": "CC BY-NC-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercialUse": false,
+    "fetchedAt": "2026-10-01",
+    "upstreamRef": "7f21d0d9ad93c16a17849a24ccc4046e0f64c4af"
+  }
+}

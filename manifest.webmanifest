@@ -1,0 +1,22 @@
+{
+  "name": "CET-4 Master · 四级词频背词",
+  "short_name": "CET4背词",
+  "description": "按真题词频排序的大学英语四级背词与真题练习工具。纯前端、零后端、数据留在本机。",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f8fafc",
+  "theme_color": "#ad4324",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

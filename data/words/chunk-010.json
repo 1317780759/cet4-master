@@ -1,0 +1,6663 @@
+{
+  "chunk": 10,
+  "count": 328,
+  "words": [
+    {
+      "id": "w_streamline",
+      "headword": "streamline",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "简化"
+        }
+      ],
+      "freqRank": 4951,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "动作行为",
+      "subCategory": "身体动作",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_stump",
+      "headword": "stump",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "树桩"
+        }
+      ],
+      "freqRank": 4952,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_symmetry",
+      "headword": "symmetry",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "匀称"
+        }
+      ],
+      "freqRank": 4953,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "科学技术",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_tack",
+      "headword": "tack",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "大头钉"
+        },
+        {
+          "pos": "unknown",
+          "zh": "附加"
+        }
+      ],
+      "freqRank": 4954,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_tempo",
+      "headword": "tempo",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "节奏"
+        }
+      ],
+      "freqRank": 4955,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "运动娱乐",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_temporal",
+      "headword": "temporal",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "暂时的"
+        }
+      ],
+      "freqRank": 4956,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "抽象概念",
+      "subCategory": "性质与评价",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_tickle",
+      "headword": "tickle",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "痒"
+        }
+      ],
+      "freqRank": 4957,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_tornado",
+      "headword": "tornado",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "龙卷风"
+        }
+      ],
+      "freqRank": 4958,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_trifle",
+      "headword": "trifle",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "琐事"
+        },
+        {
+          "pos": "unknown",
+          "zh": "浪费"
+        }
+      ],
+      "freqRank": 4959,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "日常生活",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_tub",
+      "headword": "tub",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "浴盆"
+        },
+        {
+          "pos": "unknown",
+          "zh": "桶"
+        }
+      ],
+      "freqRank": 4960,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "日常生活",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_valve",
+      "headword": "valve",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "阀门"
+        }
+      ],
+      "freqRank": 4961,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "科学技术",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_vest",
+      "headword": "vest",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "背心"
+        }
+      ],
+      "freqRank": 4962,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "交通旅行",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_vibrate",
+      "headword": "vibrate",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "颤动"
+        }
+      ],
+      "freqRank": 4963,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "动作行为",
+      "subCategory": "身体动作",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_volatile",
+      "headword": "volatile",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "不稳定的"
+        },
+        {
+          "pos": "unknown",
+          "zh": "挥发物"
+        }
+      ],
+      "freqRank": 4964,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "抽象概念",
+      "subCategory": "性质与评价",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_volt",
+      "headword": "volt",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "伏特"
+        }
+      ],
+      "freqRank": 4965,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "科学技术",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_watt",
+      "headword": "watt",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "瓦特"
+        }
+      ],
+      "freqRank": 4966,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "科学技术",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_wax",
+      "headword": "wax",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "蜡"
+        }
+      ],
+      "freqRank": 4967,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "日常生活",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_whirl",
+      "headword": "whirl",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "旋转"
+        },
+        {
+          "pos": "unknown",
+          "zh": "回旋"
+        }
+      ],
+      "freqRank": 4968,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "动作行为",
+      "subCategory": "身体动作",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_witch",
+      "headword": "witch",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "女巫"
+        }
+      ],
+      "freqRank": 4969,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "文化宗教",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_wool",
+      "headword": "wool",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "羊毛"
+        }
+      ],
+      "freqRank": 4970,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "交通旅行",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_wrench",
+      "headword": "wrench",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "猛扭"
+        },
+        {
+          "pos": "unknown",
+          "zh": "痛苦"
+        }
+      ],
+      "freqRank": 4971,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "动作行为",
+      "subCategory": "身体动作",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_wrinkle",
+      "headword": "wrinkle",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "皱纹"
+        }
+      ],
+      "freqRank": 4972,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "动作行为",
+      "subCategory": "身体动作",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_contingent",
+      "headword": "contingent",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "代表团"
+        }
+      ],
+      "freqRank": 4973,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "人类与社会",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_encyclopedia",
+      "headword": "encyclopedia",
+      "variants": [
+        "encyclopaedia"
+      ],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "百科全书"
+        }
+      ],
+      "freqRank": 4974,
+      "freqCount": 1,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "教育学习",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_topic",
+      "headword": "topic",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "话题"
+        }
+      ],
+      "freqRank": 4975,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "教育学习",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_abbreviation",
+      "headword": "abbreviation",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "缩写"
+        }
+      ],
+      "freqRank": 4976,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_according_to",
+      "headword": "according to",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "据所说"
+        },
+        {
+          "pos": "unknown",
+          "zh": "根据"
+        }
+      ],
+      "freqRank": 4977,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "抽象概念",
+      "subCategory": "逻辑与关系",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_accustom",
+      "headword": "accustom",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "习惯"
+        }
+      ],
+      "freqRank": 4978,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "动作行为",
+      "subCategory": "使动与影响",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_adverb",
+      "headword": "adverb",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "副词"
+        }
+      ],
+      "freqRank": 4979,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "教育学习",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_aide",
+      "headword": "aide",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "助手"
+        }
+      ],
+      "freqRank": 4980,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_AIDS",
+      "headword": "AIDS",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "艾滋病"
+        }
+      ],
+      "freqRank": 4981,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_air_conditioning",
+      "headword": "air-conditioning",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "的现在分词形式"
+        }
+      ],
+      "freqRank": 4982,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_almighty",
+      "headword": "almighty",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "万能的"
+        }
+      ],
+      "freqRank": 4983,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_aloft",
+      "headword": "aloft",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "在空中"
+        },
+        {
+          "pos": "unknown",
+          "zh": "在高处"
+        }
+      ],
+      "freqRank": 4984,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_am",
+      "headword": "am",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "是"
+        }
+      ],
+      "freqRank": 4985,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_analogue",
+      "headword": "analogue",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "模拟的"
+        }
+      ],
+      "freqRank": 4986,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "科学技术",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_antagonism",
+      "headword": "antagonism",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "对抗"
+        }
+      ],
+      "freqRank": 4987,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_April",
+      "headword": "April",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "四月"
+        }
+      ],
+      "freqRank": 4988,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "时间日期",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_apron",
+      "headword": "apron",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "围裙"
+        }
+      ],
+      "freqRank": 4989,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_arbitrate",
+      "headword": "arbitrate",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "仲裁"
+        }
+      ],
+      "freqRank": 4990,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_armor",
+      "headword": "armor",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "盔甲"
+        }
+      ],
+      "freqRank": 4991,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_artillery",
+      "headword": "artillery",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "大炮"
+        }
+      ],
+      "freqRank": 4992,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_ass",
+      "headword": "ass",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "屁股"
+        },
+        {
+          "pos": "unknown",
+          "zh": "驴"
+        }
+      ],
+      "freqRank": 4993,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_assorted",
+      "headword": "assorted",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "各种各样的"
+        }
+      ],
+      "freqRank": 4994,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_atrocity",
+      "headword": "atrocity",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "暴行"
+        }
+      ],
+      "freqRank": 4995,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_August",
+      "headword": "August",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "八月"
+        }
+      ],
+      "freqRank": 4996,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "时间日期",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_avenge",
+      "headword": "avenge",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "报仇"
+        }
+      ],
+      "freqRank": 4997,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_baby_boom",
+      "headword": "baby boom",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "婴儿潮"
+        }
+      ],
+      "freqRank": 4998,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_baffle",
+      "headword": "baffle",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "使困惑"
+        }
+      ],
+      "freqRank": 4999,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_bamboo",
+      "headword": "bamboo",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "竹"
+        }
+      ],
+      "freqRank": 5000,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_barometer",
+      "headword": "barometer",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "晴雨表"
+        }
+      ],
+      "freqRank": 5001,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_barracks",
+      "headword": "barracks",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "兵营"
+        }
+      ],
+      "freqRank": 5002,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_bead",
+      "headword": "bead",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "珠子"
+        }
+      ],
+      "freqRank": 5003,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_beak",
+      "headword": "beak",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "鸟嘴"
+        }
+      ],
+      "freqRank": 5004,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_beetle",
+      "headword": "beetle",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "甲虫"
+        }
+      ],
+      "freqRank": 5005,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_besiege",
+      "headword": "besiege",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "围攻"
+        }
+      ],
+      "freqRank": 5006,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_best_seller",
+      "headword": "best-seller",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "畅销书"
+        }
+      ],
+      "freqRank": 5007,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_Bible",
+      "headword": "Bible",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "圣经"
+        }
+      ],
+      "freqRank": 5008,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "文化宗教",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_binoculars",
+      "headword": "binoculars",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "双筒望远镜"
+        }
+      ],
+      "freqRank": 5009,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_bitch",
+      "headword": "bitch",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "母狗"
+        }
+      ],
+      "freqRank": 5010,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_botany",
+      "headword": "botany",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "植物"
+        }
+      ],
+      "freqRank": 5011,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "科学技术",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_bouquet",
+      "headword": "bouquet",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "花束"
+        }
+      ],
+      "freqRank": 5012,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_bout",
+      "headword": "bout",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "一场"
+        },
+        {
+          "pos": "unknown",
+          "zh": "回合"
+        }
+      ],
+      "freqRank": 5013,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_bowel",
+      "headword": "bowel",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "肠"
+        }
+      ],
+      "freqRank": 5014,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "人类与社会",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_boxing",
+      "headword": "boxing",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "拳击"
+        }
+      ],
+      "freqRank": 5015,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_brace",
+      "headword": "brace",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "支撑"
+        },
+        {
+          "pos": "unknown",
+          "zh": "支架"
+        }
+      ],
+      "freqRank": 5016,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "动作行为",
+      "subCategory": "身体动作",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_brand_new",
+      "headword": "brand-new",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "崭新的"
+        }
+      ],
+      "freqRank": 5017,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_brandy",
+      "headword": "brandy",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "白兰地酒"
+        }
+      ],
+      "freqRank": 5018,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "食物营养",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_bridegroom",
+      "headword": "bridegroom",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "新郎"
+        }
+      ],
+      "freqRank": 5019,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_broke",
+      "headword": "broke",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "破产的"
+        }
+      ],
+      "freqRank": 5020,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_brunch",
+      "headword": "brunch",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "早午餐"
+        }
+      ],
+      "freqRank": 5021,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_buddy",
+      "headword": "buddy",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "伙伴"
+        }
+      ],
+      "freqRank": 5022,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_Buddhism",
+      "headword": "Buddhism",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "佛教"
+        }
+      ],
+      "freqRank": 5023,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_buffer",
+      "headword": "buffer",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "缓冲"
+        }
+      ],
+      "freqRank": 5024,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "科学技术",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_bumper",
+      "headword": "bumper",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "保险杠"
+        }
+      ],
+      "freqRank": 5025,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_cabbage",
+      "headword": "cabbage",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "卷心菜"
+        }
+      ],
+      "freqRank": 5026,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "食物营养",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_calling",
+      "headword": "calling",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "使命"
+        },
+        {
+          "pos": "unknown",
+          "zh": "职业"
+        }
+      ],
+      "freqRank": 5027,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_caption",
+      "headword": "caption",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "说明文字"
+        }
+      ],
+      "freqRank": 5028,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_Catholic",
+      "headword": "Catholic",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "天主教徒"
+        },
+        {
+          "pos": "unknown",
+          "zh": "天主教的"
+        }
+      ],
+      "freqRank": 5029,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "文化宗教",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_cauliflower",
+      "headword": "cauliflower",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "花椰菜"
+        }
+      ],
+      "freqRank": 5030,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_cell_phone",
+      "headword": "cell-phone",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "手机"
+        }
+      ],
+      "freqRank": 5031,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_Celsius",
+      "headword": "Celsius",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "摄氏"
+        }
+      ],
+      "freqRank": 5032,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_chant",
+      "headword": "chant",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "圣歌"
+        },
+        {
+          "pos": "unknown",
+          "zh": "吟唱"
+        }
+      ],
+      "freqRank": 5033,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_Christ",
+      "headword": "Christ",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "基督"
+        }
+      ],
+      "freqRank": 5034,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "文化宗教",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_cigaret",
+      "headword": "cigaret",
+      "variants": [
+        "cigarette"
+      ],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "香烟"
+        }
+      ],
+      "freqRank": 5035,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "食物营养",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_clear_cut",
+      "headword": "clear-cut",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "清晰的"
+        }
+      ],
+      "freqRank": 5036,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_clench",
+      "headword": "clench",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "握紧"
+        }
+      ],
+      "freqRank": 5037,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_clockwise",
+      "headword": "clockwise",
+      "variants": [
+        "clockwize"
+      ],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "顺时针方向地"
+        }
+      ],
+      "freqRank": 5038,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "空间地点",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_clothes",
+      "headword": "clothes",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "衣服"
+        }
+      ],
+      "freqRank": 5039,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "交通旅行",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_clown",
+      "headword": "clown",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "小丑"
+        }
+      ],
+      "freqRank": 5040,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_cock",
+      "headword": "cock",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "公鸡"
+        }
+      ],
+      "freqRank": 5041,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "自然环境",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_cockpit",
+      "headword": "cockpit",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "战场"
+        }
+      ],
+      "freqRank": 5042,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_coexist",
+      "headword": "coexist",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "共存"
+        }
+      ],
+      "freqRank": 5043,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_cohesion",
+      "headword": "cohesion",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "凝聚力"
+        }
+      ],
+      "freqRank": 5044,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_colon",
+      "headword": "colon",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "冒号"
+        }
+      ],
+      "freqRank": 5045,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_colonel",
+      "headword": "colonel",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "上校"
+        }
+      ],
+      "freqRank": 5046,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "职业工作",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_comma",
+      "headword": "comma",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "逗号"
+        }
+      ],
+      "freqRank": 5047,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_concurrent",
+      "headword": "concurrent",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "同时发生的"
+        }
+      ],
+      "freqRank": 5048,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "抽象概念",
+      "subCategory": "性质与评价",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_Confucian",
+      "headword": "Confucian",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "儒家"
+        }
+      ],
+      "freqRank": 5049,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_corporal",
+      "headword": "corporal",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "肉体的"
+        },
+        {
+          "pos": "unknown",
+          "zh": "下士"
+        }
+      ],
+      "freqRank": 5050,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_corpse",
+      "headword": "corpse",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "尸体"
+        }
+      ],
+      "freqRank": 5051,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_corrode",
+      "headword": "corrode",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "腐蚀"
+        }
+      ],
+      "freqRank": 5052,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "动作行为",
+      "subCategory": "其他动作",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_coup",
+      "headword": "coup",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "政变"
+        }
+      ],
+      "freqRank": 5053,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_crackdown",
+      "headword": "crackdown",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "镇压"
+        }
+      ],
+      "freqRank": 5054,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_cradle",
+      "headword": "cradle",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "摇篮"
+        }
+      ],
+      "freqRank": 5055,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "日常生活",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_crocodile",
+      "headword": "crocodile",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "鳄鱼"
+        }
+      ],
+      "freqRank": 5056,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_cub",
+      "headword": "cub",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "幼兽"
+        }
+      ],
+      "freqRank": 5057,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_cunning",
+      "headword": "cunning",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "狡猾的"
+        }
+      ],
+      "freqRank": 5058,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "情感心理",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_curfew",
+      "headword": "curfew",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "宵禁"
+        }
+      ],
+      "freqRank": 5059,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_curtail",
+      "headword": "curtail",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "削减"
+        }
+      ],
+      "freqRank": 5060,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_customs",
+      "headword": "customs",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "海关"
+        }
+      ],
+      "freqRank": 5061,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_cylinder",
+      "headword": "cylinder",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "汽缸"
+        },
+        {
+          "pos": "unknown",
+          "zh": "圆筒"
+        }
+      ],
+      "freqRank": 5062,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "科学技术",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_data",
+      "headword": "data",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "数据"
+        }
+      ],
+      "freqRank": 5063,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "科学技术",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_deadlock",
+      "headword": "deadlock",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "僵局"
+        }
+      ],
+      "freqRank": 5064,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_December",
+      "headword": "December",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "十二月"
+        }
+      ],
+      "freqRank": 5065,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "时间日期",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_decimal",
+      "headword": "decimal",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "小数"
+        }
+      ],
+      "freqRank": 5066,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "科学技术",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_delude",
+      "headword": "delude",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "欺骗"
+        }
+      ],
+      "freqRank": 5067,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_depreciate",
+      "headword": "depreciate",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "贬值"
+        }
+      ],
+      "freqRank": 5068,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_desolate",
+      "headword": "desolate",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "荒凉的"
+        }
+      ],
+      "freqRank": 5069,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "自然环境",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_despatch",
+      "headword": "despatch",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "派遣"
+        }
+      ],
+      "freqRank": 5070,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "动作行为",
+      "subCategory": "身体动作",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_dialog",
+      "headword": "dialog",
+      "variants": [
+        "dialogue"
+      ],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "对话"
+        }
+      ],
+      "freqRank": 5071,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "文化宗教",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_disco",
+      "headword": "disco",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "迪斯科舞厅"
+        }
+      ],
+      "freqRank": 5072,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_discord",
+      "headword": "discord",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "不一致"
+        },
+        {
+          "pos": "unknown",
+          "zh": "不和谐"
+        }
+      ],
+      "freqRank": 5073,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_dissident",
+      "headword": "dissident",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "持不同政见者"
+        }
+      ],
+      "freqRank": 5074,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_distill",
+      "headword": "distill",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "蒸馏"
+        }
+      ],
+      "freqRank": 5075,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "动作行为",
+      "subCategory": "身体动作",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_dove",
+      "headword": "dove",
+      "variants": [
+        "dive"
+      ],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "鸽子"
+        }
+      ],
+      "freqRank": 5076,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "自然环境",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_dressing",
+      "headword": "dressing",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "敷料"
+        },
+        {
+          "pos": "unknown",
+          "zh": "打扮"
+        }
+      ],
+      "freqRank": 5077,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_Easter",
+      "headword": "Easter",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "复活节"
+        }
+      ],
+      "freqRank": 5078,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "文化宗教",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_easy_going",
+      "headword": "easy-going",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "随和的"
+        }
+      ],
+      "freqRank": 5079,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_economics",
+      "headword": "economics",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "经济学"
+        }
+      ],
+      "freqRank": 5080,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "商业经济",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_eggplant",
+      "headword": "eggplant",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "茄子"
+        }
+      ],
+      "freqRank": 5081,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_embassy",
+      "headword": "embassy",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "大使馆"
+        }
+      ],
+      "freqRank": 5082,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "政治法律",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_embroidery",
+      "headword": "embroidery",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "刺绣"
+        }
+      ],
+      "freqRank": 5083,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_envoy",
+      "headword": "envoy",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "特使"
+        }
+      ],
+      "freqRank": 5084,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_exponent",
+      "headword": "exponent",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "倡导者"
+        },
+        {
+          "pos": "unknown",
+          "zh": "指数幂"
+        }
+      ],
+      "freqRank": 5085,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_fable",
+      "headword": "fable",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "寓言"
+        }
+      ],
+      "freqRank": 5086,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "文化宗教",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_faction",
+      "headword": "faction",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "内讧"
+        },
+        {
+          "pos": "unknown",
+          "zh": "小集团"
+        }
+      ],
+      "freqRank": 5087,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_farther",
+      "headword": "farther",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "更远的"
+        },
+        {
+          "pos": "unknown",
+          "zh": "更远地"
+        }
+      ],
+      "freqRank": 5088,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "空间地点",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_February",
+      "headword": "February",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "二月"
+        }
+      ],
+      "freqRank": 5089,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "时间日期",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_fireworks",
+      "headword": "fireworks",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "烟花"
+        }
+      ],
+      "freqRank": 5090,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_flank",
+      "headword": "flank",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "侧面"
+        }
+      ],
+      "freqRank": 5091,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_forfeit",
+      "headword": "forfeit",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "丧失"
+        }
+      ],
+      "freqRank": 5092,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_fragrant",
+      "headword": "fragrant",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "馥郁的"
+        }
+      ],
+      "freqRank": 5093,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "自然环境",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_franchise",
+      "headword": "franchise",
+      "variants": [
+        "franchize"
+      ],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "特权"
+        },
+        {
+          "pos": "unknown",
+          "zh": "选举权"
+        }
+      ],
+      "freqRank": 5094,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "政治法律",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_Friday",
+      "headword": "Friday",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "星期五"
+        }
+      ],
+      "freqRank": 5095,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "时间日期",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_fuck",
+      "headword": "fuck",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "他妈的"
+        },
+        {
+          "pos": "unknown",
+          "zh": "性交"
+        }
+      ],
+      "freqRank": 5096,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_further",
+      "headword": "further",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "更远的"
+        },
+        {
+          "pos": "unknown",
+          "zh": "促进"
+        }
+      ],
+      "freqRank": 5097,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "抽象概念",
+      "subCategory": "数量与程度",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_gaol",
+      "headword": "gaol",
+      "variants": [
+        "jail"
+      ],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "监狱"
+        }
+      ],
+      "freqRank": 5098,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "政治法律",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_gay",
+      "headword": "gay",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "同性恋的"
+        }
+      ],
+      "freqRank": 5099,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "人类与社会",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_given",
+      "headword": "given",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "考虑到"
+        },
+        {
+          "pos": "unknown",
+          "zh": "特定的"
+        }
+      ],
+      "freqRank": 5100,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_glamor",
+      "headword": "glamor",
+      "variants": [
+        "glamour"
+      ],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "魅力"
+        }
+      ],
+      "freqRank": 5101,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "抽象概念",
+      "subCategory": "性质与评价",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_glossary",
+      "headword": "glossary",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "词汇表"
+        }
+      ],
+      "freqRank": 5102,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_goods",
+      "headword": "goods",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "货物"
+        }
+      ],
+      "freqRank": 5103,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "商业经济",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_gospel",
+      "headword": "gospel",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "福音"
+        }
+      ],
+      "freqRank": 5104,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_grease",
+      "headword": "grease",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "油脂"
+        }
+      ],
+      "freqRank": 5105,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "食物营养",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_groove",
+      "headword": "groove",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "槽"
+        }
+      ],
+      "freqRank": 5106,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_headquarters",
+      "headword": "headquarters",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "总部"
+        },
+        {
+          "pos": "unknown",
+          "zh": "司令部"
+        }
+      ],
+      "freqRank": 5107,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "职业工作",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_hereby",
+      "headword": "hereby",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "特此"
+        }
+      ],
+      "freqRank": 5108,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_high_tech",
+      "headword": "high-tech",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "高科技"
+        }
+      ],
+      "freqRank": 5109,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_him",
+      "headword": "him",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "他"
+        }
+      ],
+      "freqRank": 5110,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "人类与社会",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_homosexual",
+      "headword": "homosexual",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "同性恋"
+        }
+      ],
+      "freqRank": 5111,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_horsepower",
+      "headword": "horsepower",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "马力"
+        }
+      ],
+      "freqRank": 5112,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "科学技术",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_hotdog",
+      "headword": "hotdog",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "卖弄"
+        }
+      ],
+      "freqRank": 5113,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_hound",
+      "headword": "hound",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "猎狗"
+        }
+      ],
+      "freqRank": 5114,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "自然环境",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_howl",
+      "headword": "howl",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "嚎叫"
+        }
+      ],
+      "freqRank": 5115,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "动作行为",
+      "subCategory": "其他动作",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_hurdle",
+      "headword": "hurdle",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "障碍"
+        }
+      ],
+      "freqRank": 5116,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_hyphen",
+      "headword": "hyphen",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "连字号"
+        }
+      ],
+      "freqRank": 5117,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_hysterical",
+      "headword": "hysterical",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "歇斯底里的"
+        }
+      ],
+      "freqRank": 5118,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "情感心理",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_ice_cream",
+      "headword": "ice-cream",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "冰淇淋"
+        }
+      ],
+      "freqRank": 5119,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_illicit",
+      "headword": "illicit",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "非法的"
+        }
+      ],
+      "freqRank": 5120,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_impromptu",
+      "headword": "impromptu",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "即兴曲"
+        },
+        {
+          "pos": "unknown",
+          "zh": "即席的"
+        }
+      ],
+      "freqRank": 5121,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_indict",
+      "headword": "indict",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "起诉"
+        }
+      ],
+      "freqRank": 5122,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_inflict",
+      "headword": "inflict",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "使遭受"
+        },
+        {
+          "pos": "unknown",
+          "zh": "折磨"
+        }
+      ],
+      "freqRank": 5123,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "动作行为",
+      "subCategory": "使动与影响",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_influenza",
+      "headword": "influenza",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "流行性感冒"
+        }
+      ],
+      "freqRank": 5124,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "健康医疗",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_inmate",
+      "headword": "inmate",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "犯人"
+        }
+      ],
+      "freqRank": 5125,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_Internet",
+      "headword": "Internet",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "因特网"
+        }
+      ],
+      "freqRank": 5126,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "科学技术",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_interrogate",
+      "headword": "interrogate",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "审问"
+        },
+        {
+          "pos": "unknown",
+          "zh": "质问"
+        }
+      ],
+      "freqRank": 5127,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_January",
+      "headword": "January",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "一月"
+        }
+      ],
+      "freqRank": 5128,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "时间日期",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_jeans",
+      "headword": "jeans",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "牛仔裤"
+        }
+      ],
+      "freqRank": 5129,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_jeep",
+      "headword": "jeep",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "吉普车"
+        }
+      ],
+      "freqRank": 5130,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_jelly",
+      "headword": "jelly",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "果冻"
+        }
+      ],
+      "freqRank": 5131,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_July",
+      "headword": "July",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "七月"
+        }
+      ],
+      "freqRank": 5132,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "时间日期",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_June",
+      "headword": "June",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "六月"
+        }
+      ],
+      "freqRank": 5133,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "时间日期",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_knowhow",
+      "headword": "knowhow",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "诀窍"
+        }
+      ],
+      "freqRank": 5134,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_lash",
+      "headword": "lash",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "鞭打"
+        },
+        {
+          "pos": "unknown",
+          "zh": "抨击"
+        },
+        {
+          "pos": "unknown",
+          "zh": "睫毛"
+        }
+      ],
+      "freqRank": 5135,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "动作行为",
+      "subCategory": "身体动作",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_lass",
+      "headword": "lass",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "小姑娘"
+        },
+        {
+          "pos": "unknown",
+          "zh": "少女"
+        }
+      ],
+      "freqRank": 5136,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_left",
+      "headword": "left",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "左边"
+        },
+        {
+          "pos": "unknown",
+          "zh": "向左"
+        }
+      ],
+      "freqRank": 5137,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "空间地点",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_lesbian",
+      "headword": "lesbian",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "女同性恋的"
+        }
+      ],
+      "freqRank": 5138,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_lieutenant",
+      "headword": "lieutenant",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "中尉"
+        }
+      ],
+      "freqRank": 5139,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_lime",
+      "headword": "lime",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "酸橙"
+        },
+        {
+          "pos": "unknown",
+          "zh": "石灰"
+        }
+      ],
+      "freqRank": 5140,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_limelight",
+      "headword": "limelight",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "聚光灯"
+        }
+      ],
+      "freqRank": 5141,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_linen",
+      "headword": "linen",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "亚麻布"
+        }
+      ],
+      "freqRank": 5142,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "交通旅行",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_lipstick",
+      "headword": "lipstick",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "口红"
+        }
+      ],
+      "freqRank": 5143,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_living_room",
+      "headword": "living-room",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "起居室"
+        }
+      ],
+      "freqRank": 5144,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_locomotive",
+      "headword": "locomotive",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "机车"
+        }
+      ],
+      "freqRank": 5145,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "交通旅行",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_logistics",
+      "headword": "logistics",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "物流"
+        }
+      ],
+      "freqRank": 5146,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_loot",
+      "headword": "loot",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "抢劫"
+        }
+      ],
+      "freqRank": 5147,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_lotion",
+      "headword": "lotion",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "洗剂"
+        },
+        {
+          "pos": "unknown",
+          "zh": "乳液"
+        }
+      ],
+      "freqRank": 5148,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_magistrate",
+      "headword": "magistrate",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "地方法官"
+        }
+      ],
+      "freqRank": 5149,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "政治法律",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_majesty",
+      "headword": "majesty",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "威严"
+        }
+      ],
+      "freqRank": 5150,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "政治法律",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_maneuver",
+      "headword": "maneuver",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "操纵"
+        },
+        {
+          "pos": "unknown",
+          "zh": "策略"
+        }
+      ],
+      "freqRank": 5151,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "动作行为",
+      "subCategory": "使动与影响",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_March",
+      "headword": "March",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "三月"
+        }
+      ],
+      "freqRank": 5152,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "时间日期",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_Marxism",
+      "headword": "Marxism",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "马克思主义"
+        }
+      ],
+      "freqRank": 5153,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_May",
+      "headword": "May",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "五月"
+        }
+      ],
+      "freqRank": 5154,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "时间日期",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_means",
+      "headword": "means",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "手段"
+        }
+      ],
+      "freqRank": 5155,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "抽象概念",
+      "subCategory": "认知与抽象名词",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_Medicare",
+      "headword": "Medicare",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "医疗保险"
+        }
+      ],
+      "freqRank": 5156,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_meticulous",
+      "headword": "meticulous",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "一丝不苟的"
+        }
+      ],
+      "freqRank": 5157,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_middle_class",
+      "headword": "middle-class",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "中产阶级的"
+        }
+      ],
+      "freqRank": 5158,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_midwife",
+      "headword": "midwife",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "助产士"
+        }
+      ],
+      "freqRank": 5159,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_militia",
+      "headword": "militia",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "民兵组织"
+        }
+      ],
+      "freqRank": 5160,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_missing",
+      "headword": "missing",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "失踪的"
+        }
+      ],
+      "freqRank": 5161,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "抽象概念",
+      "subCategory": "性质与评价",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_mistress",
+      "headword": "mistress",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "情妇"
+        }
+      ],
+      "freqRank": 5162,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "人类与社会",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_Monday",
+      "headword": "Monday",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "星期一"
+        }
+      ],
+      "freqRank": 5163,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "时间日期",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_mug",
+      "headword": "mug",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "杯"
+        }
+      ],
+      "freqRank": 5164,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "日常生活",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_naughty",
+      "headword": "naughty",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "淘气的"
+        }
+      ],
+      "freqRank": 5165,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "情感心理",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_negate",
+      "headword": "negate",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "否定"
+        }
+      ],
+      "freqRank": 5166,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_nil",
+      "headword": "nil",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "零"
+        }
+      ],
+      "freqRank": 5167,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_northwest",
+      "headword": "northwest",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "西北"
+        }
+      ],
+      "freqRank": 5168,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "空间地点",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_November",
+      "headword": "November",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "十一月"
+        }
+      ],
+      "freqRank": 5169,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "时间日期",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_nude",
+      "headword": "nude",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "与生俱有的"
+        }
+      ],
+      "freqRank": 5170,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_oar",
+      "headword": "oar",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "桨"
+        }
+      ],
+      "freqRank": 5171,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "日常生活",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_obscene",
+      "headword": "obscene",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "猥亵的"
+        }
+      ],
+      "freqRank": 5172,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_o_clock",
+      "headword": "o'clock",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "点钟"
+        }
+      ],
+      "freqRank": 5173,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "时间日期",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_October",
+      "headword": "October",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "十月"
+        }
+      ],
+      "freqRank": 5174,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "时间日期",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_odds",
+      "headword": "odds",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "可能性"
+        }
+      ],
+      "freqRank": 5175,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "抽象概念",
+      "subCategory": "认知与抽象名词",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_old_fashioned",
+      "headword": "old-fashioned",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "老式的"
+        }
+      ],
+      "freqRank": 5176,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_Olympic",
+      "headword": "Olympic",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "奥林匹克的"
+        }
+      ],
+      "freqRank": 5177,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_ought_to",
+      "headword": "ought to",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "应该"
+        }
+      ],
+      "freqRank": 5178,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "抽象概念",
+      "subCategory": "逻辑与关系",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_outdated",
+      "headword": "outdated",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "过时的"
+        }
+      ],
+      "freqRank": 5179,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_outskirts",
+      "headword": "outskirts",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "郊区"
+        }
+      ],
+      "freqRank": 5180,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "空间地点",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_override",
+      "headword": "override",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "推翻"
+        }
+      ],
+      "freqRank": 5181,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_overt",
+      "headword": "overt",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "公开的"
+        },
+        {
+          "pos": "unknown",
+          "zh": "明显的"
+        }
+      ],
+      "freqRank": 5182,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "抽象概念",
+      "subCategory": "性质与评价",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_paddy",
+      "headword": "paddy",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "稻田"
+        }
+      ],
+      "freqRank": 5183,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_pants",
+      "headword": "pants",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "气喘吁吁"
+        }
+      ],
+      "freqRank": 5184,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "动作行为",
+      "subCategory": "身体动作",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_paralyze",
+      "headword": "paralyze",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "瘫痪"
+        }
+      ],
+      "freqRank": 5185,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "动作行为",
+      "subCategory": "使动与影响",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_parasite",
+      "headword": "parasite",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "寄生虫"
+        }
+      ],
+      "freqRank": 5186,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "自然环境",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_parish",
+      "headword": "parish",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "教区"
+        }
+      ],
+      "freqRank": 5187,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_peep",
+      "headword": "peep",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "偷看"
+        },
+        {
+          "pos": "unknown",
+          "zh": "窥视"
+        }
+      ],
+      "freqRank": 5188,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "动作行为",
+      "subCategory": "身体动作",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_peg",
+      "headword": "peg",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "钉"
+        }
+      ],
+      "freqRank": 5189,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_pending",
+      "headword": "pending",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "待定的"
+        },
+        {
+          "pos": "unknown",
+          "zh": "直到"
+        }
+      ],
+      "freqRank": 5190,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_persecute",
+      "headword": "persecute",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "迫害"
+        }
+      ],
+      "freqRank": 5191,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "动作行为",
+      "subCategory": "其他动作",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_physics",
+      "headword": "physics",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "物理学"
+        }
+      ],
+      "freqRank": 5192,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "科学技术",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_pistol",
+      "headword": "pistol",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "手枪"
+        }
+      ],
+      "freqRank": 5193,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "政治法律",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_plaintiff",
+      "headword": "plaintiff",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "原告"
+        }
+      ],
+      "freqRank": 5194,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "政治法律",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_plumbing",
+      "headword": "plumbing",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "管道装置"
+        }
+      ],
+      "freqRank": 5195,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_podcast",
+      "headword": "podcast",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "播客"
+        }
+      ],
+      "freqRank": 5196,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_politics",
+      "headword": "politics",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "政治"
+        },
+        {
+          "pos": "unknown",
+          "zh": "政治学"
+        }
+      ],
+      "freqRank": 5197,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "政治法律",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_polytechnic",
+      "headword": "polytechnic",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "理工学院"
+        }
+      ],
+      "freqRank": 5198,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_provided",
+      "headword": "provided",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "提供的"
+        }
+      ],
+      "freqRank": 5199,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "抽象概念",
+      "subCategory": "逻辑与关系",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_proximate",
+      "headword": "proximate",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "最接近的"
+        }
+      ],
+      "freqRank": 5200,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "抽象概念",
+      "subCategory": "性质与评价",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_quart",
+      "headword": "quart",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "夸脱"
+        }
+      ],
+      "freqRank": 5201,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "科学技术",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_quiver",
+      "headword": "quiver",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "颤抖"
+        }
+      ],
+      "freqRank": 5202,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "动作行为",
+      "subCategory": "身体动作",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_ratify",
+      "headword": "ratify",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "批准"
+        }
+      ],
+      "freqRank": 5203,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_referendum",
+      "headword": "referendum",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "公民投票"
+        }
+      ],
+      "freqRank": 5204,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_regarding",
+      "headword": "regarding",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "关于"
+        }
+      ],
+      "freqRank": 5205,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "抽象概念",
+      "subCategory": "逻辑与关系",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_regiment",
+      "headword": "regiment",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "（军）团"
+        }
+      ],
+      "freqRank": 5206,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_rehabilitate",
+      "headword": "rehabilitate",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "改造"
+        }
+      ],
+      "freqRank": 5207,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_reshuffle",
+      "headword": "reshuffle",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "改组"
+        }
+      ],
+      "freqRank": 5208,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_r_sum",
+      "headword": "résumé",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "简历"
+        }
+      ],
+      "freqRank": 5209,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_retaliate",
+      "headword": "retaliate",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "报复"
+        }
+      ],
+      "freqRank": 5210,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_retarded",
+      "headword": "retarded",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "智力迟钝的"
+        }
+      ],
+      "freqRank": 5211,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_rim",
+      "headword": "rim",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "边"
+        }
+      ],
+      "freqRank": 5212,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "空间地点",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_salute",
+      "headword": "salute",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "致敬"
+        },
+        {
+          "pos": "unknown",
+          "zh": "敬礼"
+        }
+      ],
+      "freqRank": 5213,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "动作行为",
+      "subCategory": "社交交互",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_Saturday",
+      "headword": "Saturday",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "星期六"
+        }
+      ],
+      "freqRank": 5214,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "时间日期",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_scissors",
+      "headword": "scissors",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "剪刀"
+        }
+      ],
+      "freqRank": 5215,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "日常生活",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_second_hand",
+      "headword": "second-hand",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "二手的"
+        }
+      ],
+      "freqRank": 5216,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_September",
+      "headword": "September",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "九月"
+        }
+      ],
+      "freqRank": 5217,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "时间日期",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_sergeant",
+      "headword": "sergeant",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "中士"
+        },
+        {
+          "pos": "unknown",
+          "zh": "警官"
+        }
+      ],
+      "freqRank": 5218,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_serial",
+      "headword": "serial",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "序列"
+        }
+      ],
+      "freqRank": 5219,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "文化宗教",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_shipyard",
+      "headword": "shipyard",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "造船厂"
+        }
+      ],
+      "freqRank": 5220,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_shit",
+      "headword": "shit",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "大便"
+        }
+      ],
+      "freqRank": 5221,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_shrub",
+      "headword": "shrub",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "灌木"
+        }
+      ],
+      "freqRank": 5222,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_skyline",
+      "headword": "skyline",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "天际线"
+        }
+      ],
+      "freqRank": 5223,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_sniff",
+      "headword": "sniff",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "嗅"
+        },
+        {
+          "pos": "unknown",
+          "zh": "闻"
+        }
+      ],
+      "freqRank": 5224,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "动作行为",
+      "subCategory": "身体动作",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_so_called",
+      "headword": "so-called",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "所谓的"
+        }
+      ],
+      "freqRank": 5225,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "抽象概念",
+      "subCategory": "性质与评价",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_socialism",
+      "headword": "socialism",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "社会主义"
+        }
+      ],
+      "freqRank": 5226,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "政治法律",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_specialty",
+      "headword": "specialty",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "专业"
+        }
+      ],
+      "freqRank": 5227,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_species",
+      "headword": "species",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "种类"
+        }
+      ],
+      "freqRank": 5228,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "自然环境",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_spine",
+      "headword": "spine",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "脊柱"
+        }
+      ],
+      "freqRank": 5229,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "人类与社会",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_sponge",
+      "headword": "sponge",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "海绵"
+        }
+      ],
+      "freqRank": 5230,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "自然环境",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_sprinkle",
+      "headword": "sprinkle",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "洒"
+        }
+      ],
+      "freqRank": 5231,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "动作行为",
+      "subCategory": "身体动作",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_standby",
+      "headword": "standby",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "备用"
+        }
+      ],
+      "freqRank": 5232,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_sting",
+      "headword": "sting",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "刺"
+        }
+      ],
+      "freqRank": 5233,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "动作行为",
+      "subCategory": "其他动作",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_stocking",
+      "headword": "stocking",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "长筒袜"
+        }
+      ],
+      "freqRank": 5234,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "交通旅行",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_strait",
+      "headword": "strait",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "海峡"
+        }
+      ],
+      "freqRank": 5235,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_stray",
+      "headword": "stray",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "偏离"
+        },
+        {
+          "pos": "unknown",
+          "zh": "迷路"
+        }
+      ],
+      "freqRank": 5236,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_Sunday",
+      "headword": "Sunday",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "星期日"
+        }
+      ],
+      "freqRank": 5237,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "时间日期",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_tact",
+      "headword": "tact",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "得体"
+        }
+      ],
+      "freqRank": 5238,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_tanker",
+      "headword": "tanker",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "油轮"
+        }
+      ],
+      "freqRank": 5239,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "交通旅行",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_telecommunications",
+      "headword": "telecommunications",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "电信"
+        }
+      ],
+      "freqRank": 5240,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_Thanksgiving",
+      "headword": "Thanksgiving",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "感恩节"
+        }
+      ],
+      "freqRank": 5241,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "文化宗教",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_them",
+      "headword": "them",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "他们"
+        }
+      ],
+      "freqRank": 5242,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "人类与社会",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_thigh",
+      "headword": "thigh",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "大腿"
+        }
+      ],
+      "freqRank": 5243,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "人类与社会",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_thorn",
+      "headword": "thorn",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "刺"
+        }
+      ],
+      "freqRank": 5244,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "自然环境",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_Thursday",
+      "headword": "Thursday",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "星期四"
+        }
+      ],
+      "freqRank": 5245,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "时间日期",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_topple",
+      "headword": "topple",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "推翻"
+        }
+      ],
+      "freqRank": 5246,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_towel",
+      "headword": "towel",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "毛巾"
+        }
+      ],
+      "freqRank": 5247,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "日常生活",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_tranquil",
+      "headword": "tranquil",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "宁静的"
+        }
+      ],
+      "freqRank": 5248,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_transcript",
+      "headword": "transcript",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "成绩单"
+        }
+      ],
+      "freqRank": 5249,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_trousers",
+      "headword": "trousers",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "裤子"
+        }
+      ],
+      "freqRank": 5250,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "交通旅行",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_petrochemical",
+      "headword": "petrochemical",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "石油化学制品"
+        }
+      ],
+      "freqRank": 5251,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_Tuesday",
+      "headword": "Tuesday",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "星期二"
+        }
+      ],
+      "freqRank": 5252,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "时间日期",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_uprising",
+      "headword": "uprising",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "起义"
+        }
+      ],
+      "freqRank": 5253,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_up_to_date",
+      "headword": "up-to-date",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "最新的"
+        }
+      ],
+      "freqRank": 5254,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "抽象概念",
+      "subCategory": "性质与评价",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_us",
+      "headword": "us",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "我们"
+        }
+      ],
+      "freqRank": 5255,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "人类与社会",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_used",
+      "headword": "used",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "二手的"
+        }
+      ],
+      "freqRank": 5256,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "抽象概念",
+      "subCategory": "性质与评价",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_vein",
+      "headword": "vein",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "静脉"
+        }
+      ],
+      "freqRank": 5257,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "健康医疗",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_velvet",
+      "headword": "velvet",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "天鹅绒"
+        }
+      ],
+      "freqRank": 5258,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "交通旅行",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_vinegar",
+      "headword": "vinegar",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "醋"
+        }
+      ],
+      "freqRank": 5259,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "食物营养",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_waive",
+      "headword": "waive",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "放弃"
+        }
+      ],
+      "freqRank": 5260,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_watertight",
+      "headword": "watertight",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "无懈可击的"
+        },
+        {
+          "pos": "unknown",
+          "zh": "防漏水的"
+        }
+      ],
+      "freqRank": 5261,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_webcast",
+      "headword": "webcast",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "网络直播"
+        }
+      ],
+      "freqRank": 5262,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_Wednesday",
+      "headword": "Wednesday",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "星期三"
+        }
+      ],
+      "freqRank": 5263,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "时间日期",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_well_being",
+      "headword": "well-being",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "幸福"
+        }
+      ],
+      "freqRank": 5264,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_well_known",
+      "headword": "well-known",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "众所周知的"
+        }
+      ],
+      "freqRank": 5265,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "抽象概念",
+      "subCategory": "性质与评价",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_well_off",
+      "headword": "well-off",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "顺利的"
+        },
+        {
+          "pos": "unknown",
+          "zh": "手头宽裕的"
+        }
+      ],
+      "freqRank": 5266,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_wharf",
+      "headword": "wharf",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "码头"
+        }
+      ],
+      "freqRank": 5267,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_whereabouts",
+      "headword": "whereabouts",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "下落"
+        }
+      ],
+      "freqRank": 5268,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_wicked",
+      "headword": "wicked",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "邪恶的"
+        }
+      ],
+      "freqRank": 5269,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "情感心理",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_wink",
+      "headword": "wink",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "眨眼"
+        }
+      ],
+      "freqRank": 5270,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "动作行为",
+      "subCategory": "身体动作",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_worse",
+      "headword": "worse",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "更坏"
+        },
+        {
+          "pos": "unknown",
+          "zh": "更坏的"
+        }
+      ],
+      "freqRank": 5271,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "抽象概念",
+      "subCategory": "性质与评价",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_worst",
+      "headword": "worst",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "最坏"
+        },
+        {
+          "pos": "unknown",
+          "zh": "最坏的"
+        }
+      ],
+      "freqRank": 5272,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "抽象概念",
+      "subCategory": "性质与评价",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_wretched",
+      "headword": "wretched",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "可怜的"
+        },
+        {
+          "pos": "unknown",
+          "zh": "不幸的"
+        }
+      ],
+      "freqRank": 5273,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_X_ray",
+      "headword": "X-ray",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "X射线"
+        }
+      ],
+      "freqRank": 5274,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "科学技术",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_yoghurt",
+      "headword": "yoghurt",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "酸奶"
+        }
+      ],
+      "freqRank": 5275,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_yours",
+      "headword": "yours",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "你的"
+        }
+      ],
+      "freqRank": 5276,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": false,
+      "category": "人类与社会",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_zigzag",
+      "headword": "zigzag",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "曲折"
+        },
+        {
+          "pos": "unknown",
+          "zh": "之字形"
+        }
+      ],
+      "freqRank": 5277,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "空间地点",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "w_zoom",
+      "headword": "zoom",
+      "variants": [],
+      "senses": [
+        {
+          "pos": "unknown",
+          "zh": "飞驰"
+        },
+        {
+          "pos": "unknown",
+          "zh": "急剧上涨"
+        }
+      ],
+      "freqRank": 5278,
+      "freqCount": 0,
+      "tier": "cet4",
+      "isCet6": true,
+      "category": "动作行为",
+      "subCategory": "其他动作",
+      "chunk": 10,
+      "sentenceCount": 0,
+      "source": "exam-data/CETVocabulary@7f21d0d",
+      "license": "CC BY-NC-SA 4.0"
+    }
+  ]
+}

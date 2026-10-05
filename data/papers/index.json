@@ -1,0 +1,63 @@
+{
+  "defaultMissingAudio": true,
+  "killSwitch": {
+    "disabled": false
+  },
+  "papers": [
+    {
+      "id": "derived-2025-06-set1",
+      "year": 2025,
+      "month": 6,
+      "setNo": 1,
+      "provenance": "derived",
+      "provenanceLabel": "同源模拟卷",
+      "questionCount": 32,
+      "hasAudio": false,
+      "confidenceLevel": "medium"
+    },
+    {
+      "id": "derived-2025-06-set2",
+      "year": 2025,
+      "month": 6,
+      "setNo": 2,
+      "provenance": "derived",
+      "provenanceLabel": "同源模拟卷",
+      "questionCount": 32,
+      "hasAudio": false,
+      "confidenceLevel": "medium"
+    },
+    {
+      "id": "derived-2025-12-set1",
+      "year": 2025,
+      "month": 12,
+      "setNo": 1,
+      "provenance": "derived",
+      "provenanceLabel": "同源模拟卷",
+      "questionCount": 32,
+      "hasAudio": false,
+      "confidenceLevel": "medium"
+    },
+    {
+      "id": "derived-2025-12-set2",
+      "year": 2025,
+      "month": 12,
+      "setNo": 2,
+      "provenance": "derived",
+      "provenanceLabel": "同源模拟卷",
+      "questionCount": 32,
+      "hasAudio": false,
+      "confidenceLevel": "medium"
+    },
+    {
+      "id": "derived-2026-06-set1",
+      "year": 2026,
+      "month": 6,
+      "setNo": 1,
+      "provenance": "derived",
+      "provenanceLabel": "同源模拟卷",
+      "questionCount": 32,
+      "hasAudio": false,
+      "confidenceLevel": "medium"
+    }
+  ]
+}

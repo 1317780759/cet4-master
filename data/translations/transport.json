@@ -1,0 +1,955 @@
+{
+  "topic": "transport",
+  "label": "交通出行",
+  "items": [
+    {
+      "id": "t_000201",
+      "topic": "transport",
+      "difficulty": 2,
+      "zh": "随着经济的快速发展，私家车在中国家庭中越来越普及。",
+      "reference": "In China, private cars are becoming increasingly popular among families with the rapid development of the economy.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "private cars",
+          "zh": "私家车",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "increasingly popular",
+          "zh": "越来越普及",
+          "synonyms": [
+            "more and more popular"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "with the rapid development of",
+          "zh": "随着……的快速发展",
+          "synonyms": [
+            "along with the rapid development of"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "the economy",
+          "zh": "经济",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：私家车 / 越来越普及 / 随着……的快速发展 / 经济",
+        "「普及」可译 popular；「随着」用 with the development of 引出背景状语",
+        "句型：In China, private cars are becoming …, with the rapid development of …."
+      ],
+      "topicWords": [
+        "private cars",
+        "public transport",
+        "traffic"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000202",
+      "topic": "transport",
+      "difficulty": 2,
+      "zh": "近年来，政府大力投资建设高速铁路。",
+      "reference": "The government has invested heavily in the construction of high-speed railways in recent years.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "has invested heavily in",
+          "zh": "大力投资于",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "the construction of",
+          "zh": "……的建设",
+          "weight": 1
+        },
+        {
+          "id": "kp3",
+          "head": "high-speed railways",
+          "zh": "高速铁路",
+          "synonyms": [
+            "high-speed rail"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "in recent years",
+          "zh": "近年来",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：大力投资于 / ……的建设 / 高速铁路 / 近年来",
+        "「大力」用 heavily；「高速」为复合形容词 high-speed，railway 用复数",
+        "句型：… has invested heavily in … in recent years."
+      ],
+      "topicWords": [
+        "high-speed railway",
+        "transport",
+        "construction"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000203",
+      "topic": "transport",
+      "difficulty": 2,
+      "zh": "地铁不仅快捷准时，而且几乎不受天气影响。",
+      "reference": "The subway is not only fast and punctual, but also hardly affected by the weather.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "not only",
+          "zh": "不仅",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "but also",
+          "zh": "而且",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "punctual",
+          "zh": "准时的",
+          "synonyms": [
+            "on time"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "affected by",
+          "zh": "受……影响",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：不仅 / 而且 / 准时的 / 受……影响",
+        "「准时」是 punctual；「受……影响」用被动 be affected by",
+        "句型：The subway is not only …, but also …."
+      ],
+      "topicWords": [
+        "subway",
+        "punctual",
+        "transport"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000204",
+      "topic": "transport",
+      "difficulty": 1,
+      "zh": "越来越多的人选择骑自行车上下班，这既环保又有益健康。",
+      "reference": "Nowadays, more and more people choose to cycle to work, which is both environmentally friendly and good for their health.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "more and more",
+          "zh": "越来越多",
+          "weight": 1
+        },
+        {
+          "id": "kp2",
+          "head": "cycle to work",
+          "zh": "骑自行车上班",
+          "synonyms": [
+            "ride a bike to work"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "environmentally friendly",
+          "zh": "环保的",
+          "synonyms": [
+            "eco-friendly"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "good for",
+          "zh": "对……有益",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：越来越多 / 骑自行车上班 / 环保的 / 对……有益",
+        "「环保」常用 environmentally friendly；后半个分句可用 which 引导非限定性定语从句",
+        "句型：Nowadays, more and more people choose to …, which is both … and …."
+      ],
+      "topicWords": [
+        "cycle",
+        "environmentally friendly",
+        "commute"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000205",
+      "topic": "transport",
+      "difficulty": 2,
+      "zh": "为了缓解交通拥堵，许多城市修建了更多的道路。",
+      "reference": "Many cities have built more roads in order to relieve traffic congestion.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "in order to",
+          "zh": "为了",
+          "synonyms": [
+            "so as to",
+            "to"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "relieve",
+          "zh": "缓解",
+          "synonyms": [
+            "ease",
+            "reduce"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "traffic congestion",
+          "zh": "交通拥堵",
+          "synonyms": [
+            "traffic jams"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "more roads",
+          "zh": "更多的道路",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：为了 / 缓解 / 交通拥堵 / 更多的道路",
+        "「拥堵」正式说法是 congestion，口语可用 traffic jams；「缓解」用 relieve / ease",
+        "句型：Many cities have built … in order to relieve …."
+      ],
+      "topicWords": [
+        "traffic congestion",
+        "relieve",
+        "roads"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000206",
+      "topic": "transport",
+      "difficulty": 2,
+      "zh": "共享单车的出现极大地方便了人们的短途出行。",
+      "reference": "For many people, the emergence of shared bikes has made short trips much more convenient.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "the emergence of",
+          "zh": "……的出现",
+          "synonyms": [
+            "the appearance of"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "shared bikes",
+          "zh": "共享单车",
+          "synonyms": [
+            "shared bicycles"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "more convenient",
+          "zh": "更方便的",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "short trips",
+          "zh": "短途出行",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：……的出现 / 共享单车 / 更方便的 / 短途出行",
+        "「出现」名词用 emergence；「方便」用 convenient，注意 make + 宾语 + 形容词补足语",
+        "句型：For many people, the emergence of … has made … much more convenient."
+      ],
+      "topicWords": [
+        "shared bikes",
+        "convenient",
+        "trip"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000207",
+      "topic": "transport",
+      "difficulty": 2,
+      "zh": "乘坐飞机虽然快捷，但乘客通常需要提前到达机场。",
+      "reference": "Although it is fast to travel by air, passengers usually have to arrive at the airport in advance.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "travel by air",
+          "zh": "乘飞机出行",
+          "synonyms": [
+            "travel by plane"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "passengers",
+          "zh": "乘客",
+          "weight": 1
+        },
+        {
+          "id": "kp3",
+          "head": "arrive at",
+          "zh": "到达",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "in advance",
+          "zh": "提前",
+          "synonyms": [
+            "ahead of time"
+          ],
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：乘飞机出行 / 乘客 / 到达 / 提前",
+        "「乘飞机」可用 travel by air / by plane；「提前」固定搭配 in advance",
+        "句型：Although it is fast to …, passengers usually have to … in advance."
+      ],
+      "topicWords": [
+        "passenger",
+        "airport",
+        "in advance"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000208",
+      "topic": "transport",
+      "difficulty": 1,
+      "zh": "公共交通的不断完善有助于减少空气污染。",
+      "reference": "In many cities, the continuous improvement of public transport helps to reduce air pollution.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "public transport",
+          "zh": "公共交通",
+          "synonyms": [
+            "public transportation"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "the continuous improvement of",
+          "zh": "……的不断完善",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "helps to reduce",
+          "zh": "有助于减少",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "air pollution",
+          "zh": "空气污染",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：公共交通 / ……的不断完善 / 有助于减少 / 空气污染",
+        "「完善」名词用 improvement；「有助于」可用 help (to) do",
+        "句型：In many cities, the continuous improvement of … helps to reduce …."
+      ],
+      "topicWords": [
+        "public transport",
+        "air pollution",
+        "improve"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000209",
+      "topic": "transport",
+      "difficulty": 3,
+      "zh": "节日期间，火车站挤满了返乡的旅客。",
+      "reference": "During the holiday season, railway stations are crowded with passengers returning home.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "the holiday season",
+          "zh": "节日期间",
+          "weight": 1
+        },
+        {
+          "id": "kp2",
+          "head": "railway stations",
+          "zh": "火车站",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "are crowded with",
+          "zh": "挤满了",
+          "synonyms": [
+            "are packed with"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "returning home",
+          "zh": "返乡",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：节日期间 / 火车站 / 挤满了 / 返乡",
+        "「挤满」用 be crowded with；「返乡」可用 returning home 作后置定语修饰 passengers",
+        "句型：… railway stations are crowded with passengers returning home."
+      ],
+      "topicWords": [
+        "railway station",
+        "passenger",
+        "crowded"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000210",
+      "topic": "transport",
+      "difficulty": 2,
+      "zh": "开车出行时应遵守交通规则，确保安全。",
+      "reference": "People should pay attention to traffic rules and ensure safety when driving on the road.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "pay attention to",
+          "zh": "遵守 / 注意",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "traffic rules",
+          "zh": "交通规则",
+          "synonyms": [
+            "traffic regulations"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "ensure safety",
+          "zh": "确保安全",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "when driving",
+          "zh": "开车时",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：遵守 / 交通规则 / 确保安全 / 开车时",
+        "「遵守规则」还可用 obey / follow the rules；「确保」用 ensure",
+        "句型：People should …, and ensure safety when driving on the road."
+      ],
+      "topicWords": [
+        "traffic rules",
+        "safety",
+        "driving"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000211",
+      "topic": "transport",
+      "difficulty": 3,
+      "zh": "这座城市计划在未来五年内建成三条新的地铁线路。",
+      "reference": "The city plans to build three new subway lines in the next five years.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "plans to build",
+          "zh": "计划建造",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "subway lines",
+          "zh": "地铁线路",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "in the next five years",
+          "zh": "在未来五年内",
+          "synonyms": [
+            "within the next five years"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "three new",
+          "zh": "三条新的",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：计划建造 / 地铁线路 / 在未来五年内 / 三条新的",
+        "「线路」用 line；「在未来……内」用 in / within the next …",
+        "句型：The city plans to build … in the next five years."
+      ],
+      "topicWords": [
+        "subway line",
+        "plan",
+        "city"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000212",
+      "topic": "transport",
+      "difficulty": 2,
+      "zh": "无人驾驶技术有望在未来大幅减少交通事故。",
+      "reference": "In the future, driverless technology is expected to greatly reduce traffic accidents.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "driverless technology",
+          "zh": "无人驾驶技术",
+          "synonyms": [
+            "self-driving technology"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "is expected to",
+          "zh": "有望",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "traffic accidents",
+          "zh": "交通事故",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "future",
+          "zh": "在未来",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：无人驾驶技术 / 有望 / 交通事故 / 在未来",
+        "「有望」常用 be expected to；「大幅」可用 greatly / significantly",
+        "句型：In the future, driverless technology is expected to greatly reduce …."
+      ],
+      "topicWords": [
+        "driverless",
+        "traffic accident",
+        "technology"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000213",
+      "topic": "transport",
+      "difficulty": 3,
+      "zh": "由于路况复杂，新手司机往往不敢在高峰时段开车。",
+      "reference": "Because of the complicated road conditions, new drivers often dare not drive during rush hours.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "new drivers",
+          "zh": "新手司机",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "dare not",
+          "zh": "不敢",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "during rush hours",
+          "zh": "在高峰时段",
+          "synonyms": [
+            "in rush hours"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "complicated road conditions",
+          "zh": "复杂的路况",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：新手司机 / 不敢 / 在高峰时段 / 复杂的路况",
+        "「高峰时段」是 rush hours；「路况」直译 road conditions；dare 作情态动词时后接动词原形",
+        "句型：Because of …, new drivers often dare not drive during rush hours."
+      ],
+      "topicWords": [
+        "driver",
+        "rush hours",
+        "road conditions"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000214",
+      "topic": "transport",
+      "difficulty": 2,
+      "zh": "步行是最环保的出行方式，也有利于身体健康。",
+      "reference": "Walking is the greenest way to get around, and it is also good for physical health.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "the greenest way",
+          "zh": "最环保的方式",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "get around",
+          "zh": "出行",
+          "synonyms": [
+            "travel",
+            "move around"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "good for",
+          "zh": "对……有益",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "physical health",
+          "zh": "身体健康",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：最环保的方式 / 出行 / 对……有益 / 身体健康",
+        "「最环保的」可用 greenest / most environmentally friendly；「出行」可用 get around",
+        "句型：Walking is the greenest way to …, and it is also good for …."
+      ],
+      "topicWords": [
+        "walking",
+        "get around",
+        "health"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000215",
+      "topic": "transport",
+      "difficulty": 3,
+      "zh": "专家建议，应优先发展公共交通以缓解城市交通压力。",
+      "reference": "To relieve urban traffic pressure, experts suggest that priority should be given to developing public transport.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "experts suggest that",
+          "zh": "专家建议",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "priority should be given to",
+          "zh": "应优先……",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "public transport",
+          "zh": "公共交通",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "urban traffic pressure",
+          "zh": "城市交通压力",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：专家建议 / 应优先…… / 公共交通 / 城市交通压力",
+        "「优先」可用 give priority to，此处用被动 priority should be given to；「城市的」用 urban",
+        "句型：To relieve …, experts suggest that priority should be given to …."
+      ],
+      "topicWords": [
+        "public transport",
+        "priority",
+        "urban"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000216",
+      "topic": "transport",
+      "difficulty": 2,
+      "zh": "这张公交卡可以在全市的公交车和地铁上使用。",
+      "reference": "This bus card can be used on all buses and subways throughout the city.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "bus card",
+          "zh": "公交卡",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "can be used",
+          "zh": "可以被使用",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "buses and subways",
+          "zh": "公交车和地铁",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "throughout the city",
+          "zh": "全市",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：公交卡 / 可以被使用 / 公交车和地铁 / 全市",
+        "「在全市」可用 throughout the city / across the city；主语是卡，谓语用被动 can be used",
+        "句型：This bus card can be used on … throughout the city."
+      ],
+      "topicWords": [
+        "bus card",
+        "subway",
+        "city"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000217",
+      "topic": "transport",
+      "difficulty": 3,
+      "zh": "只有各部门共同努力，才能有效解决交通拥堵问题。",
+      "reference": "Only with the joint efforts of all departments can traffic congestion be effectively solved.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "joint efforts",
+          "zh": "共同努力",
+          "synonyms": [
+            "combined efforts"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "all departments",
+          "zh": "各部门",
+          "weight": 1
+        },
+        {
+          "id": "kp3",
+          "head": "traffic congestion",
+          "zh": "交通拥堵",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "be effectively solved",
+          "zh": "被有效解决",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：共同努力 / 各部门 / 交通拥堵 / 被有效解决",
+        "「共同努力」用 joint efforts；Only 置于句首时主句要部分倒装（can … be solved）",
+        "句型：Only with the joint efforts of … can … be effectively solved."
+      ],
+      "topicWords": [
+        "joint efforts",
+        "traffic congestion",
+        "solve"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000218",
+      "topic": "transport",
+      "difficulty": 1,
+      "zh": "我们应该尽量选择公共交通工具出行。",
+      "reference": "People should try their best to travel by public transport when going out.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "try their best",
+          "zh": "尽量",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "travel by",
+          "zh": "乘坐……出行",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "public transport",
+          "zh": "公共交通",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "when going out",
+          "zh": "出行时",
+          "weight": 1
+        }
+      ],
+      "hints": [
+        "得分点：尽量 / 乘坐……出行 / 公共交通 / 出行时",
+        "「尽量」可用 try one's best / as far as possible；「乘坐交通工具」用 travel by + 工具",
+        "句型：People should try their best to travel by … when going out."
+      ],
+      "topicWords": [
+        "public transport",
+        "travel",
+        "commute"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000219",
+      "topic": "transport",
+      "difficulty": 2,
+      "zh": "过去十年，我国公路的总里程增长了一倍多。",
+      "reference": "The total length of roads in the country has more than doubled over the past decade.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "over the past decade",
+          "zh": "过去十年",
+          "synonyms": [
+            "in the past ten years"
+          ],
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "total length of",
+          "zh": "……的总里程",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "roads",
+          "zh": "公路",
+          "weight": 1
+        },
+        {
+          "id": "kp4",
+          "head": "has more than doubled",
+          "zh": "增长了一倍多",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：过去十年 / ……的总里程 / 公路 / 增长了一倍多",
+        "「里程」用 length；「增长了一倍」英语习惯说 has doubled，不必直译 increase",
+        "句型：The total length of roads … has more than doubled over the past decade."
+      ],
+      "topicWords": [
+        "roads",
+        "length",
+        "decade"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000220",
+      "topic": "transport",
+      "difficulty": 3,
+      "zh": "完善的交通网络不仅方便居民出行，也促进了地区经济发展。",
+      "reference": "A well-developed transport network not only makes travel convenient for residents, but also promotes regional economic development.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "transport network",
+          "zh": "交通网络",
+          "weight": 2
+        },
+        {
+          "id": "kp2",
+          "head": "not only",
+          "zh": "不仅",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "but also",
+          "zh": "也",
+          "weight": 2
+        },
+        {
+          "id": "kp4",
+          "head": "regional economic development",
+          "zh": "地区经济发展",
+          "weight": 2
+        }
+      ],
+      "hints": [
+        "得分点：交通网络 / 不仅 / 也 / 地区经济发展",
+        "「完善的」可用 well-developed；「促进」用 promote；「地区的」用 regional",
+        "句型：A well-developed transport network not only …, but also promotes …."
+      ],
+      "topicWords": [
+        "transport network",
+        "resident",
+        "regional"
+      ],
+      "source": "authored"
+    }
+  ]
+}

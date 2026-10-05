@@ -1,0 +1,81 @@
+{
+  "version": "1",
+  "generatedFrom": "authored",
+  "topics": [
+    {
+      "key": "trad-culture",
+      "label": "传统文化",
+      "count": 20
+    },
+    {
+      "key": "festival",
+      "label": "节日习俗",
+      "count": 20
+    },
+    {
+      "key": "food",
+      "label": "饮食文化",
+      "count": 20
+    },
+    {
+      "key": "economy",
+      "label": "经济发展",
+      "count": 20
+    },
+    {
+      "key": "tech",
+      "label": "科技成就",
+      "count": 20
+    },
+    {
+      "key": "health",
+      "label": "健康医疗",
+      "count": 20
+    },
+    {
+      "key": "travel",
+      "label": "旅游观光",
+      "count": 20
+    },
+    {
+      "key": "education",
+      "label": "教育考试",
+      "count": 20
+    },
+    {
+      "key": "environment",
+      "label": "环境保护",
+      "count": 20
+    },
+    {
+      "key": "urbanisation",
+      "label": "城市化",
+      "count": 20
+    },
+    {
+      "key": "transport",
+      "label": "交通出行",
+      "count": 20
+    },
+    {
+      "key": "internet",
+      "label": "互联网",
+      "count": 20
+    },
+    {
+      "key": "employment",
+      "label": "就业创业",
+      "count": 20
+    },
+    {
+      "key": "aging",
+      "label": "人口老龄化",
+      "count": 20
+    },
+    {
+      "key": "sports",
+      "label": "体育运动",
+      "count": 20
+    }
+  ]
+}

@@ -1,0 +1,1168 @@
+{
+  "topic": "urbanisation",
+  "label": "城市化",
+  "items": [
+    {
+      "id": "t_000181",
+      "topic": "urbanisation",
+      "difficulty": 2,
+      "zh": "中国的城市化进程在过去几十年里明显加快。",
+      "reference": "The process of urbanization in China has accelerated significantly over the past few decades.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "the process of urbanization",
+          "zh": "城市化进程",
+          "weight": 2,
+          "synonyms": [
+            "the urbanization process"
+          ]
+        },
+        {
+          "id": "kp2",
+          "head": "has accelerated",
+          "zh": "加快",
+          "weight": 2,
+          "synonyms": [
+            "has sped up",
+            "has quickened"
+          ]
+        },
+        {
+          "id": "kp3",
+          "head": "significantly",
+          "zh": "明显地",
+          "weight": 1,
+          "synonyms": [
+            "remarkably",
+            "notably"
+          ]
+        },
+        {
+          "id": "kp4",
+          "head": "over the past few decades",
+          "zh": "在过去几十年里",
+          "weight": 2,
+          "synonyms": [
+            "in the past few decades",
+            "over the last few decades"
+          ]
+        }
+      ],
+      "hints": [
+        "得分点：城市化进程 / 加快 / 明显地 / 在过去几十年里",
+        "「加快」可用 accelerate / speed up；「过去几十年」常与现在完成时连用",
+        "句型：The process of urbanization … has accelerated significantly over the past few decades."
+      ],
+      "topicWords": [
+        "urbanization",
+        "process"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000182",
+      "topic": "urbanisation",
+      "difficulty": 2,
+      "zh": "越来越多的农村人口涌入城市寻找更好的工作机会。",
+      "reference": "An increasing number of rural residents are flooding into cities in search of better job opportunities.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "an increasing number of",
+          "zh": "越来越多的",
+          "weight": 2,
+          "synonyms": [
+            "more and more"
+          ]
+        },
+        {
+          "id": "kp2",
+          "head": "rural residents",
+          "zh": "农村人口",
+          "weight": 1,
+          "synonyms": [
+            "rural people",
+            "people in rural areas"
+          ]
+        },
+        {
+          "id": "kp3",
+          "head": "flooding into cities",
+          "zh": "涌入城市",
+          "weight": 2,
+          "synonyms": [
+            "pouring into cities",
+            "swarming into cities"
+          ]
+        },
+        {
+          "id": "kp4",
+          "head": "in search of",
+          "zh": "寻找",
+          "weight": 2,
+          "synonyms": [
+            "looking for",
+            "in pursuit of"
+          ]
+        },
+        {
+          "id": "kp5",
+          "head": "better job opportunities",
+          "zh": "更好的工作机会",
+          "weight": 1,
+          "synonyms": [
+            "better employment opportunities"
+          ]
+        }
+      ],
+      "hints": [
+        "得分点：越来越多的 / 农村人口 / 涌入城市 / 寻找 / 更好的工作机会",
+        "「涌入」可用 flood / pour into；「寻找」可用 in search of（介词短语）或 look for（动词）",
+        "句型：An increasing number of … are flooding into cities in search of better job opportunities."
+      ],
+      "topicWords": [
+        "rural residents",
+        "job opportunities"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000183",
+      "topic": "urbanisation",
+      "difficulty": 3,
+      "zh": "城市的快速发展带来了交通拥堵和住房紧张等一系列问题。",
+      "reference": "The rapid development of cities has brought about a series of problems, including traffic congestion and housing shortages.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "the rapid development of cities",
+          "zh": "城市的快速发展",
+          "weight": 2,
+          "synonyms": [
+            "rapid urban development"
+          ]
+        },
+        {
+          "id": "kp2",
+          "head": "has brought about",
+          "zh": "带来了",
+          "weight": 2,
+          "synonyms": [
+            "has led to",
+            "has given rise to"
+          ]
+        },
+        {
+          "id": "kp3",
+          "head": "a series of",
+          "zh": "一系列",
+          "weight": 2,
+          "synonyms": [
+            "a range of",
+            "a host of"
+          ]
+        },
+        {
+          "id": "kp4",
+          "head": "traffic congestion",
+          "zh": "交通拥堵",
+          "weight": 2,
+          "synonyms": [
+            "traffic jams"
+          ]
+        },
+        {
+          "id": "kp5",
+          "head": "housing shortages",
+          "zh": "住房紧张",
+          "weight": 2,
+          "synonyms": [
+            "housing shortage"
+          ]
+        }
+      ],
+      "hints": [
+        "得分点：城市的快速发展 / 带来了 / 一系列 / 交通拥堵 / 住房紧张",
+        "「带来（结果）」用 bring about / lead to / give rise to；congestion 为不可数名词",
+        "句型：The rapid development of cities has brought about a series of problems, including …"
+      ],
+      "topicWords": [
+        "traffic congestion",
+        "housing shortages"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000184",
+      "topic": "urbanisation",
+      "difficulty": 2,
+      "zh": "高层建筑在大城市随处可见，改变了城市的天际线。",
+      "reference": "High-rise buildings can be seen everywhere in big cities, changing the skyline of the city.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "high-rise buildings",
+          "zh": "高层建筑",
+          "weight": 2,
+          "synonyms": [
+            "tall buildings"
+          ]
+        },
+        {
+          "id": "kp2",
+          "head": "can be seen everywhere",
+          "zh": "随处可见",
+          "weight": 2,
+          "synonyms": [
+            "are found everywhere"
+          ]
+        },
+        {
+          "id": "kp3",
+          "head": "in big cities",
+          "zh": "在大城市",
+          "weight": 1,
+          "synonyms": [
+            "in large cities"
+          ]
+        },
+        {
+          "id": "kp4",
+          "head": "changing the skyline",
+          "zh": "改变天际线",
+          "weight": 2,
+          "synonyms": [
+            "reshaping the skyline"
+          ]
+        }
+      ],
+      "hints": [
+        "得分点：高层建筑 / 随处可见 / 在大城市 / 改变天际线",
+        "「随处可见」可用 can be seen everywhere；现在分词短语可作结果状语",
+        "句型：High-rise buildings can be seen everywhere in big cities, changing the skyline of the city."
+      ],
+      "topicWords": [
+        "high-rise buildings",
+        "skyline"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000185",
+      "topic": "urbanisation",
+      "difficulty": 2,
+      "zh": "为了方便市民出行，市政府正在大力修建地铁线路。",
+      "reference": "In order to make it convenient for citizens to travel, the city government is vigorously building subway lines.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "in order to",
+          "zh": "为了",
+          "weight": 2,
+          "synonyms": [
+            "so as to",
+            "to"
+          ]
+        },
+        {
+          "id": "kp2",
+          "head": "make it convenient for",
+          "zh": "方便……",
+          "weight": 2,
+          "synonyms": [
+            "make it easier for"
+          ]
+        },
+        {
+          "id": "kp3",
+          "head": "is vigorously building",
+          "zh": "正在大力修建",
+          "weight": 2,
+          "synonyms": [
+            "is energetically building"
+          ]
+        },
+        {
+          "id": "kp4",
+          "head": "subway lines",
+          "zh": "地铁线路",
+          "weight": 1,
+          "synonyms": [
+            "metro lines",
+            "underground lines"
+          ]
+        }
+      ],
+      "hints": [
+        "得分点：为了 / 方便…… / 正在大力修建 / 地铁线路",
+        "「使某人方便做」用 make it convenient for sb. to do，it 为形式宾语；「大力」用 vigorously",
+        "句型：In order to make it convenient for citizens to travel, the city government is vigorously building …"
+      ],
+      "topicWords": [
+        "subway lines",
+        "citizens"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000186",
+      "topic": "urbanisation",
+      "difficulty": 3,
+      "zh": "随着城市规模的扩大，耕地面积正在逐年减少。",
+      "reference": "As cities expand in size, the area of farmland is decreasing year by year.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "expand in size",
+          "zh": "规模扩大",
+          "weight": 2,
+          "synonyms": [
+            "grow in size"
+          ]
+        },
+        {
+          "id": "kp2",
+          "head": "the area of farmland",
+          "zh": "耕地面积",
+          "weight": 2,
+          "synonyms": [
+            "farmland area",
+            "the amount of arable land"
+          ]
+        },
+        {
+          "id": "kp3",
+          "head": "is decreasing",
+          "zh": "正在减少",
+          "weight": 2,
+          "synonyms": [
+            "is shrinking",
+            "is declining"
+          ]
+        },
+        {
+          "id": "kp4",
+          "head": "year by year",
+          "zh": "逐年",
+          "weight": 2,
+          "synonyms": [
+            "year after year"
+          ]
+        }
+      ],
+      "hints": [
+        "得分点：规模扩大 / 耕地面积 / 正在减少 / 逐年",
+        "「扩大」用 expand / grow；「逐年」为 year by year，注意与 year after year 的区别",
+        "句型：As cities expand in size, the area of farmland is decreasing year by year."
+      ],
+      "topicWords": [
+        "farmland",
+        "expand"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000187",
+      "topic": "urbanisation",
+      "difficulty": 2,
+      "zh": "城市生活节奏快，竞争激烈，但也提供了更多的机会。",
+      "reference": "Life in cities is fast-paced and competition is fierce, but it also offers more opportunities.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "life in cities",
+          "zh": "城市生活",
+          "weight": 1,
+          "synonyms": [
+            "city life"
+          ]
+        },
+        {
+          "id": "kp2",
+          "head": "fast-paced",
+          "zh": "节奏快",
+          "weight": 2,
+          "synonyms": [
+            "fast-moving"
+          ]
+        },
+        {
+          "id": "kp3",
+          "head": "competition is fierce",
+          "zh": "竞争激烈",
+          "weight": 2,
+          "synonyms": [
+            "competition is intense"
+          ]
+        },
+        {
+          "id": "kp4",
+          "head": "offers more opportunities",
+          "zh": "提供更多的机会",
+          "weight": 2,
+          "synonyms": [
+            "provides more opportunities"
+          ]
+        }
+      ],
+      "hints": [
+        "得分点：城市生活 / 节奏快 / 竞争激烈 / 提供更多的机会",
+        "「快节奏的」用 fast-paced；「激烈的（竞争）」用 fierce 或 intense",
+        "句型：Life in cities is fast-paced and competition is fierce, but it also offers more opportunities."
+      ],
+      "topicWords": [
+        "fast-paced",
+        "competition"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000188",
+      "topic": "urbanisation",
+      "difficulty": 2,
+      "zh": "许多城市正在建设智慧城市，以提高城市的管理效率。",
+      "reference": "Many cities are building smart cities so as to improve the efficiency of urban management.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "are building",
+          "zh": "正在建设",
+          "weight": 1,
+          "synonyms": [
+            "are constructing"
+          ]
+        },
+        {
+          "id": "kp2",
+          "head": "smart cities",
+          "zh": "智慧城市",
+          "weight": 2
+        },
+        {
+          "id": "kp3",
+          "head": "so as to",
+          "zh": "以（以便）",
+          "weight": 2,
+          "synonyms": [
+            "in order to"
+          ]
+        },
+        {
+          "id": "kp4",
+          "head": "the efficiency of urban management",
+          "zh": "城市的管理效率",
+          "weight": 2,
+          "synonyms": [
+            "urban management efficiency"
+          ]
+        }
+      ],
+      "hints": [
+        "得分点：正在建设 / 智慧城市 / 以 / 城市的管理效率",
+        "「智慧城市」为 smart city；「提高效率」用 improve / raise the efficiency of",
+        "句型：Many cities are building smart cities so as to improve the efficiency of urban management."
+      ],
+      "topicWords": [
+        "smart cities",
+        "urban management"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000189",
+      "topic": "urbanisation",
+      "difficulty": 3,
+      "zh": "解决交通拥堵问题需要政府、企业和市民的共同努力。",
+      "reference": "Solving the problem of traffic congestion requires the joint efforts of the government, enterprises and citizens.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "solving the problem of",
+          "zh": "解决……的问题",
+          "weight": 2,
+          "synonyms": [
+            "tackling the problem of",
+            "addressing the problem of"
+          ]
+        },
+        {
+          "id": "kp2",
+          "head": "traffic congestion",
+          "zh": "交通拥堵",
+          "weight": 2,
+          "synonyms": [
+            "traffic jams"
+          ]
+        },
+        {
+          "id": "kp3",
+          "head": "requires",
+          "zh": "需要",
+          "weight": 1,
+          "synonyms": [
+            "calls for",
+            "demands"
+          ]
+        },
+        {
+          "id": "kp4",
+          "head": "the joint efforts of",
+          "zh": "共同努力",
+          "weight": 2,
+          "synonyms": [
+            "the combined efforts of",
+            "the common efforts of"
+          ]
+        }
+      ],
+      "hints": [
+        "得分点：解决……的问题 / 交通拥堵 / 需要 / 共同努力",
+        "动名词短语作主语，谓语用单数 requires；「共同的／联合的努力」用 joint / combined efforts",
+        "句型：Solving the problem of … requires the joint efforts of …"
+      ],
+      "topicWords": [
+        "traffic congestion",
+        "joint efforts"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000190",
+      "topic": "urbanisation",
+      "difficulty": 2,
+      "zh": "与大城市相比，中小城市的生活成本相对较低。",
+      "reference": "Compared with big cities, the cost of living in small and medium-sized cities is relatively low.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "compared with",
+          "zh": "与……相比",
+          "weight": 2,
+          "synonyms": [
+            "in comparison with"
+          ]
+        },
+        {
+          "id": "kp2",
+          "head": "the cost of living",
+          "zh": "生活成本",
+          "weight": 2,
+          "synonyms": [
+            "living costs"
+          ]
+        },
+        {
+          "id": "kp3",
+          "head": "small and medium-sized cities",
+          "zh": "中小城市",
+          "weight": 2,
+          "synonyms": [
+            "small and medium cities"
+          ]
+        },
+        {
+          "id": "kp4",
+          "head": "relatively low",
+          "zh": "相对较低",
+          "weight": 1,
+          "synonyms": [
+            "comparatively low"
+          ]
+        }
+      ],
+      "hints": [
+        "得分点：与……相比 / 生活成本 / 中小城市 / 相对较低",
+        "「生活成本」固定为 the cost of living；「中小型的」用 small and medium-sized",
+        "句型：Compared with big cities, the cost of living in … is relatively low."
+      ],
+      "topicWords": [
+        "cost of living",
+        "medium-sized cities"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000191",
+      "topic": "urbanisation",
+      "difficulty": 2,
+      "zh": "大量的外来务工人员为城市建设作出了重要贡献。",
+      "reference": "A large number of migrant workers have made important contributions to urban construction.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "a large number of",
+          "zh": "大量的",
+          "weight": 2,
+          "synonyms": [
+            "a great number of",
+            "large numbers of"
+          ]
+        },
+        {
+          "id": "kp2",
+          "head": "migrant workers",
+          "zh": "外来务工人员",
+          "weight": 2,
+          "synonyms": [
+            "migrant labourers"
+          ]
+        },
+        {
+          "id": "kp3",
+          "head": "have made important contributions to",
+          "zh": "为……作出了重要贡献",
+          "weight": 2,
+          "synonyms": [
+            "have contributed greatly to"
+          ]
+        },
+        {
+          "id": "kp4",
+          "head": "urban construction",
+          "zh": "城市建设",
+          "weight": 1,
+          "synonyms": [
+            "city construction"
+          ]
+        }
+      ],
+      "hints": [
+        "得分点：大量的 / 外来务工人员 / 为……作出了重要贡献 / 城市建设",
+        "「作出贡献」用 make contributions to，to 是介词；「务工人员」可用 migrant workers",
+        "句型：A large number of migrant workers have made important contributions to urban construction."
+      ],
+      "topicWords": [
+        "migrant workers",
+        "urban construction"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000192",
+      "topic": "urbanisation",
+      "difficulty": 3,
+      "zh": "城市规划者应当注重保护历史街区，以保持城市的独特风貌。",
+      "reference": "Urban planners should attach importance to protecting historical blocks so as to preserve the unique character of the city.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "urban planners",
+          "zh": "城市规划者",
+          "weight": 1,
+          "synonyms": [
+            "city planners"
+          ]
+        },
+        {
+          "id": "kp2",
+          "head": "attach importance to",
+          "zh": "注重",
+          "weight": 2,
+          "synonyms": [
+            "pay attention to",
+            "give priority to"
+          ]
+        },
+        {
+          "id": "kp3",
+          "head": "protecting historical blocks",
+          "zh": "保护历史街区",
+          "weight": 2,
+          "synonyms": [
+            "preserving historical districts"
+          ]
+        },
+        {
+          "id": "kp4",
+          "head": "so as to",
+          "zh": "以（以便）",
+          "weight": 2,
+          "synonyms": [
+            "in order to"
+          ]
+        },
+        {
+          "id": "kp5",
+          "head": "the unique character of the city",
+          "zh": "城市的独特风貌",
+          "weight": 2,
+          "synonyms": [
+            "the unique features of the city"
+          ]
+        }
+      ],
+      "hints": [
+        "得分点：城市规划者 / 注重 / 保护历史街区 / 以 / 城市的独特风貌",
+        "attach importance to 中 to 是介词，后接动名词；「保持／保存」用 preserve",
+        "句型：Urban planners should attach importance to protecting … so as to preserve …"
+      ],
+      "topicWords": [
+        "urban planners",
+        "historical blocks"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000193",
+      "topic": "urbanisation",
+      "difficulty": 2,
+      "zh": "随着城市人口的增加，对公共服务的需求也在不断上升。",
+      "reference": "As the urban population grows, the demand for public services is also rising continuously.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "the urban population",
+          "zh": "城市人口",
+          "weight": 2,
+          "synonyms": [
+            "the city population"
+          ]
+        },
+        {
+          "id": "kp2",
+          "head": "grows",
+          "zh": "增加",
+          "weight": 1,
+          "synonyms": [
+            "increases"
+          ]
+        },
+        {
+          "id": "kp3",
+          "head": "the demand for",
+          "zh": "对……的需求",
+          "weight": 2,
+          "synonyms": [
+            "the need for"
+          ]
+        },
+        {
+          "id": "kp4",
+          "head": "public services",
+          "zh": "公共服务",
+          "weight": 1
+        },
+        {
+          "id": "kp5",
+          "head": "is also rising",
+          "zh": "也在上升",
+          "weight": 2,
+          "synonyms": [
+            "is also increasing"
+          ]
+        }
+      ],
+      "hints": [
+        "得分点：城市人口 / 增加 / 对……的需求 / 公共服务 / 也在上升",
+        "「对……的需求」用 the demand for；population 作主语时谓语可用单数",
+        "句型：As the urban population grows, the demand for public services is also rising continuously."
+      ],
+      "topicWords": [
+        "urban population",
+        "public services"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000194",
+      "topic": "urbanisation",
+      "difficulty": 2,
+      "zh": "社区公园为居民提供了休闲娱乐的好去处。",
+      "reference": "Community parks provide residents with good places for relaxation and entertainment.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "community parks",
+          "zh": "社区公园",
+          "weight": 1
+        },
+        {
+          "id": "kp2",
+          "head": "provide residents with",
+          "zh": "为居民提供",
+          "weight": 2,
+          "synonyms": [
+            "provide good places for residents",
+            "offer residents"
+          ]
+        },
+        {
+          "id": "kp3",
+          "head": "good places for",
+          "zh": "好去处",
+          "weight": 1,
+          "synonyms": [
+            "ideal places for"
+          ]
+        },
+        {
+          "id": "kp4",
+          "head": "relaxation and entertainment",
+          "zh": "休闲娱乐",
+          "weight": 2,
+          "synonyms": [
+            "leisure and entertainment"
+          ]
+        }
+      ],
+      "hints": [
+        "得分点：社区公园 / 为居民提供 / 好去处 / 休闲娱乐",
+        "「为某人提供某物」用 provide sb. with sth.；「休闲」可用 relaxation / leisure",
+        "句型：Community parks provide residents with good places for relaxation and entertainment."
+      ],
+      "topicWords": [
+        "community parks",
+        "residents"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000195",
+      "topic": "urbanisation",
+      "difficulty": 3,
+      "zh": "为了解决住房问题，政府正在大力推进保障性住房建设。",
+      "reference": "In order to solve the housing problem, the government is vigorously promoting the construction of affordable housing.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "in order to",
+          "zh": "为了",
+          "weight": 2,
+          "synonyms": [
+            "so as to"
+          ]
+        },
+        {
+          "id": "kp2",
+          "head": "solve the housing problem",
+          "zh": "解决住房问题",
+          "weight": 2,
+          "synonyms": [
+            "address the housing problem"
+          ]
+        },
+        {
+          "id": "kp3",
+          "head": "is vigorously promoting",
+          "zh": "正在大力推进",
+          "weight": 2,
+          "synonyms": [
+            "is strongly promoting"
+          ]
+        },
+        {
+          "id": "kp4",
+          "head": "the construction of affordable housing",
+          "zh": "保障性住房建设",
+          "weight": 2,
+          "synonyms": [
+            "the building of affordable housing"
+          ]
+        }
+      ],
+      "hints": [
+        "得分点：为了 / 解决住房问题 / 正在大力推进 / 保障性住房建设",
+        "「推进」可用 promote；「经济适用／保障性住房」用 affordable housing",
+        "句型：In order to solve the housing problem, the government is vigorously promoting the construction of …"
+      ],
+      "topicWords": [
+        "housing problem",
+        "affordable housing"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000196",
+      "topic": "urbanisation",
+      "difficulty": 2,
+      "zh": "夜间经济发展迅速，为城市增添了新的活力，也创造了更多就业岗位。",
+      "reference": "The night-time economy has developed rapidly, adding new vitality to the city and creating more jobs.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "the night-time economy",
+          "zh": "夜间经济",
+          "weight": 2,
+          "synonyms": [
+            "the night economy"
+          ]
+        },
+        {
+          "id": "kp2",
+          "head": "has developed rapidly",
+          "zh": "发展迅速",
+          "weight": 2,
+          "synonyms": [
+            "has grown rapidly"
+          ]
+        },
+        {
+          "id": "kp3",
+          "head": "adding new vitality to",
+          "zh": "为……增添新的活力",
+          "weight": 2,
+          "synonyms": [
+            "bringing new vitality to"
+          ]
+        },
+        {
+          "id": "kp4",
+          "head": "creating more jobs",
+          "zh": "创造更多就业岗位",
+          "weight": 2,
+          "synonyms": [
+            "creating more employment opportunities"
+          ]
+        }
+      ],
+      "hints": [
+        "得分点：夜间经济 / 发展迅速 / 为……增添新的活力 / 创造更多就业岗位",
+        "两个并列结果可用 and 连接的现在分词短语；「活力」用 vitality",
+        "句型：The night-time economy has developed rapidly, adding new vitality to … and creating more jobs."
+      ],
+      "topicWords": [
+        "night-time economy",
+        "vitality"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000197",
+      "topic": "urbanisation",
+      "difficulty": 2,
+      "zh": "便利的交通和完善的基础设施是城市吸引人才的重要因素。",
+      "reference": "Convenient transportation and well-developed infrastructure are important factors for a city to attract talent.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "convenient transportation",
+          "zh": "便利的交通",
+          "weight": 2,
+          "synonyms": [
+            "convenient transport"
+          ]
+        },
+        {
+          "id": "kp2",
+          "head": "well-developed infrastructure",
+          "zh": "完善的基础设施",
+          "weight": 2,
+          "synonyms": [
+            "sound infrastructure"
+          ]
+        },
+        {
+          "id": "kp3",
+          "head": "important factors",
+          "zh": "重要因素",
+          "weight": 1,
+          "synonyms": [
+            "key factors"
+          ]
+        },
+        {
+          "id": "kp4",
+          "head": "to attract talent",
+          "zh": "吸引人才",
+          "weight": 2,
+          "synonyms": [
+            "to attract skilled people"
+          ]
+        }
+      ],
+      "hints": [
+        "得分点：便利的交通 / 完善的基础设施 / 重要因素 / 吸引人才",
+        "「完善的／发达的」可用 well-developed；「人才」可用 talent（不可数）或 skilled people",
+        "句型：Convenient transportation and well-developed infrastructure are important factors for a city to attract talent."
+      ],
+      "topicWords": [
+        "infrastructure",
+        "talent"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000198",
+      "topic": "urbanisation",
+      "difficulty": 3,
+      "zh": "城市化的推进使越来越多的人享受到现代化的生活方式。",
+      "reference": "The advancement of urbanization has enabled an increasing number of people to enjoy a modern lifestyle.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "the advancement of urbanization",
+          "zh": "城市化的推进",
+          "weight": 2,
+          "synonyms": [
+            "the progress of urbanization"
+          ]
+        },
+        {
+          "id": "kp2",
+          "head": "has enabled",
+          "zh": "使……能够",
+          "weight": 2,
+          "synonyms": [
+            "has allowed",
+            "has made it possible for"
+          ]
+        },
+        {
+          "id": "kp3",
+          "head": "an increasing number of people",
+          "zh": "越来越多的人",
+          "weight": 2,
+          "synonyms": [
+            "more and more people"
+          ]
+        },
+        {
+          "id": "kp4",
+          "head": "a modern lifestyle",
+          "zh": "现代化的生活方式",
+          "weight": 1,
+          "synonyms": [
+            "a modern way of life"
+          ]
+        }
+      ],
+      "hints": [
+        "得分点：城市化的推进 / 使……能够 / 越来越多的人 / 现代化的生活方式",
+        "enable sb. to do 表示「使某人得以做」；「生活方式」可用 lifestyle 或 way of life",
+        "句型：The advancement of urbanization has enabled an increasing number of people to enjoy a modern lifestyle."
+      ],
+      "topicWords": [
+        "urbanization",
+        "modern lifestyle"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000199",
+      "topic": "urbanisation",
+      "difficulty": 2,
+      "zh": "与此同时，城市也面临着环境污染和资源短缺的挑战。",
+      "reference": "At the same time, cities are also faced with the challenges of environmental pollution and resource shortages.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "at the same time",
+          "zh": "与此同时",
+          "weight": 2,
+          "synonyms": [
+            "meanwhile",
+            "in the meantime"
+          ]
+        },
+        {
+          "id": "kp2",
+          "head": "are also faced with",
+          "zh": "面临着",
+          "weight": 2,
+          "synonyms": [
+            "are also confronted with"
+          ]
+        },
+        {
+          "id": "kp3",
+          "head": "the challenges of",
+          "zh": "……的挑战",
+          "weight": 2,
+          "synonyms": [
+            "the challenge of"
+          ]
+        },
+        {
+          "id": "kp4",
+          "head": "environmental pollution",
+          "zh": "环境污染",
+          "weight": 1
+        },
+        {
+          "id": "kp5",
+          "head": "resource shortages",
+          "zh": "资源短缺",
+          "weight": 1,
+          "synonyms": [
+            "resource shortage"
+          ]
+        }
+      ],
+      "hints": [
+        "得分点：与此同时 / 面临着 / ……的挑战 / 环境污染 / 资源短缺",
+        "「面临」可用 be faced with / be confronted with；pollution 与 shortage 此处均可数/不可数灵活处理",
+        "句型：At the same time, cities are also faced with the challenges of … and …"
+      ],
+      "topicWords": [
+        "environmental pollution",
+        "resource shortages"
+      ],
+      "source": "authored"
+    },
+    {
+      "id": "t_000200",
+      "topic": "urbanisation",
+      "difficulty": 2,
+      "zh": "只有实现城乡协调发展，才能让发展成果惠及全体人民。",
+      "reference": "Only by achieving coordinated development between urban and rural areas can the fruits of development benefit all the people.",
+      "keyPoints": [
+        {
+          "id": "kp1",
+          "head": "only by",
+          "zh": "只有通过",
+          "weight": 2,
+          "synonyms": [
+            "only through"
+          ]
+        },
+        {
+          "id": "kp2",
+          "head": "achieving coordinated development",
+          "zh": "实现协调发展",
+          "weight": 2,
+          "synonyms": [
+            "realizing coordinated development"
+          ]
+        },
+        {
+          "id": "kp3",
+          "head": "between urban and rural areas",
+          "zh": "城乡之间",
+          "weight": 2,
+          "synonyms": [
+            "between cities and the countryside"
+          ]
+        },
+        {
+          "id": "kp4",
+          "head": "the fruits of development",
+          "zh": "发展成果",
+          "weight": 2,
+          "synonyms": [
+            "the benefits of development"
+          ]
+        },
+        {
+          "id": "kp5",
+          "head": "benefit all the people",
+          "zh": "惠及全体人民",
+          "weight": 2,
+          "synonyms": [
+            "benefit the whole population"
+          ]
+        }
+      ],
+      "hints": [
+        "得分点：只有通过 / 实现协调发展 / 城乡之间 / 发展成果 / 惠及全体人民",
+        "only + 介词短语置于句首时主句部分倒装；「惠及」可用 benefit（及物动词）",
+        "句型：Only by achieving … can the fruits of development benefit all the people."
+      ],
+      "topicWords": [
+        "coordinated development",
+        "urban and rural areas"
+      ],
+      "source": "authored"
+    }
+  ]
+}

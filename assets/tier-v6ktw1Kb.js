@@ -1,0 +1,1 @@
+const r=2104,n=5278;function s(e){switch(e){case"core2104":return"高频核心";case"cet4":return"四级考纲";case"extended":return"扩展";default:{const t=e;throw new Error(`未处理的 tier: ${String(t)}`)}}}export{n as C,r as a,s as t};
