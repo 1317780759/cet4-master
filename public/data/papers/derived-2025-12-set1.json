@@ -1,0 +1,1205 @@
+{
+  "paper": {
+    "id": "derived-2025-12-set1",
+    "year": 2025,
+    "month": 12,
+    "setNo": 1,
+    "level": "CET4",
+    "durationMin": 125,
+    "totalScore": 710,
+    "sectionMeta": [
+      {
+        "id": "derived-2025-12-set1:W",
+        "kind": "writing",
+        "order": 1,
+        "partLabel": "Part I Writing",
+        "questionFrom": 1,
+        "questionTo": 1,
+        "durationHintSec": 1800,
+        "rawScore": 106.5
+      },
+      {
+        "id": "derived-2025-12-set1:L",
+        "kind": "listening",
+        "order": 2,
+        "partLabel": "Part II Listening",
+        "questionFrom": 2,
+        "questionTo": 26,
+        "durationHintSec": 1500,
+        "rawScore": 248.5
+      },
+      {
+        "id": "derived-2025-12-set1:R",
+        "kind": "reading",
+        "order": 3,
+        "partLabel": "Part III Reading",
+        "questionFrom": 27,
+        "questionTo": 56,
+        "durationHintSec": 2400,
+        "rawScore": 248.5
+      },
+      {
+        "id": "derived-2025-12-set1:T",
+        "kind": "translation",
+        "order": 4,
+        "partLabel": "Part IV Translation",
+        "questionFrom": 57,
+        "questionTo": 57,
+        "durationHintSec": 1800,
+        "rawScore": 106.5
+      }
+    ],
+    "provenance": "derived",
+    "provenanceLabel": "同源模拟卷",
+    "derivedFrom": "CET4 公开考纲与真题语料统计（2024.06-2026.06 考点分布）",
+    "confidence": {
+      "level": "medium",
+      "hasTranscript": false,
+      "hasAudio": false,
+      "hasExplanation": true,
+      "answerCrossChecked": false,
+      "spotCheckRatio": 1,
+      "doubtCount": 0,
+      "note": "内容自撰，结构与考点取自公开考纲与真题语料统计，不复制任何原文；答案未经官方核对，仅供参考。"
+    }
+  },
+  "sections": [
+    {
+      "id": "derived-2025-12-set1:W-A",
+      "paperId": "derived-2025-12-set1",
+      "kind": "writing",
+      "subPart": "Writing",
+      "order": 1,
+      "questions": []
+    },
+    {
+      "id": "derived-2025-12-set1:L-A",
+      "paperId": "derived-2025-12-set1",
+      "kind": "listening",
+      "subPart": "Section A",
+      "order": 2,
+      "questions": []
+    },
+    {
+      "id": "derived-2025-12-set1:R-A",
+      "paperId": "derived-2025-12-set1",
+      "kind": "reading",
+      "subPart": "Section A",
+      "order": 3,
+      "passage": {
+        "title": "Studying behind a screen",
+        "topicTag": "online-learning",
+        "paragraphs": [
+          "Online courses have become part of everyday university life. A student who misses a lecture can watch the recording at home, and most platforms allow learners to (27)______ the speed of the video. For anyone who needs more time to follow a difficult argument, this small function (28)______ a real advantage.",
+          "Yet the same screen also offers endless ways to escape. Notifications arrive in the middle of a lesson, and a student who (29)______ to another app for ‘just a minute’ often loses ten. Teachers report that pupils working at home (30)______ the discipline a classroom provides; without a fixed (31)______, the day quietly disappears.",
+          "Researchers who have watched thousands of hours of online study describe a clear pattern. Learners who (32)______ themselves to a weekly plan finish far more lessons than those who study only when they feel like it. Nothing (33)______ a student more effectively, it seems, than seeing a whole week of finished lessons on a screen.",
+          "Universities have begun to respond. Some now ask students to keep a short diary in which they (34)______ how long they studied and what interrupted them. The results are often surprising: most learners (35)______ realise how often they leave their desk, and once the pattern is visible, the most (36)______ escape — a phone on the desk, a game in another tab — becomes much easier to refuse."
+        ],
+        "wordBank": [
+          "adjust",
+          "barely",
+          "commit",
+          "concentrated",
+          "distraction",
+          "engage",
+          "grants",
+          "irregular",
+          "lack",
+          "monitor",
+          "motivates",
+          "routine",
+          "switches",
+          "tempting",
+          "withdraw"
+        ]
+      },
+      "questions": []
+    },
+    {
+      "id": "derived-2025-12-set1:R-B",
+      "paperId": "derived-2025-12-set1",
+      "kind": "reading",
+      "subPart": "Section B",
+      "order": 4,
+      "passage": {
+        "title": "How social media is reshaping the way students learn",
+        "topicTag": "social-media-learning",
+        "paragraphs": [
+          "【A】Over the last ten years social media has moved from a place where students chatted after class to a place where a great deal of learning actually happens. Short videos explain grammar points, study groups meet in chat rooms, and a question posted at midnight often receives an answer within minutes. Teachers have mixed feelings: the same tools that spread knowledge so quickly also spread distraction just as fast.",
+          "【B】The clearest change is in how students look for explanations. Ten years ago a difficult sentence meant a trip to the library or a wait for the next class. Today most learners reach for a search box or a short video first. Surveys at several universities suggest that more than half of all homework questions are now answered online before a teacher is ever asked.",
+          "【C】Speed, however, is not the same as understanding. Researchers who recorded students reading on their phones found that many of them stopped after the first answer that looked reasonable, even when a later source offered a better one. The habit has been described as ‘satisficing’ — accepting the first result that is good enough rather than the one that is right.",
+          "【D】Study groups on social platforms have their own advantages. Members who would never speak in a large lecture room often ask questions freely online, and shy students report that typing gives them time to form a thought. In one project, first-year students who joined a course group were noticeably less likely to drop out in their first term.",
+          "【E】There are costs as well. A phone that delivers both lessons and entertainment forces a choice every few minutes, and the entertainment is designed to win. Experiments in which students were asked to put the device in another room recorded longer periods of concentrated work than experiments in which it simply lay face down on the desk.",
+          "【F】Teachers have adapted in different ways. Some now record a five-minute video for every difficult point rather than repeating the explanation to each class; others set tasks that cannot be answered by a search, such as comparing two sources that disagree. Both methods accept that students will look things up and try to make the looking up worthwhile.",
+          "【G】The quality of what students find varies enormously. A careful explanation by an experienced teacher may sit beside a confident video by someone who has misunderstood the same point. Because platforms rank material by popularity rather than accuracy, the clearer or funnier version often wins, whether or not it is correct.",
+          "【H】Parents and schools have begun to talk about attention as a skill that can be taught. A few universities now offer short courses in which students practise working for twenty-five minutes with every notification switched off, and then record what they managed to finish. Early reports suggest the training helps, though the effect seems to fade when the course ends.",
+          "【I】Not everyone is affected in the same way. Students who already read a great deal and who have clear goals use social platforms mainly as a library; students who are struggling tend to use them as a place to escape. Researchers warn that the technology does not create the difference so much as widen one that was already there.",
+          "【J】Most observers now agree on a modest conclusion. Social media is unlikely to replace the classroom, and banning it would remove a tool that many students find genuinely useful. What seems to matter is not whether students use these platforms, but whether they have learned to decide when to stop reading and start thinking for themselves."
+        ]
+      },
+      "questions": []
+    },
+    {
+      "id": "derived-2025-12-set1:R-C",
+      "paperId": "derived-2025-12-set1",
+      "kind": "reading",
+      "subPart": "Section C",
+      "order": 5,
+      "passage": {
+        "title": "What a program can and cannot see",
+        "topicTag": "adaptive-learning",
+        "paragraphs": [
+          "Software that adapts to each learner has become one of the most advertised ideas in education. The promise is appealing: a program watches every answer a student gives, works out which point has not been understood, and then offers exactly the practice that student needs. In place of a textbook written for everyone, the learner receives a path written for one.",
+          "Trials have produced some real gains. In several large classes, students who used such a program for twenty minutes a day improved their test scores more than classmates who did extra homework of the same length. Teachers also noticed a change in atmosphere: because the program dealt with routine mistakes, class time could be spent on the questions that nobody had been able to answer alone.",
+          "The limits appear when the work becomes less routine. A program can tell that a sentence is ungrammatical; it is much weaker at judging whether an argument is original or whether a pupil has understood the point behind a formula. Asked to mark a history essay, one widely used system gave high marks to a piece that was fluent but contained two invented dates — an error a human marker caught immediately.",
+          "There is a second, quieter worry. Because the software chooses what a student sees next, it also decides what the student never meets. Researchers point out that a learner who is always given exercises at exactly the right level may never struggle, and that some of the most valuable learning happens during the struggle. The sensible arrangement, most of them conclude, is to let the program choose the practice and the teacher choose the problems."
+        ]
+      },
+      "questions": []
+    },
+    {
+      "id": "derived-2025-12-set1:R-D",
+      "paperId": "derived-2025-12-set1",
+      "kind": "reading",
+      "subPart": "Section D",
+      "order": 6,
+      "passage": {
+        "title": "Who actually finishes an online course?",
+        "topicTag": "online-education",
+        "paragraphs": [
+          "Universities have published thousands of free courses on the internet, and the numbers look impressive: a single popular course may record hundreds of thousands of enrolments. The number that matters, however, is the number of people still watching in the final week. Studies of large open courses have repeatedly found that fewer than one student in ten reaches the end.",
+          "The students who finish are not a random sample. They are usually well educated already, often hold a degree, and in most surveys they are far more likely to be employed than the unemployed adults the courses were supposed to help. Researchers describe the result as a cruel sort of tidiness: the material reaches precisely those who need it least.",
+          "Several reasons have been suggested. A free course asks for nothing at the start, so it is easy to abandon; a course that costs money, or that a student has been sent to by an employer, produces very different completion rates. Learners also need time, a quiet place and a reliable connection — three things that are unevenly distributed.",
+          "Some institutions have tried to change the pattern. Short courses of four or five weeks, with a clear certificate at the end, keep far more students than long ones. Sending a weekly message to learners who have fallen behind also helps, though the effect is small. What seems to matter most is whether the student has someone — a teacher, a colleague or a friend — waiting for them at the end."
+        ]
+      },
+      "questions": []
+    },
+    {
+      "id": "derived-2025-12-set1:T-A",
+      "paperId": "derived-2025-12-set1",
+      "kind": "translation",
+      "subPart": "Translation",
+      "order": 7,
+      "questions": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "derived-2025-12-set1:E1",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:W-A",
+      "kind": "essay",
+      "no": 1,
+      "score": 106.5,
+      "stem": "Directions: For this part, you are allowed 30 minutes to write an essay on whether short videos can serve as a useful way of learning. You should state your opinion and support it with reasons or examples. You should write at least 120 words but no more than 180 words.\n\nOutline:\n1. 越来越多的大学生通过短视频学习英语、了解专业知识；\n2. 你认为短视频是否可以成为有效的学习渠道，并给出两条理由或一个具体例子；\n3. 你对同学利用短视频学习的建议。",
+      "rubric": "评分参考：① 首段亮明观点，不要模棱两可；② 理由或例证必须支撑观点，避免只罗列现象；③ 结构完整（引入—论证—结论），段落间有衔接词；④ 语言准确度：时态一致、主谓一致、搭配得当、避免重复用词；⑤ 字数 120–180，不足或严重超标均会扣分。可参照 14-15 / 11-13 / 8-10 / 5-7 四档自评。"
+    },
+    {
+      "id": "derived-2025-12-set1:R-A1",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 27,
+      "score": 2,
+      "stem": "Most platforms allow learners to ______ the speed of the video.",
+      "answer": "adjust",
+      "explanation": "allow sb. to do sth. 结构要求动词原形，且宾语为 the speed；adjust 意为“调节”，adjust the speed 搭配自然。干扰项 engage / withdraw 虽为动词原形，但均不能与 speed 搭配。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          0
+        ]
+      },
+      "keyWordHints": [
+        "w_adjust"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-A2",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 28,
+      "score": 2,
+      "stem": "For anyone who needs more time to follow a difficult argument, this small function ______ a real advantage.",
+      "answer": "grants",
+      "explanation": "主语 this small function 为单数，谓语需用第三人称单数；grant sb. sth. 表示“给予”，grants a real advantage 意为“带来实实在在的好处”。词池中另一个单数动词 switches 与 advantage 无法搭配。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          0
+        ]
+      },
+      "keyWordHints": [
+        "w_grant"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-A3",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 29,
+      "score": 2,
+      "stem": "Notifications arrive in the middle of a lesson, and a student who ______ to another app for ‘just a minute’ often loses ten.",
+      "answer": "switches",
+      "explanation": "定语从句主语 a student 为单数，谓语动词需加 -s；switch to 表示“切换到”，与 another app 搭配。motivates 同为单数动词，但“激励到另一个应用”语义不通。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_switch"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-A4",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 30,
+      "score": 2,
+      "stem": "Teachers report that pupils working at home ______ the discipline a classroom provides.",
+      "answer": "lack",
+      "explanation": "宾语从句缺谓语动词，主语 pupils 为复数，故用原形；lack 作动词表示“缺乏”，lack the discipline 正合“在家学习缺少课堂纪律”的语境。名词 distraction 不能作谓语。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_lack"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-A5",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 31,
+      "score": 2,
+      "stem": "Without a fixed ______, the day quietly disappears.",
+      "answer": "routine",
+      "explanation": "不定冠词 a 加形容词 fixed 之后需单数名词；routine 表示“固定的作息/常规”，与后半句“一天就这样悄悄过去”形成因果。irregular 是形容词，词性不符。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_routine"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-A6",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 32,
+      "score": 2,
+      "stem": "Learners who ______ themselves to a weekly plan finish far more lessons than those who study only when they feel like it.",
+      "answer": "commit",
+      "explanation": "commit oneself to sth. 为固定搭配，意为“使自己致力于、坚持某项安排”，后接 a weekly plan 恰好成立。withdraw 语义相反且不与 to 构成此义。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          2,
+          2
+        ]
+      },
+      "keyWordHints": [
+        "w_commit"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-A7",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 33,
+      "score": 2,
+      "stem": "Nothing ______ a student more effectively, it seems, than seeing a whole week of finished lessons on a screen.",
+      "answer": "motivates",
+      "explanation": "主语 Nothing 为单数，谓语需第三人称单数；motivate 表示“激励”，与 than 引出的“看到一整周已完成的课程”这一反馈机制呼应。词池中的 concentrate / engage 均为原形，形式即被排除。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          2,
+          2
+        ]
+      },
+      "keyWordHints": [
+        "w_motivate"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-A8",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 34,
+      "score": 2,
+      "stem": "Some now ask students to keep a short diary in which they ______ how long they studied and what interrupted them.",
+      "answer": "monitor",
+      "explanation": "从句主语 they 为复数，需动词原形；monitor 表示“监测、记录”，可接 how long 引导的宾语从句，符合“记学习日记”的语境。engage 多作不及物或接人作宾语。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_monitor"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-A9",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 35,
+      "score": 2,
+      "stem": "The results are often surprising: most learners ______ realise how often they leave their desk.",
+      "answer": "barely",
+      "explanation": "空格位于实义动词 realise 之前，需副词；barely 表示“几乎不”，与句首 surprising 呼应——学生几乎没意识到自己离开座位多少次。tempting / concentrated 均为形容词，不能修饰动词。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_barely"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-A10",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 36,
+      "score": 2,
+      "stem": "Once the pattern is visible, the most ______ escape — a phone on the desk, a game in another tab — becomes much easier to refuse.",
+      "answer": "tempting",
+      "explanation": "the most 之后、名词 escape 之前需形容词；tempting 表示“诱人的”，破折号后的“桌上的手机、另一个标签页里的游戏”正是诱惑的具体内容。concentrated 虽为形容词，但无法修饰 escape。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_tempting"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-B1",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-B",
+      "kind": "matching",
+      "no": 37,
+      "score": 2,
+      "stem": "Students who are too shy to speak in a big class often feel freer to ask questions online.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "D",
+      "explanation": "D 段指出在大型阶梯教室里绝不开口的学生，在网上却能自如提问，害羞的学生说打字给了他们组织思路的时间。E 段讲手机的干扰，与“害羞”无关。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_shy"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-B2",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-B",
+      "kind": "matching",
+      "no": 38,
+      "score": 2,
+      "stem": "Because material is ranked by popularity, a clearer or funnier explanation may beat a more accurate one.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "G",
+      "explanation": "G 段明确说平台按 popularity 而非 accuracy 排序，因此更清楚或更有趣的那一版常常胜出，即使它并不正确。C 段讲的是学生满足于第一个答案，不是排序机制。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          6,
+          6
+        ]
+      },
+      "keyWordHints": [
+        "w_accuracy"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-B3",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-B",
+      "kind": "matching",
+      "no": 39,
+      "score": 2,
+      "stem": "Most learners now look for an answer on the internet before they think of asking a teacher.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "B",
+      "explanation": "B 段对比十年前（去图书馆或等下一节课）与现在（先搜搜索框或短视频），并给出调查数据：过半的家庭作业问题在问老师之前就已在线解决。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_survey"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-B4",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-B",
+      "kind": "matching",
+      "no": 40,
+      "score": 2,
+      "stem": "Putting the phone in another room leads to longer periods of concentrated work than leaving it on the desk.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "E",
+      "explanation": "E 段用实验对比：把手机放到另一个房间的受试者，专注工作的时段明显长于把手机正面朝下放在桌上的受试者。H 段也谈注意力，但说的是培训课程，不是对比实验。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          4,
+          4
+        ]
+      },
+      "keyWordHints": [
+        "w_concentrated"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-B5",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-B",
+      "kind": "matching",
+      "no": 41,
+      "score": 2,
+      "stem": "A few universities give short courses in which students practise working with all notifications turned off.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "H",
+      "explanation": "H 段讲“注意力可教”：一些大学开设短期课程，让学生练习在关闭所有通知的情况下工作二十五分钟并记录成果，还提到效果会随课程结束而减退。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          7,
+          7
+        ]
+      },
+      "keyWordHints": [
+        "w_notification"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-B6",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-B",
+      "kind": "matching",
+      "no": 42,
+      "score": 2,
+      "stem": "The same tools that spread knowledge quickly can spread distraction just as quickly.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "A",
+      "explanation": "A 段末句点明教师的矛盾心情：让知识传播得如此之快的工具，也同样快地传播着分心。这是全文的总起判断。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          0
+        ]
+      },
+      "keyWordHints": [
+        "w_distraction"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-B7",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-B",
+      "kind": "matching",
+      "no": 43,
+      "score": 2,
+      "stem": "The technology tends to widen an existing gap between strong readers and students who are struggling.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "I",
+      "explanation": "I 段对比两类学生：阅读量大且目标明确者把平台当图书馆，学习吃力者则当作逃避之所；研究者强调技术并未制造差距，而是放大了原本存在的差距。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          8,
+          8
+        ]
+      },
+      "keyWordHints": [
+        "w_struggle"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-B8",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-B",
+      "kind": "matching",
+      "no": 44,
+      "score": 2,
+      "stem": "Learners often stop at the first answer that seems reasonable instead of looking for the best one.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "C",
+      "explanation": "C 段提出 speed 不等于 understanding，并解释研究者所称的 ‘satisficing’：接受第一个“够好”的结果，而不是正确的那一个。G 段谈的是内容质量参差，是另一回事。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          2,
+          2
+        ]
+      },
+      "keyWordHints": [
+        "w_reasonable"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-B9",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-B",
+      "kind": "matching",
+      "no": 45,
+      "score": 2,
+      "stem": "What really matters is whether students can stop reading and begin to think for themselves.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "J",
+      "explanation": "J 段给出全文结论：社交媒体不太可能取代课堂，禁止它也不妥；关键在于学生是否学会判断何时停止浏览、开始独立思考。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          9,
+          9
+        ]
+      },
+      "keyWordHints": [
+        "w_conclusion"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-B10",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-B",
+      "kind": "matching",
+      "no": 46,
+      "score": 2,
+      "stem": "Some teachers design tasks that cannot be settled by a simple online search.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "F",
+      "explanation": "F 段说部分教师布置无法用搜索完成的任务，例如比较两个观点相左的材料；并指出这些做法承认了学生会去查资料，只求让查阅变得有价值。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          5,
+          5
+        ]
+      },
+      "keyWordHints": [
+        "w_search"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-C1",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-C",
+      "kind": "choice",
+      "no": 47,
+      "score": 2,
+      "stem": "What is the main idea of the passage?",
+      "options": [
+        "A. Textbooks written for everyone should be thrown away immediately.",
+        "B. Programs that adapt to a learner help with practice but cannot judge ideas.",
+        "C. Human teachers will no longer be needed in large classes.",
+        "D. Extra homework is useless compared with any computer program."
+      ],
+      "answer": "B",
+      "explanation": "全文先讲自适应软件的好处（按个人情况布置练习、提升成绩），再用作文批改的例子说明它难以判断内容的对错与原创性，最后给出人机分工的建议，属有条件地肯定。A、C、D 都把某一句推向极端，文中均无依据。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_adapt"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-C2",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-C",
+      "kind": "choice",
+      "no": 48,
+      "score": 2,
+      "stem": "According to the second paragraph, students who used the program for twenty minutes a day ______.",
+      "options": [
+        "A. scored no better than classmates who did extra homework",
+        "B. improved more than classmates who spent the same time on extra homework",
+        "C. stopped attending lectures altogether",
+        "D. refused to do any homework at all"
+      ],
+      "answer": "B",
+      "explanation": "原文为 “improved their test scores more than classmates who did extra homework of the same length”，B 是准确转述，same length 对应 twenty minutes a day。A 与之相反；C、D 文中未提及。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_improve"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-C3",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-C",
+      "kind": "choice",
+      "no": 49,
+      "score": 2,
+      "stem": "The example of the history essay is used to show that the program ______.",
+      "options": [
+        "A. can mark essays faster than any human teacher",
+        "B. is weak at judging whether the content is accurate",
+        "C. always gives lower marks than a human marker",
+        "D. refuses to read anything longer than a paragraph"
+      ],
+      "answer": "B",
+      "explanation": "该例子说系统给一篇文笔流畅但含两个虚构日期的文章打了高分，而人类阅卷者一眼就看出来了，正说明程序判断内容真伪的能力很弱。A 说速度，虽可能是事实，但不是举例的用意；C 与原文 gave high marks 相反；D 无依据。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          2,
+          2
+        ]
+      },
+      "keyWordHints": [
+        "w_essay"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-C4",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-C",
+      "kind": "choice",
+      "no": 50,
+      "score": 2,
+      "stem": "The word “gains” in the second paragraph is closest in meaning to ______.",
+      "options": [
+        "A. losses",
+        "B. improvements",
+        "C. arguments",
+        "D. complaints"
+      ],
+      "answer": "B",
+      "explanation": "gains 所在句后紧接着讲使用者成绩提升更多、课堂氛围改善，故 gains 指“收获、改进”。A 是反义；C、D 与该段毫无关联。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_gain"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-C5",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-C",
+      "kind": "choice",
+      "no": 51,
+      "score": 2,
+      "stem": "According to the last paragraph, the sensible arrangement is that ______.",
+      "options": [
+        "A. the program chooses the practice while the teacher chooses the problems",
+        "B. students should stop using adaptive software at once",
+        "C. the program should decide both the practice and the problems",
+        "D. teachers should deal with nothing but routine mistakes"
+      ],
+      "answer": "A",
+      "explanation": "末段末句给出结论：让程序选择练习、让教师选择需要钻研的难题，因为学生若总拿到“恰到好处”的题目就永远不会经历挣扎，而挣扎本身就是学习。C 正是作者担忧的情形；D 与第二段“程序处理常规错误”的分工相反；B 无依据。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_sensible"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-D1",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-D",
+      "kind": "choice",
+      "no": 52,
+      "score": 2,
+      "stem": "What is the main idea of the second passage?",
+      "options": [
+        "A. Free online courses attract huge enrolments, but few finish and the finishers are often already educated.",
+        "B. Universities should stop publishing free courses on the internet.",
+        "C. Online courses are too expensive for unemployed adults.",
+        "D. Certificates obtained online are worthless in the job market."
+      ],
+      "answer": "A",
+      "explanation": "文章先摆出可观的注册数，随即指出真正重要的是完成人数（不足十分之一），接着说明完成者多为已受过良好教育的人，最后给出可能的原因与改进办法。B 与末段“各校在设法改进”不符；C 与 free 相反；D 文中未作此判断。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_enrolment"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-D2",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-D",
+      "kind": "choice",
+      "no": 53,
+      "score": 2,
+      "stem": "What have studies of large open courses repeatedly found?",
+      "options": [
+        "A. Nearly every student who enrols manages to complete the course.",
+        "B. Fewer than one student in ten reaches the end of the course.",
+        "C. Enrolment numbers have been falling sharply for years.",
+        "D. Most students give up during the very first week."
+      ],
+      "answer": "B",
+      "explanation": "首段末句明确 “fewer than one student in ten reaches the end”，B 与之完全一致。A 相反；C 与首段“注册数字可观”不符；D 看似合理，但文中只说坚持到最后一周的人很少，并未说多数人在第一周放弃。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          0
+        ]
+      },
+      "keyWordHints": [
+        "w_reach"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-D3",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-D",
+      "kind": "choice",
+      "no": 54,
+      "score": 2,
+      "stem": "Who are the students that usually complete these courses?",
+      "options": [
+        "A. Mainly unemployed adults without a degree.",
+        "B. Mainly people who are already well educated and in work.",
+        "C. Mainly school pupils under the age of sixteen.",
+        "D. Mainly people living in remote mountain villages."
+      ],
+      "answer": "B",
+      "explanation": "第二段说完成者通常已受过良好教育、多已取得学位，且就业的可能性远高于课程本想帮助的失业成年人。A 恰恰是课程原本的目标人群，属于典型的方向性干扰。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_employed"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-D4",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-D",
+      "kind": "choice",
+      "no": 55,
+      "score": 2,
+      "stem": "The word “abandon” in the third paragraph is closest in meaning to ______.",
+      "options": [
+        "A. give up",
+        "B. write down",
+        "C. look for",
+        "D. put off"
+      ],
+      "answer": "A",
+      "explanation": "原句为“免费课程一开始不要求任何付出，因此很容易 abandon”，结合全段谈完成率低，abandon 意为“放弃”。D 是强干扰：put off 表示“推迟”，与“彻底放弃”程度不同。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          2,
+          2
+        ]
+      },
+      "keyWordHints": [
+        "w_abandon"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:R-D5",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:R-D",
+      "kind": "choice",
+      "no": 56,
+      "score": 2,
+      "stem": "What seems to matter most in keeping students until the end?",
+      "options": [
+        "A. Having someone waiting for them at the end.",
+        "B. Making the course completely free.",
+        "C. Lengthening the course to a full term.",
+        "D. Removing every certificate."
+      ],
+      "answer": "A",
+      "explanation": "末段先说短期课程与每周提醒都有帮助（但效果不大），再用 What seems to matter most 引出结论：学生是否有老师、同事或朋友在终点等着他。B 与第三段“免费反而易于放弃”相反；C 与“短期课程留存率更高”相反；D 与“明确的证书能留住更多人”相反。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_certificate"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set1:T1",
+      "paperId": "derived-2025-12-set1",
+      "sectionId": "derived-2025-12-set1:T-A",
+      "kind": "translation",
+      "no": 57,
+      "score": 106.5,
+      "stem": "近年来，在线教育在中国迅速发展，越来越多的学生通过手机或电脑学习。人工智能可以根据每个人的答题情况推荐练习，帮助他们在薄弱环节上取得进步。与此同时，社交媒体也成了一种学习工具：学生可以在群里讨论难题，也可以观看简短的教学视频。不过，专家提醒，在线学习需要更强的自制力。只有合理安排时间，才能真正从中受益。",
+      "rubric": "评分参考：忠实原文、句式通顺、无重大语法错误。注意：① “近年来”用现在完成时；② “根据……推荐”可用 recommend ... based on ...；③ “社交媒体”用 social media，“群聊”用 group chats；④ “自制力”用 self-discipline；⑤ “只有……才……”可用 Only by ... can ... 的部分倒装；⑥ 档位可参照 14-15 / 11-13 / 8-10 / 5-7 自评。",
+      "referenceTranslation": "In recent years, online education has developed rapidly in China, and a growing number of students are learning through mobile phones or computers. Artificial intelligence can recommend exercises based on each person's answers and help them make progress in their weak areas. At the same time, social media has also become a learning tool: students can discuss difficult problems in group chats and watch short teaching videos. Experts warn, however, that online learning requires greater self-discipline. Only by arranging their time sensibly can students truly benefit from it.",
+      "translationSegments": [
+        {
+          "index": 0,
+          "zh": "近年来，在线教育在中国迅速发展，越来越多的学生通过手机或电脑学习。",
+          "reference": "In recent years, online education has developed rapidly in China, and a growing number of students are learning through mobile phones or computers.",
+          "keyPoints": [
+            {
+              "id": "kp1",
+              "head": "in recent years",
+              "zh": "近年来",
+              "weight": 2
+            },
+            {
+              "id": "kp2",
+              "head": "online education",
+              "zh": "在线教育",
+              "weight": 2
+            },
+            {
+              "id": "kp3",
+              "head": "has developed rapidly",
+              "zh": "迅速发展",
+              "synonyms": [
+                "has grown quickly"
+              ]
+            },
+            {
+              "id": "kp4",
+              "head": "a growing number of",
+              "zh": "越来越多的",
+              "synonyms": [
+                "more and more"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "zh": "人工智能可以根据每个人的答题情况推荐练习，帮助他们在薄弱环节上取得进步。",
+          "reference": "Artificial intelligence can recommend exercises based on each person's answers and help them make progress in their weak areas.",
+          "keyPoints": [
+            {
+              "id": "kp5",
+              "head": "artificial intelligence",
+              "zh": "人工智能",
+              "weight": 2
+            },
+            {
+              "id": "kp6",
+              "head": "recommend",
+              "zh": "推荐",
+              "synonyms": [
+                "suggest"
+              ]
+            },
+            {
+              "id": "kp7",
+              "head": "based on",
+              "zh": "根据",
+              "weight": 2
+            },
+            {
+              "id": "kp8",
+              "head": "make progress",
+              "zh": "取得进步",
+              "weight": 2
+            },
+            {
+              "id": "kp9",
+              "head": "weak areas",
+              "zh": "薄弱环节",
+              "synonyms": [
+                "weak points"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "zh": "与此同时，社交媒体也成了一种学习工具：学生可以在群里讨论难题，也可以观看简短的教学视频。",
+          "reference": "At the same time, social media has also become a learning tool: students can discuss difficult problems in group chats and watch short teaching videos.",
+          "keyPoints": [
+            {
+              "id": "kp10",
+              "head": "at the same time",
+              "zh": "与此同时",
+              "synonyms": [
+                "meanwhile"
+              ]
+            },
+            {
+              "id": "kp11",
+              "head": "social media",
+              "zh": "社交媒体",
+              "weight": 2
+            },
+            {
+              "id": "kp12",
+              "head": "learning tool",
+              "zh": "学习工具"
+            },
+            {
+              "id": "kp13",
+              "head": "discuss",
+              "zh": "讨论"
+            },
+            {
+              "id": "kp14",
+              "head": "group chats",
+              "zh": "在群里",
+              "weight": 2
+            },
+            {
+              "id": "kp15",
+              "head": "teaching videos",
+              "zh": "教学视频",
+              "synonyms": [
+                "instructional videos"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "zh": "不过，专家提醒，在线学习需要更强的自制力。",
+          "reference": "Experts warn, however, that online learning requires greater self-discipline.",
+          "keyPoints": [
+            {
+              "id": "kp16",
+              "head": "warn",
+              "zh": "提醒",
+              "synonyms": [
+                "remind"
+              ]
+            },
+            {
+              "id": "kp17",
+              "head": "online learning",
+              "zh": "在线学习",
+              "weight": 2
+            },
+            {
+              "id": "kp18",
+              "head": "requires",
+              "zh": "需要",
+              "synonyms": [
+                "needs"
+              ]
+            },
+            {
+              "id": "kp19",
+              "head": "self-discipline",
+              "zh": "自制力",
+              "weight": 2
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "zh": "只有合理安排时间，才能真正从中受益。",
+          "reference": "Only by arranging their time sensibly can students truly benefit from it.",
+          "keyPoints": [
+            {
+              "id": "kp20",
+              "head": "only by",
+              "zh": "只有（通过）",
+              "weight": 2
+            },
+            {
+              "id": "kp21",
+              "head": "arranging their time",
+              "zh": "安排时间",
+              "synonyms": [
+                "managing their time"
+              ]
+            },
+            {
+              "id": "kp22",
+              "head": "benefit from",
+              "zh": "从中受益",
+              "weight": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

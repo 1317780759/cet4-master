@@ -1,0 +1,1206 @@
+{
+  "paper": {
+    "id": "derived-2025-06-set1",
+    "year": 2025,
+    "month": 6,
+    "setNo": 1,
+    "level": "CET4",
+    "durationMin": 125,
+    "totalScore": 710,
+    "sectionMeta": [
+      {
+        "id": "derived-2025-06-set1:W",
+        "kind": "writing",
+        "order": 1,
+        "partLabel": "Part I Writing",
+        "questionFrom": 1,
+        "questionTo": 1,
+        "durationHintSec": 1800,
+        "rawScore": 106.5
+      },
+      {
+        "id": "derived-2025-06-set1:L",
+        "kind": "listening",
+        "order": 2,
+        "partLabel": "Part II Listening",
+        "questionFrom": 2,
+        "questionTo": 26,
+        "durationHintSec": 1500,
+        "rawScore": 248.5
+      },
+      {
+        "id": "derived-2025-06-set1:R",
+        "kind": "reading",
+        "order": 3,
+        "partLabel": "Part III Reading",
+        "questionFrom": 27,
+        "questionTo": 56,
+        "durationHintSec": 2400,
+        "rawScore": 248.5
+      },
+      {
+        "id": "derived-2025-06-set1:T",
+        "kind": "translation",
+        "order": 4,
+        "partLabel": "Part IV Translation",
+        "questionFrom": 57,
+        "questionTo": 57,
+        "durationHintSec": 1800,
+        "rawScore": 106.5
+      }
+    ],
+    "provenance": "derived",
+    "provenanceLabel": "同源模拟卷",
+    "derivedFrom": "CET4 公开考纲与真题语料统计（2024.06-2026.06 考点分布）",
+    "confidence": {
+      "level": "medium",
+      "hasTranscript": false,
+      "hasAudio": false,
+      "hasExplanation": true,
+      "answerCrossChecked": false,
+      "spotCheckRatio": 1,
+      "doubtCount": 0,
+      "note": "内容自撰，结构与考点取自公开考纲与真题语料统计，不复制任何原文；答案未经官方核对，仅供参考。"
+    }
+  },
+  "sections": [
+    {
+      "id": "derived-2025-06-set1:W-A",
+      "paperId": "derived-2025-06-set1",
+      "kind": "writing",
+      "subPart": "Writing",
+      "order": 1,
+      "questions": []
+    },
+    {
+      "id": "derived-2025-06-set1:L-A",
+      "paperId": "derived-2025-06-set1",
+      "kind": "listening",
+      "subPart": "Section A",
+      "order": 2,
+      "questions": []
+    },
+    {
+      "id": "derived-2025-06-set1:R-A",
+      "paperId": "derived-2025-06-set1",
+      "kind": "reading",
+      "subPart": "Section A",
+      "order": 3,
+      "passage": {
+        "title": "Stress on campus",
+        "topicTag": "mental-health",
+        "paragraphs": [
+          "University life is often described as the best period of a person's life, but many students also (27)______ from stress. Assignments, examinations and the search for a first job can all create (28)______ pressure. When pressure lasts for months, it may (29)______ both health and study.",
+          "Counselling centres on campus have noticed this change. More students now ask for help than they did ten years ago, and most of them (30)______ their problems as 'mild' at first. Counsellors say this is a good sign: asking early usually makes the problem easier to (31)______.",
+          "Still, some students (32)______ to stay silent. They worry that others will think less of them, so they keep everything to themselves until the (33)______ becomes serious.",
+          "Universities have tried several methods. Some run short courses that teach students how to (34)______ their time; others train student volunteers to notice classmates who seem (35)______. Research suggests that a simple habit — regular exercise, fixed sleeping hours and a few close friends — (36)______ students against stress more effectively than any single programme."
+        ],
+        "wordBank": [
+          "suffer",
+          "constant",
+          "affect",
+          "describe",
+          "handle",
+          "prefer",
+          "situation",
+          "manage",
+          "anxious",
+          "protects",
+          "benefit",
+          "effect",
+          "relieve",
+          "confidence",
+          "capable"
+        ]
+      },
+      "questions": []
+    },
+    {
+      "id": "derived-2025-06-set1:R-B",
+      "paperId": "derived-2025-06-set1",
+      "kind": "reading",
+      "subPart": "Section B",
+      "order": 4,
+      "passage": {
+        "title": "How the digital economy is changing everyday work",
+        "topicTag": "digital-economy",
+        "paragraphs": [
+          "【A】The digital economy is not a single industry. It refers to the part of economic life that depends on data, networks and software: online shopping, mobile payment, cloud services, and the platforms that connect buyers with sellers. Economists measure it in different ways, but almost all of them agree on one point: its share of total output has grown faster than that of most traditional industries over the last decade.",
+          "【B】For small shop owners, the change is visible every day. A family restaurant that used to serve only the street it stands on can now receive orders from ten kilometres away. Mobile payment has removed the need to keep large amounts of cash, and it also leaves a record that helps owners see which dishes sell best at which hour.",
+          "【C】Delivery networks have grown alongside online orders. Warehouses are now placed closer to city centres, and software decides which rider should take which parcel. The result is that customers in large cities often receive goods within a day, while customers in mountain villages may wait three days or more — a gap that logistics companies are still trying to close.",
+          "【D】Data has become a resource of its own. Companies collect information about what people buy, when they buy it and how long they hesitate before paying. Used carefully, this information helps firms reduce waste and design better products. Used carelessly, it can lead to decisions that customers find unfair, such as showing different prices to different users.",
+          "【E】New jobs have appeared in large numbers. Ten years ago, few people had heard of live-stream sellers, ride-hailing drivers or app testers. Today these jobs employ millions of people, many of whom had no technical training at all. At the same time, some clerical jobs have shrunk, and the workers who held them have had to retrain.",
+          "【F】Rural areas have been affected as well. In some provinces, whole villages have turned to selling local fruit and handmade goods online. Young people who once left for coastal cities have returned to run warehouses and studios. Researchers describe these places as 'e-commerce villages', though they also warn that not every village has a product that sells well outside its own region.",
+          "【G】The skills needed for these jobs are not evenly spread. University graduates generally adapt quickly, while workers over fifty often struggle with new software. Training programmes have been started in many cities, but their quality varies, and short courses cannot always prepare a worker for a job that keeps changing.",
+          "【H】Governments have begun to write rules for the sector. Recent regulations require large platforms to explain how they collect and store personal information, and to stop forcing traders to sell on only one platform. Supporters say the rules protect small businesses; critics worry that too much control may slow down innovation.",
+          "【I】Environmental effects are also being studied. Data centres consume large amounts of electricity, and packaging for delivered goods produces waste. Several companies have started to use reusable boxes and to buy power from wind and solar farms, but the total amount of energy used by the sector continues to rise.",
+          "【J】Most economists expect the digital economy to keep growing, but they disagree about who will benefit. Some argue that it lowers costs for everyone. Others point out that the largest platforms capture most of the profit, and that a society which depends on a handful of companies for its payments and deliveries is taking a risk."
+        ]
+      },
+      "questions": []
+    },
+    {
+      "id": "derived-2025-06-set1:R-C",
+      "paperId": "derived-2025-06-set1",
+      "kind": "reading",
+      "subPart": "Section C",
+      "order": 5,
+      "passage": {
+        "title": "Can a few minutes of exercise make a difference?",
+        "topicTag": "physical-activity",
+        "paragraphs": [
+          "Most health campaigns tell people to exercise for at least 150 minutes a week. The advice is sound, but for many office workers it is also unrealistic: meetings run long, commutes are tiring, and the gym is on the other side of town. Researchers have therefore begun to ask a narrower question — does physical activity have to come in long blocks to be useful?",
+          "A series of experiments suggests that it does not. In one study, volunteers who climbed stairs briskly for three minutes, three times a day, improved their fitness more over six weeks than a group that did nothing, and almost as much as a group that walked continuously for thirty minutes. The short bursts were called 'exercise snacks' by the researchers, who noted that volunteers found them easy to fit into a working day.",
+          "The reason seems to be that the body responds to total effort rather than to the length of a single session. Short bursts raise the heart rate, use up sugar in the blood and keep muscles working. They also appear to reduce the harm done by long hours of sitting, which earlier studies had linked to a higher risk of heart disease.",
+          "Experts are careful about the limits of this evidence. Most experiments lasted only a few weeks and involved young volunteers, so it is not yet clear whether the same effect holds for older people or over many years. Nor should exercise snacks be seen as a replacement for other forms of training: they do little to build strength, and they cannot improve balance. What they can do, however, is to give people who have abandoned exercise a way back. For someone who has not run for a decade, three minutes of stairs is a beginning rather than a failure."
+        ]
+      },
+      "questions": []
+    },
+    {
+      "id": "derived-2025-06-set1:R-D",
+      "paperId": "derived-2025-06-set1",
+      "kind": "reading",
+      "subPart": "Section D",
+      "order": 6,
+      "passage": {
+        "title": "When a computer joins the classroom",
+        "topicTag": "ai-education",
+        "paragraphs": [
+          "Artificial intelligence has entered schools faster than most teachers expected. Programs that mark multiple-choice tests appeared first; now systems can read a short essay, point out repeated errors and suggest a better structure. Supporters say this frees teachers from piles of homework and gives students feedback within minutes instead of a week.",
+          "Yet classroom trials have produced mixed results. In one project, students who received instant comments from a program improved their grammar quickly, but their ideas became more alike. Teachers noticed that many pupils simply accepted the program's suggestions, even when the suggestions flattened an unusual argument into a safe one.",
+          "A second problem is trust. Several programs give confident advice that is sometimes wrong, particularly with history and literature. A student who has not read the original text cannot easily tell whether the comment is fair. Researchers therefore recommend that programs show their reasoning and that teachers check a sample of the comments before pupils see them.",
+          "None of this means the technology should be banned. Used as a tool rather than a judge, it can help a large class get individual attention that no single teacher could give. The practical rule that many schools have adopted is simple: let the machine deal with spelling and basic structure, and let the human being deal with ideas, judgement and encouragement."
+        ]
+      },
+      "questions": []
+    },
+    {
+      "id": "derived-2025-06-set1:T-A",
+      "paperId": "derived-2025-06-set1",
+      "kind": "translation",
+      "subPart": "Translation",
+      "order": 7,
+      "questions": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "derived-2025-06-set1:E1",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:W-A",
+      "kind": "essay",
+      "no": 1,
+      "score": 106.5,
+      "stem": "Directions: For this part, you are allowed 30 minutes to write an essay on whether joining student clubs is worthwhile for college students. You should state your opinion and support it with reasons or examples. You should write at least 120 words but no more than 180 words.\n\nOutline:\n1. 校园里的社团活动越来越丰富，新生常常不知如何选择；\n2. 你认为参加社团是否值得，并给出两条理由或一个具体例子；\n3. 你对新生选择社团的建议。",
+      "rubric": "评分参考：① 首段亮明观点，不要模棱两可；② 理由或例证必须支撑观点，避免只罗列现象；③ 结构完整（引入—论证—结论），段落间有衔接词；④ 语言准确度：时态一致、主谓一致、搭配得当、避免重复用词；⑤ 字数 120–180，不足或严重超标均会扣分。可参照 14-15 / 11-13 / 8-10 / 5-7 四档自评。"
+    },
+    {
+      "id": "derived-2025-06-set1:R-A1",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 27,
+      "score": 2,
+      "stem": "University life is often described as the best period of a person's life, but many students also ______ from stress.",
+      "answer": "suffer",
+      "explanation": "空格前有主语 many students 与副词 also，缺谓语动词原形；suffer from 为固定搭配，意为“遭受……之苦”。干扰项 benefit 语法同样成立，但与 but 转折后的“压力”语义相悖。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          0
+        ]
+      },
+      "keyWordHints": [
+        "w_suffer"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-A2",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 28,
+      "score": 2,
+      "stem": "Assignments, examinations and the search for a first job can all create ______ pressure.",
+      "answer": "constant",
+      "explanation": "空格位于名词 pressure 前，需形容词；constant pressure 表示“持续不断的压力”，与后半句 “When pressure lasts for months” 呼应。干扰项 capable 是形容词但无法修饰 pressure。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          0
+        ]
+      },
+      "keyWordHints": [
+        "w_constant"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-A3",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 29,
+      "score": 2,
+      "stem": "When pressure lasts for months, it may ______ both health and study.",
+      "answer": "affect",
+      "explanation": "情态动词 may 后需动词原形，且宾语为 health and study，affect 表示“影响”。注意与名词 effect 区分：effect 是“结果”，不能作谓语。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          0
+        ]
+      },
+      "keyWordHints": [
+        "w_affect"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-A4",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 30,
+      "score": 2,
+      "stem": "More students now ask for help than they did ten years ago, and most of them ______ their problems as 'mild' at first.",
+      "answer": "describe",
+      "explanation": "describe ... as ... 是固定搭配，意为“把……描述为……”，后接 as 'mild' 正好成立；其余动词均不能接 as 补足语。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_describe"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-A5",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 31,
+      "score": 2,
+      "stem": "Counsellors say this is a good sign: asking early usually makes the problem easier to ______.",
+      "answer": "handle",
+      "explanation": "easier to 后接动词原形；handle 表示“处理、应对”，与 problem 搭配自然。relieve 多接 pain / stress，不与 problem 搭配。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_handle"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-A6",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 32,
+      "score": 2,
+      "stem": "Still, some students ______ to stay silent.",
+      "answer": "prefer",
+      "explanation": "主语 some students 后缺谓语动词；prefer to do sth. 表示“宁愿做某事”，与下句“担心别人看轻自己”的因果一致。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          2,
+          2
+        ]
+      },
+      "keyWordHints": [
+        "w_prefer"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-A7",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 33,
+      "score": 2,
+      "stem": "They worry that others will think less of them, so they keep everything to themselves until the ______ becomes serious.",
+      "answer": "situation",
+      "explanation": "定冠词 the 后缺单数名词，且该词需能接 becomes serious；situation 指“情况”，符合“把心事憋着直到情况变严重”的语境。confidence 虽为名词，但与 becomes serious 无法搭配。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          2,
+          2
+        ]
+      },
+      "keyWordHints": [
+        "w_situation"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-A8",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 34,
+      "score": 2,
+      "stem": "Some run short courses that teach students how to ______ their time.",
+      "answer": "manage",
+      "explanation": "manage one's time 为固定搭配，意为“管理/安排时间”；how to 后接动词原形。干扰项 handle 虽近义，但 handle one's time 不是英语惯用表达。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_manage"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-A9",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 35,
+      "score": 2,
+      "stem": "Others train student volunteers to notice classmates who seem ______.",
+      "answer": "anxious",
+      "explanation": "seem 后接形容词作表语；anxious 表示“焦虑的”，能被他人观察到，符合“培训志愿者留意同学情绪”的语境。capable 为形容词但语义相反。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_anxious"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-A10",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 36,
+      "score": 2,
+      "stem": "Research suggests that a simple habit — regular exercise, fixed sleeping hours and a few close friends — ______ students against stress more effectively than any single programme.",
+      "answer": "protects",
+      "explanation": "主语核心词为单数 a simple habit，谓语需用第三人称单数；protect ... against ... 表示“使……免受……”。词池中只有 protects 是单数动词形式，形式与语义同时锁定。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_protect"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-B1",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-B",
+      "kind": "matching",
+      "no": 37,
+      "score": 2,
+      "stem": "Information about customers' buying habits can help firms cut waste, but it may also lead to results that customers consider unfair.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "D",
+      "explanation": "D 段讲数据成为独立资源：谨慎使用可减少浪费、改进产品，使用不当则会出现“对不同的用户显示不同的价格”这类顾客认为不公平的做法，与题干两面对应。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_resource",
+        "w_waste"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-B2",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-B",
+      "kind": "matching",
+      "no": 38,
+      "score": 2,
+      "stem": "In some villages, selling local products online has encouraged young people who had left to come back home.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "F",
+      "explanation": "F 段写整村转向网上售卖本地水果与手工品，“曾经前往沿海城市的年轻人回来经营仓库和直播间”，正是题干所说返乡。C 段只讲配送速度，不涉及返乡。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          5,
+          5
+        ]
+      },
+      "keyWordHints": [
+        "w_coastal"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-B3",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-B",
+      "kind": "matching",
+      "no": 39,
+      "score": 2,
+      "stem": "The term refers to economic activity that depends on data, networks and software rather than to one particular industry.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "A",
+      "explanation": "A 段首句明确 “The digital economy is not a single industry”，随后给出依赖数据、网络与软件的定义，与题干完全对应。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          0
+        ]
+      },
+      "keyWordHints": [
+        "w_industry"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-B4",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-B",
+      "kind": "matching",
+      "no": 40,
+      "score": 2,
+      "stem": "The sector's consumption of energy and its packaging waste have drawn attention, and a few companies have begun to respond.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "I",
+      "explanation": "I 段讲数据中心耗电、包装产生垃圾，部分企业已改用可重复使用的箱子并采购风电与光电，但总能耗仍在上升。H 段讲的是规则监管，不是环境问题。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          8,
+          8
+        ]
+      },
+      "keyWordHints": [
+        "w_electricity",
+        "w_packaging"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-B5",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-B",
+      "kind": "matching",
+      "no": 41,
+      "score": 2,
+      "stem": "A small restaurant can now reach customers far beyond its own street, and payment records help it plan what to prepare.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "B",
+      "explanation": "B 段以家庭餐馆为例：过去只服务所在街道，现在能接到十公里外的订单；移动支付留下记录，店主可据此看出哪些菜在什么时段最好卖。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_payment"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-B6",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-B",
+      "kind": "matching",
+      "no": 42,
+      "score": 2,
+      "stem": "Older workers tend to have more difficulty with new tools, and the training available is not always sufficient.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "G",
+      "explanation": "G 段指出技能分布不均：大学毕业生适应快，五十岁以上的工人常在新软件上吃力；各地的培训质量参差，短期课程未必够用。E 段虽提再培训，但重点在岗位增减。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          6,
+          6
+        ]
+      },
+      "keyWordHints": [
+        "w_training"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-B7",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-B",
+      "kind": "matching",
+      "no": 43,
+      "score": 2,
+      "stem": "Occupations that hardly existed a decade ago now employ millions of people, while some office jobs have become fewer.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "E",
+      "explanation": "E 段列举十年前闻所未闻的主播、网约车司机、应用测试员，如今雇佣数百万人，同时部分文书岗位萎缩，与题干一致。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          4,
+          4
+        ]
+      },
+      "keyWordHints": [
+        "w_employment"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-B8",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-B",
+      "kind": "matching",
+      "no": 44,
+      "score": 2,
+      "stem": "Buyers in big cities usually receive their goods much sooner than people living in remote mountain villages.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "C",
+      "explanation": "C 段对比两种时效：大城市顾客常当日收货，山村顾客可能要等三天以上，并指出物流公司仍在设法缩小这一差距。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          2,
+          2
+        ]
+      },
+      "keyWordHints": [
+        "w_logistics"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-B9",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-B",
+      "kind": "matching",
+      "no": 45,
+      "score": 2,
+      "stem": "There is disagreement over whether the benefits will be widely shared or concentrated in the hands of a few large companies.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "J",
+      "explanation": "J 段明确说经济学家对“谁将受益”存在分歧：一方认为成本下降惠及所有人，另一方指出最大平台拿走大部分利润，社会依赖少数公司存在风险。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          9,
+          9
+        ]
+      },
+      "keyWordHints": [
+        "w_profit"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-B10",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-B",
+      "kind": "matching",
+      "no": 46,
+      "score": 2,
+      "stem": "New rules require big platforms to explain how they handle personal data and to stop limiting traders to a single channel.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "H",
+      "explanation": "H 段讲监管：要求大型平台说明个人信息的收集与存储方式，并停止强迫商家只在一家平台销售；还补充了支持者与批评者的两种声音。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          7,
+          7
+        ]
+      },
+      "keyWordHints": [
+        "w_regulation"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-C1",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-C",
+      "kind": "choice",
+      "no": 47,
+      "score": 2,
+      "stem": "What is the main idea of the passage?",
+      "options": [
+        "A. Office workers should spend 150 minutes a week in the gym.",
+        "B. Short periods of activity can bring real health benefits.",
+        "C. Sitting for long hours is harmless if one exercises at weekends.",
+        "D. Stair climbing is the only safe form of exercise."
+      ],
+      "answer": "B",
+      "explanation": "全文先提出“是否必须长时间运动才有效”的疑问，再用实验说明三分钟一次的“运动零食”同样能改善体能，最后指出其局限。A 是作者认为“不现实”的旧建议；C 与第三段“久坐有害”相反；D 中的 only 属于绝对化，文中无据。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_exercise"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-C2",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-C",
+      "kind": "choice",
+      "no": 48,
+      "score": 2,
+      "stem": "According to the study in the second paragraph, volunteers who took exercise snacks ______.",
+      "options": [
+        "A. showed no measurable improvement in six weeks",
+        "B. did better than inactive volunteers and almost as well as continuous walkers",
+        "C. performed better than those who walked for thirty minutes",
+        "D. had to give up every other form of training"
+      ],
+      "answer": "B",
+      "explanation": "原文为 “improved ... more ... than a group that did nothing, and almost as much as a group that walked continuously for thirty minutes”，B 准确转述。C 把 almost as much as 夸大为 better than；A 与原文相反；D 文中未提及。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_fitness"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-C3",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-C",
+      "kind": "choice",
+      "no": 49,
+      "score": 2,
+      "stem": "Why are experts careful about the findings?",
+      "options": [
+        "A. Most experiments were short and involved mainly young volunteers.",
+        "B. The volunteers refused to climb the stairs.",
+        "C. Exercise snacks have been shown to be harmful.",
+        "D. The 150-minute rule has been proved completely wrong."
+      ],
+      "answer": "A",
+      "explanation": "第四段首句给出原因：实验只持续数周且对象多为年轻人，因此对老年人或长期效果尚不明确。D 看似合理，但文中只是说旧建议“不现实”，并未否定其科学性；B、C 均无依据。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_evidence"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-C4",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-C",
+      "kind": "choice",
+      "no": 50,
+      "score": 2,
+      "stem": "The word “briskly” in the second paragraph is closest in meaning to ______.",
+      "options": [
+        "A. slowly and carefully",
+        "B. quickly and energetically",
+        "C. repeatedly without rest",
+        "D. unwillingly"
+      ],
+      "answer": "B",
+      "explanation": "briskly 修饰 climbed stairs，且后文说这种短时活动能 raise the heart rate，故意为“轻快有力地”，即 quickly and energetically。A 与之相反；C 把“三次”误加到词义里；D 属无端推测。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_briskly"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-C5",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-C",
+      "kind": "choice",
+      "no": 51,
+      "score": 2,
+      "stem": "What limitation do exercise snacks have?",
+      "options": [
+        "A. They do little for strength or balance.",
+        "B. They take too much time to organise.",
+        "C. They are unsuitable for office workers.",
+        "D. They increase the risk of heart disease."
+      ],
+      "answer": "A",
+      "explanation": "第四段明确指出它们 “do little to build strength, and they cannot improve balance”。B、C 与文中“容易挤进工作日”“适合久坐人群”相反；D 更是与“降低久坐危害”相悖。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_balance"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-D1",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-D",
+      "kind": "choice",
+      "no": 52,
+      "score": 2,
+      "stem": "What is the main idea of the second passage?",
+      "options": [
+        "A. AI programs should be banned from schools immediately.",
+        "B. AI can help teaching, but it needs limits and human judgement.",
+        "C. Teachers will be replaced by machines within a decade.",
+        "D. Students prefer machine feedback to feedback from teachers."
+      ],
+      "answer": "B",
+      "explanation": "文章先讲人工智能带来的效率，再讲两个问题（思路趋同、建议未必可靠），最后给出“机器管拼写与结构、人管思想与鼓励”的务实规则，属于有条件地肯定。A 与末段 “should not be banned” 相反；C 文中无据；D 虽是常见看法，但全文未作此比较。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_artificial"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-D2",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-D",
+      "kind": "choice",
+      "no": 53,
+      "score": 2,
+      "stem": "What did teachers notice in the project mentioned in the second paragraph?",
+      "options": [
+        "A. Pupils' grammar improved while their ideas became more similar.",
+        "B. Pupils refused to use the program at all.",
+        "C. The program was unable to read short essays.",
+        "D. Pupils began to write much longer essays than before."
+      ],
+      "answer": "A",
+      "explanation": "第二段说学生语法进步很快，但 ideas became more alike。D 是看似合理的干扰：系统确实处理作文，但文中只说“接受建议、思路被抹平”，从未提篇幅变化。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_grammar"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-D3",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-D",
+      "kind": "choice",
+      "no": 54,
+      "score": 2,
+      "stem": "Why do researchers recommend that programs show their reasoning?",
+      "options": [
+        "A. Because confident but wrong comments are hard for students to judge.",
+        "B. Because teachers are unable to read English.",
+        "C. Because showing reasoning makes the program run faster.",
+        "D. Because students have asked for more homework."
+      ],
+      "answer": "A",
+      "explanation": "第三段指出程序常给出自信却错误的建议，没读过原文的学生难以判断其是否公允，因此建议程序展示推理过程并由教师抽查。B、C、D 均属无中生有。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          2,
+          2
+        ]
+      },
+      "keyWordHints": [
+        "w_reasoning"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-D4",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-D",
+      "kind": "choice",
+      "no": 55,
+      "score": 2,
+      "stem": "What practical rule have many schools adopted?",
+      "options": [
+        "A. Machines handle spelling and structure, while teachers handle ideas and encouragement.",
+        "B. Machines decide the final grade of every essay.",
+        "C. Teachers mark nothing but spelling.",
+        "D. Students mark each other's work instead of teachers."
+      ],
+      "answer": "A",
+      "explanation": "末段的分工规则为：机器处理拼写与基本结构，人负责思想、判断与鼓励。B、C 都把分工推向极端，与原文“机器不能当裁判”相冲突；D 文中未提。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_structure"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:R-D5",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:R-D",
+      "kind": "choice",
+      "no": 56,
+      "score": 2,
+      "stem": "Which of the following best describes the author's attitude towards AI in schools?",
+      "options": [
+        "A. Entirely negative.",
+        "B. Cautiously positive.",
+        "C. Completely indifferent.",
+        "D. Enthusiastic and uncritical."
+      ],
+      "answer": "B",
+      "explanation": "作者既肯定其效率与“让大班获得个别关注”的价值，又指出思路趋同、建议有误等风险并给出限制条件，属谨慎肯定。D 忽略批评部分；A 与末段态度相反；C 与全文鲜明的立场不符。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_attitude"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set1:T1",
+      "paperId": "derived-2025-06-set1",
+      "sectionId": "derived-2025-06-set1:T-A",
+      "kind": "translation",
+      "no": 57,
+      "score": 106.5,
+      "stem": "近年来，中国农村的面貌发生了巨大变化。许多村庄修通了公路，接入了网络，年轻人回乡创业不再像过去那样困难。村民通过电商平台把本地的水果和手工艺品卖到全国各地，家庭收入明显增加。同时，一些地方利用自然风光发展乡村旅游，让城市游客体验田园生活。乡村振兴不仅改善了农民的生活条件，也为整个社会注入了新的活力。当然，实现这一目标仍然需要更多技术和人才。",
+      "rubric": "评分参考：忠实原文、句式通顺、无重大语法错误。注意：① “近年来”用现在完成时；② “修通公路 / 接入网络”可用 build roads / gain access to the internet；③ “乡村振兴”用 rural revitalisation；④ “不仅……也……”用 not only ... but also ...；⑤ 档位可参照 14-15 / 11-13 / 8-10 / 5-7 自评。",
+      "referenceTranslation": "In recent years, the appearance of China's countryside has changed greatly. Many villages have built roads and gained access to the internet, so it is no longer as difficult as it used to be for young people to return home and start businesses. Villagers sell local fruit and handmade goods to all parts of the country through e-commerce platforms, and household income has risen clearly. At the same time, some places have used natural scenery to develop rural tourism, allowing city visitors to experience country life. Rural revitalisation has not only improved farmers' living conditions, but also brought new energy to society as a whole. Of course, achieving this goal still requires more technology and talent.",
+      "translationSegments": [
+        {
+          "index": 0,
+          "zh": "近年来，中国农村的面貌发生了巨大变化。",
+          "reference": "In recent years, the appearance of China's countryside has changed greatly.",
+          "keyPoints": [
+            {
+              "id": "kp1",
+              "head": "in recent years",
+              "zh": "近年来",
+              "weight": 2
+            },
+            {
+              "id": "kp2",
+              "head": "countryside",
+              "zh": "农村",
+              "synonyms": [
+                "rural areas"
+              ]
+            },
+            {
+              "id": "kp3",
+              "head": "has changed greatly",
+              "zh": "发生了巨大变化",
+              "synonyms": [
+                "has changed enormously"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "zh": "许多村庄修通了公路，接入了网络，年轻人回乡创业不再像过去那样困难。",
+          "reference": "Many villages have built roads and gained access to the internet, so it is no longer as difficult as it used to be for young people to return home and start businesses.",
+          "keyPoints": [
+            {
+              "id": "kp4",
+              "head": "have built roads",
+              "zh": "修通了公路",
+              "synonyms": [
+                "have paved roads"
+              ]
+            },
+            {
+              "id": "kp5",
+              "head": "gained access to the internet",
+              "zh": "接入了网络",
+              "synonyms": [
+                "got connected to the internet"
+              ],
+              "weight": 2
+            },
+            {
+              "id": "kp6",
+              "head": "start businesses",
+              "zh": "创业",
+              "weight": 2
+            },
+            {
+              "id": "kp7",
+              "head": "no longer as difficult as",
+              "zh": "不再像……那样困难"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "zh": "村民通过电商平台把本地的水果和手工艺品卖到全国各地，家庭收入明显增加。",
+          "reference": "Villagers sell local fruit and handmade goods to all parts of the country through e-commerce platforms, and household income has risen clearly.",
+          "keyPoints": [
+            {
+              "id": "kp8",
+              "head": "e-commerce platforms",
+              "zh": "电商平台",
+              "weight": 2
+            },
+            {
+              "id": "kp9",
+              "head": "handmade goods",
+              "zh": "手工艺品",
+              "synonyms": [
+                "handicrafts"
+              ]
+            },
+            {
+              "id": "kp10",
+              "head": "household income",
+              "zh": "家庭收入",
+              "weight": 2
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "zh": "同时，一些地方利用自然风光发展乡村旅游，让城市游客体验田园生活。",
+          "reference": "At the same time, some places have used natural scenery to develop rural tourism, allowing city visitors to experience country life.",
+          "keyPoints": [
+            {
+              "id": "kp11",
+              "head": "natural scenery",
+              "zh": "自然风光"
+            },
+            {
+              "id": "kp12",
+              "head": "rural tourism",
+              "zh": "乡村旅游",
+              "weight": 2
+            },
+            {
+              "id": "kp13",
+              "head": "allowing",
+              "zh": "让（使得）",
+              "synonyms": [
+                "letting"
+              ]
+            },
+            {
+              "id": "kp14",
+              "head": "country life",
+              "zh": "田园生活"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "zh": "乡村振兴不仅改善了农民的生活条件，也为整个社会注入了新的活力。",
+          "reference": "Rural revitalisation has not only improved farmers' living conditions, but also brought new energy to society as a whole.",
+          "keyPoints": [
+            {
+              "id": "kp15",
+              "head": "rural revitalisation",
+              "zh": "乡村振兴",
+              "weight": 2
+            },
+            {
+              "id": "kp16",
+              "head": "not only",
+              "zh": "不仅"
+            },
+            {
+              "id": "kp17",
+              "head": "living conditions",
+              "zh": "生活条件",
+              "weight": 2
+            },
+            {
+              "id": "kp18",
+              "head": "new energy",
+              "zh": "新的活力",
+              "synonyms": [
+                "new vitality"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "zh": "当然，实现这一目标仍然需要更多技术和人才。",
+          "reference": "Of course, achieving this goal still requires more technology and talent.",
+          "keyPoints": [
+            {
+              "id": "kp19",
+              "head": "achieving this goal",
+              "zh": "实现这一目标"
+            },
+            {
+              "id": "kp20",
+              "head": "requires",
+              "zh": "需要",
+              "synonyms": [
+                "needs"
+              ]
+            },
+            {
+              "id": "kp21",
+              "head": "talent",
+              "zh": "人才",
+              "synonyms": [
+                "skilled people"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

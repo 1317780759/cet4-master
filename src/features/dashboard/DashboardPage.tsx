@@ -148,6 +148,25 @@ export default function DashboardPage(): ReactNode {
         </CardBody>
       </Card>
 
+      {/* —— 输出训练（"想起来才用"，同样不占一级 Tab）—— */}
+      <Card>
+        <CardHeader>
+          <CardTitle>输出训练</CardTitle>
+          <span className="text-xs text-slate-400 dark:text-slate-500">离线可用</span>
+        </CardHeader>
+        <CardBody className="flex gap-2">
+          <Button block variant="secondary" onClick={(): void => { void navigate('/translation'); }}>
+            翻译训练
+          </Button>
+          <Button block variant="secondary" onClick={(): void => { void navigate('/translation/book'); }}>
+            错句本
+          </Button>
+        </CardBody>
+        <p className="mt-2 text-xs text-slate-400 dark:text-slate-500">
+          词语 → 句子，写完就有反馈
+        </p>
+      </Card>
+
       {/* —— 掌握度分布 —— */}
       <Card>
         <CardHeader>

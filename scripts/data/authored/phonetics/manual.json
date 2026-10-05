@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "author": "self",
+    "license": "self-authored",
+    "note": "ipa-dict 的 en_UK.txt 与 en_US.txt 均未收录的词，人工补录。全部为含空格或连字符的复合词/短语，或极罕见词。"
+  },
+  "items": [
+    { "w": "according to", "uk": "əˈkɔːdɪŋ tə", "us": "əˈkɔːrdɪŋ tə" },
+    { "w": "baby boom", "uk": "ˈbeɪbi buːm", "us": "ˈbeɪbi buːm" },
+    { "w": "best-seller", "uk": "ˌbest ˈselə", "us": "ˌbest ˈselər" },
+    { "w": "cell-phone", "uk": "ˈsel fəʊn", "us": "ˈsel foʊn" },
+    { "w": "cigaret", "uk": "ˌsɪɡəˈret", "us": "ˈsɪɡəret" },
+    { "w": "easy-going", "uk": "ˌiːzi ˈɡəʊɪŋ", "us": "ˌiːzi ˈɡoʊɪŋ" },
+    { "w": "gaol", "uk": "dʒeɪl", "us": "dʒeɪl" },
+    { "w": "living-room", "uk": "ˈlɪvɪŋ ruːm", "us": "ˈlɪvɪŋ ruːm" },
+    { "w": "ought to", "uk": "ˈɔːt tə", "us": "ˈɔːt tə" },
+    { "w": "preposition", "uk": "ˌprepəˈzɪʃn", "us": "ˌprepəˈzɪʃn" },
+    { "w": "résumé", "uk": "ˈrezjumeɪ", "us": "ˈrezumeɪ" },
+    { "w": "second-hand", "uk": "ˌsekənd ˈhænd", "us": "ˌsekənd ˈhænd" },
+    { "w": "up-to-date", "uk": "ˌʌp tə ˈdeɪt", "us": "ˌʌp tə ˈdeɪt" },
+    { "w": "well-off", "uk": "ˌwel ˈɒf", "us": "ˌwel ˈɔːf" }
+  ]
+}

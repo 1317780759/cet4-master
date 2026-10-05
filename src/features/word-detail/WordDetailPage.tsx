@@ -143,7 +143,9 @@ export default function WordDetailPage(): ReactNode {
         revealed
         accent="us"
         sentences={sentences}
-        onPlay={(): void => tts.speak(word.headword)}
+        starred={inVocab}
+        onToggleStar={(): void => { void toggleVocab(); }}
+        onPlay={(which): void => tts.speak(word.headword, which)}
         onWordClick={(targetId): void => { void navigate(`/word/${encodeURIComponent(targetId)}`); }}
       />
 

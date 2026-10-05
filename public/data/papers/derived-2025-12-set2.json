@@ -1,0 +1,1256 @@
+{
+  "paper": {
+    "id": "derived-2025-12-set2",
+    "year": 2025,
+    "month": 12,
+    "setNo": 2,
+    "level": "CET4",
+    "durationMin": 125,
+    "totalScore": 710,
+    "sectionMeta": [
+      {
+        "id": "derived-2025-12-set2:W",
+        "kind": "writing",
+        "order": 1,
+        "partLabel": "Part I Writing",
+        "questionFrom": 1,
+        "questionTo": 1,
+        "durationHintSec": 1800,
+        "rawScore": 106.5
+      },
+      {
+        "id": "derived-2025-12-set2:L",
+        "kind": "listening",
+        "order": 2,
+        "partLabel": "Part II Listening",
+        "questionFrom": 2,
+        "questionTo": 26,
+        "durationHintSec": 1500,
+        "rawScore": 248.5
+      },
+      {
+        "id": "derived-2025-12-set2:R",
+        "kind": "reading",
+        "order": 3,
+        "partLabel": "Part III Reading",
+        "questionFrom": 27,
+        "questionTo": 56,
+        "durationHintSec": 2400,
+        "rawScore": 248.5
+      },
+      {
+        "id": "derived-2025-12-set2:T",
+        "kind": "translation",
+        "order": 4,
+        "partLabel": "Part IV Translation",
+        "questionFrom": 57,
+        "questionTo": 57,
+        "durationHintSec": 1800,
+        "rawScore": 106.5
+      }
+    ],
+    "provenance": "derived",
+    "provenanceLabel": "同源模拟卷",
+    "derivedFrom": "CET4 公开考纲与近年语料统计（2024.06-2026.06 考点分布）",
+    "confidence": {
+      "level": "medium",
+      "hasTranscript": false,
+      "hasAudio": false,
+      "hasExplanation": true,
+      "answerCrossChecked": false,
+      "spotCheckRatio": 1,
+      "doubtCount": 0,
+      "note": "内容自撰，题材与考点依据公开考纲与常见语料统计，不复制任何原文；答案未经命题机构核对，仅供参考。"
+    }
+  },
+  "sections": [
+    {
+      "id": "derived-2025-12-set2:W-A",
+      "paperId": "derived-2025-12-set2",
+      "kind": "writing",
+      "subPart": "Writing",
+      "order": 1,
+      "questions": []
+    },
+    {
+      "id": "derived-2025-12-set2:L-A",
+      "paperId": "derived-2025-12-set2",
+      "kind": "listening",
+      "subPart": "Section A",
+      "order": 2,
+      "questions": []
+    },
+    {
+      "id": "derived-2025-12-set2:R-A",
+      "paperId": "derived-2025-12-set2",
+      "kind": "reading",
+      "subPart": "Section A",
+      "order": 3,
+      "passage": {
+        "title": "Getting around the modern city",
+        "topicTag": "urban-transport",
+        "paragraphs": [
+          "Cities have always depended on the way people and goods (27)______, but the car has dominated city travel for most of the last century. As urban populations grow, the cost of this dependence becomes clearer: longer journeys, dirtier air and streets that feel (28)______ to anyone not sitting behind a wheel.",
+          "Some cities have responded by making public transport cheaper and more reliable. When a bus arrives every five minutes and a ticket costs less than a cup of coffee, drivers (29)______ their cars at home, not because they are forced to but because it is simply easier. Evidence from several European cities suggests that the method works even where car ownership remains (30)______.",
+          "A second strategy is to redesign the street itself. Protected cycle paths, raised crossings and wider pavements slow traffic down and make walking feel safe. Critics argue that such changes (31)______ drivers and hurt local shops, yet surveys carried out after the work usually report the (32)______ result: fewer accidents and, in many cases, better sales.",
+          "Technology alone will not (33)______ the problem. Electric cars produce no exhaust, but they still occupy space and still cause congestion. What matters most is how many people each vehicle can (34)______ and how much energy it uses per passenger. For this reason planners increasingly (35)______ buses, trams and trains as the backbone of a low-carbon city, with cycling and walking filling the gaps. The (36)______ is not a single invention but a change in habit, and habits take years to build."
+        ],
+        "wordBank": [
+          "move",
+          "hostile",
+          "crowded",
+          "leave",
+          "high",
+          "refuse",
+          "annoy",
+          "opposite",
+          "create",
+          "solve",
+          "carry",
+          "treat",
+          "answer",
+          "demand",
+          "narrow"
+        ]
+      },
+      "questions": []
+    },
+    {
+      "id": "derived-2025-12-set2:R-B",
+      "paperId": "derived-2025-12-set2",
+      "kind": "reading",
+      "subPart": "Section B",
+      "order": 4,
+      "passage": {
+        "title": "The long road to cleaner energy",
+        "topicTag": "clean-energy",
+        "paragraphs": [
+          "【A】Clean energy is not one technology but a group of them. Solar panels, wind turbines, batteries, heat pumps and hydrogen all belong to the same effort: supplying power without burning coal, oil or gas. What they have in common is that most of the cost is paid at the beginning. Building a solar farm is expensive; the sunlight that falls on it afterwards is free. This simple fact explains much of what has happened in the last fifteen years.",
+          "【B】The clearest change has been in price. In 2010 a solar panel cost roughly four times what it costs today, and the figure keeps falling as factories grow larger. In many sunny regions, electricity from new solar farms is now cheaper than electricity from new coal plants, even before any subsidy is counted. Countries that once imported most of their energy have begun to build large plants in dry, empty areas where almost nobody lives.",
+          "【C】Wind has followed a similar path, though with a difference. Turbines work day and night and produce most power in winter, when sunlight is weakest, so they balance solar farms rather than compete with them. The largest machines now stand offshore, where winds are steadier and complaints about noise are fewer. Installing them at sea costs more, and repairing a turbine in a storm is difficult, but the amount of electricity produced is far greater.",
+          "【D】The weakness of both sources is that they cannot be ordered. The sun sets and the wind drops whether or not anyone wants power, so a system built on them needs somewhere to put energy when there is too much and somewhere to find it when there is too little. Batteries are the most discussed way out. Their price has fallen as quickly as that of solar panels, but storing an entire city's electricity for a week of calm weather remains far beyond what is affordable.",
+          "【E】Transport is being changed by the same batteries. Electric cars now travel farther on a single charge than most drivers need in a week, and several manufacturers say the cost of making them will fall below that of petrol cars before long. The harder problem is not the car but the plug. Blocks of flats, old streets and motorway service areas all need charging points, and the local grid behind them was often built for much smaller loads.",
+          "【F】Some parts of the economy are harder to clean than others. Steel mills, cement works, ships and aircraft need very high temperatures or very dense fuel, which batteries cannot yet supply. Hydrogen is the candidate most often mentioned: burned or used in a fuel cell, it produces only water. Making it without fossil fuel, however, requires large amounts of cheap electricity, and moving it safely costs more than moving oil.",
+          "【G】Money is the obstacle that receives least attention. A coal plant in a poor country can be built with a loan at eight per cent interest, while a wind farm in the same place may be charged twelve, simply because lenders consider it newer and riskier. Over twenty years that difference can matter more than the price of the equipment. Development banks have tried to lend on easier terms, but the sums involved are far larger than their budgets.",
+          "【H】Change also costs people their jobs. Coal mining employed hundreds of thousands of workers, and the towns built around a pit have few other employers. Retraining schemes exist in most countries that have closed mines, yet studies of past closures suggest that older workers often end up in worse-paid jobs or leave work altogether. Union leaders therefore argue that the speed of change should be tied to the money put into those towns.",
+          "【I】Households matter as much as power stations. In cold countries, more energy goes into heating buildings than into any other single use, and much of it escapes through roofs and windows. Insulation is unglamorous and requires workmen in every street, but it reduces bills immediately. Heat pumps, which move heat rather than create it, can cut the remaining demand sharply — though they work best in buildings that have already been insulated.",
+          "【J】Nobody expects a single discovery to settle all of this. Most engineers describe the future as a mixture: solar and wind supplying most electricity, batteries covering hours rather than weeks, hydrogen reserved for the hardest tasks, and a smaller amount of natural gas kept for emergencies. Whether that mixture arrives in twenty years or fifty is less a question of technology than of policy, and on that question governments remain deeply divided."
+        ]
+      },
+      "questions": []
+    },
+    {
+      "id": "derived-2025-12-set2:R-C",
+      "paperId": "derived-2025-12-set2",
+      "kind": "reading",
+      "subPart": "Section C",
+      "order": 5,
+      "passage": {
+        "title": "What happens when driving into a city costs money?",
+        "topicTag": "congestion-charge",
+        "paragraphs": [
+          "In 2003 the centre of London began charging drivers a daily fee to enter during working hours. The idea was unpopular. Shop owners predicted empty streets, and newspapers described the charge as a tax on ordinary people. Twenty years later more than a dozen cities run similar schemes, and researchers have enough data to judge what they actually do.",
+          "The first effect is predictable: fewer cars. In London, traffic entering the charged area fell by roughly a third in the first year, while buses, which were exempt, became noticeably faster because they were no longer stuck in the same queues. Air quality improved as well, though by less than expected, since a large share of the pollution came from older buses and taxis rather than private cars.",
+          "The second effect is more interesting. Cities that charge for road space usually spend the money on public transport, and the two policies reinforce each other. Stockholm, which introduced a charge in 2006 after a trial, used much of the income to extend its metro and buy new trains. When residents were asked again after the trial, support for the scheme was higher than before it began — a reversal that surprised almost everyone, including the politicians who had approved the experiment.",
+          "Critics raise fair objections. A flat daily fee takes a larger share of income from a delivery driver than from a banker, and the cameras that enforce it record every journey, which worries people who value privacy. Supporters reply that the fee can be graded by vehicle and that congestion itself costs the city far more than the charge collects. Both sides agree on one point: pricing alone cannot replace good buses and safe cycle routes. What it can do is make the true cost of a car trip visible to the person deciding whether to make it."
+        ]
+      },
+      "questions": []
+    },
+    {
+      "id": "derived-2025-12-set2:R-D",
+      "paperId": "derived-2025-12-set2",
+      "kind": "reading",
+      "subPart": "Section D",
+      "order": 6,
+      "passage": {
+        "title": "Can a used car battery have a second career?",
+        "topicTag": "battery-reuse",
+        "paragraphs": [
+          "An electric car is usually sold when its battery has lost about a fifth of its original capacity. At that point the pack is no longer good enough for a vehicle — drivers expect range and quick charging — but it is far from dead. Roughly eighty per cent of the material, and most of its ability to store electricity, is still there. What happens to these packs is becoming a question of its own.",
+          "The obvious answer is recycling. Smelting recovers the cobalt, nickel and lithium inside and feeds them back into new batteries. The process works, but it is energy-hungry, and the metals recovered from one pack are worth less than the cost of collecting and treating it. Economists who have studied the sums conclude that recycling alone will not pay for itself until far more packs reach the end of their lives.",
+          "A second option is to use the pack again before breaking it up. A battery that is too weak for a car can still serve for years in a less demanding job: storing solar power overnight for a factory, smoothing demand for a warehouse, or backing up a mobile phone mast. Several manufacturers now assemble used packs into cabinets the size of a shipping container and sell them as stationary storage. Because the packs are bought cheaply, the electricity they store can undercut new equipment.",
+          "There are practical difficulties. Used packs arrive in different shapes, with different histories and no reliable record of how they were treated, so testing each one takes time and skilled workers. Warranties are hard to offer when the past is unknown. Standards are slowly being written, and a few countries now require manufacturers to report the condition of a pack before it is removed. Even so, most analysts expect reuse to delay recycling rather than replace it: a pack may work for another decade, but the materials inside are too valuable to throw away at the end."
+        ]
+      },
+      "questions": []
+    },
+    {
+      "id": "derived-2025-12-set2:T-A",
+      "paperId": "derived-2025-12-set2",
+      "kind": "translation",
+      "subPart": "Translation",
+      "order": 7,
+      "questions": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "derived-2025-12-set2:E1",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:W-A",
+      "kind": "essay",
+      "no": 1,
+      "score": 106.5,
+      "stem": "Directions: For this part, you are allowed 30 minutes to write an essay on whether the small daily choices of ordinary people can make a real difference to the environment. You should state your opinion and support it with reasons or examples. You should write at least 120 words but no more than 180 words.\n\nOutline:\n1. 有人认为环保主要依靠技术进步和政府规划，个人行为作用有限；\n2. 你如何看待普通人“日常小事”的意义，并给出两条理由或一个具体例子；\n3. 你对大学生践行低碳生活的建议。",
+      "rubric": "评分参考：① 首段亮明立场，不要两句都不得罪；② 理由或例证必须支撑观点，避免只罗列现象；③ 结构完整（引入—论证—结论），段落之间有衔接词；④ 语言准确度：时态一致、主谓一致、搭配得当（reduce carbon emissions / public transport / sort waste），避免重复用词；⑤ 字数 120–180，不足或严重超标均会扣分。可参照 14-15 / 11-13 / 8-10 / 5-7 四档自评。"
+    },
+    {
+      "id": "derived-2025-12-set2:R-A1",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-A",
+      "kind": "banked-cloze",
+      "no": 27,
+      "score": 2,
+      "stem": "Cities have always depended on the way people and goods ______, but the car has dominated city travel for most of the last century.",
+      "answer": "move",
+      "explanation": "定语从句中 the way people and goods 后缺谓语动词原形，主语为复数，故用 move，意为“流动、移动”。干扰项 leave 语法上可接，但“离开的方式”与本段讨论的“城市里人和货如何通行”不符。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          0
+        ]
+      },
+      "keyWordHints": [
+        "w_move"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-A2",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-A",
+      "kind": "banked-cloze",
+      "no": 28,
+      "score": 2,
+      "stem": "As urban populations grow, the cost of this dependence becomes clearer: longer journeys, dirtier air and streets that feel ______ to anyone not sitting behind a wheel.",
+      "answer": "hostile",
+      "explanation": "feel 后接形容词作表语，且空格后有 to anyone，只有 hostile 能与 to sb. 搭配，构成 hostile to（对……不友好），指街道对行人不友好。干扰项 crowded、narrow 虽为形容词，但一般不与 to anyone 连用。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          0
+        ]
+      },
+      "keyWordHints": [
+        "w_hostile"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-A3",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-A",
+      "kind": "banked-cloze",
+      "no": 29,
+      "score": 2,
+      "stem": "When a bus arrives every five minutes and a ticket costs less than a cup of coffee, drivers ______ their cars at home, not because they are forced to but because it is simply easier.",
+      "answer": "leave",
+      "explanation": "主语 drivers 后缺及物动词，leave sth. at home 表示“把某物留在家里”，与后半句“不是被迫，而是更省事”因果一致。干扰项 refuse 后须接 to do，不能直接接 their cars 作宾语。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_leave"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-A4",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-A",
+      "kind": "banked-cloze",
+      "no": 30,
+      "score": 2,
+      "stem": "Evidence from several European cities suggests that the method works even where car ownership remains ______.",
+      "answer": "high",
+      "explanation": "remains 为系动词，后接形容词；car ownership remains high 表示“汽车保有量依然很高”，正与句首 even（即使）构成让步关系。其余形容词 hostile、narrow、crowded 均无法修饰 ownership。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_high"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-A5",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-A",
+      "kind": "banked-cloze",
+      "no": 31,
+      "score": 2,
+      "stem": "Critics argue that such changes ______ drivers and hurt local shops, yet surveys carried out after the work usually report a very different result.",
+      "answer": "annoy",
+      "explanation": "such changes 为复数主语，缺动词原形，且与 hurt 并列；annoy drivers 表示“让驾车者恼火”，符合批评者的立场。干扰项 create 语义相反，refuse 不能接 drivers 作宾语。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          2,
+          2
+        ]
+      },
+      "keyWordHints": [
+        "w_annoy"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-A6",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-A",
+      "kind": "banked-cloze",
+      "no": 32,
+      "score": 2,
+      "stem": "Critics argue that such changes annoy drivers and hurt local shops, yet surveys carried out after the work usually report the ______ result: fewer accidents and, in many cases, better sales.",
+      "answer": "opposite",
+      "explanation": "yet 表转折，说明调查结果和批评者的预测相反；the opposite result 后接冒号解释“事故更少、生意更好”，正好印证“相反的结果”。其余形容词均不能与 result 搭配出此义。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          2,
+          2
+        ]
+      },
+      "keyWordHints": [
+        "w_opposite"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-A7",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-A",
+      "kind": "banked-cloze",
+      "no": 33,
+      "score": 2,
+      "stem": "Technology alone will not ______ the problem.",
+      "answer": "solve",
+      "explanation": "will not 后接动词原形，solve the problem 为最常用搭配，意为“解决问题”。干扰项 create 语义完全相反；remove 不在词池中；annoy 不与 problem 搭配。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_solve"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-A8",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-A",
+      "kind": "banked-cloze",
+      "no": 34,
+      "score": 2,
+      "stem": "What matters most is how many people each vehicle can ______ and how much energy it uses per passenger.",
+      "answer": "carry",
+      "explanation": "情态动词 can 后接动词原形，宾语为 how many people；carry 表示“承载（乘客）”，与后半句 per passenger 呼应。干扰项 treat 意为“对待”，不能与 people 构成“载客”之义。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_carry"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-A9",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-A",
+      "kind": "banked-cloze",
+      "no": 35,
+      "score": 2,
+      "stem": "For this reason planners increasingly ______ buses, trams and trains as the backbone of a low-carbon city, with cycling and walking filling the gaps.",
+      "answer": "treat",
+      "explanation": "句中出现 as，只有 treat 能构成 treat ... as ...（把……视为……）的固定搭配。干扰项 replace 后须接 with 而非 as，且语义与“作为骨干”冲突。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_treat"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-A10",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-A",
+      "kind": "banked-cloze",
+      "no": 36,
+      "score": 2,
+      "stem": "The ______ is not a single invention but a change in habit, and habits take years to build.",
+      "answer": "answer",
+      "explanation": "定冠词 the 后缺单数名词作主语，且需与 is not a single invention 构成判断；The answer is not ... but ... 表示“答案不在于……而在于……”。干扰项 demand 虽为名词，但“需求不是一项发明”逻辑不通。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_answer"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-B1",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-B",
+      "kind": "matching",
+      "no": 37,
+      "score": 2,
+      "stem": "A power system built on sun and wind needs somewhere to keep energy for the hours or days when neither source is producing enough.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "D",
+      "explanation": "D 段指出太阳能与风能“无法被点单”（cannot be ordered）：日落风停不由人决定，因此系统必须有地方存放多余的电、也要有地方在不足时取电，并补充说电池价格虽降，但为整座城市存一周的电仍太贵。E 段讲的是交通用电，不是电力系统的储能缺口。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_battery",
+        "w_store"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-B2",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-B",
+      "kind": "matching",
+      "no": 38,
+      "score": 2,
+      "stem": "The cost of borrowing money can make a clean project more expensive than a polluting one, whatever the equipment itself costs.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "G",
+      "explanation": "G 段以利率为例：穷国的煤电厂可以拿到 8% 的贷款，而同一地点的风电场可能要付 12%，只因放款人觉得它更新、风险更高；二十年间这个差距比设备价格还重要。B 段说的是设备价格下降，与融资无关。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          6,
+          6
+        ]
+      },
+      "keyWordHints": [
+        "w_interest",
+        "w_lenders"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-B3",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-B",
+      "kind": "matching",
+      "no": 39,
+      "score": 2,
+      "stem": "Workers who lose their jobs in mining areas often fail to find equally good work again, so unions want the pace of change to depend on the money put into those places.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "H",
+      "explanation": "H 段写煤矿城镇就业单一、再培训后年长工人往往只能拿到更低工资或彻底退出职场，因此工会主张“改变的速度应与投入这些城镇的资金挂钩”。G 段谈利息，E 段谈车企，均不涉及矿工。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          7,
+          7
+        ]
+      },
+      "keyWordHints": [
+        "w_mining",
+        "w_union"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-B4",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-B",
+      "kind": "matching",
+      "no": 40,
+      "score": 2,
+      "stem": "The price of solar equipment has fallen sharply, and in sunny places the electricity it produces now undercuts that of newly built coal plants.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "B",
+      "explanation": "B 段给出具体对比：2010 年一块光伏板约为今天的四倍价，且随工厂变大继续下降；在许多日照充足的地区，新建光伏电站的电即便不计补贴也已比新建煤电厂便宜。C 段虽也讲成本，但重点是风机与光伏的互补。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_solar",
+        "w_coal"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-B5",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-B",
+      "kind": "matching",
+      "no": 41,
+      "score": 2,
+      "stem": "Improving the building itself, before or alongside new heating equipment, is the step that saves householders the most.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "I",
+      "explanation": "I 段讲家庭用能：寒冷国家供暖耗能最多，且大量热量从屋顶和窗户流失；隔热虽不起眼却能立刻减少账单，热泵“在已经做好隔热的建筑里效果最好”，即先改建筑本体。D 段谈电网储能，不是住宅。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          8,
+          8
+        ]
+      },
+      "keyWordHints": [
+        "w_insulation",
+        "w_heating"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-B6",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-B",
+      "kind": "matching",
+      "no": 42,
+      "score": 2,
+      "stem": "The term covers several technologies that share one feature: the money is spent mainly at the start, while the fuel afterwards costs nothing.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "A",
+      "explanation": "A 段首句即定义：“清洁能源不是一项技术，而是一组技术”，随后点出共同点——成本几乎全在开头，建光伏电站很贵，而照在板子上的阳光免费。J 段虽也提“组合”，但那是未来结构而非定义。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          0
+        ]
+      },
+      "keyWordHints": [
+        "w_technology",
+        "w_free"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-B7",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-B",
+      "kind": "matching",
+      "no": 43,
+      "score": 2,
+      "stem": "The vehicles are no longer the main difficulty; the problem is supplying electricity where people park and along long-distance routes.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "E",
+      "explanation": "E 段先说电动车续航已超过多数人一周所需、制造成本也将低于燃油车，再转折指出“更难的题不是车而是插头”：公寓楼、老街、高速公路服务区都要装充电桩，而背后的配电网原是按小得多的负荷建的。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          4,
+          4
+        ]
+      },
+      "keyWordHints": [
+        "w_charging",
+        "w_grid"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-B8",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-B",
+      "kind": "matching",
+      "no": 44,
+      "score": 2,
+      "stem": "Certain industries need heat or fuel density that today's batteries cannot supply, and one much-discussed substitute is expensive to produce cleanly.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "F",
+      "explanation": "F 段列举钢铁厂、水泥厂、船舶与飞机需要极高温度或高密度燃料，电池尚无法胜任；氢是最常被提到的候选，燃烧或在燃料电池中使用只产生水，但不用化石燃料制氢需要大量廉价电力，运输也比运油贵。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          5,
+          5
+        ]
+      },
+      "keyWordHints": [
+        "w_hydrogen",
+        "w_fuel"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-B9",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-B",
+      "kind": "matching",
+      "no": 45,
+      "score": 2,
+      "stem": "Machines placed at sea are dearer to install and repair, but they generate much more power and draw fewer complaints from people on land.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "C",
+      "explanation": "C 段明确说最大的机组如今立在海上（offshore），那里风更稳定、关于噪音的投诉更少；海上安装更贵、暴风中维修困难，但发电量大得多。B 段讲的是光伏电站建在干旱无人区，不是海上。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          2,
+          2
+        ]
+      },
+      "keyWordHints": [
+        "w_offshore",
+        "w_turbine"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-B10",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-B",
+      "kind": "matching",
+      "no": 46,
+      "score": 2,
+      "stem": "The likely outcome is a combination of sources rather than one winner, and how soon it arrives depends on decisions rather than invention.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "J",
+      "explanation": "J 段说没人指望某一次发现解决全部问题，工程师描述的未来是“混合”：光伏与风电为主、电池覆盖小时级、氢留给最难的环节、少量天然气应急；并点明二十年到五十年的差别与其说是技术问题不如说是政策问题。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          9,
+          9
+        ]
+      },
+      "keyWordHints": [
+        "w_mixture",
+        "w_policy"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-C1",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-C",
+      "kind": "choice",
+      "no": 47,
+      "score": 2,
+      "stem": "What is the main idea of the passage?",
+      "options": [
+        "A. London's charging scheme failed and should be given up.",
+        "B. Charging for road space cuts traffic and works best when the money improves public transport.",
+        "C. Privacy worries make it impossible to run a charging scheme.",
+        "D. Bus travel should be free in every large city."
+      ],
+      "answer": "B",
+      "explanation": "全文结构为：先提出收费争议，再用伦敦与斯德哥尔摩的数据说明车流下降、公交提速，接着指出“道路收费的钱通常投回公共交通，两项政策相互加强”，最后补充正反意见。A 与文中“二十多年后十余座城市效仿”相反；C 把“有人担忧隐私”夸大为“无法执行”；D 文中从未主张免费公交。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_charge",
+        "w_transport"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-C2",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-C",
+      "kind": "choice",
+      "no": 48,
+      "score": 2,
+      "stem": "What happened in London during the first year of the charge?",
+      "options": [
+        "A. Traffic entering the area fell by about a third and buses ran faster.",
+        "B. Air quality improved exactly as much as scientists had predicted.",
+        "C. Old buses and taxis were taken off the streets at once.",
+        "D. The scheme was cancelled after shop owners protested."
+      ],
+      "answer": "A",
+      "explanation": "第二段原句为 traffic ... fell by roughly a third in the first year，同时被免除收费的公交车明显更快，因为不再堵在同一些队列里。B 与 “improved ... by less than expected” 相反；C、D 均无依据，且末段表明方案延续至今。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_traffic"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-C3",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-C",
+      "kind": "choice",
+      "no": 49,
+      "score": 2,
+      "stem": "Why was the Stockholm case surprising?",
+      "options": [
+        "A. The trial was held without any official approval.",
+        "B. Public support for the charge rose after people had experienced it.",
+        "C. The city closed its metro during the experiment.",
+        "D. The charge produced almost no money for the city."
+      ],
+      "answer": "B",
+      "explanation": "第三段末句说试运营结束后再次民调，支持率比开始前还高，是“几乎出乎所有人意料”的反转。A 与 “the politicians who had approved the experiment” 矛盾；C、D 与“用收入延长地铁、购买新列车”相反。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          2,
+          2
+        ]
+      },
+      "keyWordHints": [
+        "w_support"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-C4",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-C",
+      "kind": "choice",
+      "no": 50,
+      "score": 2,
+      "stem": "The word “exempt” in the second paragraph is closest in meaning to ______.",
+      "options": [
+        "A. included in the counting",
+        "B. freed from the requirement",
+        "C. delayed for a period",
+        "D. punished more heavily"
+      ],
+      "answer": "B",
+      "explanation": "exempt 所在从句说明公交车“不必缴费”，因此变得更快；exempt from 意为“被免除”。A 与之相反；C、D 均属无端推测。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_exempt"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-C5",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-C",
+      "kind": "choice",
+      "no": 51,
+      "score": 2,
+      "stem": "What do critics and supporters agree on?",
+      "options": [
+        "A. Pricing on its own cannot take the place of good buses and safe cycle routes.",
+        "B. Cameras should be removed from city streets.",
+        "C. Every driver should pay exactly the same amount.",
+        "D. Congestion charges have no effect on air quality."
+      ],
+      "answer": "A",
+      "explanation": "末段明确写 Both sides agree on one point: pricing alone cannot replace good buses and safe cycle routes。C 与支持者“可按车型分级收费”的主张相反；D 与第二段空气质量改善相悖；B 是批评者的顾虑，并非共识。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_pricing"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-D1",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-D",
+      "kind": "choice",
+      "no": 52,
+      "score": 2,
+      "stem": "What is the main idea of the second passage?",
+      "options": [
+        "A. Electric cars should be stopped because their batteries pollute.",
+        "B. A used battery can serve in easier jobs for years before it is finally recycled.",
+        "C. Recycling is always more profitable than reusing a battery.",
+        "D. Car makers deliberately hide the condition of their batteries."
+      ],
+      "answer": "B",
+      "explanation": "文章先说退役电池远未报废，再讲回收的局限，接着详述梯次利用（储能柜、备电等），最后给出“再利用是延后而非取代回收”的判断。A 与全文肯定的态度相反；C 与第二段“回收 alone 收回成本困难”矛盾；D 属无中生有，文中只说缺少可靠的使用记录。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_recycle"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-D2",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-D",
+      "kind": "choice",
+      "no": 53,
+      "score": 2,
+      "stem": "Why does the author say a worn pack is “far from dead”?",
+      "options": [
+        "A. Because it can still be fully charged in a few minutes.",
+        "B. Because most of its material and much of its storage ability remain usable.",
+        "C. Because it never loses any of its original capacity.",
+        "D. Because it is worth more than a brand-new pack."
+      ],
+      "answer": "B",
+      "explanation": "第一段说电池只是损失了约五分之一的容量：约 80% 的材料和大部分储电能力仍在那里。C 与 has lost about a fifth 矛盾；A、D 均无依据，且 D 与后文“旧电池买得便宜”不符。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          0
+        ]
+      },
+      "keyWordHints": [
+        "w_capacity"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-D3",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-D",
+      "kind": "choice",
+      "no": 54,
+      "score": 2,
+      "stem": "What difficulty with recycling is mentioned in the second paragraph?",
+      "options": [
+        "A. The metals recovered are worth less than the cost of the whole process.",
+        "B. No technology exists for recovering lithium at all.",
+        "C. Recycling produces more batteries than the market needs.",
+        "D. Recovered metals cannot be used in new batteries."
+      ],
+      "answer": "A",
+      "explanation": "第二段指出冶炼能回收钴、镍、锂并送回新电池，但过程耗能，且从一个电池包里回收的金属价值低于收集与处理的成本。B、D 与“能回收并回用于新电池”相反；C 文中未提。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_metals"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-D4",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-D",
+      "kind": "choice",
+      "no": 55,
+      "score": 2,
+      "stem": "The word “stationary” in the third paragraph is closest in meaning to ______.",
+      "options": [
+        "A. fixed in one place",
+        "B. extremely heavy",
+        "C. powered by petrol",
+        "D. able to travel long distances"
+      ],
+      "answer": "A",
+      "explanation": "stationary storage 指把旧电池组装成集装箱大小的柜子后“固定放置”使用，与装在车上跑相对；stationary 意为“静止的、固定的”。B 把“集装箱大小”误当成词义；C、D 均与其储能用途不符。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          2,
+          2
+        ]
+      },
+      "keyWordHints": [
+        "w_stationary"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:R-D5",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:R-D",
+      "kind": "choice",
+      "no": 56,
+      "score": 2,
+      "stem": "Which of the following best describes the author's attitude towards battery reuse?",
+      "options": [
+        "A. Useless, and it should be stopped at once.",
+        "B. Promising but limited, and it will delay recycling rather than replace it.",
+        "C. A complete solution to the problem of battery waste.",
+        "D. Already cheaper than every other kind of storage."
+      ],
+      "answer": "B",
+      "explanation": "末段先列出检测耗时、质保困难、标准正在制定等实际问题，再给出 most analysts expect reuse to delay recycling rather than replace it，属于“有前景但有边界”的谨慎肯定。C 忽略限制条件；D 把“可比新设备便宜”绝对化；A 与全文态度相反。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_reuse"
+      ]
+    },
+    {
+      "id": "derived-2025-12-set2:T1",
+      "paperId": "derived-2025-12-set2",
+      "sectionId": "derived-2025-12-set2:T-A",
+      "kind": "translation",
+      "no": 57,
+      "score": 106.5,
+      "stem": "近年来，中国的新能源汽车产业发展迅速。越来越多的家庭在购车时选择电动车，不仅因为使用成本低，也因为充电设施日益完善。政府通过补贴和规划，鼓励企业加大研发投入，电池的安全性和续航里程都有了明显提升。与此同时，一些城市把老旧公交车全部换成电动车型，空气质量因此得到改善。发展新能源汽车不仅有助于减少碳排放，也带动了相关产业链的成长。当然，废旧电池的回收问题仍需认真解决。",
+      "rubric": "评分参考：忠实原文、句式通顺、无重大语法错误。注意：① “近年来”用现在完成时；② “新能源汽车”用 new-energy vehicles；③ “续航里程”可用 driving range 或 range per charge；④ “不仅……也……”用 not only ... but also ...；⑤ “废旧电池回收”用 the recycling of used batteries；⑥ 档位可参照 14-15 / 11-13 / 8-10 / 5-7 自评。",
+      "referenceTranslation": "In recent years, China's new-energy vehicle industry has developed rapidly. More and more families choose electric cars when buying a vehicle, not only because running costs are low, but also because charging facilities are steadily improving. Through subsidies and planning, the government has encouraged companies to increase investment in research and development, and both the safety and the driving range of batteries have improved noticeably. At the same time, some cities have replaced all their old buses with electric models, and air quality has improved as a result. Developing new-energy vehicles not only helps to reduce carbon emissions, but also drives the growth of related industrial chains. Of course, the recycling of used batteries still needs to be solved seriously.",
+      "translationSegments": [
+        {
+          "index": 0,
+          "zh": "近年来，中国的新能源汽车产业发展迅速。",
+          "reference": "In recent years, China's new-energy vehicle industry has developed rapidly.",
+          "keyPoints": [
+            {
+              "id": "kp1",
+              "head": "in recent years",
+              "zh": "近年来",
+              "weight": 2
+            },
+            {
+              "id": "kp2",
+              "head": "new-energy vehicle industry",
+              "zh": "新能源汽车产业",
+              "synonyms": [
+                "new energy vehicle industry"
+              ],
+              "weight": 2
+            },
+            {
+              "id": "kp3",
+              "head": "has developed rapidly",
+              "zh": "发展迅速",
+              "synonyms": [
+                "has grown rapidly"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "zh": "越来越多的家庭在购车时选择电动车，不仅因为使用成本低，也因为充电设施日益完善。",
+          "reference": "More and more families choose electric cars when buying a vehicle, not only because running costs are low, but also because charging facilities are steadily improving.",
+          "keyPoints": [
+            {
+              "id": "kp4",
+              "head": "more and more families",
+              "zh": "越来越多的家庭"
+            },
+            {
+              "id": "kp5",
+              "head": "not only ... but also ...",
+              "zh": "不仅……也……",
+              "weight": 2
+            },
+            {
+              "id": "kp6",
+              "head": "running costs",
+              "zh": "使用成本",
+              "synonyms": [
+                "operating costs",
+                "the cost of running"
+              ]
+            },
+            {
+              "id": "kp7",
+              "head": "charging facilities",
+              "zh": "充电设施",
+              "weight": 2
+            },
+            {
+              "id": "kp8",
+              "head": "are steadily improving",
+              "zh": "日益完善",
+              "synonyms": [
+                "are becoming better"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "zh": "政府通过补贴和规划，鼓励企业加大研发投入，电池的安全性和续航里程都有了明显提升。",
+          "reference": "Through subsidies and planning, the government has encouraged companies to increase investment in research and development, and both the safety and the driving range of batteries have improved noticeably.",
+          "keyPoints": [
+            {
+              "id": "kp9",
+              "head": "through subsidies and planning",
+              "zh": "通过补贴和规划"
+            },
+            {
+              "id": "kp10",
+              "head": "encouraged companies to",
+              "zh": "鼓励企业",
+              "synonyms": [
+                "urged firms to"
+              ]
+            },
+            {
+              "id": "kp11",
+              "head": "research and development",
+              "zh": "研发",
+              "weight": 2
+            },
+            {
+              "id": "kp12",
+              "head": "driving range",
+              "zh": "续航里程",
+              "synonyms": [
+                "range per charge"
+              ],
+              "weight": 2
+            },
+            {
+              "id": "kp13",
+              "head": "have improved noticeably",
+              "zh": "有了明显提升",
+              "synonyms": [
+                "have risen clearly"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "zh": "与此同时，一些城市把老旧公交车全部换成电动车型，空气质量因此得到改善。",
+          "reference": "At the same time, some cities have replaced all their old buses with electric models, and air quality has improved as a result.",
+          "keyPoints": [
+            {
+              "id": "kp14",
+              "head": "at the same time",
+              "zh": "与此同时"
+            },
+            {
+              "id": "kp15",
+              "head": "replaced ... with ...",
+              "zh": "把……换成……",
+              "weight": 2
+            },
+            {
+              "id": "kp16",
+              "head": "electric models",
+              "zh": "电动车型",
+              "synonyms": [
+                "electric buses"
+              ]
+            },
+            {
+              "id": "kp17",
+              "head": "air quality",
+              "zh": "空气质量",
+              "weight": 2
+            },
+            {
+              "id": "kp18",
+              "head": "as a result",
+              "zh": "因此",
+              "synonyms": [
+                "as a consequence"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "zh": "发展新能源汽车不仅有助于减少碳排放，也带动了相关产业链的成长。",
+          "reference": "Developing new-energy vehicles not only helps to reduce carbon emissions, but also drives the growth of related industrial chains.",
+          "keyPoints": [
+            {
+              "id": "kp19",
+              "head": "developing",
+              "zh": "发展",
+              "synonyms": [
+                "the development of"
+              ]
+            },
+            {
+              "id": "kp20",
+              "head": "reduce carbon emissions",
+              "zh": "减少碳排放",
+              "weight": 2
+            },
+            {
+              "id": "kp21",
+              "head": "drives the growth of",
+              "zh": "带动了……的成长",
+              "synonyms": [
+                "promotes the growth of"
+              ]
+            },
+            {
+              "id": "kp22",
+              "head": "industrial chains",
+              "zh": "产业链",
+              "weight": 2
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "zh": "当然，废旧电池的回收问题仍需认真解决。",
+          "reference": "Of course, the recycling of used batteries still needs to be solved seriously.",
+          "keyPoints": [
+            {
+              "id": "kp23",
+              "head": "of course",
+              "zh": "当然"
+            },
+            {
+              "id": "kp24",
+              "head": "the recycling of used batteries",
+              "zh": "废旧电池的回收",
+              "weight": 2
+            },
+            {
+              "id": "kp25",
+              "head": "needs to be solved",
+              "zh": "仍需解决",
+              "synonyms": [
+                "has to be addressed"
+              ]
+            },
+            {
+              "id": "kp26",
+              "head": "seriously",
+              "zh": "认真",
+              "synonyms": [
+                "carefully"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

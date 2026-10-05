@@ -8,7 +8,7 @@
 
 import { TIER_CODE, type Tier, type WordIndexRow } from './types';
 import { CORE_BOUNDARY } from './tier';
-import type { TierFilter } from '@/domain/settings/types';
+import { isStudyOrder, type StudyOrder, type TierFilter } from '@/domain/settings/types';
 
 export interface SelectOptions {
   /** 取多少个新词（= 每日目标） */
@@ -18,12 +18,31 @@ export interface SelectOptions {
   /** 已学 / 已存在的词 id，必须排除，避免重复引入 */
   exclude?: ReadonlySet<string>;
   /**
-   * true（默认）= 严格按词频降序（freqRank 升序）；
-   * false = 在候选集内洗牌（R01 的「随机」档）。洗牌用注入的 random，保证可测。
+   * 出词顺序（v2）。缺省时按词频升序 —— 与 v1 的 `freqOrdering:true` 同义，
+   * 保证老调用方行为不变。
+   *
+   * 注：`weak` / `wrong` 两档需要「卡片 / 错题本」信息，而 selector 只拿到索引行，
+   * 因此**对新词部分退化为随机**；真正的弱项 / 错词排序在 `studySession` 里对整队做。
+   */
+  order?: StudyOrder;
+  /**
+   * @deprecated v1 布尔开关，仅作兼容输入（只读不写）。
+   * `order` 未给且 `freqOrdering === false` 时按随机处理。
    */
   freqOrdering?: boolean;
-  /** 随机源（freqOrdering=false 时使用），默认 Math.random */
+  /** 随机源（随机档使用），默认 Math.random */
   random?: () => number;
+}
+
+/**
+ * 把 `order` / 旧 `freqOrdering` 归一成 selector 真正支持的两种取法。
+ * 纯函数，单独导出便于单测。
+ */
+export function resolveOrder(o: Pick<SelectOptions, 'order' | 'freqOrdering'>): 'freq' | 'random' {
+  if (o.order === 'freq') return 'freq';
+  if (isStudyOrder(o.order)) return 'random'; // random / weak / wrong 的新词部分都取随机
+  if (o.freqOrdering === false) return 'random';
+  return 'freq';
 }
 
 /** tier 筛选 → 可接受码集合 */
@@ -54,8 +73,8 @@ export function newWordCandidates(
 /**
  * 取一批新词 —— 学习队列的唯一来源。
  *
- * 返回的 id 列表**严格按 freqRank 升序**（freqOrdering=true 时），
- * 这是 M1 验收标准「学习队列严格按 freqRank 升序」的实现点。
+ * - `freq`：返回列表**严格按 freqRank 升序**（M1 验收标准的实现点）
+ * - `random`：在候选集内洗牌后取前 N —— 用户要的「不要每天从同一批开头词开始」
  */
 export function pickNewWords(
   index: readonly WordIndexRow[],
@@ -64,7 +83,7 @@ export function pickNewWords(
   const limit = Math.max(0, Math.floor(options.limit));
   if (limit === 0) return [];
   const candidates = newWordCandidates(index, options);
-  if (options.freqOrdering === false) {
+  if (resolveOrder(options) === 'random') {
     return shuffle(candidates, options.random ?? Math.random).slice(0, limit);
   }
   return candidates.slice(0, limit);

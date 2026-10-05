@@ -67,6 +67,15 @@ export function ExamRunner({ session, bundle, onSubmit }: ExamRunnerProps): Reac
     [questions, slot],
   );
 
+  // 选词填空要拿到所属 section 的 15 词备选池：sectionId → wordBank
+  const wordBankBySection = useMemo(() => {
+    const map = new Map<string, readonly string[]>();
+    for (const s of bundle.sections) {
+      if (s.passage?.wordBank && s.passage.wordBank.length > 0) map.set(s.id, s.passage.wordBank);
+    }
+    return map;
+  }, [bundle.sections]);
+
   const answeredCount = useMemo(
     () => questions.filter((q) => answers[q.id]?.flag === 'answered').length,
     [questions, answers],
@@ -189,6 +198,7 @@ export function ExamRunner({ session, bundle, onSubmit }: ExamRunnerProps): Reac
           key={q.id}
           question={q}
           record={answers[q.id]}
+          wordBank={wordBankBySection.get(q.sectionId)}
           onAnswer={answer}
           onToggleDoubt={toggleDoubt}
           onToggleMark={toggleMark}
@@ -208,41 +218,96 @@ export function ExamRunner({ session, bundle, onSubmit }: ExamRunnerProps): Reac
   );
 }
 
-/** 篇章材料：只在该板块确有待读材料时渲染（不硬编码"阅读才有篇章"） */
+/**
+ * 篇章材料：只在该板块确有待读材料时渲染（不硬编码"阅读才有篇章"）。
+ *
+ * ★ 阅读板块有 **4 个子 section**（选词填空 / 长篇匹配 / 仔细阅读 ×2），
+ *   每篇各有自己的 passage。旧实现 `find()` 只取第一篇 —— 练到 Section C 时
+ *   屏幕上还是 Section A 的文章，等于没法做题。这里改为**全部渲染**，
+ *   并按题型给段落加标号：匹配题要 A–J，选词填空要显示 15 词备选池。
+ */
 function PassageBlock({ bundle, kind }: { bundle: PaperBundle; kind: string }): ReactNode {
-  const section = bundle.sections.find((s) => s.kind === kind && s.passage);
-  if (!section?.passage) return null;
+  const sections = bundle.sections.filter((s) => s.kind === kind && s.passage);
+  if (sections.length === 0) return null;
+
   return (
-    <Card>
-      <CardHeader>
-        <CardTitle>{section.passage.title ?? section.subPart}</CardTitle>
-      </CardHeader>
-      <CardBody className="space-y-2">
-        {section.passage.paragraphs.map((p, i) => (
-          <p key={i} className="text-sm leading-relaxed text-slate-700 dark:text-slate-200">
-            {p}
-          </p>
-        ))}
-      </CardBody>
-    </Card>
+    <>
+      {sections.map((section) => {
+        const passage = section.passage!;
+        const wordBank = passage.wordBank ?? [];
+        // 长篇匹配：段落 10 段 → A–J，答题时要对着段落号选
+        // （题目统一挂在 bundle.questions 上，按 sectionId 归位）
+        const isMatching = bundle.questions.some(
+          (q) => q.sectionId === section.id && q.kind === 'matching',
+        );
+        return (
+          <Card key={section.id}>
+            <CardHeader>
+              <CardTitle>{passage.title ?? section.subPart ?? section.id}</CardTitle>
+            </CardHeader>
+            <CardBody className="space-y-3">
+              {wordBank.length > 0 ? (
+                <div>
+                  <p className="mb-1.5 text-xs text-slate-500 dark:text-slate-400">
+                    备选词（A–{String.fromCharCode(64 + Math.min(wordBank.length, 26))}）
+                  </p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {wordBank.map((w, i) => (
+                      <span
+                        key={`${w}-${i}`}
+                        className="rounded border border-slate-200 bg-slate-50 px-2 py-0.5 text-xs text-slate-700 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200"
+                      >
+                        <span className="mr-1 font-medium text-slate-400 dark:text-slate-500">
+                          {String.fromCharCode(65 + i)}
+                        </span>
+                        {w}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              ) : null}
+              <div className="space-y-2">
+                {passage.paragraphs.map((p, i) => (
+                  <p
+                    key={i}
+                    className="flex gap-2 text-sm leading-relaxed text-slate-700 dark:text-slate-200"
+                  >
+                    {isMatching ? (
+                      <span className="shrink-0 font-semibold text-slate-500 dark:text-slate-400">
+                        {String.fromCharCode(65 + i)}
+                      </span>
+                    ) : null}
+                    <span>{p}</span>
+                  </p>
+                ))}
+              </div>
+            </CardBody>
+          </Card>
+        );
+      })}
+    </>
   );
 }
 
 function QuestionBlock({
   question,
   record,
+  wordBank,
   onAnswer,
   onToggleDoubt,
   onToggleMark,
 }: {
   question: ExamQuestion;
   record: AnswerRecord | undefined;
+  /** 选词填空的备选词池（取自该题所属 section 的 passage.wordBank） */
+  wordBank?: readonly string[];
   onAnswer: (questionId: string, value: string | null) => void;
   onToggleDoubt: (questionId: string) => void;
   onToggleMark: (questionId: string) => void;
 }): ReactNode {
   const isSubjective = question.kind === 'essay' || question.kind === 'translation';
   const value = record?.value ?? '';
+  const bank = wordBank ?? [];
 
   return (
     <Card>
@@ -265,7 +330,74 @@ function QuestionBlock({
           </p>
         ) : null}
 
-        {question.options && question.options.length > 0 ? (
+        {/* 长篇匹配：options 是 ["A".."J"] 的裸字母 → 排成一行十个方块，手机上好按 */}
+        {question.kind === 'matching' && (question.options?.length ?? 0) > 0 ? (
+          <div className="flex flex-wrap gap-2" role="group" aria-label={`第 ${question.no} 题：选择段落`}>
+            {question.options!.map((opt) => {
+              const key = opt.trim().charAt(0).toUpperCase();
+              const active = value.trim().toUpperCase() === key;
+              return (
+                <button
+                  key={opt}
+                  type="button"
+                  aria-pressed={active}
+                  onClick={(): void => onAnswer(question.id, active ? null : key)}
+                  className={cn(
+                    'inline-flex min-h-11 min-w-11 items-center justify-center rounded-md border px-3 text-sm font-medium touch-manipulation',
+                    active
+                      ? 'border-brand-500 bg-brand-50 text-brand-700 dark:bg-brand-950 dark:text-brand-200'
+                      : 'border-slate-200 text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800',
+                  )}
+                >
+                  {key}
+                </button>
+              );
+            })}
+          </div>
+        ) : null}
+
+        {/* 选词填空：从同 section 的 15 词备选池里挑一个词（提交的**就是单词本身**，
+            grader 拿它和 q.answer 做字符串比较）。wordBank 由外层传入。 */}
+        {question.kind === 'banked-cloze' && bank.length > 0 ? (
+          <div className="space-y-2">
+            <p className="text-xs text-slate-500 dark:text-slate-400">
+              从备选词中选一个填入空格（再点一次可取消）
+            </p>
+            <div className="flex flex-wrap gap-2" role="group" aria-label={`第 ${question.no} 题：选词填空`}>
+              {bank.map((w, i) => {
+                const active = value.trim().toLowerCase() === w.trim().toLowerCase();
+                return (
+                  <button
+                    key={`${w}-${i}`}
+                    type="button"
+                    aria-pressed={active}
+                    onClick={(): void => onAnswer(question.id, active ? null : w)}
+                    className={cn(
+                      'inline-flex min-h-11 items-center gap-1 rounded-md border px-3 text-sm touch-manipulation',
+                      active
+                        ? 'border-brand-500 bg-brand-50 text-brand-700 dark:bg-brand-950 dark:text-brand-200'
+                        : 'border-slate-200 text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800',
+                    )}
+                  >
+                    <span className="text-xs text-slate-400 dark:text-slate-500">
+                      {String.fromCharCode(65 + i)}
+                    </span>
+                    {w}
+                  </button>
+                );
+              })}
+            </div>
+            {value ? (
+              <p className="text-sm text-slate-700 dark:text-slate-200">
+                已选：<span className="font-medium text-brand-700 dark:text-brand-300">{value}</span>
+              </p>
+            ) : null}
+          </div>
+        ) : null}
+
+        {/* 四选一：options 形如 "A. xxx" */}
+        {question.kind !== 'matching' && question.kind !== 'banked-cloze' &&
+        question.options && question.options.length > 0 ? (
           <div className="space-y-2">
             {question.options.map((opt) => {
               const key = opt.split(/[.．、]\s*/)[0]?.trim() ?? opt;

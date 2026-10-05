@@ -1,11 +1,12 @@
-import { useEffect, useMemo, useState, type ReactNode } from 'react';
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useDb } from '@/app/providers/DbProvider';
 import { searchByHeadword } from '@/data/repos/wordRepo';
-import { findVocab, addVocab } from '@/data/repos/vocabRepo';
+import { findVocab, addVocab, removeVocab } from '@/data/repos/vocabRepo';
 import { tierLabel } from '@/domain/word/tier';
 import type { Word } from '@/domain/word/types';
 import { Badge, Card, CardBody } from '@/ui/primitives';
+import { StarButton } from '@/ui/word';
 
 /**
  * 查词页 —— 一个背单词应用最基础的能力之一。
@@ -25,6 +26,14 @@ export default function SearchPage(): ReactNode {
   const [results, setResults] = useState<Word[]>([]);
   const [searched, setSearched] = useState(false);
   const [starred, setStarred] = useState<Set<string>>(new Set());
+  /**
+   * 用户**手动**改过的词（区别于「搜索结果落地时批量标出的」）。
+   *
+   * ★ 为什么需要它：`findVocab` 是逐行 await 的，用户可能在标记还没落完时就点了星标。
+   *   若直接 `setStarred(marks)` 覆盖，刚点的收藏会被搜索结果冲掉 —— 点了没反应。
+   *   这里让「用户手动改过」优先于「批量标记」。每次新搜索开始时清空。
+   */
+  const dirtyRef = useRef<Set<string>>(new Set());
 
   useEffect(() => {
     const key = query.trim();
@@ -34,6 +43,7 @@ export default function SearchPage(): ReactNode {
       return;
     }
     let cancelled = false;
+    dirtyRef.current = new Set();
     const timer = setTimeout((): void => {
       void (async (): Promise<void> => {
         const rows = await searchByHeadword(key, 30, instance);
@@ -45,7 +55,15 @@ export default function SearchPage(): ReactNode {
         for (const row of rows) {
           if (await findVocab(row.id, instance)) marks.add(row.id);
         }
-        if (!cancelled) setStarred(marks);
+        if (cancelled) return;
+        setStarred((prev) => {
+          const next = new Set(marks);
+          for (const id of dirtyRef.current) {
+            if (prev.has(id)) next.add(id);
+            else next.delete(id);
+          }
+          return next;
+        });
       })();
     }, DEBOUNCE_MS);
 
@@ -60,11 +78,23 @@ export default function SearchPage(): ReactNode {
     return results.length === 0 ? '没有匹配的词 —— 试试更短的前缀' : `找到 ${results.length} 个词`;
   }, [searched, results.length]);
 
+  /**
+   * 收藏 / 取消收藏。
+   * ★ 修掉了原来的单向 bug：旧实现 `if (starred.has(word.id)) return;`
+   *   —— 已收藏的词点不动，用户永远取消不了，只能干瞪眼。
+   */
   const toggleStar = (word: Word): void => {
     void (async (): Promise<void> => {
-      if (starred.has(word.id)) return; // 幂等：已在生词本就不再重复加
-      await addVocab({ wordId: word.id }, instance);
-      setStarred((prev) => new Set(prev).add(word.id));
+      const has = starred.has(word.id);
+      dirtyRef.current.add(word.id);
+      if (has) await removeVocab(word.id, instance);
+      else await addVocab({ wordId: word.id }, instance);
+      setStarred((prev) => {
+        const next = new Set(prev);
+        if (has) next.delete(word.id);
+        else next.add(word.id);
+        return next;
+      });
     })();
   };
 
@@ -115,14 +145,12 @@ export default function SearchPage(): ReactNode {
                       {word.senses.slice(0, 3).map((s) => s.zh).join('；')}
                     </div>
                   </button>
-                  <button
-                    type="button"
-                    aria-label={starred.has(word.id) ? `${word.headword} 已在生词本` : `把 ${word.headword} 加入生词本`}
-                    onClick={(): void => toggleStar(word)}
-                    className="shrink-0 px-2 text-lg leading-none"
-                  >
-                    {starred.has(word.id) ? '★' : '☆'}
-                  </button>
+                  <StarButton
+                    starred={starred.has(word.id)}
+                    onToggle={(): void => toggleStar(word)}
+                    label={word.headword}
+                    variant="plain"
+                  />
                 </li>
               ))}
             </ul>

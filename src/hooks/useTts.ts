@@ -8,8 +8,12 @@ import {
 import { useSettingsStore } from '@/store/useSettingsStore';
 
 export interface UseTtsResult {
-  /** 朗读一个单词（自动按设置的口音），失败静默降级 */
-  speak: (text: string) => void;
+  /**
+   * 朗读一段文本，失败静默降级。
+   * 不传 accent 时用设置里的默认口音；传入则本次按该口音朗读
+   * （英 / 美音标 chip 各自点各自的口音，就靠这个参数区分）。
+   */
+  speak: (text: string, accent?: 'uk' | 'us') => void;
   /** 停止朗读 */
   cancel: () => void;
   /** 语音是否启用（ttsProvider !== 'off'） */
@@ -45,9 +49,9 @@ export function useTts(): UseTtsResult {
   }, [provider]);
 
   const speak = useCallback(
-    (text: string): void => {
+    (text: string, override?: 'uk' | 'us'): void => {
       if (!text.trim()) return;
-      void provider.speak(text, { accent: accentRef.current }).catch(() => undefined);
+      void provider.speak(text, { accent: override ?? accentRef.current }).catch(() => undefined);
     },
     [provider],
   );

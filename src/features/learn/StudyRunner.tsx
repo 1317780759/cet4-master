@@ -6,6 +6,7 @@ import { formatInterval, preview } from '@/domain/fsrs/scheduler';
 import { formatCountdown } from '@/lib/date';
 import { useKeyboard } from '@/hooks/useKeyboard';
 import { useTts } from '@/hooks/useTts';
+import { useVocabToggle } from '@/hooks/useVocabToggle';
 import { useSettingsStore } from '@/store/useSettingsStore';
 import { selectCurrent, selectProgress, useStudyStore } from '@/store/useStudyStore';
 import type { SessionMode } from '@/services/studySession';
@@ -56,6 +57,9 @@ export function StudyRunner({
   const accent = useSettingsStore((s) => s.settings.accent);
   const hydrateSettings = useSettingsStore((s) => s.hydrate);
   const tts = useTts();
+
+  // 收藏（生词本）—— 与查词页 / 详情页共用同一套语义，可收藏也可取消
+  const vocab = useVocabToggle(item?.word.id);
 
   const [sentences, setSentences] = useState<ExamSentence[]>([]);
   const spokenRef = useRef<string | null>(null);
@@ -112,14 +116,26 @@ export function StudyRunner({
     [rate],
   );
 
+  /** 翻卡按钮：只负责翻卡，不兼职发音（手机端要的是两个独立的按钮） */
   const handleReveal = useCallback((): void => {
+    if (!revealed) reveal();
+  }, [revealed, reveal]);
+
+  /** 重听按钮：翻卡前后都在，按当前设置口音重复朗读 */
+  const handleReplay = useCallback((): void => {
+    if (!item) return;
+    tts.speak(item.word.headword);
+  }, [item, tts]);
+
+  /** 空格键：未翻卡则翻卡，已翻卡则重听（保留桌面端原有手感） */
+  const handleSpace = useCallback((): void => {
     if (!item) return;
     if (!revealed) reveal();
     else tts.speak(item.word.headword);
   }, [item, revealed, reveal, tts]);
 
   useKeyboard({
-    onReveal: handleReveal,
+    onReveal: handleSpace,
     onKnown: (): void => handleRate('known'),
     onFuzzy: (): void => handleRate('fuzzy'),
     onUnknown: (): void => handleRate('unknown'),
@@ -233,19 +249,47 @@ export function StudyRunner({
         isNew={item.isNew}
         accent={accent}
         sentences={sentences}
-        onReveal={handleReveal}
-        onPlay={(): void => { tts.speak(item.word.headword); }}
+        starred={vocab.starred}
+        onToggleStar={(): void => { void vocab.toggle(); }}
+        onPlay={(which): void => { tts.speak(item.word.headword, which); }}
         onWordClick={(id): void => { void navigate(`/word/${encodeURIComponent(id)}`); }}
       />
 
       {revealed ? (
-        <RatingBar visible hints={hints} onRate={handleRate} />
+        <div className="space-y-2">
+          <RatingBar visible hints={hints} onRate={handleRate} />
+          <Button block size="lg" variant="secondary" onClick={handleReplay}>
+            <SpeakerIcon />
+            再听一次
+          </Button>
+        </div>
       ) : (
-        <Button block size="lg" onClick={handleReveal}>
-          显示释义（Space）
-        </Button>
+        <div className="flex gap-2">
+          <Button
+            size="lg"
+            variant="secondary"
+            onClick={handleReplay}
+            aria-label="播放发音"
+            className="shrink-0 px-4"
+          >
+            <SpeakerIcon />
+          </Button>
+          <Button block size="lg" onClick={handleReveal}>
+            显示释义（Space）
+          </Button>
+        </div>
       )}
     </div>
+  );
+}
+
+/** 内联喇叭图标（不引图标库） */
+function SpeakerIcon(): ReactNode {
+  return (
+    <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
+      <path d="M4 9.5h3l4.5-3.5v12L7 14.5H4z" strokeLinejoin="round" />
+      <path d="M15.5 9a4 4 0 0 1 0 6" strokeLinecap="round" />
+    </svg>
   );
 }
 

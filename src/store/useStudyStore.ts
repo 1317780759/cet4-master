@@ -94,7 +94,7 @@ export const useStudyStore = create<StudyState>((set, get) => ({
         tier: settings.tier,
         dailyGoal: settings.dailyGoal,
         reviewLimit: settings.reviewLimit,
-        freqOrdering: settings.freqOrdering,
+        studyOrder: settings.studyOrder,
       });
       if (queue.items.length === 0) {
         // R-A1：队列为空时先查临期卡——有 → waiting（并非今日完成），无 → empty

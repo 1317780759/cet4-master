@@ -34,7 +34,7 @@
         "order": 3,
         "partLabel": "Part III Reading",
         "questionFrom": 27,
-        "questionTo": 36,
+        "questionTo": 56,
         "durationHintSec": 2400,
         "rawScore": 248.5
       },
@@ -43,8 +43,8 @@
         "kind": "translation",
         "order": 4,
         "partLabel": "Part IV Translation",
-        "questionFrom": 37,
-        "questionTo": 37,
+        "questionFrom": 57,
+        "questionTo": 57,
         "durationHintSec": 1800,
         "rawScore": 106.5
       }
@@ -84,8 +84,65 @@
       "id": "derived-2026-06-set1:R-A",
       "paperId": "derived-2026-06-set1",
       "kind": "reading",
-      "subPart": "Passage One",
+      "subPart": "Section A",
       "order": 3,
+      "passage": {
+        "title": "Learning in short sessions",
+        "paragraphs": [
+          "Many students believe that the longer they study, the more they will (27)______. Research on learning, however, points in the opposite direction. The brain needs time to (28)______ new information, and it does this best when study periods are short and (29)______ rather than long and rushed.",
+          "In a well-known experiment, two groups were asked to learn the same list of words. The first group studied for a whole hour without a break, while the second studied in three short (30)______ spread over a week. When both groups were tested a month later, the second group remembered far more, even though its total study time was (31)______.",
+          "Short sessions work for several reasons. They keep attention high, because a tired mind quickly loses its (32)______ on the task. Each return to the material also forces the learner to (33)______ what has been forgotten, and this effort strengthens memory. Spreading study over several days, moreover, gives the brain time to sleep, which helps it to (34)______ what has been learned.",
+          "Teachers therefore (35)______ students to draw up a timetable instead of preparing everything on the night before an examination. Thirty minutes a day may look (36)______, but over a whole term it produces results that long, last-minute sessions rarely match."
+        ],
+        "wordBank": [
+          "absorb",
+          "acquire",
+          "advise",
+          "concentrate",
+          "distract",
+          "efficient",
+          "focus",
+          "modest",
+          "process",
+          "recall",
+          "regular",
+          "retain",
+          "review",
+          "sessions",
+          "shorter"
+        ]
+      },
+      "questions": []
+    },
+    {
+      "id": "derived-2026-06-set1:R-B",
+      "paperId": "derived-2026-06-set1",
+      "kind": "reading",
+      "subPart": "Section B",
+      "order": 4,
+      "passage": {
+        "title": "Rooftop gardens: growing food above the city",
+        "paragraphs": [
+          "【A】 In many crowded cities, land is expensive and green space is scarce. Yet above the noise of the traffic there is a large area that almost nobody uses: the flat roof. In the past decade, a growing number of building owners have turned these empty surfaces into gardens. The idea is simple, but its effects reach much further than the roof itself.",
+          "【B】 The first advantage is practical. A roof covered with plants stays much cooler than one covered with concrete. On a hot summer afternoon, the difference can be several degrees, which means the top floor needs less air conditioning. Over a year, this saves a noticeable amount of electricity and reduces the building's running costs.",
+          "【C】 A second benefit has to do with food. Some rooftop gardens are designed purely for relaxation, but many now grow vegetables for the people who work downstairs. Office workers who join a lunchtime gardening club often report that the food tastes better than anything bought in a shop, and that the hour spent outdoors leaves them more energetic for the afternoon.",
+          "【D】 Gardens also help with a problem that city engineers dislike: rainwater. In a storm, water runs off hard surfaces and floods the streets below. Soil, on the other hand, acts like a sponge. It holds a large part of the rainfall and releases it slowly, which eases the pressure on the drainage system during heavy weather.",
+          "【E】 There is a social effect as well. A shared garden gives neighbours who have lived in the same block for years a reason to speak to one another. People who begin by discussing tomatoes often end up organising evening classes, sharing tools, or looking after each other's children. In this way, a small piece of ground can rebuild a sense of community.",
+          "【F】 For children, the value is educational. Many city schools have no garden at all, and a rooftop plot gives pupils their first chance to plant a seed and watch it grow. Teachers report that children who have cared for a plant are far more willing to eat vegetables, and they begin to understand where food actually comes from.",
+          "【G】 None of this happens without planning, however. The first question any building owner must answer is structural: can the roof carry the extra weight? Wet soil is surprisingly heavy, and an older building may need strengthening before a single pot is placed on it. Engineers usually advise a careful survey before any work begins.",
+          "【H】 Safety is the second concern. A garden that people can visit needs railings, non-slip paths and good lighting. Water must be stored and used carefully so that it does not leak into the building. Insurance companies, too, will ask how visitors are supervised and what happens when the garden is closed.",
+          "【I】 Cost is often the deciding factor. A simple garden of containers can be started for very little money, but a full roof with soil, irrigation and seating may require a large investment. Supporters argue that the money is recovered over time through lower energy bills, higher rents and the longer life of the roof surface beneath the plants.",
+          "【J】 Perhaps the strongest argument is not financial at all. City life can feel grey and hurried, and a place where something grows slowly offers a different measure of time. Those who look after a rooftop garden often say that the quietest part of their week is the half hour they spend there, watching a plant they planted themselves change a little every day."
+        ]
+      },
+      "questions": []
+    },
+    {
+      "id": "derived-2026-06-set1:R-C",
+      "paperId": "derived-2026-06-set1",
+      "kind": "reading",
+      "subPart": "Passage One",
+      "order": 5,
       "passage": {
         "title": "Working from home",
         "paragraphs": [
@@ -97,11 +154,11 @@
       "questions": []
     },
     {
-      "id": "derived-2026-06-set1:R-B",
+      "id": "derived-2026-06-set1:R-D",
       "paperId": "derived-2026-06-set1",
       "kind": "reading",
       "subPart": "Passage Two",
-      "order": 4,
+      "order": 6,
       "passage": {
         "title": "Sleep and memory",
         "paragraphs": [
@@ -116,7 +173,7 @@
       "paperId": "derived-2026-06-set1",
       "kind": "translation",
       "subPart": "Translation",
-      "order": 5,
+      "order": 7,
       "questions": []
     }
   ],
@@ -132,11 +189,271 @@
       "rubric": "切题、结构完整、语言准确；建议三段式：观点 + 理由/例证 + 结论。"
     },
     {
-      "id": "derived-2026-06-set1:R0",
+      "id": "derived-2026-06-set1:R-A1",
       "paperId": "derived-2026-06-set1",
       "sectionId": "derived-2026-06-set1:R-A",
-      "kind": "choice",
+      "kind": "banked-cloze",
       "no": 27,
+      "score": 2,
+      "stem": "Many students believe that the longer they study, the more they will ______.",
+      "answer": "absorb",
+      "explanation": "will 后需动词原形；此处不带宾语，只有 absorb 可作不及物用表示“吸收（知识）”，acquire / process / retain 均须接宾语。",
+      "materialRef": { "type": "passage", "range": [0, 0] },
+      "keyWordHints": ["w_absorb"]
+    },
+    {
+      "id": "derived-2026-06-set1:R-A2",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 28,
+      "score": 2,
+      "stem": "The brain needs time to ______ new information, and it does this best when study periods are short.",
+      "answer": "process",
+      "explanation": "“process information”为固定搭配，指大脑对信息进行加工处理；后文“does this best when…”正是对加工条件的说明。",
+      "materialRef": { "type": "passage", "range": [0, 0] },
+      "keyWordHints": ["w_process"]
+    },
+    {
+      "id": "derived-2026-06-set1:R-A3",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 29,
+      "score": 2,
+      "stem": "It does this best when study periods are short and ______ rather than long and rushed.",
+      "answer": "regular",
+      "explanation": "空格与 short 并列作表语，需形容词；与后文 “long and rushed” 构成对照的是“有规律的”，即 regular。",
+      "materialRef": { "type": "passage", "range": [0, 0] },
+      "keyWordHints": ["w_regular"]
+    },
+    {
+      "id": "derived-2026-06-set1:R-A4",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 30,
+      "score": 2,
+      "stem": "The second group studied in three short ______ spread over a week.",
+      "answer": "sessions",
+      "explanation": "three 后需复数名词，词池中唯一的复数名词是 sessions；“三次短时段的（学习）时段”与全文主题一致。",
+      "materialRef": { "type": "passage", "range": [1, 1] },
+      "keyWordHints": ["w_session"]
+    },
+    {
+      "id": "derived-2026-06-set1:R-A5",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 31,
+      "score": 2,
+      "stem": "The second group remembered far more, even though its total study time was ______.",
+      "answer": "shorter",
+      "explanation": "even though 表让步，前后语义相反：记得到更多，但总时长“更短”，故用比较级 shorter。",
+      "materialRef": { "type": "passage", "range": [1, 1] },
+      "keyWordHints": ["w_short"]
+    },
+    {
+      "id": "derived-2026-06-set1:R-A6",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 32,
+      "score": 2,
+      "stem": "They keep attention high, because a tired mind quickly loses its ______ on the task.",
+      "answer": "focus",
+      "explanation": "“lose one's focus on sth.” 为固定搭配，its 后需名词，词池中能接 on 的只有 focus。",
+      "materialRef": { "type": "passage", "range": [2, 2] },
+      "keyWordHints": ["w_focus"]
+    },
+    {
+      "id": "derived-2026-06-set1:R-A7",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 33,
+      "score": 2,
+      "stem": "Each return to the material also forces the learner to ______ what has been forgotten.",
+      "answer": "recall",
+      "explanation": "“force sb. to do”后接动词原形，宾语是 what 引导的从句；“回想起被遗忘的内容”用 recall 最贴切。",
+      "materialRef": { "type": "passage", "range": [2, 2] },
+      "keyWordHints": ["w_recall"]
+    },
+    {
+      "id": "derived-2026-06-set1:R-A8",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 34,
+      "score": 2,
+      "stem": "Spreading study over several days gives the brain time to sleep, which helps it to ______ what has been learned.",
+      "answer": "retain",
+      "explanation": "help sb. to do 结构，需动词原形；“把学过的东西保留下来”用 retain，与遗忘相对，符合记忆主题。",
+      "materialRef": { "type": "passage", "range": [2, 2] },
+      "keyWordHints": ["w_retain"]
+    },
+    {
+      "id": "derived-2026-06-set1:R-A9",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 35,
+      "score": 2,
+      "stem": "Teachers therefore ______ students to draw up a timetable instead of preparing everything the night before an exam.",
+      "answer": "advise",
+      "explanation": "“advise sb. to do sth.” 是唯一能带“宾语 + to do”的结构；concentrate / distract 均无此用法。",
+      "materialRef": { "type": "passage", "range": [3, 3] },
+      "keyWordHints": ["w_advise"]
+    },
+    {
+      "id": "derived-2026-06-set1:R-A10",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-A",
+      "kind": "banked-cloze",
+      "no": 36,
+      "score": 2,
+      "stem": "Thirty minutes a day may look ______, but over a whole term it produces results that long, last-minute sessions rarely match.",
+      "answer": "modest",
+      "explanation": "look 为系动词，后接形容词；but 表转折，“看起来不起眼 / 数量不大”用 modest，与后文“却能出成果”形成对比。",
+      "materialRef": { "type": "passage", "range": [3, 3] },
+      "keyWordHints": ["w_modest"]
+    },
+    {
+      "id": "derived-2026-06-set1:R-B1",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-B",
+      "kind": "matching",
+      "no": 37,
+      "score": 2,
+      "stem": "A shared garden may encourage neighbours to help one another in daily life, for example by caring for children.",
+      "options": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
+      "answer": "E",
+      "explanation": "E 段讲屋顶花园的社交作用：邻居因讨论番茄而开始办夜校、共用工具、互相照看孩子，从而重建社区感。",
+      "materialRef": { "type": "passage", "range": [4, 4] }
+    },
+    {
+      "id": "derived-2026-06-set1:R-B2",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-B",
+      "kind": "matching",
+      "no": 38,
+      "score": 2,
+      "stem": "Plants on a roof can keep a building cooler and cut its energy costs.",
+      "options": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
+      "answer": "B",
+      "explanation": "B 段指出有植被的屋顶比水泥屋顶凉快数度，顶层少用空调，一年下来节省电费、降低运行成本。",
+      "materialRef": { "type": "passage", "range": [1, 1] }
+    },
+    {
+      "id": "derived-2026-06-set1:R-B3",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-B",
+      "kind": "matching",
+      "no": 39,
+      "score": 2,
+      "stem": "Before a garden is built, the owner should find out whether the roof can bear the weight.",
+      "options": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
+      "answer": "G",
+      "explanation": "G 段说明首要问题是结构承重：湿土很重，老建筑可能要先加固，工程师建议先做仔细勘测。",
+      "materialRef": { "type": "passage", "range": [6, 6] }
+    },
+    {
+      "id": "derived-2026-06-set1:R-B4",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-B",
+      "kind": "matching",
+      "no": 40,
+      "score": 2,
+      "stem": "Some office workers grow their own vegetables and say the activity makes them more energetic in the afternoon.",
+      "options": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
+      "answer": "C",
+      "explanation": "C 段讲午餐园艺俱乐部：自己种的菜更好吃，在户外待一小时让人下午更有精力。",
+      "materialRef": { "type": "passage", "range": [2, 2] }
+    },
+    {
+      "id": "derived-2026-06-set1:R-B5",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-B",
+      "kind": "matching",
+      "no": 41,
+      "score": 2,
+      "stem": "The most valued reward may be the calm, slow rhythm the garden brings to busy city life.",
+      "options": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
+      "answer": "J",
+      "explanation": "J 段说最有力的理由无关金钱：城市生活匆忙灰暗，花园提供了另一种时间尺度，照料者称之为一周中最安静的半小时。",
+      "materialRef": { "type": "passage", "range": [9, 9] }
+    },
+    {
+      "id": "derived-2026-06-set1:R-B6",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-B",
+      "kind": "matching",
+      "no": 42,
+      "score": 2,
+      "stem": "Soil on rooftops can take in rainfall and thus lessen the danger of flooding in the streets below.",
+      "options": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
+      "answer": "D",
+      "explanation": "D 段讲雨水问题：土壤像海绵一样吸收并缓慢释放雨水，暴雨时减轻排水系统压力。",
+      "materialRef": { "type": "passage", "range": [3, 3] }
+    },
+    {
+      "id": "derived-2026-06-set1:R-B7",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-B",
+      "kind": "matching",
+      "no": 43,
+      "score": 2,
+      "stem": "Building a complete roof garden is expensive, although supporters believe the money can be recovered later.",
+      "options": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
+      "answer": "I",
+      "explanation": "I 段指出完整屋顶花园需要大笔投资，但支持者认为可通过省电费、提高租金、延长屋面寿命逐步收回。",
+      "materialRef": { "type": "passage", "range": [8, 8] }
+    },
+    {
+      "id": "derived-2026-06-set1:R-B8",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-B",
+      "kind": "matching",
+      "no": 44,
+      "score": 2,
+      "stem": "Unused flat roofs in crowded cities are being turned into gardens by a rising number of building owners.",
+      "options": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
+      "answer": "A",
+      "explanation": "A 段引出话题：城市土地贵、绿地少，而几乎无人使用的平屋顶正被越来越多业主改造成花园。",
+      "materialRef": { "type": "passage", "range": [0, 0] }
+    },
+    {
+      "id": "derived-2026-06-set1:R-B9",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-B",
+      "kind": "matching",
+      "no": 45,
+      "score": 2,
+      "stem": "Protective facilities and careful management are required to keep visitors safe.",
+      "options": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
+      "answer": "H",
+      "explanation": "H 段讲安全：需要护栏、防滑通道和照明，蓄水要防止渗漏，保险公司还会询问访客如何被看管。",
+      "materialRef": { "type": "passage", "range": [7, 7] }
+    },
+    {
+      "id": "derived-2026-06-set1:R-B10",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-B",
+      "kind": "matching",
+      "no": 46,
+      "score": 2,
+      "stem": "Schoolchildren who look after plants of their own become more willing to eat vegetables.",
+      "options": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
+      "answer": "F",
+      "explanation": "F 段讲教育价值：屋顶小块地让孩子第一次亲手播种，照料过植物的孩子更愿意吃蔬菜，也懂得食物的来源。",
+      "materialRef": { "type": "passage", "range": [5, 5] }
+    },
+    {
+      "id": "derived-2026-06-set1:R0",
+      "paperId": "derived-2026-06-set1",
+      "sectionId": "derived-2026-06-set1:R-C",
+      "kind": "choice",
+      "no": 47,
       "score": 2,
       "stem": "What is the main idea of the passage?",
       "options": [
@@ -153,9 +470,9 @@
     {
       "id": "derived-2026-06-set1:R1",
       "paperId": "derived-2026-06-set1",
-      "sectionId": "derived-2026-06-set1:R-A",
+      "sectionId": "derived-2026-06-set1:R-C",
       "kind": "choice",
-      "no": 28,
+      "no": 48,
       "score": 2,
       "stem": "According to the passage, which jobs benefit most from remote work?",
       "options": [
@@ -172,9 +489,9 @@
     {
       "id": "derived-2026-06-set1:R2",
       "paperId": "derived-2026-06-set1",
-      "sectionId": "derived-2026-06-set1:R-A",
+      "sectionId": "derived-2026-06-set1:R-C",
       "kind": "choice",
-      "no": 29,
+      "no": 49,
       "score": 2,
       "stem": "The word “reduces” is closest in meaning to ______.",
       "options": ["A. increases", "B. lowers", "C. hides", "D. measures"],
@@ -186,9 +503,9 @@
     {
       "id": "derived-2026-06-set1:R3",
       "paperId": "derived-2026-06-set1",
-      "sectionId": "derived-2026-06-set1:R-A",
+      "sectionId": "derived-2026-06-set1:R-C",
       "kind": "choice",
-      "no": 30,
+      "no": 50,
       "score": 2,
       "stem": "What do experts advise companies to do?",
       "options": [
@@ -205,9 +522,9 @@
     {
       "id": "derived-2026-06-set1:R4",
       "paperId": "derived-2026-06-set1",
-      "sectionId": "derived-2026-06-set1:R-A",
+      "sectionId": "derived-2026-06-set1:R-C",
       "kind": "choice",
-      "no": 31,
+      "no": 51,
       "score": 2,
       "stem": "What problem do some workers have when working from home?",
       "options": [
@@ -223,9 +540,9 @@
     {
       "id": "derived-2026-06-set1:R5",
       "paperId": "derived-2026-06-set1",
-      "sectionId": "derived-2026-06-set1:R-B",
+      "sectionId": "derived-2026-06-set1:R-D",
       "kind": "choice",
-      "no": 32,
+      "no": 52,
       "score": 2,
       "stem": "What is the main idea of the second passage?",
       "options": [
@@ -242,9 +559,9 @@
     {
       "id": "derived-2026-06-set1:R6",
       "paperId": "derived-2026-06-set1",
-      "sectionId": "derived-2026-06-set1:R-B",
+      "sectionId": "derived-2026-06-set1:R-D",
       "kind": "choice",
-      "no": 33,
+      "no": 53,
       "score": 2,
       "stem": "During deep sleep, the brain ______.",
       "options": [
@@ -260,9 +577,9 @@
     {
       "id": "derived-2026-06-set1:R7",
       "paperId": "derived-2026-06-set1",
-      "sectionId": "derived-2026-06-set1:R-B",
+      "sectionId": "derived-2026-06-set1:R-D",
       "kind": "choice",
-      "no": 34,
+      "no": 54,
       "score": 2,
       "stem": "Students who sleep well after studying ______.",
       "options": [
@@ -278,9 +595,9 @@
     {
       "id": "derived-2026-06-set1:R8",
       "paperId": "derived-2026-06-set1",
-      "sectionId": "derived-2026-06-set1:R-B",
+      "sectionId": "derived-2026-06-set1:R-D",
       "kind": "choice",
-      "no": 35,
+      "no": 55,
       "score": 2,
       "stem": "What do researchers say about sleeping pills?",
       "options": [
@@ -296,9 +613,9 @@
     {
       "id": "derived-2026-06-set1:R9",
       "paperId": "derived-2026-06-set1",
-      "sectionId": "derived-2026-06-set1:R-B",
+      "sectionId": "derived-2026-06-set1:R-D",
       "kind": "choice",
-      "no": 36,
+      "no": 56,
       "score": 2,
       "stem": "What suggestion is given to learners?",
       "options": [
@@ -317,10 +634,11 @@
       "paperId": "derived-2026-06-set1",
       "sectionId": "derived-2026-06-set1:T-A",
       "kind": "translation",
-      "no": 37,
+      "no": 57,
       "score": 106.5,
       "stem": "近年来，越来越多的年轻人选择在家工作。这种方式节省了通勤时间，也让他们有更多时间陪伴家人。然而，它也带来了新的问题：一些人发现自己很难把工作和生活分开。专家建议，在开始远程工作之前，人们应当先考虑自己的工作内容和生活习惯。",
-      "rubric": "忠实原文、句式通顺；注意“近年来”用现在完成时，“把……分开”可用 separate ... from ...。"
+      "rubric": "忠实原文、句式通顺；注意“近年来”用现在完成时，“把……分开”可用 separate ... from ...。",
+      "referenceTranslation": "In recent years, more and more young people have chosen to work from home. This way of working saves the time spent on commuting and allows them to spend more time with their families. However, it has also created new problems: some people find it difficult to separate work from life. Experts suggest that before starting to work remotely, people should first consider the nature of their work and their own daily habits."
     }
   ]
 }

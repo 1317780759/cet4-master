@@ -4,6 +4,7 @@ import {
   isStrictlyAscending,
   newWordCandidates,
   pickNewWords,
+  resolveOrder,
   shuffle,
 } from '../selector';
 import { TIER_CODE, type WordIndexRow } from '../types';
@@ -87,5 +88,39 @@ describe('domain/word/selector', () => {
     const report = coverage([], 2104);
     expect(report.coreLearned).toBe(0);
     expect(report.ratio).toBe(0);
+  });
+
+  // —— 需求 3：出词顺序（v2 的 studyOrder 四档）——
+
+  describe('resolveOrder', () => {
+    it('order 优先：freq 走词频，其余三档的新词部分退化为随机', () => {
+      expect(resolveOrder({ order: 'freq' })).toBe('freq');
+      expect(resolveOrder({ order: 'random' })).toBe('random');
+      expect(resolveOrder({ order: 'weak' })).toBe('random');
+      expect(resolveOrder({ order: 'wrong' })).toBe('random');
+    });
+
+    it('退回 v1 的 freqOrdering，最终兜底词频（老调用方行为不变）', () => {
+      expect(resolveOrder({ freqOrdering: false })).toBe('random');
+      expect(resolveOrder({ freqOrdering: true })).toBe('freq');
+      expect(resolveOrder({})).toBe('freq');
+    });
+  });
+
+  it("order='random' 不会每次都取前 N 个（用户要的「不要从头开始」）", () => {
+    // random() 恒返回 0 → Fisher–Yates 每轮都把末尾换到队首，结果必然不是 [1,2,3,4]
+    const picked = pickNewWords(indexOf(20), { limit: 4, order: 'random', random: () => 0 });
+    expect(picked).toHaveLength(4);
+    expect(picked.map((r) => r.r)).not.toEqual([1, 2, 3, 4]);
+    // 同一随机源 → 结果确定（可复现）
+    const again = pickNewWords(indexOf(20), { limit: 4, order: 'random', random: () => 0 });
+    expect(again.map((r) => r.id)).toEqual(picked.map((r) => r.id));
+  });
+
+  it("order='freq' 与旧 freqOrdering:true 等价（严格升序）", () => {
+    const a = pickNewWords(indexOf(20), { limit: 6, order: 'freq' });
+    const b = pickNewWords(indexOf(20), { limit: 6, freqOrdering: true });
+    expect(a.map((r) => r.id)).toEqual(b.map((r) => r.id));
+    expect(isStrictlyAscending(a)).toBe(true);
   });
 });

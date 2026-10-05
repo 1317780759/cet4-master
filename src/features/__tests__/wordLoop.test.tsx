@@ -136,11 +136,18 @@ describe('查词页 /search', () => {
       expect(screen.getByText('smoke0')).toBeTruthy();
     });
 
-    fireEvent.click(screen.getByLabelText('把 smoke0 加入生词本'));
+    fireEvent.click(screen.getByLabelText('收藏 smoke0'));
 
     // 加入后星标变实心，且不再重复插入（addVocab 幂等）
     await waitFor(() => {
-      expect(screen.getByLabelText('smoke0 已在生词本')).toBeTruthy();
+      expect(screen.getByLabelText('取消收藏 smoke0')).toBeTruthy();
+    });
+
+    // ★ 回归：已收藏之后必须还能再点一次取消掉。
+    //   旧实现是 `if (starred.has(id)) return;` —— 单向的，点了没反应，永远取消不了。
+    fireEvent.click(screen.getByLabelText('取消收藏 smoke0'));
+    await waitFor(() => {
+      expect(screen.getByLabelText('收藏 smoke0')).toBeTruthy();
     });
   });
 });

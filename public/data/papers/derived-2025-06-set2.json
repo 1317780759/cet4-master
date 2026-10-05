@@ -1,0 +1,1221 @@
+{
+  "paper": {
+    "id": "derived-2025-06-set2",
+    "year": 2025,
+    "month": 6,
+    "setNo": 2,
+    "level": "CET4",
+    "durationMin": 125,
+    "totalScore": 710,
+    "sectionMeta": [
+      {
+        "id": "derived-2025-06-set2:W",
+        "kind": "writing",
+        "order": 1,
+        "partLabel": "Part I Writing",
+        "questionFrom": 1,
+        "questionTo": 1,
+        "durationHintSec": 1800,
+        "rawScore": 106.5
+      },
+      {
+        "id": "derived-2025-06-set2:L",
+        "kind": "listening",
+        "order": 2,
+        "partLabel": "Part II Listening",
+        "questionFrom": 2,
+        "questionTo": 26,
+        "durationHintSec": 1500,
+        "rawScore": 248.5
+      },
+      {
+        "id": "derived-2025-06-set2:R",
+        "kind": "reading",
+        "order": 3,
+        "partLabel": "Part III Reading",
+        "questionFrom": 27,
+        "questionTo": 56,
+        "durationHintSec": 2400,
+        "rawScore": 248.5
+      },
+      {
+        "id": "derived-2025-06-set2:T",
+        "kind": "translation",
+        "order": 4,
+        "partLabel": "Part IV Translation",
+        "questionFrom": 57,
+        "questionTo": 57,
+        "durationHintSec": 1800,
+        "rawScore": 106.5
+      }
+    ],
+    "provenance": "derived",
+    "provenanceLabel": "同源模拟卷",
+    "derivedFrom": "CET4 公开考纲与真题语料统计（2024.06-2026.06 考点分布），题材取自传统文化与乡村振兴类语篇",
+    "confidence": {
+      "level": "medium",
+      "hasTranscript": false,
+      "hasAudio": false,
+      "hasExplanation": true,
+      "answerCrossChecked": false,
+      "spotCheckRatio": 1,
+      "doubtCount": 0,
+      "note": "内容自撰，结构与考点参考公开考纲与近年考次语料统计，不复制任何原文；答案未经对照核验，仅供练习参考。"
+    }
+  },
+  "sections": [
+    {
+      "id": "derived-2025-06-set2:W-A",
+      "paperId": "derived-2025-06-set2",
+      "kind": "writing",
+      "subPart": "Writing",
+      "order": 1,
+      "questions": []
+    },
+    {
+      "id": "derived-2025-06-set2:L-A",
+      "paperId": "derived-2025-06-set2",
+      "kind": "listening",
+      "subPart": "Section A",
+      "order": 2,
+      "questions": []
+    },
+    {
+      "id": "derived-2025-06-set2:R-A",
+      "paperId": "derived-2025-06-set2",
+      "kind": "reading",
+      "subPart": "Section A",
+      "order": 3,
+      "passage": {
+        "title": "Old towns look for a second life",
+        "topicTag": "rural-tourism",
+        "paragraphs": [
+          "For centuries the small towns strung along the country's southern rivers were busy trading centres. Their stone streets were laid out for horses and handcarts rather than for cars, and their wooden houses were (27)______ around courtyards where several families drew water from the same well. When railways and later highways carried trade elsewhere, many of these places (28)______ into poverty. Young people left for coastal cities, and by the early 2000s some streets were almost (29)______ after nightfall.",
+          "Things began to change after 2012, when several provinces started to list historic settlements for protection. Owners could no longer (30)______ an old house or replace its wooden windows without permission, and money was set aside to repair roofs and lay new pipes. A few towns began charging visitors an entrance fee. The income was welcome, though it proved uneven: the number of tourists was highly (31)______, rising sharply during the spring holidays and falling to almost nothing in the rainy months. Some families were (32)______ at first to open their doors to strangers, fearing that a steady stream of visitors would destroy the quiet life they valued.",
+          "Other towns took a different path. Instead of selling tickets, they encouraged young families to move in by offering cheap (33)______ and shared working spaces. The newcomers opened bookshops, small restaurants and photography studios, and together they managed to (34)______ several buildings that had stood empty for years. Old houses were kept rather than replaced, and the population stopped falling.",
+          "Something similar is happening to local skills. In one town in the south-west, elderly (35)______ who once made paper by hand now show visitors how it is done, and the workshop has become a small classroom. The money earned this way is modest, and the number of visitors is (36)______ enough to support a whole village. Yet it keeps a craft alive, and it gives young people a reason to stay rather than to leave for the coast."
+        ],
+        "wordBank": [
+          "scattered",
+          "sank",
+          "grouped",
+          "deserted",
+          "demolish",
+          "restore",
+          "seasonal",
+          "reluctant",
+          "rents",
+          "gradually",
+          "craftsmen",
+          "preserve",
+          "regular",
+          "narrow",
+          "barely"
+        ]
+      },
+      "questions": []
+    },
+    {
+      "id": "derived-2025-06-set2:R-B",
+      "paperId": "derived-2025-06-set2",
+      "kind": "reading",
+      "subPart": "Section B",
+      "order": 4,
+      "passage": {
+        "title": "Old skills, new markets: heritage in the countryside",
+        "topicTag": "intangible-heritage",
+        "paragraphs": [
+          "【A】Intangible cultural heritage is a term that covers the skills, songs and knowledge a community hands down, rather than the objects kept behind museum glass. It includes the calendar knowledge of farmers, the hand movements of a tea roaster, the brushwork taught in village schools, and even the recipes of a street festival. Most of these things live in the countryside, and most of them live in people: when the last person who knows a skill dies, the skill goes with them.",
+          "【B】A good example is the twenty-four solar terms. More than two thousand years ago, farmers along the Yellow River divided the year into twenty-four points by watching the sun, the wind and the plants around them. Names such as Awakening of Insects, Grain Rain and Frost Descent told a family when to sow, when to water and when to bring the harvest in. Some of this knowledge was written in almanacs, but it survived mainly because fathers repeated it to sons at the edge of a field.",
+          "【C】By the end of the last century much of this knowledge was being lost. Young people left farming villages for factory work, where a month's wage was worth more than a season of weaving or paper-making. Parents who had spent their lives making things by hand often urged their children to find something else. Apprentices became rare, and in hundreds of settlements the oldest crafts were practised only by people over seventy.",
+          "【D】Tourism changed the picture in an unexpected way. Travellers began to ask not only what a village looked like but what it made. Workshops that had been closed to outsiders opened their doors, and the first money came from visitors paying to watch a potter or a weaver at work. For some families this was easy, because they were already making something worth watching. For others it meant relearning a skill they had abandoned twenty years before.",
+          "【E】In one tea-growing county in the south-west the experiment has gone further. During the spring picking season visitors are taken up the hill before dawn, shown how to choose a bud, and allowed to roast their own small batch over a charcoal fire. They pay for the leaves they take home, and many keep buying from that village afterwards because they have seen the hillside the tea came from. The price of the village's tea rose after the programme started, and several families who had planned to move away stayed.",
+          "【F】Calligraphy shows a different pattern. In several counties primary schools have added a weekly brush-writing lesson, and some villages run free classes during the summer holiday. The difficulty is teachers: a village may have paper and ink but nobody able to show children how to hold the brush. A few education offices have dealt with this by filming one experienced teacher and sending the lessons to a dozen schools, a method that works better than anyone expected, though pupils still need somebody in the room to correct them.",
+          "【G】The economics remain modest. Interviews carried out by researchers in several provinces suggest that few rural craftspeople live entirely on their craft; most combine it with farming, building or a small shop, and a number of households depend partly on money sent home by relatives working in cities. Good months and bad months follow the tourist calendar. That is why practitioners describe the work as half a living rather than a career, and why training alone rarely persuades young people to take it up.",
+          "【H】Money has also brought a familiar problem. When a design sells well, factories copy it, and the machine-made version reaches the market at a third of the price. Visitors who cannot tell the difference will not pay for the hand-made one. Whole streets have been rebuilt to look old and then filled with the same fried snacks and the same key rings, so that a traveller who has seen one old town feels he has seen them all. Craft workers complain that this removes exactly what visitors came for.",
+          "【I】Public answers have taken three forms. Since 2006 the country has published lists of representative items and named the individuals recognised as their bearers, who receive a small yearly payment and are expected to take apprentices. Local governments add training programmes of their own, paying for rooms, tools and insurance. There are also rules protecting names of origin, so that only tea grown in a particular area may carry that area's label. Supporters say the lists have saved dozens of crafts; economists wonder whether the money reaches the people who actually work.",
+          "【J】In the end, the question is whether these skills have a use. Museums can record a dance step or a dye recipe, but a recording is not a living thing. Where old knowledge has survived best, somebody has found a new job for it: young designers printing village patterns on cloth bags, a carpenter shortening a stool so that it fits a modern flat, a studio filming tea-making for people who will never visit the hill. Traditional skills persist less because they are protected than because somebody still wants them."
+        ]
+      },
+      "questions": []
+    },
+    {
+      "id": "derived-2025-06-set2:R-C",
+      "paperId": "derived-2025-06-set2",
+      "kind": "reading",
+      "subPart": "Section C",
+      "order": 5,
+      "passage": {
+        "title": "Does an ancient farming calendar still work?",
+        "topicTag": "solar-terms",
+        "paragraphs": [
+          "Every February, around the time farmers along the middle reaches of the Yellow River call Start of Spring, Mr. Li walks out to the edge of his fields and presses a hand into the soil. If the earth crumbles and warms quickly, he will sow earlier than his neighbours; if it still holds the cold of winter, he waits. He is not guessing. He is following a set of rules written down more than two thousand years ago, when observers divided the year into twenty-four solar terms according to the position of the sun.",
+          "Agricultural scientists have spent years testing whether those rules still hold. In the north at least, they often do. One study comparing sowing dates across several counties found that old advice about planting wheat when the willow turns matched the best modern dates within a few days. The reason is not mysterious: the terms record regular changes in temperature and daylight, and those changes still decide whether a seed will grow. What they cannot tell a farmer is whether a cold week will arrive in April.",
+          "This is why the calendar is now used alongside something else. Weather stations and phone applications offer a seven-day forecast, and most farmers consult both. Researchers describe the result as a division of labour: the solar terms decide the rough period, and the forecast decides the exact morning. Where the two disagree, farmers increasingly follow the forecast — but only if they can afford to wait, because a late frost can still ruin an entire crop.",
+          "The terms have also escaped the farm. City restaurants advertise dishes for Start of Summer; writers on health recommend particular foods for each term; and primary schools organise children to plant beans or make rice cakes on the day a term begins. Some scholars worry that people far from the countryside now treat the calendar as lifestyle advice and forget that it was a working tool. Others regard that as a fair exchange: a system nobody uses is a system nobody remembers."
+        ]
+      },
+      "questions": []
+    },
+    {
+      "id": "derived-2025-06-set2:R-D",
+      "paperId": "derived-2025-06-set2",
+      "kind": "reading",
+      "subPart": "Section D",
+      "order": 6,
+      "passage": {
+        "title": "Why brush writing is still taught",
+        "topicTag": "calligraphy",
+        "paragraphs": [
+          "Twice a week, a classroom in Hangzhou fills with the smell of ink. Around a long table sit adults who have come after work to copy characters written fourteen hundred years ago. None of them plans to become an artist. They are office workers, shopkeepers and a retired bus driver, and most say they came because writing by hand has begun to feel strange to them.",
+          "Brush writing occupies an awkward position in modern education. Pupils are expected to write quickly in examinations, so neat printing with a ballpoint pen is rewarded; yet many primary schools also hold a weekly handwriting lesson, and since 2013 a number of provinces have asked schools to offer one. The result is two habits taught at the same time, with no agreement about which matters more.",
+          "Research offers some support for the slower practice. In one experiment children who copied characters with a brush for twenty minutes a day made fewer mistakes in dictation after a term than children who spent the same time reading the words aloud. Their teachers said they stayed still for longer. The authors are careful, however: the groups were small, the schools were not chosen at random, and writing legibly is not the same as writing beautifully.",
+          "The strongest argument for teaching brush writing may have little to do with beauty. A character written slowly has to be looked at. Students notice the order of the strokes, the balance between the two halves, and the small differences that separate one word from another. In an age when most people type by sound and choose from a list, attention of this kind is rarer than it used to be — and considerably harder to train using a keyboard."
+        ]
+      },
+      "questions": []
+    },
+    {
+      "id": "derived-2025-06-set2:T-A",
+      "paperId": "derived-2025-06-set2",
+      "kind": "translation",
+      "subPart": "Translation",
+      "order": 7,
+      "questions": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "derived-2025-06-set2:E1",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:W-A",
+      "kind": "essay",
+      "no": 1,
+      "score": 106.5,
+      "stem": "Directions: For this part, you are allowed 30 minutes to write an essay on whether short videos really help young people understand traditional Chinese culture. You should state your opinion and support it with reasons or examples. You should write at least 120 words but no more than 180 words.\n\nOutline:\n1. 二十四节气、汉服、传统手工艺类短视频在年轻人中越来越受欢迎；\n2. 你认为这种形式是否真正有助于理解传统文化，并给出两条理由或一个具体例子；\n3. 你对年轻人了解传统文化的建议。",
+      "rubric": "评分参考：① 首段明确表态（Yes / No 选一边），不要两边都写；② 理由或例证要具体，可谈“看完视频只记住画面，却说不出节气与农事的关系”，也可举“博主带你走进真实作坊”的例子；③ 结构完整（观点—论证—建议），段间有衔接词（However / For example / In short）；④ 语言准确度：主谓一致、时态一致、搭配得当（the twenty-four solar terms、handicrafts、gain insight into）；⑤ 字数 120–180，不足或严重超标均会扣分。可参照 14-15 / 11-13 / 8-10 / 5-7 四档自评。"
+    },
+    {
+      "id": "derived-2025-06-set2:R-A1",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-A",
+      "kind": "banked-cloze",
+      "no": 27,
+      "score": 2,
+      "stem": "Their wooden houses were ______ around courtyards where several families drew water from the same well.",
+      "answer": "grouped",
+      "explanation": "空格位于 were 之后、around 之前，需过去分词构成被动语态；grouped around 表示“成组地围绕在……周围”，描写房屋围着天井分布。干扰项 scattered 语义相反（分散），narrow 虽常形容街道，但此处需要动词的过去分词。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          0
+        ]
+      },
+      "keyWordHints": [
+        "w_group"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-A2",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-A",
+      "kind": "banked-cloze",
+      "no": 28,
+      "score": 2,
+      "stem": "When railways and later highways carried trade elsewhere, many of these places ______ into poverty.",
+      "answer": "sank",
+      "explanation": "句首 When 从句用一般过去时，主句需动词过去式且能与 into poverty 搭配；sink into poverty 表示“陷入贫困”。词池中其余过去分词均不能接 into poverty，且无法作谓语使用。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          0
+        ]
+      },
+      "keyWordHints": [
+        "w_sink",
+        "w_poverty"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-A3",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-A",
+      "kind": "banked-cloze",
+      "no": 29,
+      "score": 2,
+      "stem": "Young people left for coastal cities, and by the early 2000s some streets were almost ______ after nightfall.",
+      "answer": "deserted",
+      "explanation": "were almost 后缺形容词或过去分词作表语；deserted 表示“空无一人的”，与前文“年轻人外流、生意被铁路公路带走”的因果一致。regular（规律的）虽为形容词，但与 after nightfall 无法搭配。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          0
+        ]
+      },
+      "keyWordHints": [
+        "w_desert"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-A4",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-A",
+      "kind": "banked-cloze",
+      "no": 30,
+      "score": 2,
+      "stem": "Owners could no longer ______ an old house or replace its wooden windows without permission.",
+      "answer": "demolish",
+      "explanation": "could no longer 后接动词原形，且与 replace 并列；由“列入保护名单”可知是被禁止的做法，demolish（拆除）符合语境。干扰项 restore / preserve 意思正好相反：保护名录鼓励修缮，不会禁止。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_demolish"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-A5",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-A",
+      "kind": "banked-cloze",
+      "no": 31,
+      "score": 2,
+      "stem": "The income was welcome, though it proved uneven: the number of tourists was highly ______, rising sharply during the spring holidays and falling to almost nothing in the rainy months.",
+      "answer": "seasonal",
+      "explanation": "highly 后需形容词，冒号后的“春季暴涨、雨季几乎为零”正是 seasonal（随季节变化的）的同义解释。regular 语义相反（均匀稳定），gradually 是副词，不能作表语。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_seasonal"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-A6",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-A",
+      "kind": "banked-cloze",
+      "no": 32,
+      "score": 2,
+      "stem": "Some families were ______ at first to open their doors to strangers, fearing that a steady stream of visitors would destroy the quiet life they valued.",
+      "answer": "reluctant",
+      "explanation": "空前为 were，空后紧跟 to open，需能接不定式的形容词；reluctant to do 表示“不愿做”，与 fearing（担心破坏安静生活）呼应。其余形容词均不能构成 sb. be ... to do 结构。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_reluctant"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-A7",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-A",
+      "kind": "banked-cloze",
+      "no": 33,
+      "score": 2,
+      "stem": "Instead of selling tickets, they encouraged young families to move in by offering cheap ______ and shared working spaces.",
+      "answer": "rents",
+      "explanation": "cheap 后需名词，且与“吸引年轻人迁入”呼应：低租金是常见手段，rents 表示“租金”。注意 rents 与后面的 working spaces 并列，共同作 offering 的宾语。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          2,
+          2
+        ]
+      },
+      "keyWordHints": [
+        "w_rent"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-A8",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-A",
+      "kind": "banked-cloze",
+      "no": 34,
+      "score": 2,
+      "stem": "Together they managed to ______ several buildings that had stood empty for years.",
+      "answer": "restore",
+      "explanation": "manage to 后接动词原形，宾语是“空置多年的老建筑”，restore 表示“修复（旧建筑）”，与下文 Old houses were kept rather than replaced 一致。preserve 意为“维持原状”，不接“已经荒废的建筑”这一宾语。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          2,
+          2
+        ]
+      },
+      "keyWordHints": [
+        "w_restore"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-A9",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-A",
+      "kind": "banked-cloze",
+      "no": 35,
+      "score": 2,
+      "stem": "In one town in the south-west, elderly ______ who once made paper by hand now show visitors how it is done.",
+      "answer": "craftsmen",
+      "explanation": "空格作主语核心词，后接 who 引导的定语从句且谓语为 show / now show（复数），故需指人的复数名词；craftsmen（手艺人）与“手工造纸”语义吻合。词池中其余名词为事物或抽象概念，均不能由 who 引导从句修饰。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_craftsman"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-A10",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-A",
+      "kind": "banked-cloze",
+      "no": 36,
+      "score": 2,
+      "stem": "The money earned this way is modest, and the number of visitors is ______ enough to support a whole village.",
+      "answer": "barely",
+      "explanation": "空格修饰形容词 enough，需副词；barely enough 表示“勉强够”，与 modest（微薄）以及转折词 Yet 之后的“但它让手艺活下来”形成对照。gradually 虽为副词，但“逐渐足够”在此不合逻辑。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_barely"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-B1",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-B",
+      "kind": "matching",
+      "no": 37,
+      "score": 2,
+      "stem": "Tourists began paying to watch craftspeople at work, and this became the first source of income for some workshops.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "D",
+      "explanation": "D 段写旅游改变局面：作坊向外界打开大门，“第一笔收入来自游客付费观看陶工或织工干活”，与题干完全对应。E 段虽也讲游客，但重点是游客自己采茶炒茶，而非观看。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_workshop",
+        "w_tourist"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-B2",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-B",
+      "kind": "matching",
+      "no": 38,
+      "score": 2,
+      "stem": "A traditional system divides the year into twenty-four points by observing the sun, and its names tell farmers when to sow and harvest.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "B",
+      "explanation": "B 段介绍二十四节气：黄河流域的农民依据太阳、风和草木把一年分成二十四份，惊蛰、谷雨、霜降等名称直接告诉农家何时播种、何时灌溉、何时收谷。A 段只是列举包含节气在内的各类遗产。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_sow",
+        "w_harvest"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-B3",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-B",
+      "kind": "matching",
+      "no": 39,
+      "score": 2,
+      "stem": "Machine-made copies sell for much less, and rebuilt streets have started to look the same everywhere.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "H",
+      "explanation": "H 段讲商业化带来的老问题：工厂仿制并以三分之一价格卖出，整条街被翻新成古貌后卖着同样的油炸小吃和钥匙扣，游客看了一个老镇便觉得看过了全部。G 段讲收入微薄，不涉及仿制。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          7,
+          7
+        ]
+      },
+      "keyWordHints": [
+        "w_machine",
+        "w_price"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-B4",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-B",
+      "kind": "matching",
+      "no": 40,
+      "score": 2,
+      "stem": "Visitors who pick and roast their own tea leaves often keep buying from that village later.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "E",
+      "explanation": "E 段的西南茶乡案例：游客黎明上山、自己选芽并用炭火焙制，为带回家的茶叶付钱，许多人此后继续从该村购买，因为亲眼见过那片茶山。这正是题干所说“体验后持续回购”。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          4,
+          4
+        ]
+      },
+      "keyWordHints": [
+        "w_tea",
+        "w_roast"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-B5",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-B",
+      "kind": "matching",
+      "no": 41,
+      "score": 2,
+      "stem": "Recording a skill in a museum keeps the information but cannot keep the practice alive.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "J",
+      "explanation": "J 段开头即说博物馆可以录下舞步或染料配方，但录像不是活物，关键在于技能有没有新的用途。A 段虽提到博物馆玻璃柜，但那里是在解释“非遗”概念，并未讨论记录与活态传承的区别。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          9,
+          9
+        ]
+      },
+      "keyWordHints": [
+        "w_museum"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-B6",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-B",
+      "kind": "matching",
+      "no": 42,
+      "score": 2,
+      "stem": "Craft skills stopped being passed on because young people could earn more doing other work.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "C",
+      "explanation": "C 段说明技艺失传的原因：年轻人进工厂打工，一个月的工资抵得上织布或造纸一季的收入，父母也劝孩子另谋出路，学徒因此变得稀少。G 段只是说如今手艺人收入微薄，不谈传承断裂的原因。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          2,
+          2
+        ]
+      },
+      "keyWordHints": [
+        "w_apprentice",
+        "w_wage"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-B7",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-B",
+      "kind": "matching",
+      "no": 43,
+      "score": 2,
+      "stem": "Brush writing is offered in some rural schools, but there are not enough people able to teach it.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "F",
+      "explanation": "F 段以书法为例：一些县的小学开设了每周一节的毛笔课，部分村庄暑假还办免费班，但难处是缺老师——有纸有墨却没人示范执笔。I 段讲的是名录与培训，不针对书法课堂。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          5,
+          5
+        ]
+      },
+      "keyWordHints": [
+        "w_calligraphy",
+        "w_brush"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-B8",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-B",
+      "kind": "matching",
+      "no": 44,
+      "score": 2,
+      "stem": "Lists of recognised items and bearers bring a yearly payment, while local rules protect names of origin.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "I",
+      "explanation": "I 段列出公共层面的三种做法：公布代表性项目名录、认定传承人并发给少量年度补贴、要求其带徒；此外还有保护产地名的规则，只有特定产区出产的茶才能使用该地名。与题干完全吻合。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          8,
+          8
+        ]
+      },
+      "keyWordHints": [
+        "w_payment",
+        "w_label"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-B9",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-B",
+      "kind": "matching",
+      "no": 45,
+      "score": 2,
+      "stem": "The term refers to knowledge and skills handed down in a community instead of things kept in museums.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "A",
+      "explanation": "A 段给出定义：非遗指的是一个社区代代相传的技艺、歌谣与知识，而不是博物馆玻璃柜里的物件，并强调它存在于人身上。J 段提到博物馆是为了说明记录无法替代传承，属于干扰。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          0
+        ]
+      },
+      "keyWordHints": [
+        "w_heritage"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-B10",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-B",
+      "kind": "matching",
+      "no": 46,
+      "score": 2,
+      "stem": "Most rural craftspeople earn part of their living from other work, following the busy and quiet seasons.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "answer": "G",
+      "explanation": "G 段讲经济现实：研究者访谈发现很少有人完全靠手艺过活，多数还要种地、做建筑或开小店，部分家庭依赖城市亲属汇款；旺季淡季跟着旅游日历走，因此从业者称之为“半份生计”。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          6,
+          6
+        ]
+      },
+      "keyWordHints": [
+        "w_income",
+        "w_household"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-C1",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-C",
+      "kind": "choice",
+      "no": 47,
+      "score": 2,
+      "stem": "What is the main idea of the passage?",
+      "options": [
+        "A. Farmers should give up modern forecasts and trust the old calendar again.",
+        "B. The twenty-four solar terms still work usefully when combined with modern forecasts.",
+        "C. The solar terms are now useful only to restaurants and health writers.",
+        "D. A cold week in April destroys every kind of traditional knowledge."
+      ],
+      "answer": "B",
+      "explanation": "全文用农户踩土定播期的例子引出节气，再用农业研究说明旧经验仍与现代最佳播期相合，随后指出它必须与七天预报配合使用，最后补充其在城市生活中的延伸。A 与第三段“两者并用”相反；C 把末段的一个侧面说成全部；D 中的 every 属绝对化，文中无据。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_calendar"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-C2",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-C",
+      "kind": "choice",
+      "no": 48,
+      "score": 2,
+      "stem": "What does Mr. Li do at the time of Start of Spring?",
+      "options": [
+        "A. He presses his hand into the soil before deciding when to sow.",
+        "B. He repairs his tools for the coming season.",
+        "C. He asks the local weather station for a forecast.",
+        "D. He waits until the willow trees turn green."
+      ],
+      "answer": "A",
+      "explanation": "第一段写明他走到地边把手按进土里：土松且回暖就早播，仍带寒意就再等。D 是有意设置的干扰——“柳色转青”出现在第二段的研究里，另一批农户才用这个标准，且句中未把它当作李本人的做法。C 也与第三段“查阅预报”顺序颠倒。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          0
+        ]
+      },
+      "keyWordHints": [
+        "w_soil",
+        "w_sow"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-C3",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-C",
+      "kind": "choice",
+      "no": 49,
+      "score": 2,
+      "stem": "What did the study mentioned in the second paragraph find?",
+      "options": [
+        "A. Farmers who ignored the calendar got better harvests than their neighbours.",
+        "B. Wheat must be planted exactly on the day the willow turns green.",
+        "C. The calendar no longer matches conditions in any modern county.",
+        "D. Traditional advice about sowing wheat came within a few days of the best modern dates."
+      ],
+      "answer": "D",
+      "explanation": "原文为 “old advice about planting wheat when the willow turns matched the best modern dates within a few days”，D 准确转述。B 把 within a few days 夸大成必须恰好在当天；C 与 found 的结论相反；A 文中从未比较两类农户的收成。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_wheat",
+        "w_date"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-C4",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-C",
+      "kind": "choice",
+      "no": 50,
+      "score": 2,
+      "stem": "The word “crumbles” in the first paragraph is closest in meaning to ______.",
+      "options": [
+        "A. freezes hard and solid",
+        "B. becomes wet and heavy",
+        "C. breaks into small loose pieces",
+        "D. changes colour slowly"
+      ],
+      "answer": "C",
+      "explanation": "句中 earth crumbles and warms quickly 描写春初土壤转暖：松开、碎裂，所以选择 crumbles 表示“碎成小块”。A 与下句 still holds the cold of winter 的情况正好相反；B、D 与温度或颜色无关，属凭空联想。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          0
+        ]
+      },
+      "keyWordHints": [
+        "w_crumble"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-C5",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-C",
+      "kind": "choice",
+      "no": 51,
+      "score": 2,
+      "stem": "What concern do some scholars express in the final paragraph?",
+      "options": [
+        "A. Restaurants should stop advertising dishes tied to each solar term.",
+        "B. Only people living in the countryside may use the calendar.",
+        "C. Children should no longer plant beans at school.",
+        "D. The calendar is being treated as lifestyle advice rather than a working tool."
+      ],
+      "answer": "D",
+      "explanation": "末段说有些学者担心远离乡土的人把节气当成生活方式建议，而忘了它原本是劳动工具。A、C 把学者提到的现象推成禁令，属于过度引申；B 文中没有这种限制。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_scholar"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-D1",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-D",
+      "kind": "choice",
+      "no": 52,
+      "score": 2,
+      "stem": "What is the main idea of the second passage?",
+      "options": [
+        "A. Brush writing should replace ordinary printing in every school.",
+        "B. Teaching brush writing is worthwhile mainly because of the attention it trains.",
+        "C. Calligraphy is a lost art that no policy can bring back.",
+        "D. Typing is entirely harmful and should be stopped in class."
+      ],
+      "answer": "B",
+      "explanation": "文章先写成年人自发练笔，再写毛笔字在学校里的两难处境与实验证据，末段点明最强的理由“与美无关”——慢写迫使学生细看字形。A 把“值得教”推向“取代硬笔”，文中无据；C 与夜校、实验积极结果相反；D 中的 entirely 过于绝对。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_calligraphy"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-D2",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-D",
+      "kind": "choice",
+      "no": 53,
+      "score": 2,
+      "stem": "Why do the adults in the first paragraph attend the class?",
+      "options": [
+        "A. They hope to sell their work to visiting tourists.",
+        "B. They are preparing for an important examination.",
+        "C. Their employers have asked them to learn a new skill.",
+        "D. They find that writing by hand has begun to feel unfamiliar."
+      ],
+      "answer": "D",
+      "explanation": "第一段末句给出原因：他们（上班族、店主、退休司机）都说自己来上课，是因为手写已经开始让他们觉得陌生。A、B、C 均属常识性猜测，文中没有任何依据，且 None of them plans to become an artist 已排除职业目的。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          0,
+          0
+        ]
+      },
+      "keyWordHints": [
+        "w_ink",
+        "w_character"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-D3",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-D",
+      "kind": "choice",
+      "no": 54,
+      "score": 2,
+      "stem": "What did the experiment described in the third paragraph show?",
+      "options": [
+        "A. Brush writing has no measurable effect on schoolwork at all.",
+        "B. Reading words aloud is more effective than copying them.",
+        "C. Children who copied characters with a brush made fewer dictation mistakes.",
+        "D. Only children with beautiful handwriting improved their memory."
+      ],
+      "answer": "C",
+      "explanation": "实验结果是每天用毛笔临写二十分钟的孩子，一个学期后听写错误少于同时间朗读的一组，老师也说他们更能坐得住。A 与结果相反；B 把两组的优劣颠倒；D 加了文中没有的“字必须写得漂亮”这一条件。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          2,
+          2
+        ]
+      },
+      "keyWordHints": [
+        "w_experiment",
+        "w_dictation"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-D4",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-D",
+      "kind": "choice",
+      "no": 55,
+      "score": 2,
+      "stem": "The word “awkward” in the second paragraph is closest in meaning to ______.",
+      "options": [
+        "A. comfortable and natural",
+        "B. difficult and uneasy",
+        "C. unimportant and widely ignored",
+        "D. newly introduced and popular"
+      ],
+      "answer": "B",
+      "explanation": "awkward position 之后立刻给出解释：考试要求写得快、硬笔整洁受表扬，学校却又开毛笔课，两种习惯同时教而无人说清哪个更重要——显然是一种别扭、难处理的位置。A 与之相反；C、D 与段落内容无关。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          1,
+          1
+        ]
+      },
+      "keyWordHints": [
+        "w_awkward"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:R-D5",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:R-D",
+      "kind": "choice",
+      "no": 56,
+      "score": 2,
+      "stem": "What does the author imply about typing by sound?",
+      "options": [
+        "A. It should be banned from all classrooms.",
+        "B. It develops the same kind of attention as writing does.",
+        "C. It makes training careful attention to characters harder.",
+        "D. It helps students remember the order of strokes."
+      ],
+      "answer": "C",
+      "explanation": "末段末句说，在大多数人按音输入、再从候选框里选字的时代，这种对每个字的注视已经比以前少见，而且用键盘更难训练。B、D 与文章相反；A 中 ban 属无据的极端化。C 正是 “considerably harder to train using a keyboard” 的同义转述。",
+      "materialRef": {
+        "type": "passage",
+        "range": [
+          3,
+          3
+        ]
+      },
+      "keyWordHints": [
+        "w_keyboard",
+        "w_attention"
+      ]
+    },
+    {
+      "id": "derived-2025-06-set2:T1",
+      "paperId": "derived-2025-06-set2",
+      "sectionId": "derived-2025-06-set2:T-A",
+      "kind": "translation",
+      "no": 57,
+      "score": 106.5,
+      "stem": "二十四节气是中国人观察太阳和农作物而总结出来的时间知识，已有两千多年历史。春分播种，霜降收获，这些古老的节令至今仍在指导农户的劳作。近年来，一些山村把节气文化与乡村旅游结合起来：游客在清明前后上山采茶，跟着村民学习炒茶，再买一包带回城里。这样的旅游不仅增加了村民的收入，也让年轻人重新看到家乡的价值。当然，要把一时的热闹变成长久的生计，还需要道路、住宿和更多年轻人才。",
+      "rubric": "评分参考：忠实原文、句式通顺、无重大语法错误。注意：① “二十四节气”固定译为 the twenty-four solar terms；② “长度为两千多年”可用 has a history of more than two thousand years；③ “春分/霜降/清明”译作 the Spring Equinox / Frost Descent / Pure Brightness；④ “不仅……也……”用 not only ... but also ...；⑤ “把一时的热闹变成长久的生计”建议处理为 turning a brief burst of popularity into a lasting livelihood；⑥ 档位可参照 14-15 / 11-13 / 8-10 / 5-7 自评。",
+      "referenceTranslation": "The twenty-four solar terms are a body of knowledge about time that the Chinese people summed up by observing the sun and their crops, and they have a history of more than two thousand years. People sow around the Spring Equinox and harvest around Frost Descent, and these ancient seasonal markers still guide the work of farming households today. In recent years, some mountain villages have combined solar-term culture with rural tourism: visitors go up the hills to pick tea around the time of Pure Brightness, learn from the villagers how to roast it in a pan, and take a packet back to the city. Tourism of this kind has not only raised the income of the villagers, but also allowed young people to see the value of their hometown again. Of course, turning a brief burst of popularity into a lasting livelihood still requires roads, accommodation and more young talent.",
+      "translationSegments": [
+        {
+          "index": 0,
+          "zh": "二十四节气是中国人观察太阳和农作物而总结出来的时间知识，已有两千多年历史。",
+          "reference": "The twenty-four solar terms are a body of knowledge about time that the Chinese people summed up by observing the sun and their crops, and they have a history of more than two thousand years.",
+          "keyPoints": [
+            {
+              "id": "kp1",
+              "head": "the twenty-four solar terms",
+              "zh": "二十四节气",
+              "weight": 2
+            },
+            {
+              "id": "kp2",
+              "head": "summed up",
+              "zh": "总结出来",
+              "synonyms": [
+                "worked out"
+              ]
+            },
+            {
+              "id": "kp3",
+              "head": "by observing the sun and their crops",
+              "zh": "观察太阳和农作物"
+            },
+            {
+              "id": "kp4",
+              "head": "has a history of more than two thousand years",
+              "zh": "已有两千多年历史",
+              "synonyms": [
+                "dates back more than two thousand years"
+              ],
+              "weight": 2
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "zh": "春分播种，霜降收获，这些古老的节令至今仍在指导农户的劳作。",
+          "reference": "People sow around the Spring Equinox and harvest around Frost Descent, and these ancient seasonal markers still guide the work of farming households today.",
+          "keyPoints": [
+            {
+              "id": "kp5",
+              "head": "sow",
+              "zh": "播种",
+              "synonyms": [
+                "plant"
+              ]
+            },
+            {
+              "id": "kp6",
+              "head": "harvest",
+              "zh": "收获",
+              "synonyms": [
+                "bring in the harvest"
+              ]
+            },
+            {
+              "id": "kp7",
+              "head": "still guide",
+              "zh": "至今仍在指导",
+              "weight": 2
+            },
+            {
+              "id": "kp8",
+              "head": "farming households",
+              "zh": "农户",
+              "synonyms": [
+                "farming families"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "zh": "近年来，一些山村把节气文化与乡村旅游结合起来：游客在清明前后上山采茶，跟着村民学习炒茶，再买一包带回城里。",
+          "reference": "In recent years, some mountain villages have combined solar-term culture with rural tourism: visitors go up the hills to pick tea around the time of Pure Brightness, learn from the villagers how to roast it in a pan, and take a packet back to the city.",
+          "keyPoints": [
+            {
+              "id": "kp9",
+              "head": "in recent years",
+              "zh": "近年来",
+              "weight": 2
+            },
+            {
+              "id": "kp10",
+              "head": "rural tourism",
+              "zh": "乡村旅游",
+              "weight": 2
+            },
+            {
+              "id": "kp11",
+              "head": "pick tea",
+              "zh": "采茶",
+              "synonyms": [
+                "harvest tea leaves"
+              ]
+            },
+            {
+              "id": "kp12",
+              "head": "roast it in a pan",
+              "zh": "炒茶",
+              "synonyms": [
+                "fire the leaves"
+              ]
+            },
+            {
+              "id": "kp13",
+              "head": "take a packet back to the city",
+              "zh": "买一包带回城里"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "zh": "这样的旅游不仅增加了村民的收入，也让年轻人重新看到家乡的价值。",
+          "reference": "Tourism of this kind has not only raised the income of the villagers, but also allowed young people to see the value of their hometown again.",
+          "keyPoints": [
+            {
+              "id": "kp14",
+              "head": "not only",
+              "zh": "不仅",
+              "weight": 2
+            },
+            {
+              "id": "kp15",
+              "head": "raised the income",
+              "zh": "增加了收入",
+              "synonyms": [
+                "increased the income"
+              ],
+              "weight": 2
+            },
+            {
+              "id": "kp16",
+              "head": "allowed",
+              "zh": "让",
+              "synonyms": [
+                "enabled"
+              ]
+            },
+            {
+              "id": "kp17",
+              "head": "the value of their hometown",
+              "zh": "家乡的价值"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "zh": "当然，要把一时的热闹变成长久的生计，还需要道路、住宿和更多年轻人才。",
+          "reference": "Of course, turning a brief burst of popularity into a lasting livelihood still requires roads, accommodation and more young talent.",
+          "keyPoints": [
+            {
+              "id": "kp18",
+              "head": "turning ... into",
+              "zh": "把……变成",
+              "weight": 2
+            },
+            {
+              "id": "kp19",
+              "head": "a lasting livelihood",
+              "zh": "长久的生计",
+              "synonyms": [
+                "a sustainable living"
+              ],
+              "weight": 2
+            },
+            {
+              "id": "kp20",
+              "head": "accommodation",
+              "zh": "住宿",
+              "synonyms": [
+                "places to stay"
+              ]
+            },
+            {
+              "id": "kp21",
+              "head": "young talent",
+              "zh": "年轻人才",
+              "synonyms": [
+                "young skilled people"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

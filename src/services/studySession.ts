@@ -14,12 +14,13 @@ import { db as defaultDb, type Cet4Database } from '@/data/db/db';
 import type { DailyStatRow, StudyAction } from '@/data/db/rows';
 import { listDue, putCard } from '@/data/repos/cardRepo';
 import { appendLog, getDailyStat, listDailyStats, upsertDailyStat } from '@/data/repos/logRepo';
+import { listWrong } from '@/data/repos/wrongRepo';
 import { getWords } from '@/data/repos/wordRepo';
 import { isWrongAnswer, resolveRating, type RatingOptions } from '@/domain/fsrs/rating-map';
 import { next, preview, requeueSameDay, schedule, type ScheduleResult } from '@/domain/fsrs/scheduler';
 import { createCard, type FsrsRating, type RatingInput, type ReviewCard } from '@/domain/fsrs/types';
-import type { TierFilter } from '@/domain/settings/types';
-import { pickNewWords } from '@/domain/word/selector';
+import { isStudyOrder, type StudyOrder, type TierFilter } from '@/domain/settings/types';
+import { pickNewWords, shuffle } from '@/domain/word/selector';
 import { toIndexRow, type Word, type WordIndexRow } from '@/domain/word/types';
 import { activeDates, currentStreak } from '@/domain/stats/streak';
 import { toDateKey } from '@/lib/date';
@@ -50,9 +51,65 @@ export interface StartSessionOptions {
   dailyGoal?: number;
   /** 每日复习上限（默认 200，防雪崩） */
   reviewLimit?: number;
-  /** true（默认）= 词频降序；false = 随机 */
+  /** 出词顺序（v2）；不给则按 v1 语义处理，见 orderOf() */
+  studyOrder?: StudyOrder;
+  /**
+   * @deprecated v1 布尔开关，仅作兼容输入。
+   * `studyOrder` 未给时：`freqOrdering === false` → 随机，否则 → 词频。
+   */
   freqOrdering?: boolean;
+  /** 随机源（随机档使用），默认 Math.random —— 注入后可单测 */
+  random?: () => number;
   now?: number;
+}
+
+/** 归一化出词顺序：优先 studyOrder，退回 v1 的 freqOrdering，最终兜底词频 */
+function orderOf(options: StartSessionOptions): StudyOrder {
+  if (isStudyOrder(options.studyOrder)) return options.studyOrder;
+  if (options.freqOrdering === false) return 'random';
+  return 'freq';
+}
+
+/**
+ * 记忆弱度分：越大越该先复习。
+ * 遗忘次数权重最高（忘过 = 真没掌握），其次看稳定性（越短越不稳）。
+ */
+function weaknessScore(card: ReviewCard): number {
+  return card.lapses * 100 - card.stability;
+}
+
+/**
+ * 按出词顺序重排**复习部分**。
+ *
+ * - `freq`  ：词频升序
+ * - `random`：洗牌
+ * - `weak`  ：弱卡在前（lapses 多 / stability 低）
+ * - `wrong` ：错题本里的词在前，其余保持原相对次序（sort 稳定）
+ *
+ * 纯函数（wrongIds 由调用方注入），可单测。
+ */
+export function orderReviewItems(
+  items: readonly StudyItem[],
+  order: StudyOrder,
+  wrongIds: ReadonlySet<string> = new Set(),
+  random: () => number = Math.random,
+): StudyItem[] {
+  if (order === 'freq') {
+    return [...items].sort((a, b) =>
+      a.word.freqRank === b.word.freqRank
+        ? a.word.id < b.word.id
+          ? -1
+          : 1
+        : a.word.freqRank - b.word.freqRank,
+    );
+  }
+  if (order === 'weak') {
+    return [...items].sort((a, b) => weaknessScore(b.card) - weaknessScore(a.card));
+  }
+  if (order === 'wrong') {
+    return [...items].sort((a, b) => Number(wrongIds.has(b.word.id)) - Number(wrongIds.has(a.word.id)));
+  }
+  return shuffle(items, random);
 }
 
 /** 按档位取出候选行（列式索引，供纯函数 selector 使用） */
@@ -87,6 +144,8 @@ export async function startSession(
   const now = options.now ?? Date.now();
   const dailyGoal = Math.max(0, Math.floor(options.dailyGoal ?? 20));
   const reviewLimit = Math.max(0, Math.floor(options.reviewLimit ?? 200));
+  const order = orderOf(options);
+  const random = options.random ?? Math.random;
 
   const dueCards = reviewLimit > 0 ? await listDue(now, reviewLimit, instance) : [];
 
@@ -99,7 +158,8 @@ export async function startSession(
       limit: dailyGoal,
       tier,
       exclude,
-      freqOrdering: options.freqOrdering ?? true,
+      order,
+      random,
     });
   }
 
@@ -107,22 +167,38 @@ export async function startSession(
   const words = await getWords(ids, instance);
   const byId = new Map(words.map((w) => [w.id, w]));
 
-  const items: StudyItem[] = [];
   // R-A3：防御性去重，同一 wordId 只保留首次出现（dueCards 与 newRows 理论上互斥）
   const seen = new Set<string>();
+  const reviewItems: StudyItem[] = [];
   for (const card of dueCards) {
     const word = byId.get(card.wordId);
     if (word && !seen.has(word.id)) {
       seen.add(word.id);
-      items.push({ word, card, isNew: false });
+      reviewItems.push({ word, card, isNew: false });
     }
   }
+  const newItems: StudyItem[] = [];
   for (const row of newRows) {
     const word = byId.get(row.id);
     if (!word || seen.has(word.id)) continue;
     seen.add(word.id);
-    items.push({ word, card: createCard(word.id, word.freqRank, now), isNew: true });
+    newItems.push({ word, card: createCard(word.id, word.freqRank, now), isNew: true });
   }
+
+  // 出词顺序：复习部分按档重排；新词部分沿用 selector 的结果（随机档已洗过牌）
+  const wrongIds =
+    order === 'wrong'
+      ? new Set(
+          (await listWrong({}, instance))
+            .map((row) => row.wordId)
+            .filter((id): id is string => typeof id === 'string'),
+        )
+      : new Set<string>();
+
+  const items: StudyItem[] = [
+    ...orderReviewItems(reviewItems, order, wrongIds, random),
+    ...newItems,
+  ];
 
   return {
     mode,

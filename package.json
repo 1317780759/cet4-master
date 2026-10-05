@@ -23,9 +23,13 @@
     "data:sentences": "tsx scripts/build-sentences.ts",
     "data:papers": "tsx scripts/build-papers.ts",
     "data:verify-papers": "tsx scripts/verify-papers.ts",
+    "data:translations": "tsx scripts/build-translations.ts",
+    "data:verify-translations": "tsx scripts/verify-translations.ts",
+    "data:phonetics": "tsx scripts/build-phonetics.ts",
+    "data:verify-phonetics": "tsx scripts/verify-phonetics.ts",
     "kill-switch": "tsx scripts/kill-switch.ts",
     "icons": "tsx scripts/gen-icons.ts",
-    "data:all": "npm run data:build && npm run data:sentences && npm run data:papers && npm run data:verify && npm run data:verify-papers && npm run data:attribution"
+    "data:all": "npm run data:build && npm run data:sentences && npm run data:papers && npm run data:verify && npm run data:verify-papers && npm run data:translations && npm run data:verify-translations && npm run data:phonetics && npm run data:verify-phonetics && npm run data:attribution"
   },
   "dependencies": {
     "clsx": "^2.1.1",

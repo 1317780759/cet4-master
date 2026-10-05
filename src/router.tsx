@@ -17,6 +17,11 @@ const SettingsPage = lazy(() => import('@/features/settings/SettingsPage'));
 const WordDetailPage = lazy(() => import('@/features/word-detail/WordDetailPage'));
 const MockExamPage = lazy(() => import('@/features/mock/MockExamPage'));
 const PapersPage = lazy(() => import('@/features/papers/PapersPage'));
+// ★ 翻译训练三条路由各自独立分包：这是唯一"按需下载题库 JSON"的模块，
+//   绝不能进主bundle，否则首屏预算被拖垮。
+const TranslationHomePage = lazy(() => import('@/features/translation/TranslationHomePage'));
+const TranslationPracticePage = lazy(() => import('@/features/translation/TranslationPracticePage'));
+const TranslationBookPage = lazy(() => import('@/features/translation/TranslationBookPage'));
 const NotFoundPage = lazy(() => import('@/features/NotFoundPage'));
 
 /** GH Pages 子路径部署时的 basename（去掉结尾斜杠） */
@@ -45,6 +50,9 @@ export const routes: RouteObject[] = [
       { path: 'word/:id', element: <WordDetailPage /> },
       { path: 'mock', element: <MockExamPage /> },
       { path: 'papers', element: <PapersPage /> },
+      { path: 'translation', element: <TranslationHomePage /> },
+      { path: 'translation/practice', element: <TranslationPracticePage /> },
+      { path: 'translation/book', element: <TranslationBookPage /> },
       { path: '*', element: <NotFoundPage /> },
     ],
   },

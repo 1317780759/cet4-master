@@ -1,0 +1,37 @@
+{
+  "version": "2026.10.06.045dc8ad",
+  "generatedAt": "2026-10-05T16:41:34.449Z",
+  "generator": "scripts/build-phonetics.ts",
+  "sourceId": "ipa-dict",
+  "coverage": {
+    "core": 1,
+    "full": 1
+  },
+  "scopes": {
+    "core": {
+      "file": "phonetics/phonetics.core.json",
+      "sha256": "909bc8f66d8280989f933a4b618fe74148a50eff1526e166e3de145df0f7e387",
+      "count": 2104,
+      "bytes": 85429
+    },
+    "full": {
+      "file": "phonetics/phonetics.full.json",
+      "sha256": "969de88ce328c4406deb7e56b21bd6db48ef5194507231287efab53828b9be0c",
+      "count": 5278,
+      "bytes": 222582
+    }
+  },
+  "licenseNote": "本文件由 ipa-dict（MIT）派生；其英语词条源自 Wiktionary（CC BY-SA 4.0）。本文件与 public/data/words/*.json（CC BY-NC-SA 4.0）为并列聚合，各自保留原许可，不构成相互改编。",
+  "source": [
+    {
+      "sourceId": "ipa-dict",
+      "name": "ipa-dict (open-dict-data)",
+      "url": "https://github.com/open-dict-data/ipa-dict",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/open-dict-data/ipa-dict/blob/master/LICENSE",
+      "commercialUse": true,
+      "fetchedAt": "1970-01-01T00:00:00.000Z",
+      "upstreamRef": "master"
+    }
+  ]
+}

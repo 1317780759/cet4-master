@@ -7,8 +7,16 @@ import { listSentencesForWord } from '@/data/repos/sentenceRepo';
 import { createCard, type ReviewCard } from '@/domain/fsrs/types';
 import { SAME_DAY_REQUEUE_MS, schedule } from '@/domain/fsrs/scheduler';
 import { toDateKey } from '@/lib/date';
+import { addWrong } from '@/data/repos/wrongRepo';
 import { buildReviewQueue } from '@/services/reviewQueue';
-import { finishSession, rateWord, setCardSuspended, startSession } from '@/services/studySession';
+import {
+  finishSession,
+  orderReviewItems,
+  rateWord,
+  setCardSuspended,
+  startSession,
+  type StudyItem,
+} from '@/services/studySession';
 import type { Word } from '@/domain/word/types';
 
 const NOW = new Date('2026-10-01T09:00:00+08:00').getTime();
@@ -86,6 +94,86 @@ describe('services/studySession · startSession（选词）', () => {
     const queue = await startSession('learn', { dailyGoal: 5, tier: 'core2104', now: NOW }, db);
     const ids = queue.items.map((i) => i.word.id);
     expect(new Set(ids).size).toBe(ids.length);
+  });
+});
+
+// —— 需求 3：出词顺序四档 ——
+
+describe('services/studySession · 出词顺序（studyOrder）', () => {
+  /** 造一张到期复习卡：lapses / stability 可控，用来验证 weak 排序 */
+  function dueCard(wordId: string, rank: number, extra: Partial<ReviewCard> = {}): ReviewCard {
+    return {
+      ...createCard(wordId, rank, NOW - 200_000),
+      due: NOW - 1000,
+      ...extra,
+    };
+  }
+
+  it("studyOrder='random' 洗牌复习部分，不再是固定的到期顺序", async () => {
+    await putCard(dueCard('w_1', 1), db);
+    await putCard(dueCard('w_2', 2), db);
+    await putCard(dueCard('w_3', 3), db);
+    // random() 恒 0 → Fisher–Yates 每轮把末尾换到队首，顺序必然被打乱
+    const queue = await startSession(
+      'review',
+      { now: NOW, studyOrder: 'random', random: () => 0 },
+      db,
+    );
+    expect(queue.items.map((i) => i.word.id)).not.toEqual(['w_1', 'w_2', 'w_3']);
+    expect(new Set(queue.items.map((i) => i.word.id))).toEqual(new Set(['w_1', 'w_2', 'w_3']));
+  });
+
+  it("studyOrder='freq' 复习部分按 freqRank 升序", async () => {
+    await putCard(dueCard('w_9', 9), db);
+    await putCard(dueCard('w_2', 2), db);
+    await putCard(dueCard('w_5', 5), db);
+    const queue = await startSession('review', { now: NOW, studyOrder: 'freq' }, db);
+    expect(queue.items.map((i) => i.word.id)).toEqual(['w_2', 'w_5', 'w_9']);
+  });
+
+  it("studyOrder='weak' 弱卡在前（忘过多次 / 稳定性低）", async () => {
+    await putCard(dueCard('w_1', 1, { lapses: 0, stability: 30 }), db); // 最稳
+    await putCard(dueCard('w_2', 2, { lapses: 2, stability: 1 }), db); // 最弱
+    await putCard(dueCard('w_3', 3, { lapses: 1, stability: 5 }), db); // 中间
+    const queue = await startSession('review', { now: NOW, studyOrder: 'weak' }, db);
+    expect(queue.items.map((i) => i.word.id)).toEqual(['w_2', 'w_3', 'w_1']);
+  });
+
+  it("studyOrder='wrong' 错题本里的词优先", async () => {
+    await putCard(dueCard('w_1', 1), db);
+    await putCard(dueCard('w_7', 7), db);
+    await addWrong(
+      {
+        wordId: 'w_7',
+        source: 'quiz',
+        wrongCount: 3,
+        firstWrongAt: NOW - 1000,
+        lastWrongAt: NOW - 1000,
+        nextDue: NOW,
+        enqueued: false,
+        resolved: false,
+      },
+      db,
+    );
+    const queue = await startSession('review', { now: NOW, studyOrder: 'wrong' }, db);
+    expect(queue.items.map((i) => i.word.id)).toEqual(['w_7', 'w_1']);
+  });
+
+  it('不给 studyOrder 时保持 v1 语义（词频），老调用方行为不变', async () => {
+    await putCard(dueCard('w_9', 9), db);
+    await putCard(dueCard('w_2', 2), db);
+    const queue = await startSession('review', { now: NOW }, db);
+    expect(queue.items.map((i) => i.word.id)).toEqual(['w_2', 'w_9']);
+  });
+
+  it('orderReviewItems 是纯函数：不修改入参', () => {
+    const items: StudyItem[] = [
+      { word: makeWord(9), card: dueCard('w_9', 9), isNew: false },
+      { word: makeWord(2), card: dueCard('w_2', 2), isNew: false },
+    ];
+    const snapshot = items.map((i) => i.word.id);
+    orderReviewItems(items, 'freq');
+    expect(items.map((i) => i.word.id)).toEqual(snapshot);
   });
 });
 

@@ -65,9 +65,11 @@ beforeEach(async () => {
     Array.from({ length: 30 }, (_, i) => makeWord(i + 1)),
     defaultDb,
   );
-  // store 从 settings 镜像读取 dailyGoal / tier 等；置为可用默认值
+  // store 从 settings 镜像读取 dailyGoal / tier 等；置为可用默认值。
+  // ★ studyOrder 显式钉死为 'freq'：本文件断言的都是确定性顺序，
+  //   全局默认值已改为 'random'（用户要求不要每天从头开始），不钉住就会变成随机序列。
   useSettingsStore.setState({
-    settings: { ...DEFAULT_SETTINGS, dailyGoal: 1, tier: 'core2104' },
+    settings: { ...DEFAULT_SETTINGS, dailyGoal: 1, tier: 'core2104', studyOrder: 'freq' },
     hydrated: true,
   });
   useStudyStore.getState().reset();
@@ -154,7 +156,7 @@ describe('useStudyStore · resume 门控', () => {
 describe('useStudyStore · B2（settle 不得提前进 waiting）', () => {
   it('dailyGoal=3：对首张 Again 后队首仍可答 → studying（守门测试）', async () => {
     useSettingsStore.setState({
-      settings: { ...DEFAULT_SETTINGS, dailyGoal: 3, tier: 'core2104' },
+      settings: { ...DEFAULT_SETTINGS, dailyGoal: 3, tier: 'core2104', studyOrder: 'freq' },
       hydrated: true,
     });
     await useStudyStore.getState().start('learn');
@@ -203,7 +205,7 @@ describe('useStudyStore · R-A2（同词连续 Again 不堆积）', () => {
 
   it('结构性去重：连续 Again ×4 后待答区 wordId 唯一', async () => {
     useSettingsStore.setState({
-      settings: { ...DEFAULT_SETTINGS, dailyGoal: 3, tier: 'core2104' },
+      settings: { ...DEFAULT_SETTINGS, dailyGoal: 3, tier: 'core2104', studyOrder: 'freq' },
       hydrated: true,
     });
     await useStudyStore.getState().start('learn');

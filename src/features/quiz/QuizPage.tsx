@@ -68,8 +68,15 @@ export default function QuizPage(): ReactNode {
       setError(null);
       try {
         const seed = Date.now() % 2_147_483_647;
-        const pool = await loadQuizPool({ source, tier, count, seed, instance });
-        // ★ 多取一些被考词：生成器会因"干扰项不足"跳词，只给 count 个会导致题目变少
+        // ★ 多取一些被考词：生成器会因"干扰项不足"跳词，只给 count 个会导致题目变少。
+        //   题量上限提到 50 后这个问题更明显 —— 取 2 倍当缓冲，由 generateQuiz 按 count 截断。
+        const pool = await loadQuizPool({
+          source,
+          tier,
+          count: Math.min(count * 2, 200),
+          seed,
+          instance,
+        });
         const qs = generateQuiz({
           words: pool.targets,
           distractorPool: pool.distractors,
@@ -219,6 +226,7 @@ export default function QuizPage(): ReactNode {
                   { value: '10', label: '10' },
                   { value: '20', label: '20' },
                   { value: '30', label: '30' },
+                  { value: '50', label: '50' },
                 ]}
                 value={String(count)}
                 onChange={(v): void => setCount(Number(v))}
